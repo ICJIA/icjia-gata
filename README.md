@@ -1,12 +1,13 @@
-# 2017 Adult Redeploy Illinois All-Sites Summit
+# ICJIA Grant Accountability and Transparency Act
 
-> The sixth annual All-Sites Summit will feature training relevant to the breadth of Adult Redeploy Illinois (ARI) programs. This year's summit will focus on peer learning around innovations at ARI sites and community reintegration and partnerships.
-The summit will include plenary and breakout sessions, a rollout of the 'Community Involvement Toolkit' project that features 13 ARI innovations from across the state, updates from ARI sites, and time for networking.
+> The Grant Accountability and Transparency Act, also known as GATA, was passed by the Illinois Legislature in 2014.
+
+> GATA confirms ICJIA’s commitment to the Federal Uniform Guidance 2 CFR 200, which went into effect in December 2014. The Uniform Guidance already applies to all federal grants and federal pass-through funds. GATA also requires Illinois’ state grants to follow these federal rules for grants which are state funded. This landmark legislations will increase accountability and transparency in the use of grant funds. Once fully implemented, it will unify processes and reduce administrative burdens for state agencies and grantees.
 
 
 ## Site
 
-https://ariallsites2017.icjia.cloud
+https://gata.icjia.cloud
 
 ## Build Setup
 
