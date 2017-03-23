@@ -7,7 +7,7 @@
               <a href="http://www.icjia.state.il.us/redeploy">Illinois Criminal Justice Information Authority</a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <i class="fa fa-github" aria-hidden="true"></i>
-                &nbsp;&nbsp;<a href="https://github.com/ICJIA/icjia-ari-all-sites-2017">View on GitHub</a>
+                &nbsp;&nbsp;<a href="https://github.com/ICJIA/icjia-gata">View on GitHub</a>
               </div>
 
 
