@@ -4,7 +4,7 @@
 
 <section id="section-0">
 
-        <!-- <div style="height: 60px" class="visible-sm visible-xs"></div> -->
+
 
           <div class="hero-heading">
             <div class="text-center">
@@ -22,7 +22,7 @@
 
 <p>GATA confirms <a href="/">ICJIA&#8217;s</a> commitment to the <a href="http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl">Federal Uniform Guidance 2 CFR 200</a>, which went into effect in December 2014.  The Uniform Guidance already applies to all federal grants and federal pass-through funds.
 GATA also requires Illinois&#8217; state grants to follow these federal rules for grants which are state funded.
-This landmark legislations will increase accountability and transparency in the use of grant funds.
+This landmark legislation will increase accountability and transparency in the use of grant funds.
 Once fully implemented, it will unify processes and reduce administrative burdens for state agencies and grantees.</p>
 
 <p>We will have specific information about ICJIA&#8217;s grants in the near future.
@@ -35,45 +35,40 @@ concerning changes in the grant/contracting process, we will post it to this web
           </div>
 </section>
 
-<section>
-            <div class="row">
-              <div class="col-md-6" style="margin: 0; padding: 1px">
-                <div class="hero-heading">
-                  <div class="text-center">
+<section id="section-1">
 
-                          <h1 class="h4 section-title">GATA News & Information</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6" style="margin: 0; padding: 0; padding-right: 1px">
+        <div class="hero-heading">
+          <div class="text-center">
 
+                  <h1 class="h4 section-title">GATA News & Information</h1>
 
+          </div>
+        </div>
 
+        <newsfeed />
+      </div>
 
-                  </div>
-                </div>
+      <div class="col-md-6" style="margin: 0; padding: 0; padding-left: 1px;">
+        <div class="hero-heading">
+          <div class="text-center">
 
-                  <newsfeed />
-
-
-              </div>
-
-              <div class="col-md-6" style="margin: 0; padding: 1px">
-                <div class="hero-heading">
-                  <div class="text-center">
-
-                          <h1 class="h4 section-title">Current Grant Opportunities</h1>
+                  <h1 class="h4 section-title">Current Grant Opportunities</h1>
 
 
-                  </div>
-                </div>
+          </div>
+        </div>
+        <grant-opportunities />
+      </div>
 
-                  <grant-opportunities />
+    </div>
 
-              </div>
-            </div>
+  </div>
 
 
 </section>
-
-
-
 
 
 
@@ -122,7 +117,6 @@ concerning changes in the grant/contracting process, we will post it to this web
 <style scoped>
 #section-0 {background-color: #fff; color: #444; padding-bottom: 60px;}
 
-#section-1 {background-color: #fff; padding-top: 60px; padding-bottom: 60px;}
-#section-2 {background-color: #eee; padding-top: 60px; padding-bottom: 50px;}
+#section-1 {background-color: #eee; padding-top: 0px; padding-bottom: 60px;}
 
 </style>
