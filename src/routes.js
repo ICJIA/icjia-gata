@@ -1,7 +1,15 @@
-export default [{
+export default [
+
+    {
         path: '/',
-        name: 'GATA_Home',
+        name: 'Home',
         component: require('./views/Home.vue'),
+
+    },
+    {
+        path: '/overview',
+        name: 'General Overview',
+        component: require('./views/about/overview.vue'),
 
     },
 

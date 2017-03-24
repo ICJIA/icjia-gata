@@ -60,7 +60,7 @@
           About
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">General Overview</a>
+          <router-link class="dropdown-item" to="/overview">General Overview</router-link>
           <a class="dropdown-item" href="#">News & Announcements</a>
           <a class="dropdown-item" href="#">Grant Information</a>
           <a class="dropdown-item" href="#">Contact</a>

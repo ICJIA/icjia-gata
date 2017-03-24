@@ -11,6 +11,7 @@ var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 var moment = require('moment-timezone');
 var PrerenderSpaPlugin = require('prerender-spa-plugin');
 
+
 var env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
   : config.build.env
@@ -142,7 +143,7 @@ if (config.build.prerender) {
       // Absolute path to compiled SPA
       path.join(__dirname, '../dist'),
       // List of routes to prerender
-      [ '/' ]
+      [ '/','/overview' ]
     ))
 }
 
