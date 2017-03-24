@@ -7,7 +7,7 @@
 
 	<div class="col-md-12">
 
-  <h2 class="page-head" id="overview">General Overview</h2>
+  <h2 class="page-head" id="overview"> GATA General Overview</h2>
 
 
 
@@ -26,8 +26,7 @@ If they have not already done this, Grantees should prepare themselves by readin
 <li>Electronic Code of Federal Regulations (e-CFR) - Title 2 Grants and Agreements:<br> <a href="http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl" target="_blank">http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl</a></li>
 
 </ul>
-<p>
-Reminder:  GATA establishes in Illinois law that state grants follow the federal regulations, thus unifying the process for all grants, whether they contain state, federal, or federal pass-through dollars.</p>
+<p>Reminder:  GATA establishes in Illinois law that state grants follow the federal regulations, thus unifying the process for all grants, whether they contain state, federal, or federal pass-through dollars.</p>
 
 <p>We will have specific information about ICJIA&#8217;s grants in the near future.
 Also, as additional information becomes available concerning changes in the grant/contracting process, we will post it to the ICJIA website.</p>

@@ -15,7 +15,7 @@
             </div>
           </div>
 
-          <div class="container">
+          <div class="container-fluid" style="margin-left: 50px; margin-right: 50px;">
             <div class="row">
               <div class="col-md-12 spacerTop30">
                 <p>The <a href="http://ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7" target="_blank">Grant Accountability and Transparency Act</a>, also known as GATA, was passed by the Illinois Legislature in 2014.</p>
@@ -35,7 +35,7 @@ concerning changes in the grant/contracting process, we will post it to this web
           </div>
 </section>
 
-
+<section>
             <div class="row">
               <div class="col-md-6" style="margin: 0; padding: 1px">
                 <div class="hero-heading">
@@ -70,7 +70,7 @@ concerning changes in the grant/contracting process, we will post it to this web
             </div>
 
 
-
+</section>
 
 
 

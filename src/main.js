@@ -1,6 +1,9 @@
 import jquery from 'jquery'
 import tether from 'tether'
 import bootstrap from 'bootstrap'
+import lodash from 'lodash';
+
+window._ = window.lodash = lodash;
 import './scss/base.scss';
 import ga from 'vue-ga'
 import VueRouter from 'vue-router'
@@ -10,6 +13,7 @@ Vue.use(VueScrollTo)
 Vue.use(VueRouter)
 import Meta from 'vue-meta'
 Vue.use(Meta)
+
 
 import Vue from 'vue'
 import App from './App'

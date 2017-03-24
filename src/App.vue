@@ -3,7 +3,9 @@
 
 <navbar />
 <!-- <keep-alive> -->
+<transition name="fade">
                       <router-view class="view"></router-view>
+                      </transition>
 
                     <!-- </keep-alive> -->
 
@@ -39,5 +41,18 @@ export default {
 <style lang="scss">
 
 // @import "./scss/base";
+
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
 
 </style>

@@ -77,7 +77,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Documents</a>
+        <router-link class="nav-link" to="/documents">Documents</router-link>
       </li>
 
       <li class="nav-item dropdown">
@@ -85,8 +85,8 @@
           Training
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Webinars & Presentations</a>
-          <a class="dropdown-item" href="#">FAQs</a>
+          <router-link class="dropdown-item" to="/webinars">Webinars & Presentations</router-link>
+          <router-link class="dropdown-item" to="/faqs">FAQs</router-link>
 
         </div>
       </li>
