@@ -1,12 +1,82 @@
 <template>
 <div>
-<navbar />
 
-<section>
-  Homepage content here
+
+<section id="section-0">
+
+        <!-- <div style="height: 60px" class="visible-sm visible-xs"></div> -->
+
+          <div class="hero-heading">
+            <div class="text-center">
+
+                    <h1 class="h3 section-title" style="text-transform: uppercase">ICJIA GATA Overview</h1>
+
+
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 spacerTop30">
+                <p>The <a href="http://ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7" target="_blank">Grant Accountability and Transparency Act</a>, also known as GATA, was passed by the Illinois Legislature in 2014.</p>
+
+<p>GATA confirms <a href="/">ICJIA&#8217;s</a> commitment to the <a href="http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl">Federal Uniform Guidance 2 CFR 200</a>, which went into effect in December 2014.  The Uniform Guidance already applies to all federal grants and federal pass-through funds.
+GATA also requires Illinois&#8217; state grants to follow these federal rules for grants which are state funded.
+This landmark legislations will increase accountability and transparency in the use of grant funds.
+Once fully implemented, it will unify processes and reduce administrative burdens for state agencies and grantees.</p>
+
+<p>We will have specific information about ICJIA&#8217;s grants in the near future.
+Also, as additional information becomes available
+concerning changes in the grant/contracting process, we will post it to this website.</p>
+
+
+              </div>
+            </div>
+          </div>
 </section>
 
-<my-footer />
+
+            <div class="row">
+              <div class="col-md-6" style="margin: 0; padding: 1px">
+                <div class="hero-heading">
+                  <div class="text-center">
+
+                          <h1 class="h4 section-title">GATA News & Information</h1>
+
+
+
+
+                  </div>
+                </div>
+
+                  <newsfeed />
+
+
+              </div>
+
+              <div class="col-md-6" style="margin: 0; padding: 1px">
+                <div class="hero-heading">
+                  <div class="text-center">
+
+                          <h1 class="h4 section-title">Current Grant Opportunities</h1>
+
+
+                  </div>
+                </div>
+
+                  <grant-opportunities />
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
 
 </div>
 
@@ -21,9 +91,9 @@
 </template>
 
 <script>
-    import Navbar from '@/components/Navbar'
-    import MyFooter from '@/components/Footer'
 
+    import Newsfeed from 'components/Newsfeed'
+    import GrantOpportunities from 'components/GrantOpportunities'
     export default {
         name: 'Home',
         mounted () {
@@ -37,8 +107,9 @@
       },
         components: {
 
-            Navbar,
-            MyFooter
+          Newsfeed,
+          GrantOpportunities
+
         },
         data() {
             return {
@@ -49,9 +120,8 @@
 </script>
 
 <style scoped>
-#section-0 {background-color: #3a3a87; color: #fff}
-#section-0 .text-muted {color: #fff !important}
-#section-0 .lead {color: #fff !important}
+#section-0 {background-color: #fff; color: #444; padding-bottom: 60px;}
+
 #section-1 {background-color: #fff; padding-top: 60px; padding-bottom: 60px;}
 #section-2 {background-color: #eee; padding-top: 60px; padding-bottom: 50px;}
 

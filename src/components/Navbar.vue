@@ -6,58 +6,99 @@
        <div class="container">
          <div class="row">
            <div class="col-sm-8 py-4">
+             <h4 class="text-white">About the ICJIA</h4>
+             <p class="text-muted">Created in 1983, the <a href="http://www.icjia.state.il.us" target="_blank">Illinois Criminal Justice Information Authority</a> is a state agency dedicated to improving the administration of criminal justice.</p>
 
-              <h4 class="text-white">About Adult Redeploy Illinois</h4>
-<p class="text-muted">
-  <a href="http://www.icjia.state.il.us/redeploy">Adult Redeploy Illinois</a> is a state initiative providing funding and technical assistance to local jurisdictions to support the diversion of non-violent offenders from prison to more effective and less expensive community-based supervision and services.
-ARI has grown from five initial pilot sites in early 2011, to the current 20 sites, implementing 39 programs covering 39 Illinois counties (as of March 2017).
-
-</p>
+<p class="text-muted">The Authority brings together key leaders from the justice system and the public to identify critical issues facing the criminal justice system in Illinois, and to propose and evaluate policies, programs, and legislation that address those issues. The agency also works to ensure the criminal justice system in Illinois is efficient and effective. The Authority’s specific powers and duties are detailed in the <a href="http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=397&ChapterID=5" target="_blank">Illinois Criminal Justice Information Act.</a></p>
            </div>
            <div class="col-sm-4 py-4">
              <h4 class="text-white">Contact</h4>
              <ul class="list-unstyled">
-               <li><a href="http://www.icjia.state.il.us/redeploy" class="text-white">Visit ARI website</a></li>
+               <li><a href="http://www.icjia.state.il.us" class="text-white">Visit website</a></li>
+               <li><a href="https://twitter.com/icjia_illinois?lang=en" class="text-white">Follow on Twitter</a></li>
+               <li><a href="https://www.facebook.com/ICJIA/" class="text-white">Like on Facebook</a></li>
+               <li><a href="https://www.youtube.com/channel/UCtZMzk8D3P4OixYTwsfPeKA" class="text-white">View on YouTube</a></li>
+               <li><a href="https://visitor.r20.constantcontact.com/manage/optin?v=001MqUcqqvjwLCJXlLMSWbTe3zHHmEQgFeBuHvBcJWTbwgrxFbDSGx4HSUPpI6DJWMUPgbljtLxffqIcGFTgCnr-auak88ybvRxpoJlTMGPtZs%3D" class="text-white">Join mailing list</a></li>
                <li><a href="mailto: cja.irc@illinois.gov" class="text-white">Send email</a></li>
              </ul>
            </div>
          </div>
        </div>
      </div>
-     <div class="navbar navbar-light bg-faded" id="navbar" style="background-color: #fff;">
-       <div class="">
-         <router-link to="/" class="navbar-brand">
-           <span class="nav-a">ICJIA | GATA Information</span>
-         </router-link>
 
 
+     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-         <button  class="hamburger hamburger--spin navbar-toggler navbar-toggler-left"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarHeader"
-                  aria-controls="navbarHeader"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                  >
-           <span class="hamburger-box">
-             <span class="hamburger-inner"></span>
-           </span>
-         </button>
+  <button class="hamburger hamburger--spin navbar-toggler-right"
+  type="button"
+  data-toggle="collapse"
+  data-target="#navbarHeader" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <router-link to="/" class="navbar-brand">
+      <span class="nav-a">ICJIA | GATA INFORMATION</span>
+    </router-link>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 25px;">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"
+        href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">General Overview</a>
+          <a class="dropdown-item" href="#">News & Announcements</a>
+          <a class="dropdown-item" href="#">Grant Information</a>
+          <a class="dropdown-item" href="#">Contact</a>
+        </div>
+      </li>
 
-         <!-- <span class="navbar-text">
-           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-         </span>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Grant Opportunities
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-         <span class="navbar-text">
-            <a class="nav-link" href="#">Link 1 </a>
-         </span>
+        </div>
+      </li>
 
-         <span class="navbar-text">
-            <a class="nav-link" href="#">Link 2 </a>
-         </span> -->
-       </div>
-     </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Documents</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Training
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Webinars & Presentations</a>
+          <a class="dropdown-item" href="#">FAQs</a>
+
+        </div>
+      </li>
+
+
+    </ul>
+
+
+  </div>
+
+
+</nav>
 
 
 
@@ -100,10 +141,11 @@ export default {
 
 
 <style scoped>
-a {color: #fff;}
-a:hover {color: #aaa}
-.hamburger {margin-top: -9px}
+#navbarHeader a {color: #fff;}
+#navbarHeader a:hover {color: #aaa}
+.hamburger {margin-top: 1px}
 .nav-header {font-weight: 900; text-transform: uppercase; color: #444}
+.nav-a {font-weight: 900;}
 
 </style>
 s

@@ -1,20 +1,21 @@
 <template>
   <div id="app">
 
-
-<keep-alive>
+<navbar />
+<!-- <keep-alive> -->
                       <router-view class="view"></router-view>
 
-                    </keep-alive>
+                    <!-- </keep-alive> -->
 
 
-
+<my-footer />
 
   </div>
 </template>
 
 <script>
 
+import Navbar from './components/Navbar'
 import MyFooter from './components/Footer'
 import metaInfo from 'meta'
 
@@ -29,6 +30,7 @@ export default {
   mounted: function () {
     },
   components: {
+    Navbar,
     MyFooter,
   }
 }
