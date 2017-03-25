@@ -91,15 +91,16 @@ concerning changes in the grant/contracting process, we will post it to this web
     import GrantOpportunities from 'components/GrantOpportunities'
     export default {
         name: 'Home',
-        description: 'This is the description inside the component',
+        description: 'GATA Home',
         mounted () {
 
         },
-        metaInfo() {
-        return {
-          title: this.title
-
-        }
+        metaInfo: {
+          // title will be injected into parent titleTemplate
+          title: 'Home',
+          meta: [
+            { name: 'description', content: 'GATA Home' }
+        ]
       },
         components: {
 
@@ -109,7 +110,7 @@ concerning changes in the grant/contracting process, we will post it to this web
         },
         data() {
             return {
-              title: 'Home'
+
             }
         }
     }

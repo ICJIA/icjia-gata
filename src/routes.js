@@ -9,7 +9,7 @@ const sample0 = require('./views/news/Sample0.vue')
 const sample1 = require('./views/news/Sample1.vue')
 const sample2 = require('./views/news/Sample2.vue')
 
-
+//console.log('Lodash:',_.VERSION)
 
 export default [
 
@@ -65,35 +65,35 @@ export default [
     },
     {
         path: '/news/sample0',
-        name: 'Sample0',
-        type: sample0.metaInfo.type,
-        created: new Date('02-22-2017'),
-        title: 'This is the title for Sample 0',
-        description: sample0.metaInfo.meta[0].content,
+        name: sample0.name,
+        type:sample0.data().type,
+        created: sample0.data().created,
+        title: sample0.data().title,
+        description: sample0.data().description,
         component: sample0,
-        status: 'live'
+        status: sample0.data().status
 
     },
     {
         path: '/news/sample1',
-        name: 'Sample1',
-        type: sample1.metaInfo.type,
-        created: new Date('03-24-2017'),
-        title: 'This is the title for Sample 1',
-        description: sample1.metaInfo.meta[0].content,
+        name: sample1.name,
+        type:sample1.data().type,
+        created: sample1.data().created,
+        title: sample1.data().title,
+        description: sample1.data().description,
         component: sample1,
-        status: 'live'
+        status: sample1.data().status
 
     },
     {
         path: '/news/sample2',
-        name: 'Sample2',
-        type: sample2.metaInfo.type,
-        created: new Date('03-22-2017'),
-        title: 'This is the title for Sample 2',
-        description: sample2.metaInfo.meta[0].content,
+        name: sample2.name,
+        type:sample2.data().type,
+        created: sample2.data().created,
+        title: sample2.data().title,
+        description: sample2.data().description,
         component: sample2,
-        status: 'live'
+        status: sample2.data().status
 
     },
 

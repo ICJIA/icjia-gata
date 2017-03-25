@@ -9,7 +9,7 @@
           <ul id="newsfeed">
             <li v-for="item in newsItems">
               <div class="item-title">{{item.created | moment}} | {{ item.title }}</div>
-              <div class="item-description">{{ item.description }}</div>
+              <div class="item-description" v-html="item.description"></div>
               <div class="item-readmore">
                 <router-link :to="item.path">Read more >></router-link>
               </div>
@@ -39,7 +39,7 @@ export default {
     let newsItems = []
     _.forOwn(routes, function(value, key) {
                 //console.log(value.type);
-                if (value.type === 'news') {
+                if (value.type === 'news' && value.status === 'live') {
 
                     let obj = {}
                     // remove 'X_' section identifiers from route name
