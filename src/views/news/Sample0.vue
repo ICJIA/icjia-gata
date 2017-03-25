@@ -6,26 +6,29 @@
 
 <script>
 const description = `Description <b>template</b> Sample0`
-
+const title = "Sample 0 title"
+const created = new Date('01-22-2017')
+const type  = 'news'
+const status = 'live'
 
 export default {
   name: 'Sample0',
-  data () {
-    return {
-      created: new Date('03-12-2017'),
-      description: description,
-      title: 'Title for Sample News Item 0',
-      type: 'news',
-      status: 'live'
-    }
-  },
-    metaInfo: {
+  metaInfo: {
       // title will be injected into parent titleTemplate
-      title: this.title,
+      title: title,
       meta: [
         { vmid: 'description', name: 'description', content: description }
     ]
+  },
+  data () {
+    return {
+      created,
+      description,
+      title,
+      type,
+      status
     }
+  },
 }
 </script>
 

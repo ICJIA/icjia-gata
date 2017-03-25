@@ -5,27 +5,31 @@
 </template>
 
 <script>
-const description = `Description <b>template</b> Sample2`
 
+const description = `Description <b>template</b> Sample2`
+const title = "Sample 2 title"
+const created = new Date('03-23-2017')
+const type  = 'news'
+const status = 'live'
 
 export default {
   name: 'Sample2',
+  metaInfo: {
+      // title will be injected into parent titleTemplate
+      title: title,
+      meta: [
+        { vmid: 'description', name: 'description', content: description }
+    ]
+  },
   data () {
     return {
-      created: new Date('03-02-2017'),
-      description: description,
-      title: 'Title for Sample News Item 2',
-      type: 'news',
-      status: 'live'
+      created,
+      description,
+      title,
+      type,
+      status
     }
   },
-    metaInfo: {
-      // title will be injected into parent titleTemplate
-      title: this.title,
-      meta: [
-        { vmid: 'description', name: 'description', content: this.description }
-    ]
-    }
 }
 </script>
 
