@@ -6,6 +6,14 @@
 
 <script>
 export default {
+  name: 'Sample0',
+    metaInfo: {
+      // title will be injected into parent titleTemplate
+      title: 'Sample News Item 0',
+      meta: [
+        { name: 'description', content: 'Description for Sample0' }
+    ]
+    }
 }
 </script>
 

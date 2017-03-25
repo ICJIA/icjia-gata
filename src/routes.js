@@ -57,7 +57,7 @@ export default [
         type: 'news',
         created: new Date('02-22-2017'),
         title: 'This is the title for Sample 0',
-        description: require('./views/Home.vue').description,
+        description: require('./views/news/Sample0.vue').metaInfo.meta[0].content,
         component: require('./views/news/Sample0.vue'),
         status: 'live'
 
@@ -68,7 +68,7 @@ export default [
         type: 'news',
         created: new Date('03-24-2017'),
         title: 'This is the title for Sample 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis quam .',
+        description: require('./views/news/Sample1.vue').metaInfo.meta[0].content,
         component: require('./views/news/Sample1.vue'),
         status: 'live'
 
@@ -79,7 +79,7 @@ export default [
         type: 'news',
         created: new Date('03-22-2017'),
         title: 'This is the title for Sample 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis quam .',
+        description: require('./views/news/Sample2.vue').metaInfo.meta[0].content,
         component: require('./views/news/Sample2.vue'),
         status: 'live'
 
