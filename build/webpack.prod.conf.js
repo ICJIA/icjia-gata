@@ -143,7 +143,16 @@ if (config.build.prerender) {
       // Absolute path to compiled SPA
       path.join(__dirname, '../dist'),
       // List of routes to prerender
-      [ '/','/overview' ]
+      [
+        '/',
+        '/overview',
+        '/documents',
+        '/webinars',
+        '/faqs',
+        '/news/sample0',
+        '/news/sample1',
+        '/news/sample2',
+      ]
     ))
 }
 

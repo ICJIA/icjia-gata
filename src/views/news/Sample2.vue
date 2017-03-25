@@ -10,6 +10,7 @@ export default {
     metaInfo: {
       // title will be injected into parent titleTemplate
       title: 'Sample News Item 2',
+      type: 'news',
       meta: [
         { name: 'description', content: 'Description for Sample2' }
     ]
