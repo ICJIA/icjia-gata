@@ -57,7 +57,7 @@ export default [
         type: 'news',
         created: new Date('02-22-2017'),
         title: 'This is the title for Sample 0',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis quam .',
+        description: require('./views/Home.vue').description,
         component: require('./views/news/Sample0.vue'),
         status: 'live'
 

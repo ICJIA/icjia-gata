@@ -91,6 +91,7 @@ concerning changes in the grant/contracting process, we will post it to this web
     import GrantOpportunities from 'components/GrantOpportunities'
     export default {
         name: 'Home',
+        description: 'This is the description inside the component',
         mounted () {
 
         },
