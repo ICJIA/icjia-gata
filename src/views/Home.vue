@@ -86,20 +86,21 @@ concerning changes in the grant/contracting process, we will post it to this web
 </template>
 
 <script>
-
+    const description = `Home`
+    const title = "GATA Home"
+    const created = new Date('2017,03,25')
+    const type  = 'page'
+    const status = 'live'
+    import utilities from '@/utilities'
     import Newsfeed from 'components/Newsfeed'
     import GrantOpportunities from 'components/GrantOpportunities'
     export default {
-        name: 'Home',
-        description: 'GATA Home',
-        mounted () {
-
-        },
-        metaInfo: {
+      name: 'Home',
+      metaInfo: {
           // title will be injected into parent titleTemplate
-          title: 'Home',
+          title,
           meta: [
-            { name: 'description', content: 'GATA Home' }
+            { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
         ]
       },
         components: {
@@ -108,11 +109,15 @@ concerning changes in the grant/contracting process, we will post it to this web
           GrantOpportunities
 
         },
-        data() {
-            return {
-
-            }
-        }
+        data () {
+          return {
+            created,
+            description,
+            title,
+            type,
+            status
+          }
+        },
     }
 </script>
 

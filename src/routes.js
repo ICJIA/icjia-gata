@@ -1,10 +1,11 @@
-// base pages
+// Pages
 const home   = require('./views/Home.vue')
 const overview = require('./views/about/overview.vue')
 const documents = require('./views/documents/Documents.vue')
 const webinars = require('./views/training/Webinars.vue')
 const faqs = require('./views/training/Faqs.vue')
-// News updates
+
+// News
 const sample0 = require('./views/news/Sample0.vue')
 const sample1 = require('./views/news/Sample1.vue')
 const sample2 = require('./views/news/Sample2.vue')
@@ -15,52 +16,57 @@ export default [
 
     {
         path: '/',
-        name: 'Home',
-        title: 'Home',
-        type: 'page',
-        created: new Date('03-24-2017'),
+        name: home.name,
+        type:home.data().type,
+        created: home.data().created,
+        title: home.data().title,
+        description: home.data().description,
         component: home,
-        status: 'live'
+        status: home.data().status
 
     },
     {
         path: '/overview',
-        name: 'General Overview',
-        title: 'Overview',
-        type: 'page',
-        created: new Date('03-24-2017'),
+        name: overview.name,
+        type:overview.data().type,
+        created: overview.data().created,
+        title: overview.data().title,
+        description: overview.data().description,
         component: overview,
-        status: 'live'
+        status: overview.data().status
 
     },
     {
         path: '/documents',
-        name: 'Documents',
-        title: 'Documents',
-        type: 'page',
-        created: new Date('03-24-2017'),
+        name: documents.name,
+        type:documents.data().type,
+        created: documents.data().created,
+        title: documents.data().title,
+        description: documents.data().description,
         component: documents,
-        status: 'live'
+        status: documents.data().status
 
     },
     {
         path: '/webinars',
-        name: 'Webinars',
-        title: 'Webinars',
-        type: 'page',
-        created: new Date('03-24-2017'),
+        name: webinars.name,
+        type:webinars.data().type,
+        created: webinars.data().created,
+        title: webinars.data().title,
+        description: webinars.data().description,
         component: webinars,
-        status: 'live'
+        status: webinars.data().status
 
     },
     {
         path: '/faqs',
-        name: 'FAQs',
-        title: 'FAQs',
-        type: 'page',
-        created: new Date('03-24-2017'),
+        name: faqs.name,
+        type:faqs.data().type,
+        created: faqs.data().created,
+        title: faqs.data().title,
+        description: faqs.data().description,
         component: faqs,
-        status: 'live'
+        status: faqs.data().status
 
     },
     {

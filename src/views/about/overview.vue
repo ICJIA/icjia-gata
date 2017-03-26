@@ -51,11 +51,32 @@ You may also find the Governor&#8217;s Office of Management and Budget (GOMB) we
 </template>
 
 <script>
+const description = `Overview`
+const title = "GATA Overview"
+const created = new Date('2017,03,24')
+const type  = 'page'
+const status = 'live'
+import utilities from '@/utilities'
+
+
 export default {
-
-
-
-
+  name: 'Overview',
+  metaInfo: {
+      // title will be injected into parent titleTemplate
+      title,
+      meta: [
+        { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
+    ]
+  },
+  data () {
+    return {
+      created,
+      description,
+      title,
+      type,
+      status
+    }
+  },
 }
 </script>
 
