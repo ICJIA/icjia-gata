@@ -31,7 +31,7 @@ exports.dtConfig = {
 
 exports.stripTags =  function(str) {
   return str.replace(/<\/?[^>]+>/g, '');
-};
+}
 
 
 
