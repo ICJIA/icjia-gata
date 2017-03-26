@@ -11,6 +11,7 @@ const title = "Sample 1 title"
 const created = new Date('03-22-2017')
 const type  = 'news'
 const status = 'live'
+import utils from '@/utils'
 
 export default {
   name: 'Sample1',
@@ -18,7 +19,7 @@ export default {
       // title will be injected into parent titleTemplate
       title: title,
       meta: [
-        { vmid: 'description', name: 'description', content: description }
+        { vmid: 'description', name: 'description', content: utils.stripTags(description) }
     ]
   },
   data () {
