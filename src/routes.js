@@ -16,89 +16,89 @@ export default [
 
     {
         path: '/',
+        component: home,
         name: home.name,
         type:home.data().type,
         created: home.data().created,
         title: home.data().title,
         description: home.data().description,
-        component: home,
         status: home.data().status
 
     },
     {
         path: '/overview',
+        component: overview,
         name: overview.name,
         type:overview.data().type,
         created: overview.data().created,
         title: overview.data().title,
         description: overview.data().description,
-        component: overview,
         status: overview.data().status
 
     },
     {
         path: '/documents',
+        component: documents,
         name: documents.name,
         type:documents.data().type,
         created: documents.data().created,
         title: documents.data().title,
         description: documents.data().description,
-        component: documents,
         status: documents.data().status
 
     },
     {
         path: '/webinars',
+        component: webinars,
         name: webinars.name,
         type:webinars.data().type,
         created: webinars.data().created,
         title: webinars.data().title,
         description: webinars.data().description,
-        component: webinars,
         status: webinars.data().status
 
     },
     {
         path: '/faqs',
+        component: faqs,
         name: faqs.name,
         type:faqs.data().type,
         created: faqs.data().created,
         title: faqs.data().title,
         description: faqs.data().description,
-        component: faqs,
         status: faqs.data().status
 
     },
     {
         path: '/news/sample0',
+        component: sample0,
         name: sample0.name,
         type:sample0.data().type,
         created: sample0.data().created,
         title: sample0.data().title,
         description: sample0.data().description,
-        component: sample0,
         status: sample0.data().status
 
     },
     {
         path: '/news/sample1',
+        component: sample1,
         name: sample1.name,
         type:sample1.data().type,
         created: sample1.data().created,
         title: sample1.data().title,
         description: sample1.data().description,
-        component: sample1,
         status: sample1.data().status
 
     },
     {
         path: '/news/sample2',
+        component: sample2,
         name: sample2.name,
         type:sample2.data().type,
         created: sample2.data().created,
         title: sample2.data().title,
         description: sample2.data().description,
-        component: sample2,
         status: sample2.data().status
 
     },
