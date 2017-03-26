@@ -1,3 +1,5 @@
+import utilities from '@/utilities'
+
 // Pages
 const home   = require('./views/Home.vue')
 const overview = require('./views/about/overview.vue')
@@ -10,96 +12,96 @@ const sample0 = require('./views/news/Sample0.vue')
 const sample1 = require('./views/news/Sample1.vue')
 const sample2 = require('./views/news/Sample2.vue')
 
-//console.log('Lodash:',_.VERSION)
+
 
 export default [
 
     {
         path: '/',
         component: home,
-        name: home.name,
-        type:home.data().type,
-        created: home.data().created,
-        title: home.data().title,
-        description: home.data().description,
-        status: home.data().status
+        name: utilities.getName(home),
+        type: utilities.getType(home),
+        created: utilities.getCreated(home),
+        title: utilities.getTitle(home),
+        description: utilities.getDescription(home),
+        status: utilities.getStatus(home)
 
     },
     {
         path: '/overview',
         component: overview,
-        name: overview.name,
-        type:overview.data().type,
-        created: overview.data().created,
-        title: overview.data().title,
-        description: overview.data().description,
-        status: overview.data().status
+        name: utilities.getName(overview),
+        type: utilities.getType(overview),
+        created: utilities.getCreated(overview),
+        title: utilities.getTitle(overview),
+        description: utilities.getDescription(overview),
+        status: utilities.getStatus(overview)
 
     },
     {
         path: '/documents',
         component: documents,
-        name: documents.name,
-        type:documents.data().type,
-        created: documents.data().created,
-        title: documents.data().title,
-        description: documents.data().description,
-        status: documents.data().status
+        name: utilities.getName(documents),
+        type: utilities.getType(documents),
+        created: utilities.getCreated(documents),
+        title: utilities.getTitle(documents),
+        description: utilities.getDescription(documents),
+        status: utilities.getStatus(documents)
 
     },
     {
         path: '/webinars',
         component: webinars,
-        name: webinars.name,
-        type:webinars.data().type,
-        created: webinars.data().created,
-        title: webinars.data().title,
-        description: webinars.data().description,
-        status: webinars.data().status
+        name: utilities.getName(webinars),
+        type: utilities.getType(webinars),
+        created: utilities.getCreated(webinars),
+        title: utilities.getTitle(webinars),
+        description: utilities.getDescription(webinars),
+        status: utilities.getStatus(webinars)
 
     },
     {
         path: '/faqs',
         component: faqs,
-        name: faqs.name,
-        type:faqs.data().type,
-        created: faqs.data().created,
-        title: faqs.data().title,
-        description: faqs.data().description,
-        status: faqs.data().status
+        name: utilities.getName(faqs),
+        type: utilities.getType(faqs),
+        created: utilities.getCreated(faqs),
+        title: utilities.getTitle(faqs),
+        description: utilities.getDescription(faqs),
+        status: utilities.getStatus(faqs)
 
     },
     {
         path: '/news/sample0',
         component: sample0,
-        name: sample0.name,
-        type:sample0.data().type,
-        created: sample0.data().created,
-        title: sample0.data().title,
-        description: sample0.data().description,
-        status: sample0.data().status
+        name: utilities.getName(sample0),
+        type: utilities.getType(sample0),
+        created: utilities.getCreated(sample0),
+        title: utilities.getTitle(sample0),
+        description: utilities.getDescription(sample0),
+        status: utilities.getStatus(sample0)
 
     },
     {
         path: '/news/sample1',
         component: sample1,
-        name: sample1.name,
-        type:sample1.data().type,
-        created: sample1.data().created,
-        title: sample1.data().title,
-        description: sample1.data().description,
-        status: sample1.data().status
+        name: utilities.getName(sample1),
+        type: utilities.getType(sample1),
+        created: utilities.getCreated(sample1),
+        title: utilities.getTitle(sample1),
+        description: utilities.getDescription(sample1),
+        status: utilities.getStatus(sample1)
 
     },
     {
         path: '/news/sample2',
         component: sample2,
-        name: sample2.name,
-        type:sample2.data().type,
-        created: sample2.data().created,
-        title: sample2.data().title,
-        description: sample2.data().description,
-        status: sample2.data().status
+        name: utilities.getName(sample2),
+        type: utilities.getType(sample2),
+        created: utilities.getCreated(sample2),
+        title: utilities.getTitle(sample2),
+        description: utilities.getDescription(sample2),
+        status: utilities.getStatus(sample2)
 
     },
 

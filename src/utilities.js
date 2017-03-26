@@ -138,3 +138,27 @@ exports.parseBool = function(str) {
 
     return false;
 }
+
+exports.getName = function  (obj) {
+  return obj.name
+};
+
+exports.getType = function  (obj) {
+  return obj.data().type
+};
+
+exports.getCreated = function  (obj) {
+  return obj.data().created
+};
+
+exports.getTitle = function  (obj) {
+  return obj.data().title
+};
+
+exports.getDescription = function  (obj) {
+  return obj.data().description
+};
+
+exports.getStatus = function  (obj) {
+  return obj.data().status
+};
