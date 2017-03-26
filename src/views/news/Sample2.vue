@@ -8,7 +8,7 @@
 
 const description = `Description <b>template</b> Sample2`
 const title = "Sample 2 title"
-const created = new Date('03-23-2017')
+const created = new Date('2016,04,24')
 const type  = 'news'
 const status = 'live'
 import utilities from '@/utilities'

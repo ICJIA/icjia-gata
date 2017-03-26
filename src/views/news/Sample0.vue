@@ -7,10 +7,11 @@
 <script>
 const description = `Description <b>template</b> Sample0`
 const title = "Sample 0 title"
-const created = new Date('01-22-2017')
+const created = new Date('2011,08,24')
 const type  = 'news'
 const status = 'live'
 import utilities from '@/utilities'
+
 
 export default {
   name: 'Sample0',

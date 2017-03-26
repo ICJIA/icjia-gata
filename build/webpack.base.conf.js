@@ -64,6 +64,7 @@ module.exports = {
         loader: "expose-loader?Tether"
       },
 
+
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',

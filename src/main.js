@@ -2,6 +2,7 @@ import jquery from 'jquery'
 import tether from 'tether'
 import bootstrap from 'bootstrap'
 import lodash from 'lodash';
+
 // window._ = window.lodash = lodash;
 
 import './scss/base.scss';
