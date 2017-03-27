@@ -1,16 +1,20 @@
 import utilities from '@/utilities'
 
 // Pages
-const home   = require('./views/Home.vue')
+const home   = require('./views/home.vue')
 const overview = require('./views/about/overview.vue')
-const documents = require('./views/documents/Documents.vue')
-const webinars = require('./views/training/Webinars.vue')
-const faqs = require('./views/training/Faqs.vue')
+const documents = require('./views/documents/documents.vue')
+const webinars = require('./views/training/webinars.vue')
+const faqs = require('./views/training/faqs.vue')
+const contact = require('./views/about/contact.vue')
+const grant_information = require('./views/about/grant-information.vue')
+const news_and_announcements = require('./views/about/news-and-announcements.vue')
 
 // News
-const sample0 = require('./views/news/Sample0.vue')
-const sample1 = require('./views/news/Sample1.vue')
-const sample2 = require('./views/news/Sample2.vue')
+const sample0 = require('./views/news/sample0.vue')
+const sample1 = require('./views/news/sample1.vue')
+const sample2 = require('./views/news/sample2.vue')
+const sample3 = require('./views/news/sample3.vue')
 
 
 
@@ -36,6 +40,39 @@ export default [
         title: utilities.getTitle(overview),
         description: utilities.getDescription(overview),
         status: utilities.getStatus(overview)
+
+    },
+    {
+        path: '/contact',
+        component: contact,
+        name: utilities.getName(contact),
+        type: utilities.getType(contact),
+        created: utilities.getCreated(contact),
+        title: utilities.getTitle(contact),
+        description: utilities.getDescription(contact),
+        status: utilities.getStatus(contact)
+
+    },
+    {
+        path: '/news-and-announcements',
+        component: news_and_announcements,
+        name: utilities.getName(news_and_announcements),
+        type: utilities.getType(news_and_announcements),
+        created: utilities.getCreated(news_and_announcements),
+        title: utilities.getTitle(news_and_announcements),
+        description: utilities.getDescription(news_and_announcements),
+        status: utilities.getStatus(news_and_announcements)
+
+    },
+    {
+        path: '/grant-information',
+        component: grant_information,
+        name: utilities.getName(grant_information),
+        type: utilities.getType(grant_information),
+        created: utilities.getCreated(grant_information),
+        title: utilities.getTitle(grant_information),
+        description: utilities.getDescription(grant_information),
+        status: utilities.getStatus(grant_information)
 
     },
     {
@@ -71,6 +108,7 @@ export default [
         status: utilities.getStatus(faqs)
 
     },
+
     {
         path: '/news/sample0',
         component: sample0,
@@ -102,6 +140,17 @@ export default [
         title: utilities.getTitle(sample2),
         description: utilities.getDescription(sample2),
         status: utilities.getStatus(sample2)
+
+    },
+    {
+        path: '/news/sample3',
+        component: sample3,
+        name: utilities.getName(sample3),
+        type: utilities.getType(sample3),
+        created: utilities.getCreated(sample3),
+        title: utilities.getTitle(sample3),
+        description: utilities.getDescription(sample3),
+        status: utilities.getStatus(sample3)
 
     },
 

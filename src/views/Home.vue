@@ -2,19 +2,11 @@
 <div>
 
 
-<section id="section-0">
+<section id="section-0" class="page">
 
 
 
-          <div class="hero-heading fp-splash">
-            <div class="text-center">
-
-                    <h1 class="h3"
-                    style="text-transform: uppercase">Grant Accountability & Transparency at ICJIA</h1>
-
-
-            </div>
-          </div>
+          <page-header :header="title" />
 
           <div class="container-fluid" style="margin-left: 50px; margin-right: 50px;">
             <div class="row">
@@ -30,6 +22,9 @@ Once fully implemented, it will unify processes and reduce administrative burden
 Also, as additional information becomes available
 concerning changes in the grant/contracting process, we will post it to this website.</p>
 
+<div class="text-center" style="margin-top: 30px"><router-link to="/overview" class="btn btn-primary read-more">
+  Read More&nbsp;&raquo;</router-link>
+</div>
 
               </div>
             </div>
@@ -49,7 +44,11 @@ concerning changes in the grant/contracting process, we will post it to this web
           </div>
         </div>
 
-        <newsfeed />
+        <newsfeed maxItems="2"/>
+
+        <div class="text-center" style="margin-top: 30px"><router-link to="/overview" class="btn btn-primary read-more">
+          News Archive&nbsp;&raquo;</router-link>
+        </div>
       </div>
 
       <div class="col-md-6" style="margin: 0; padding: 0; padding-left: 1px;">
@@ -61,7 +60,7 @@ concerning changes in the grant/contracting process, we will post it to this web
 
           </div>
         </div>
-        <grant-opportunities />
+        <grant-opportunities maxGrants="3" />
       </div>
 
     </div>
@@ -88,13 +87,14 @@ concerning changes in the grant/contracting process, we will post it to this web
 
 <script>
     const description = `Home`
-    const title = "GATA Home"
+    const title = "Grant Accountability and Transparency at ICJIA"
     const created = new Date('2017,03,25')
     const type  = 'page'
     const status = 'live'
     import utilities from '@/utilities'
     import Newsfeed from 'components/Newsfeed'
     import GrantOpportunities from 'components/GrantOpportunities'
+    import PageHeader from '@/components/PageHeader'
     export default {
       name: 'Home',
       metaInfo: {
@@ -105,7 +105,7 @@ concerning changes in the grant/contracting process, we will post it to this web
         ]
       },
         components: {
-
+          PageHeader,
           Newsfeed,
           GrantOpportunities
 
@@ -123,8 +123,8 @@ concerning changes in the grant/contracting process, we will post it to this web
 </script>
 
 <style scoped>
-#section-0 {background-color: #fff; color: #444; padding-bottom: 60px;}
+#section-0 {background-color: #fff; color: #444; padding-bottom: 10px;}
 
-#section-1 {background-color: #eee; padding-top: 0px; padding-bottom: 60px;}
+#section-1 {background-color: #eee; padding-top: 0px; padding-bottom: 50px;}
 
 </style>

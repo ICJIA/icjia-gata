@@ -3,15 +3,19 @@
 <div class="newsfeed">
 
   <div class="container">
-    <div class="row" style="padding-bottom: 150px">
+    <div class="row" style="">
       <div class="col-md-12">
         <div class="">
           <ul id="newsfeed">
             <li v-for="item in newsItems">
-              <div class="item-title">{{item.created | moment}} | {{ item.title }}</div>
-              <div class="item-description" v-html="item.description"></div>
-              <div class="item-readmore">
-                <router-link :to="item.path">Read more >></router-link>
+              <!--{{item.created | moment}} | -->
+              <div class="item-news">
+                <div class="item-title">{{ item.title }}</div>
+                <div class="item-date">{{item.created | moment}}</div>
+                <div class="item-description" v-html="item.description"></div>
+                <div class="item-readmore">
+                  <router-link :to="item.path" class="read-more-news">Read more >></router-link>
+                </div>
               </div>
             </li>
           </ul>
@@ -54,12 +58,25 @@ export default {
                     }
                 }
             });
-            this.newsItems = _.orderBy(newsItems, 'created','desc');
+            newsItems = _.orderBy(newsItems, 'created','desc')
+            if (this.maxItems) {
+              this.newsItems = newsItems.slice (0, Number(this.maxItems))
+            } else {
+              this.newsItems = newsItems
+            }
+
+
   },
 
   data: function () {
   return {
     newsItems: []
+  }
+},
+props: {
+  maxItems: {
+    type: String,
+    required: false
   }
 },
 filters: {
@@ -79,4 +96,9 @@ filters: {
 <style lang="css">
 ul#newsfeed {list-style: none;}
 ul#newsfeed li {margin-bottom: 30px; }
+.read-more-news {text-transform: uppercase; font-size: 14px;}
+.item-news {margin-top: 15px;}
+.item-date {margin-bottom: 10px; margin-top: -5px; color: #888}
+.item-readmore {margin-top: 5px; }
+.item-title {font-weight: 900; padding-bottom: 10px; text-transform: uppercase;}
 </style>

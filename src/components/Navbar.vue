@@ -61,9 +61,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <router-link class="dropdown-item" to="/overview">General Overview</router-link>
-          <a class="dropdown-item" href="#">News & Announcements</a>
-          <a class="dropdown-item" href="#">Grant Information</a>
-          <a class="dropdown-item" href="#">Contact</a>
+          <router-link class="dropdown-item" to="/news-and-announcements">News & Announcements</router-link>
+          <router-link class="dropdown-item" to="/grant-information">Grant Information</router-link>
+          <router-link class="dropdown-item" to="/contact">Contact</router-link>
         </div>
       </li>
 
@@ -72,7 +72,7 @@
           Grant Opportunities
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-
+          <h6 class="dropdown-header">There are no current grant opportunities available.</h6>
         </div>
       </li>
 

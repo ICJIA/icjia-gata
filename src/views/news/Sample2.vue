@@ -1,17 +1,26 @@
 <template lang="html">
-<div class="">
-  Sample news item 2
+<div>
+  <section class="page">
+    <page-header :header="title" />
+    News item sample 2 content
+  </section>
 </div>
 </template>
 
 <script>
 
-const description = `Description <b>template</b> Sample2`
-const title = "Sample 2 title"
+const description =
+`
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin neque non congue ullamcorper.
+Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.
+`
+
+const title = "News sample 2 title"
 const created = new Date('2016,04,24')
 const type  = 'news'
 const status = 'live'
 import utilities from '@/utilities'
+import PageHeader from '@/components/PageHeader'
 export default {
   name: 'Sample2',
   metaInfo: {
@@ -20,6 +29,11 @@ export default {
       meta: [
         { vmid: 'description', name: 'description', content: utilities.stripTags(description) }
     ]
+  },
+  components: {
+
+    PageHeader
+
   },
   data () {
     return {

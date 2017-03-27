@@ -2,16 +2,8 @@
 
 <div>
 <section class="page">
+<page-header :header="title" />
 
-  <div class="hero-heading">
-    <div class="text-center">
-
-            <h1 class="h3 section-title"
-            style="text-transform: uppercase">General Overview</h1>
-
-
-    </div>
-  </div>
 
   <div class="container">
 
@@ -61,13 +53,17 @@ You may also find the Governor&#8217;s Office of Management and Budget (GOMB) we
 </template>
 
 <script>
-const description = `Overview`
-const title = "GATA Overview"
+const description = `The Grant Accountability and Transparency Act, also known as GATA, was passed by the Illinois Legislature in 2014.
+GATA confirms ICJIA's commitment to the Federal Uniform Guidance 2 CFR 200, which went into effect in December 2014. The Uniform Guidance already applies to all federal grants and federal pass-through funds.
+ GATA also requires Illinois’ state grants to follow these federal rules for grants which are state funded.
+ This landmark legislations will increase accountability and transparency in the use of grant funds.
+ Once fully implemented, it will unify processes and reduce administrative burdens for state agencies and grantees.`
+const title = "General Overview"
 const created = new Date('2017,03,24')
 const type  = 'page'
 const status = 'live'
 import utilities from '@/utilities'
-
+import PageHeader from '@/components/PageHeader'
 
 export default {
   name: 'Overview',
@@ -77,6 +73,11 @@ export default {
       meta: [
         { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
     ]
+  },
+  components: {
+
+    PageHeader
+
   },
   data () {
     return {

@@ -1,39 +1,54 @@
 <template lang="html">
+
 <div>
-  <section class="page">
-    <page-header :header="title" />
-    News item sample 0 content
-  </section>
+<section class="page">
+<page-header :header="title" />
+
+
+  <div class="container">
+
+	<div class="col-md-12">
+
+<newsfeed />
+
+
+	</div>
 </div>
+
+
+
+
+
+</section>
+</div>
+
+
+
 </template>
 
 <script>
-const description =
-`
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin neque non congue ullamcorper.
-Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.
-`
-
-
-const title = "News sample 0 title"
-const created = new Date('2011,08,24')
-const type  = 'news'
+const description = `ICJIA GATA News & Announcements`
+const title = "ICJIA GATA News & Announcements"
+const created = new Date('2017,03,26')
+const type  = 'page'
 const status = 'live'
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
+import Newsfeed from 'components/Newsfeed'
 
 export default {
-  name: 'Sample0',
+  name: 'NewsAndInformation',
   metaInfo: {
       // title will be injected into parent titleTemplate
-      title: title,
+      title,
       meta: [
         { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
     ]
   },
   components: {
 
-    PageHeader
+    PageHeader,
+  Newsfeed,
 
   },
   data () {

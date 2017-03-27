@@ -39,7 +39,7 @@ body {
     color: $text-dark;
 }
 .page {
-    margin-top: 0; margin-bottom: 75px;
+    margin-top: 1px; margin-bottom: 75px;
 }
 h1,
 .h1,
@@ -164,8 +164,13 @@ button:focus {
     font-weight: 900;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+.read-more {text-transform: uppercase; font-weight: 700}
+
+
+
 // Navbar breakpoints //////////////////////////////////////////////////////
 
 @include media-breakpoint-down(md) {

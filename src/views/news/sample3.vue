@@ -2,7 +2,7 @@
 <div>
   <section class="page">
     <page-header :header="title" />
-    News item sample 1 content
+    News item sample 3 content
   </section>
 </div>
 </template>
@@ -15,14 +15,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin 
 Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.
 `
 
-const title = "News sample 1 title"
-const created = new Date('2017,03,24')
+const title = "News sample 3 title"
+const created = new Date('2016,12,24')
 const type  = 'news'
 const status = 'live'
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
 export default {
-  name: 'Sample1',
+  name: 'Sample3',
   metaInfo: {
       // title will be injected into parent titleTemplate
       title: title,

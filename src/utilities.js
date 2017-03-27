@@ -139,6 +139,11 @@ exports.parseBool = function(str) {
     return false;
 }
 
+
+
+
+/// Routing utilities
+
 exports.getName = function  (obj) {
   return obj.name
 };
