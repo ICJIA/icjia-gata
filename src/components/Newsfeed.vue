@@ -14,7 +14,8 @@
                 <div class="item-date">{{item.created | moment}}</div>
                 <div class="item-description" v-html="item.description"></div>
                 <div class="item-readmore">
-                  <router-link :to="item.path" class="read-more-news">Read more >></router-link>
+                  <router-link :to="item.path" class="read-more-news">Read more >>
+                  </router-link>
                 </div>
               </div>
             </li>
