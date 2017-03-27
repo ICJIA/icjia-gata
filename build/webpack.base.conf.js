@@ -28,7 +28,8 @@ module.exports = {
       'components': resolve('src/components'),
       'utils': resolve('src/utils'),
       'maps': resolve('src/maps'),
-      'scss': resolve('src/scss')
+      'scss': resolve('src/scss'),
+      'views': resolve ('src/views')
     }
   },
   module: {
