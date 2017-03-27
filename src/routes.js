@@ -21,13 +21,13 @@ export default [
 
     {
         path: '/',
-        component: require('./views/home.vue'),
-        name: utilities.getName(require('./views/home.vue')),
-        type: utilities.getType(require('./views/home.vue')),
-        created: utilities.getCreated(require('./views/home.vue')),
-        title: utilities.getTitle(require('./views/home.vue')),
-        description: utilities.getDescription(require('./views/home.vue')),
-        status: utilities.getStatus(require('./views/home.vue'))
+        component: require('./views/Home.vue'),
+        name: utilities.getName(require('./views/Home.vue')),
+        type: utilities.getType(require('./views/Home.vue')),
+        created: utilities.getCreated(require('./views/Home.vue')),
+        title: utilities.getTitle(require('./views/Home.vue')),
+        description: utilities.getDescription(require('./views/Home.vue')),
+        status: utilities.getStatus(require('./views/Home.vue'))
 
     },
 
