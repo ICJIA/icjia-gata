@@ -11,10 +11,10 @@ const GrantInformation = require('./views/GrantInformation.vue')
 const NewsAndAnnouncements = require('./views/NewsAndAnnouncements.vue')
 
 // News
-const Sample0 = require('./views/Sample0.vue')
-const Sample1 = require('./views/Sample1.vue')
-const Sample2 = require('./views/Sample2.vue')
-
+const Sample0 = require('./views/news/Sample0.vue')
+const Sample1 = require('./views/news/Sample1.vue')
+const Sample2 = require('./views/news/Sample2.vue')
+const Sample3 = require('./views/news/Sample3.vue')
 
 
 
@@ -140,6 +140,17 @@ export default [
         title: utilities.getTitle(Sample2),
         description: utilities.getDescription(Sample2),
         status: utilities.getStatus(Sample2)
+
+    },
+    {
+        path: '/news/Sample3',
+        component: Sample3,
+        name: utilities.getName(Sample3),
+        type: utilities.getType(Sample3),
+        created: utilities.getCreated(Sample3),
+        title: utilities.getTitle(Sample3),
+        description: utilities.getDescription(Sample3),
+        status: utilities.getStatus(Sample3)
 
     },
 

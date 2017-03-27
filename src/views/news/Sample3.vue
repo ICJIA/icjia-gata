@@ -1,0 +1,51 @@
+<template lang="html">
+<div>
+  <section class="page">
+    <page-header :header="title" />
+    News item sample 3 content
+  </section>
+</div>
+</template>
+
+<script>
+
+const description =
+`
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin neque non congue ullamcorper.
+Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.
+`
+
+const title = "News sample 3 title"
+const created = new Date('2016,12,24')
+const type  = 'news'
+const status = 'live'
+import utilities from '@/utilities'
+import PageHeader from '@/components/PageHeader'
+export default {
+  name: 'Sample3',
+  metaInfo: {
+      // title will be injected into parent titleTemplate
+      title: title,
+      meta: [
+        { vmid: 'description', name: 'description', content: utilities.stripTags(description) }
+    ]
+  },
+  components: {
+
+    PageHeader
+
+  },
+  data () {
+    return {
+      created,
+      description,
+      title,
+      type,
+      status
+    }
+  },
+}
+</script>
+
+<style lang="css">
+</style>
