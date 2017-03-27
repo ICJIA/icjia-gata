@@ -144,19 +144,14 @@ exports.parseBool = function(str) {
 
 /// Routing utilities
 
-truncate = function(str, length, ending) {
-    if (length == null) {
-      length = 100;
-    }
-    if (ending == null) {
-      ending = '...';
-    }
-    if (str.length > length) {
-      return str.substring(0, length - ending.length) + ending;
-    } else {
-      return str;
-    }
-  };
+function truncateString(str, num) {
+  if (str.length <= num) {
+    return str;
+  } else {
+    return str.slice(0, num > 3 ? num - 3 : num) + '...';
+  }
+}
+
 
 exports.getName = function  (obj) {
   return obj.name
@@ -171,11 +166,11 @@ exports.getCreated = function  (obj) {
 };
 
 exports.getTitle = function  (obj) {
-  return truncate(obj.data().title,150)
+  return truncateString(obj.data().title,150)
 };
 
 exports.getDescription = function  (obj) {
-  return truncate(obj.data().description,300)
+  return truncateString(obj.data().description,300)
 };
 
 exports.getStatus = function  (obj) {
