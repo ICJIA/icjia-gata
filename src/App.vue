@@ -7,7 +7,7 @@
                       <router-view class="view"></router-view>
                       </transition>
 
-                    <!-- </keep-alive> -->
+                     <!-- </keep-alive> -->
 
 
 <my-footer />
