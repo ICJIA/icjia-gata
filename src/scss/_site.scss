@@ -20,14 +20,13 @@ $body-background: #fff;
 $body-font-size: 16px;
 // $heading-font-stack: 'Roboto', sans-serif;
 $heading-font-stack: 'Montserrat', sans-serif;
-$page-top-margin: 50px;
+$page-top-margin: 0px;
 $text-light: #eee;
 $text-dark: #444;
 $accent-color: #1b2352;
 $hover-color: #aaa;
 $accent-dark: #000;
 $link-font-weight: 700;
-$page-top-margin: 0px;
 
 
 
@@ -40,7 +39,7 @@ body {
     color: $text-dark;
 }
 .page {
-    margin-top: $page-top-margin;
+    margin-top: 0; margin-bottom: 75px;
 }
 h1,
 .h1,
@@ -147,7 +146,7 @@ button:focus {
 .navbar-brand {margin-left: 80px;}
 
 .hero-heading {background: #152c61; color: #fff;}
-
+.fp-splash {padding-top: 30px; padding-bottom: 30px;}
 .section-title {
     border-bottom: solid 1px #ccc;
     padding-bottom: 25px;
@@ -160,7 +159,7 @@ button:focus {
 .spacerTop40 {margin-top: 40px}
 .spacerTop30 {margin-top: 30px}
 
-.page {margin-top: 50px; margin-bottom: 75px;}
+
 .page-head {
     font-weight: 900;
     border-bottom: 1px solid #ccc;

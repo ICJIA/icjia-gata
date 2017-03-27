@@ -1,7 +1,15 @@
 <template lang="html">
-  <div>
-  FAQs
-  </div>
+  <section class="page">
+    <div class="hero-heading">
+      <div class="text-center">
+
+              <h1 class="h3 section-title"
+              style="text-transform: uppercase">GATA FAQs</h1>
+
+
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>

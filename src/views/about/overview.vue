@@ -3,11 +3,21 @@
 <div>
 <section class="page">
 
+  <div class="hero-heading">
+    <div class="text-center">
+
+            <h1 class="h3 section-title"
+            style="text-transform: uppercase">General Overview</h1>
+
+
+    </div>
+  </div>
+
   <div class="container">
 
 	<div class="col-md-12">
 
-  <h2 class="page-head" id="overview"> GATA General Overview</h2>
+  <!-- <h2 class="page-head" id="overview"> GATA General Overview</h2> -->
 
 
 

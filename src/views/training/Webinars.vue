@@ -1,5 +1,16 @@
 <template lang="html">
-  <section>
+  <section class="page">
+
+      <div class="hero-heading">
+        <div class="text-center">
+
+                <h1 class="h3 section-title"
+                style="text-transform: uppercase">GATA Webinars</h1>
+
+
+        </div>
+      </div>
+
     <div class="text-center" style="margin-top: 30px">
 <div class="video-embed">
 <div class="youtube"

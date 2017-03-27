@@ -1,6 +1,16 @@
 <template lang="html">
 <div>
-Documents
+<section class="page">
+  <div class="hero-heading">
+    <div class="text-center">
+
+            <h1 class="h3 section-title"
+            style="text-transform: uppercase">GATA Documents</h1>
+
+
+    </div>
+  </div>
+</section>
 </div>
 </template>
 

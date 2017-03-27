@@ -6,10 +6,11 @@
 
 
 
-          <div class="hero-heading">
+          <div class="hero-heading fp-splash">
             <div class="text-center">
 
-                    <h1 class="h3 section-title" style="text-transform: uppercase">ICJIA GATA Overview</h1>
+                    <h1 class="h3"
+                    style="text-transform: uppercase">Grant Accountability & Transparency at ICJIA</h1>
 
 
             </div>
@@ -43,7 +44,7 @@ concerning changes in the grant/contracting process, we will post it to this web
         <div class="hero-heading">
           <div class="text-center">
 
-                  <h1 class="h4 section-title">GATA News & Information</h1>
+                  <h1 class="h4 section-title">News & Information</h1>
 
           </div>
         </div>
