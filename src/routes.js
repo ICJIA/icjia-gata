@@ -2,19 +2,19 @@ import utilities from '@/utilities'
 
 // Pages
 const Home   = require('./views/Home.vue')
-const Overview = require('./views/about/Overview.vue')
+const Overview = require('./views/About/Overview.vue')
 const Documents = require('./views/Documents/Documents.vue')
-const Webinars = require('./views/training/Webinars.vue')
-const Faqs = require('./views/training/Faqs.vue')
-const Contact = require('./views/about/Contact.vue')
-const GrantInformation = require('./views/about/GrantInformation.vue')
-const NewsAndAnnouncements = require('./views/about/NewsAndAnnouncements.vue')
+const Webinars = require('./views/Training/Webinars.vue')
+const Faqs = require('./views/Training/Faqs.vue')
+const Contact = require('./views/About/Contact.vue')
+const GrantInformation = require('./views/About/GrantInformation.vue')
+const NewsAndAnnouncements = require('./views/About/NewsAndAnnouncements.vue')
 
 // News
-const Sample0 = require('./views/news/Sample0.vue')
-const Sample1 = require('./views/news/Sample1.vue')
-const Sample2 = require('./views/news/Sample2.vue')
-const Sample3 = require('./views/news/Sample3.vue')
+const Sample0 = require('./views/News/Sample0.vue')
+const Sample1 = require('./views/News/Sample1.vue')
+const Sample2 = require('./views/News/Sample2.vue')
+
 
 
 
@@ -142,17 +142,7 @@ export default [
         status: utilities.getStatus(Sample2)
 
     },
-    {
-        path: '/news/sample3',
-        component: Sample3,
-        name: utilities.getName(Sample3),
-        type: utilities.getType(Sample3),
-        created: utilities.getCreated(Sample3),
-        title: utilities.getTitle(Sample3),
-        description: utilities.getDescription(Sample3),
-        status: utilities.getStatus(Sample3)
 
-    },
 
     {
         path: '/*',
