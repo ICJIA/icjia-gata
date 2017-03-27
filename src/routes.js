@@ -2,18 +2,18 @@ import utilities from '@/utilities'
 
 // Pages
 const Home   = require('./views/Home.vue')
-const Overview = require('./views/About/Overview.vue')
-const Documents = require('./views/Documents/Documents.vue')
-const Webinars = require('./views/Training/Webinars.vue')
-const Faqs = require('./views/Training/Faqs.vue')
-const Contact = require('./views/About/Contact.vue')
-const GrantInformation = require('./views/About/GrantInformation.vue')
-const NewsAndAnnouncements = require('./views/About/NewsAndAnnouncements.vue')
+const Overview = require('./views/Overview.vue')
+const Documents = require('./views/Documents.vue')
+const Webinars = require('./views/Webinars.vue')
+const Faqs = require('./views/Faqs.vue')
+const Contact = require('./views/Contact.vue')
+const GrantInformation = require('./views/GrantInformation.vue')
+const NewsAndAnnouncements = require('./views/NewsAndAnnouncements.vue')
 
 // News
-const Sample0 = require('./views/News/Sample0.vue')
-const Sample1 = require('./views/News/Sample1.vue')
-const Sample2 = require('./views/News/Sample2.vue')
+const Sample0 = require('./views/Sample0.vue')
+const Sample1 = require('./views/Sample1.vue')
+const Sample2 = require('./views/Sample2.vue')
 
 
 
