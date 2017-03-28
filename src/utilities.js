@@ -183,8 +183,6 @@ exports.generateRoutes = function (arr) {
   dateNow = new Date()
   arr.forEach(function(eachObj) {
       obj = {}
-
-      console.log(dateNow)
       obj.path = eachObj["path"]
       obj.component = eachObj["component"]
       // Create page-specific meta data from views
@@ -196,12 +194,12 @@ exports.generateRoutes = function (arr) {
       obj.description = truncateString(eachObj["component"].data().description,350) || 'No description provided'
       obj.status = eachObj["component"].data().status || "live"
       obj.type = eachObj["component"].data().type || "page"
-    
+
       r.push(obj)
 
   });
   r.push(catchAll)
-  console.log(r)
+  //console.log(r)
   return r
 
 }

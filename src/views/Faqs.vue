@@ -30,6 +30,8 @@ export default {
         { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
     ]
   },
+  
+
   data () {
     return {
       created,
