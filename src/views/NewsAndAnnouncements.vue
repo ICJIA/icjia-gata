@@ -29,7 +29,7 @@
 <script>
 const description = `ICJIA GATA News & Announcements`
 const title = "ICJIA GATA News & Announcements"
-const created = new Date('2017,03,26')
+const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'
 import utilities from '@/utilities'

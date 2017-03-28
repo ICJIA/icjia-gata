@@ -88,7 +88,7 @@ concerning changes in the grant/contracting process, we will post it to this web
 <script>
     const description = `Home`
     const title = "Grant Accountability and Transparency at ICJIA"
-    const created = new Date('2017,03,25')
+    const created = '2017-03-26'
     const type  = 'page'
     const status = 'live'
     import utilities from '@/utilities'

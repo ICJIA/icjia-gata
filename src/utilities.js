@@ -162,7 +162,9 @@ exports.getType = function  (obj) {
 };
 
 exports.getCreated = function  (obj) {
-  return obj.data().created
+  let x = String(obj.data().created)
+  let myDate = new Date(x.replace(/-/g, "/"))
+  return myDate
 };
 
 exports.getTitle = function  (obj) {

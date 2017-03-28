@@ -29,7 +29,7 @@ Contact Info here
 <script>
 const description = `Contact ICJIA`
 const title = "Contact ICJIA"
-const created = new Date('2017,03,26')
+const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'
 import utilities from '@/utilities'

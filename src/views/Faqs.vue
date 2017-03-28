@@ -15,7 +15,7 @@
 <script>
 const description = `FAQs`
 const title = "GATA FAQs"
-const created = new Date('2017,03,24')
+const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'
 import utilities from '@/utilities'

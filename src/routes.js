@@ -1,5 +1,6 @@
 import utilities from '@/utilities'
 
+
 // Pages
 const Home   = require('./views/Home.vue')
 const Overview = require('./views/Overview.vue')
@@ -15,6 +16,31 @@ const Sample0 = require('./views/news/Sample0.vue')
 const Sample1 = require('./views/news/Sample1.vue')
 const Sample2 = require('./views/news/Sample2.vue')
 const Sample3 = require('./views/news/Sample3.vue')
+//
+// const views =
+// [
+//   {
+//     home: require('./views/Home.vue')
+//   },
+//   {
+//     overview: require('./views/Overview.vue')
+//   }
+//
+// ]
+//
+//
+// views.forEach( function (eachObj){
+//     for (var key in eachObj) {
+//         if (eachObj.hasOwnProperty(key)){
+//            console.log(eachObj[key].data());
+//         }
+//     }
+// });
+
+
+
+
+
 
 
 

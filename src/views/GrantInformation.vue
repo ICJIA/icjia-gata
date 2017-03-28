@@ -29,7 +29,7 @@ Grant Information
 <script>
 const description = `ICJIA GATA Grant Information`
 const title = "ICJIA GATA Grant Information"
-const created = new Date('2017,03,26')
+const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'
 import utilities from '@/utilities'

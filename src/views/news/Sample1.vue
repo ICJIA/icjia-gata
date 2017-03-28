@@ -16,7 +16,7 @@ Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.
 `
 
 const title = "News sample 1 title"
-const created = new Date('2017,03,24')
+const created = '2017-03-24'
 const type  = 'news'
 const status = 'live'
 import utilities from '@/utilities'
