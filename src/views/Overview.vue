@@ -24,8 +24,8 @@ Once fully implemented, it will unify processes and reduce administrative burden
 <p>Changes in the grant processes are in development.
 If they have not already done this, Grantees should prepare themselves by reading this information:</p>
 <ul class="gata-list">
-<li>State Law 30 ILCS 708 - Grant Accountability and Transparency Act:<br> <a href="http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7" target="_blank">http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7</a></li>
-<li>Electronic Code of Federal Regulations (e-CFR) - Title 2 Grants and Agreements:<br> <a href="http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl" target="_blank">http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl</a></li>
+<li><a href="http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7" target="_blank">State Law 30 ILCS 708 - Grant Accountability and Transparency Act</a><br></li>
+<li><a href="http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title02/2cfr200_main_02.tpl" target="_blank">Electronic Code of Federal Regulations (e-CFR) - Title 2 Grants and Agreements</a></li>
 
 </ul>
 <p>Reminder:  GATA establishes in Illinois law that state grants follow the federal regulations, thus unifying the process for all grants, whether they contain state, federal, or federal pass-through dollars.</p>
@@ -33,7 +33,7 @@ If they have not already done this, Grantees should prepare themselves by readin
 <p>We will have specific information about ICJIA&#8217;s grants in the near future.
 Also, as additional information becomes available concerning changes in the grant/contracting process, we will post it to the ICJIA website.</p>
 <p>
-You may also find the Governor&#8217;s Office of Management and Budget (GOMB) website very helpful by reading further information housed there: <a href="http://www.illinois.gov/gov/budget/Pages/GrantAccountability.aspx" target="_blank">http://www.illinois.gov/gov/budget/Pages/GrantAccountability.aspx</a></p>
+You may also find the <a href="http://www.illinois.gov/gov/budget/Pages/GrantAccountability.aspx" target="_blank">Governor&#8217;s Office of Management and Budget (GOMB) website</a> very helpful by reading further information housed there.</p>
 
 
 

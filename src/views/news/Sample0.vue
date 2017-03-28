@@ -38,7 +38,7 @@ export default {
   },
   data () {
     return {
-      created,
+      
       description,
       title,
       type,

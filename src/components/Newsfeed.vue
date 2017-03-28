@@ -51,8 +51,10 @@ export default {
                     obj.path = value.path
                     obj.title = value.title
                     obj.created = value.created
+                    if (String(obj.created) === 'Invalid Date') {
+                      obj.created =  moment()
+                    }
                     obj.description = value.description
-
                     if (obj.name != 'direct' && obj.name != 'Redirect') {
                       newsItems.push(obj)
                     }

@@ -1,6 +1,6 @@
-import utilities from '@/utilities'
 
-const pages = [{
+const views = [
+    {
         path: '/',
         component: require('./views/Home.vue')
     },
@@ -48,12 +48,7 @@ const pages = [{
         path: '/news/sample3',
         component: require('./views/news/Sample3.vue'),
     }
-
 ]
 
-
-
-
-
-let routes = utilities.generateRoutes(pages)
-export default routes
+import utilities from '@/utilities'
+export default utilities.generateRoutes(views)

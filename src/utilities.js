@@ -143,12 +143,28 @@ exports.stripTags =  function(str) {
 /// Routing utilities
 
 function truncateString(str, num) {
+
+  if (str === undefined) return
+
   if (str.length <= num) {
     return str;
   } else {
     return str.slice(0, num > 3 ? num - 3 : num) + '...';
   }
 }
+
+
+// function checkObject (startObj, destObj, key, defaultProperty) {
+//   if (startObj.hasOwnProperty(key)) {
+//     destObj[key] = startObj[key]
+//   } else {
+//     destObj[key] = defaultProperty
+//     console.log('Error: ',destObj[key])
+//   }
+//   return destObj[key]
+// }
+
+
 
 
 exports.generateRoutes = function (arr) {
@@ -163,27 +179,29 @@ exports.generateRoutes = function (arr) {
   }
   let r = [];
   var obj = {}
+  //dateNow =  String(new Date()).replace(/-/g, "/")
+  dateNow = new Date()
   arr.forEach(function(eachObj) {
       obj = {}
-      obj.component = eachObj["component"]
-      obj.name = String(eachObj["component"].data().title).replace(/\s+/g, '')
-      obj.path = eachObj["path"]
-      obj.created = new Date(String(eachObj["component"].data().created).replace(/-/g, "/"))
-      obj.title = truncateString(eachObj["component"].data().title,100)
-      obj.description = truncateString(eachObj["component"].data().description,350)
-      obj.status = eachObj["component"].data().status
-      obj.type = eachObj["component"].data().type
 
-      //console.log(myObj)
-      // for (var key in obj) {
-      //     if (obj.hasOwnProperty(key)){
-      //        console.log(obj[key]);
-      //     }
-      // }
+      console.log(dateNow)
+      obj.path = eachObj["path"]
+      obj.component = eachObj["component"]
+      // Create page-specific meta data from views
+      obj.name = String(eachObj["component"].data().title).replace(/\s+/g, '') || 'NoName'
+      obj.created = new Date(String(eachObj["component"].data().created).replace(/-/g, "/"))
+      //obj.created = eachObj["component"].data().created || dateNow
+      obj.expired = eachObj["component"].data().expired || new Date('2500-10-10')
+      obj.title = truncateString(eachObj["component"].data().title,100) || 'No Title'
+      obj.description = truncateString(eachObj["component"].data().description,350) || 'No description provided'
+      obj.status = eachObj["component"].data().status || "live"
+      obj.type = eachObj["component"].data().type || "page"
+    
       r.push(obj)
 
   });
   r.push(catchAll)
+  console.log(r)
   return r
 
 }
