@@ -25,6 +25,13 @@ import utilities from '@/utilities'
 
 export default {
   name: 'Documents',
+  pageData:  {
+    created,
+    description,
+    title,
+    type,
+    status
+  },
   metaInfo: {
       // title will be injected into parent titleTemplate
       title,
@@ -34,11 +41,7 @@ export default {
   },
   data () {
     return {
-      created,
-      description,
-      title,
-      type,
-      status
+      title
     }
   },
 }

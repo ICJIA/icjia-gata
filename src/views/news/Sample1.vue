@@ -23,6 +23,13 @@ import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
 export default {
   name: 'Sample1',
+  pageData:  {
+    created,
+    description,
+    title,
+    type,
+    status
+  },
   metaInfo: {
       // title will be injected into parent titleTemplate
       title: title,
@@ -37,11 +44,7 @@ export default {
   },
   data () {
     return {
-      created,
-      description,
-      title,
-      type,
-      status
+      title
     }
   },
 }

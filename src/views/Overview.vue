@@ -57,7 +57,10 @@ const description = `The Grant Accountability and Transparency Act, also known a
 GATA confirms ICJIA's commitment to the Federal Uniform Guidance 2 CFR 200, which went into effect in December 2014. The Uniform Guidance already applies to all federal grants and federal pass-through funds.
  GATA also requires Illinois’ state grants to follow these federal rules for grants which are state funded.
  This landmark legislations will increase accountability and transparency in the use of grant funds.
- Once fully implemented, it will unify processes and reduce administrative burdens for state agencies and grantees.`
+ Once fully implemented,
+ it will unify processes and reduce administrative burdens for state agencies and grantees.`
+
+
 const title = "General Overview"
 const created = '2017-03-24'
 const type  = 'page'
@@ -67,9 +70,16 @@ import PageHeader from '@/components/PageHeader'
 
 export default {
   name: 'Overview',
+  pageData:  {
+    created,
+    description,
+    title: 'Overview',
+    type,
+    status
+  },
   metaInfo: {
       // title will be injected into parent titleTemplate
-      title,
+      title: 'Overview',
       meta: [
         { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
     ]
@@ -81,11 +91,7 @@ export default {
   },
   data () {
     return {
-      created,
-      description,
-      title,
-      type,
-      status
+      title
     }
   },
 }

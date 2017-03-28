@@ -38,6 +38,13 @@ import Newsfeed from 'components/Newsfeed'
 
 export default {
   name: 'NewsAndInformation',
+  pageData:  {
+    created,
+    description,
+    title,
+    type,
+    status
+  },
   metaInfo: {
       // title will be injected into parent titleTemplate
       title,
@@ -53,11 +60,7 @@ export default {
   },
   data () {
     return {
-      created,
-      description,
-      title,
-      type,
-      status
+      title
     }
   },
 }

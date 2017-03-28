@@ -86,20 +86,30 @@ concerning changes in the grant/contracting process, we will post it to this web
 </template>
 
 <script>
+
+
     const description = `Home`
     const title = "Grant Accountability and Transparency at ICJIA"
     const created = '2017-03-26'
     const type  = 'page'
     const status = 'live'
+
+
     import utilities from '@/utilities'
     import Newsfeed from 'components/Newsfeed'
     import GrantOpportunities from 'components/GrantOpportunities'
     import PageHeader from '@/components/PageHeader'
     export default {
       name: 'Home',
+      pageData:  {
+        created,
+        description,
+        title: this.title,
+        type,
+        status
+      },
       metaInfo: {
-          // title will be injected into parent titleTemplate
-          title,
+          title: this.title,
           meta: [
             { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
         ]
@@ -112,11 +122,7 @@ concerning changes in the grant/contracting process, we will post it to this web
         },
         data () {
           return {
-            created,
-            description,
-            title,
-            type,
-            status
+            title
           }
         },
     }

@@ -23,6 +23,13 @@ import utilities from '@/utilities'
 
 export default {
   name: 'FAQs',
+  pageData:  {
+    created,
+    description,
+    title,
+    type,
+    status
+  },
   metaInfo: {
       // title will be injected into parent titleTemplate
       title,
@@ -30,15 +37,9 @@ export default {
         { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
     ]
   },
-  
-
   data () {
     return {
-      created,
-      description,
-      title,
-      type,
-      status
+      title
     }
   },
 }

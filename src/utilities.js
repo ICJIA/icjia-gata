@@ -1,19 +1,4 @@
-///////////////////////////////////////////////
-// exports.cellFormat = function(tid) {
-//     let table = $('#' + tid + ' tbody');
-//     table.find('tr').each(function() {
-//         let $tds = $(this).find('td')
-//         let $t = $tds.html().toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
-//         $tds.html($t)
-//     });
-// }
-
-
-
-
-
-
-// Removes the search bar and pagination in Datatables //////////////////////////////////////////
+/// Removes the search bar and pagination in Datatables //////////////////////////////////////////
 // See: https://legacy.datatables.net/ref#sDom
 exports.dtConfig = {
   "pageLength": 100,
@@ -153,20 +138,6 @@ function truncateString(str, num) {
   }
 }
 
-
-// function checkObject (startObj, destObj, key, defaultProperty) {
-//   if (startObj.hasOwnProperty(key)) {
-//     destObj[key] = startObj[key]
-//   } else {
-//     destObj[key] = defaultProperty
-//     console.log('Error: ',destObj[key])
-//   }
-//   return destObj[key]
-// }
-
-
-
-
 exports.generateRoutes = function (arr) {
   const catchAll = {
       path: '/*',
@@ -179,27 +150,24 @@ exports.generateRoutes = function (arr) {
   }
   let r = [];
   var obj = {}
-  //dateNow =  String(new Date()).replace(/-/g, "/")
-  dateNow = new Date()
   arr.forEach(function(eachObj) {
       obj = {}
       obj.path = eachObj["path"]
       obj.component = eachObj["component"]
       // Create page-specific meta data from views
-      obj.name = String(eachObj["component"].data().title).replace(/\s+/g, '') || 'NoName'
-      obj.created = new Date(String(eachObj["component"].data().created).replace(/-/g, "/"))
+      obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '') || 'NoName'
+      obj.created = new Date(String(eachObj["component"].pageData.created).replace(/-/g, "/"))
       //obj.created = eachObj["component"].data().created || dateNow
-      obj.expired = eachObj["component"].data().expired || new Date('2500-10-10')
-      obj.title = truncateString(eachObj["component"].data().title,100) || 'No Title'
-      obj.description = truncateString(eachObj["component"].data().description,350) || 'No description provided'
-      obj.status = eachObj["component"].data().status || "live"
-      obj.type = eachObj["component"].data().type || "page"
-
+      obj.expired = eachObj["component"].pageData.expired || new Date('2500-10-10')
+      obj.title = truncateString(eachObj["component"].pageData.title,100) || 'No Title'
+      obj.description = truncateString(eachObj["component"].pageData.description,350) || 'No description provided'
+      obj.status = eachObj["component"].pageData.status || "live"
+      obj.type = eachObj["component"].pageData.type || "page"
+      //console.log(eachObj["component"].pageData.title)
       r.push(obj)
 
   });
   r.push(catchAll)
-  //console.log(r)
   return r
 
 }
