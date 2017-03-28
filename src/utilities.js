@@ -29,11 +29,6 @@ exports.dtConfig = {
 }
 
 
-exports.stripTags =  function(str) {
-  return str.replace(/<\/?[^>]+>/g, '');
-}
-
-
 
 
 // Construct HTML table from chart object //////////////////////////////////////////////////////
@@ -140,6 +135,9 @@ exports.parseBool = function(str) {
 }
 
 
+exports.stripTags =  function(str) {
+  return str.replace(/<\/?[^>]+>/g, '');
+}
 
 
 /// Routing utilities
@@ -153,28 +151,39 @@ function truncateString(str, num) {
 }
 
 
-exports.getName = function  (obj) {
-  return obj.name
-};
+exports.generateRoutes = function (arr) {
+  const catchAll = {
+      path: '/*',
+      title: null,
+      type: null,
+      created: null,
+      status: 'live',
+      name: 'Redirect',
+      redirect: '/'
+  }
+  let r = [];
+  var obj = {}
+  arr.forEach(function(eachObj) {
+      obj = {}
+      obj.component = eachObj["component"]
+      obj.name = String(eachObj["component"].data().title).replace(/\s+/g, '')
+      obj.path = eachObj["path"]
+      obj.created = new Date(String(eachObj["component"].data().created).replace(/-/g, "/"))
+      obj.title = truncateString(eachObj["component"].data().title,100)
+      obj.description = truncateString(eachObj["component"].data().description,350)
+      obj.status = eachObj["component"].data().status
+      obj.type = eachObj["component"].data().type
 
-exports.getType = function  (obj) {
-  return obj.data().type
-};
+      //console.log(myObj)
+      // for (var key in obj) {
+      //     if (obj.hasOwnProperty(key)){
+      //        console.log(obj[key]);
+      //     }
+      // }
+      r.push(obj)
 
-exports.getCreated = function  (obj) {
-  let x = String(obj.data().created)
-  let myDate = new Date(x.replace(/-/g, "/"))
-  return myDate
-};
+  });
+  r.push(catchAll)
+  return r
 
-exports.getTitle = function  (obj) {
-  return truncateString(obj.data().title,150)
-};
-
-exports.getDescription = function  (obj) {
-  return truncateString(obj.data().description,300)
-};
-
-exports.getStatus = function  (obj) {
-  return obj.data().status
-};
+}

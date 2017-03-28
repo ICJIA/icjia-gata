@@ -39,7 +39,6 @@ import routes from '@/routes.js'
 import moment from 'moment';
 export default {
 
-
   mounted () {
     let newsItems = []
     _.forOwn(routes, function(value, key) {
