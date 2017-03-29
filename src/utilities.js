@@ -121,11 +121,16 @@ exports.parseBool = function(str) {
 
 
 exports.stripTags =  function(str) {
-  return str.replace(/<\/?[^>]+>/g, '');
+  // strip tags
+  str = str.replace(/<\/?[^>]+>/g, '');
+  // strip carriage returns
+  str = str.replace(/[\n\r]/g, '');
+  return str
 }
 
-
-/// Routing utilities
+function stripCarriageReturns (str) {
+  return str.replace(/[\n\r]/g, '');
+}
 
 function truncateString(str, num) {
 
@@ -139,35 +144,94 @@ function truncateString(str, num) {
 }
 
 exports.generateRoutes = function (arr) {
-  const catchAll = {
+  const _REDIRECT_ROUTE = {
       path: '/*',
-      title: null,
-      type: null,
-      created: null,
+      title: 'Redirect',
+      type: 'redirect',
+      created: new Date(),
       status: 'live',
       name: 'Redirect',
       redirect: '/'
   }
-  let r = [];
-  let obj = {}
+
+  let _r = [];
+  let _obj = {}
+  let _name = 'NoNameSpecified'
+  let _created = new Date(String().replace(/-/g, "/"))
+  let _expired = new Date(String('2999-12-31').replace(/-/g, "/"))
+  let _title = 'No Title Specified'
+  let _description = 'No Description specified'
+  let _status = 'live'
+  let _type = 'page'
+
   arr.forEach(function(eachObj) {
-      obj = {}
-      obj.path = eachObj["path"]
-      obj.component = eachObj["component"]
+      _obj = {}
+      _obj.path = eachObj["path"]
+      _obj.component = eachObj["component"]
       // Create page-specific meta data from views
-      obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '') || 'NoName'
-      //obj.created = new Date(String(eachObj["component"].pageData.created).replace(/-/g, "/"))
-      obj.created = eachObj["component"].data().created || new Date()
-      obj.expired = eachObj["component"].pageData.expired || new Date('2500-10-10')
-      obj.title = truncateString(eachObj["component"].pageData.title,100) || 'No Title'
-      obj.description = truncateString(eachObj["component"].pageData.description,350) || 'No description provided'
-      obj.status = eachObj["component"].pageData.status || "live"
-      obj.type = eachObj["component"].pageData.type || "page"
-      //console.log(eachObj["component"].pageData.title)
-      r.push(obj)
+      //obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '') || 'NoName'
+      if ('pageData' in eachObj["component"]) {
+
+        if ('name' in eachObj["component"]) {
+          _obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '')
+        } else {
+          _obj.name = _name
+        }
+
+        if ('created' in eachObj["component"].pageData) {
+          _obj.created = new Date(String(eachObj["component"].pageData.created).replace(/-/g, "/"))
+        } else {
+          _obj.created = _created
+        }
+
+        if ('expired' in eachObj["component"].pageData) {
+          _obj.expired = new Date(String(eachObj["component"].pageData.expired).replace(/-/g, "/"))
+
+        } else {
+          _obj.expired = _expired
+        }
+
+        if ('title' in eachObj["component"].pageData) {
+          _obj.title = truncateString(eachObj["component"].pageData.title,100)
+        } else {
+          _obj.title = _title
+        }
+
+        if ('description' in eachObj["component"].pageData) {
+          _obj.description = stripCarriageReturns(truncateString(eachObj["component"].pageData.description,350))
+        } else {
+          _obj.description = _description
+        }
+        if ('status' in eachObj["component"].pageData) {
+          _obj.status = eachObj["component"].pageData.status
+        } else {
+          _obj.status = _status
+        }
+
+        if ('type' in eachObj["component"].pageData) {
+          _obj.type = eachObj["component"].pageData.type
+        } else {
+          _obj.type = _type
+        }
+
+
+      } else {
+        _obj.name = _name
+        _obj.created = _created
+        _obj.expired = _expired
+        _obj.title = _title
+        _obj.description = _description
+        _obj.status = _status
+        _obj.type = _type
+      }
+      _r.push(_obj)
+
+
+
 
   });
-  r.push(catchAll)
-  return r
+  _r.push(_REDIRECT_ROUTE)
+  console.table(_r)
+  return _r
 
 }

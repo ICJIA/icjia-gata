@@ -47,6 +47,10 @@ const views = [
     {
         path: '/news/sample3',
         component: require('./views/news/Sample3.vue'),
+    },
+    {
+        path: '/grants/nofo-voca-legal-assist',
+        component: require('./views/grants/NofoVocaLegalAssist'),
     }
 ]
 
