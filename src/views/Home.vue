@@ -104,12 +104,12 @@ concerning changes in the grant/contracting process, we will post it to this web
       pageData:  {
         created,
         description,
-        title: this.title,
+        title,
         type,
         status
       },
       metaInfo: {
-          title: this.title,
+          title: title,
           meta: [
             { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
         ]

@@ -73,13 +73,13 @@ export default {
   pageData:  {
     created,
     description,
-    title: 'Overview',
+    title,
     type,
     status
   },
   metaInfo: {
       // title will be injected into parent titleTemplate
-      title: 'Overview',
+      title,
       meta: [
         { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
     ]
