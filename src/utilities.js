@@ -149,15 +149,15 @@ exports.generateRoutes = function (arr) {
       redirect: '/'
   }
   let r = [];
-  var obj = {}
+  let obj = {}
   arr.forEach(function(eachObj) {
       obj = {}
       obj.path = eachObj["path"]
       obj.component = eachObj["component"]
       // Create page-specific meta data from views
       obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '') || 'NoName'
-      obj.created = new Date(String(eachObj["component"].pageData.created).replace(/-/g, "/"))
-      //obj.created = eachObj["component"].data().created || dateNow
+      //obj.created = new Date(String(eachObj["component"].pageData.created).replace(/-/g, "/"))
+      obj.created = eachObj["component"].data().created || new Date()
       obj.expired = eachObj["component"].pageData.expired || new Date('2500-10-10')
       obj.title = truncateString(eachObj["component"].pageData.title,100) || 'No Title'
       obj.description = truncateString(eachObj["component"].pageData.description,350) || 'No description provided'
