@@ -10,6 +10,11 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 var moment = require('moment-timezone');
 var PrerenderSpaPlugin = require('prerender-spa-plugin');
+var routesToPrerender = require('../src/routesToPrerender');
+
+// console.log(routesToPrerender)
+
+
 
 
 var env = process.env.NODE_ENV === 'testing'
@@ -142,17 +147,21 @@ if (config.build.prerender) {
   webpackConfig.plugins.push(new PrerenderSpaPlugin(
       // Absolute path to compiled SPA
       path.join(__dirname, '../dist'),
+      routesToPrerender
       // List of routes to prerender
-      [
-        '/',
-        '/overview',
-        '/documents',
-        '/webinars',
-        '/faqs',
-        '/news/sample0',
-        '/news/sample1',
-        '/news/sample2',
-      ]
+      // ["/",
+      // "/contact",
+      // "/documents",
+      // "/faqs",
+      // "/grant-information",
+      // "/home",
+      // "/news/sample0",
+      // "/news/sample1",
+      // "/news/sample2",
+      // "/news/sample3",
+      // "/news-and-announcements",
+      // "/overview",
+      // "/webinars"]
     ))
 }
 
