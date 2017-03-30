@@ -16,7 +16,7 @@
                 </router-link>
 
                 <div class="grant-date">Posted: {{grant.created | moment}} |
-                Deadline: {{grant.expired | moment}}</div>
+                <span class="grant-deadline">Deadline: {{grant.expired | moment}}</span></div>
                 <div class="grant-description" v-html="grant.description"></div>
 
                 <div class="grant-readmore">
@@ -79,7 +79,7 @@ export default {
                     }
                 }
             });
-            grants = _.orderBy(grants, 'created','desc')
+            grants = _.orderBy(grants, 'expired','asc')
             if (this.maxItems) {
               this.grants = grants.slice (0, Number(this.maxItems))
             } else {

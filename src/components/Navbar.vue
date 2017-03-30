@@ -72,7 +72,22 @@
           Grant Opportunities
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <h6 class="dropdown-header">There are no current grant opportunities available.</h6>
+  <h6 class="dropdown-header">Current Grant Opportunities</h6>
+          <div v-if="grants.length > 0">
+
+          <span v-for="grant in grants">
+              <router-link class="dropdown-item" to="#">{{grant.title}}</router-link>
+          </span>
+        </div>
+        <div v-else>
+          <h6 class="dropdown-header" style="color: #bbb">There are no current grant opportunities</h6>
+        </div>
+
+
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Archived Grant Opportunities</h6>
+          <router-link class="dropdown-item" to="/grants">View archive</router-link>
+
         </div>
       </li>
 
@@ -112,28 +127,67 @@
 </template>
 
 <script>
-
+import routes from '@/routes.js'
+import moment from 'moment';
 export default {
   mounted () {
 
     // console.log(this.publicPath)
-    $(document).ready(function(){
-	     $('.hamburger').click(function(){
+      $(document).ready(function(){
+	       $('.hamburger').click(function(){
 		       $(this).toggleClass('is-active');
 	        });
         });
+
+        let grants = []
+        let dateNow = moment()
+
+        _.forOwn(routes, function(value, key) {
+                    //console.log(value.type);
+                    if (value.type === 'grant' && value.status === 'live' && dateNow < value.expired) {
+
+                        let obj = {}
+                        // remove 'X_' section identifiers from route name
+                        obj.name = value.name
+                        obj.path = value.path
+                        obj.title = value.title
+                        obj.created = value.created
+                        if (String(obj.created) === 'Invalid Date') {
+                          obj.created =  moment()
+                        }
+                        obj.expired = value.expired
+
+                        obj.description = value.description
+                        if (obj.name != 'direct' && obj.name != 'Redirect') {
+                          grants.push(obj)
+                        }
+                    }
+                });
+                //grants = _.orderBy(grants, 'created','desc')
+                console.log(grants)
+                grants = _.orderBy(grants, 'title','asc')
+                this.grants = grants
+
+
+
+
+
   },
   components: {
 
   },
   name: 'Navbar',
-  methods: {
-
-
+  filters: {
+     limit: function(arr, limit) {
+       return arr.slice(0, limit)
+    },
+    moment: function (date) {
+      return moment(date).format('MMMM Do YYYY');
+    }
   },
   data () {
     return {
-
+      grants: []
     }
   }
 }

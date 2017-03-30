@@ -53,6 +53,10 @@ const views = [
         path: '/grants/nofo-voca-legal-assist',
         component: require('./views/grants/NofoVocaLegalAssist'),
     },
+    {
+        path: '/grants/test-grant',
+        component: require('./views/grants/TestGrant'),
+    },
 ]
 
 const utilities =  require('@/utilities')
