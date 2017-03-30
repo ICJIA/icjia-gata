@@ -50,6 +50,10 @@ const views = [
         component: require('./views/news/Sample3.vue'),
     },
     {
+        path: '/grants',
+        component: require('./views/grants'),
+    },
+    {
         path: '/grants/nofo-voca-legal-assist',
         component: require('./views/grants/NofoVocaLegalAssist'),
     },

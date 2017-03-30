@@ -76,7 +76,7 @@
           <div v-if="grants.length > 0">
 
           <span v-for="grant in grants">
-              <router-link class="dropdown-item" to="#">{{grant.title}}</router-link>
+              <router-link class="dropdown-item" :to="grant.path" exact>{{grant.title}}</router-link>
           </span>
         </div>
         <div v-else>
@@ -86,7 +86,7 @@
 
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Archived Grant Opportunities</h6>
-          <router-link class="dropdown-item" to="/grants">View archive</router-link>
+          <router-link class="dropdown-item" to="/grants" exact>View archive</router-link>
 
         </div>
       </li>
