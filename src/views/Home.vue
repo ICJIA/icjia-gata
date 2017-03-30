@@ -111,7 +111,7 @@ concerning changes in the grant/contracting process, we will post it to this web
       metaInfo: {
           title: title,
           meta: [
-            { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
+            { name: 'description', content: utilities.stripTags(description)}
         ]
       },
         components: {
