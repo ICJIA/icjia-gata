@@ -44,7 +44,7 @@ concerning changes in the grant/contracting process, we will post it to this web
           </div>
         </div>
 
-        <newsfeed maxItems="2"/>
+        <newsfeed maxItems="3"/>
 
         <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
           <router-link to="/news" class="btn btn-primary read-more">
@@ -62,6 +62,10 @@ concerning changes in the grant/contracting process, we will post it to this web
           </div>
         </div>
         <grantfeed />
+        <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
+          <router-link to="/grants" class="btn btn-primary read-more">
+          Grant Archive&nbsp;&raquo;</router-link>
+        </div>
       </div>
 
     </div>

@@ -11,7 +11,7 @@
               <!--{{item.created | moment}} | -->
               <div class="item-news">
                 <div class="item-title">{{ item.title }}</div>
-                <div class="item-date">{{item.created | moment}}</div>
+                <div class="item-date">Posted: {{item.created | moment}}</div>
                 <div class="item-description" v-html="item.description"></div>
                 <div class="item-readmore">
                   <router-link :to="item.path" class="read-more-news">Read more >>
