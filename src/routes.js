@@ -51,15 +51,15 @@ const views = [
     },
     {
         path: '/grants',
-        component: require('./views/grants'),
+        component: require('./views/Grants.vue'),
     },
     {
         path: '/grants/nofo-voca-legal-assist',
-        component: require('./views/grants/NofoVocaLegalAssist'),
+        component: require('./views/grants/NofoVocaLegalAssist.vue'),
     },
     {
         path: '/grants/test-grant',
-        component: require('./views/grants/TestGrant'),
+        component: require('./views/grants/TestGrant.vue'),
     },
 ]
 
