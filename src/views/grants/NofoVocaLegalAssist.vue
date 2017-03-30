@@ -10,10 +10,13 @@
 const description =
   `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur s
   ollicitudin neque non congue ullamcorper.
+  Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur s
+  ollicitudin neque non congue ullamcorper.
   Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.`
 const title = "NOFO VOCA Legal Assistance"
-const created ='2017-01-29'
-const expired ='2017-02-29'
+const created ='2016-05-29'
+const expired ='2017-04-07'
 const type  = 'grant'
 const status = 'live'
 import utilities from '@/utilities'
@@ -23,6 +26,7 @@ export default {
   pageData:  {
     created,
     description,
+    expired,
     title,
     type,
     status

@@ -60,7 +60,7 @@ concerning changes in the grant/contracting process, we will post it to this web
 
           </div>
         </div>
-        <grant-opportunities maxGrants="3" />
+        <grantfeed />
       </div>
 
     </div>
@@ -97,7 +97,7 @@ concerning changes in the grant/contracting process, we will post it to this web
 
     import utilities from '@/utilities'
     import Newsfeed from 'components/Newsfeed'
-    import GrantOpportunities from 'components/GrantOpportunities'
+    import Grantfeed from 'components/Grantfeed'
     import PageHeader from '@/components/PageHeader'
     export default {
       name: 'Home',
@@ -117,7 +117,7 @@ concerning changes in the grant/contracting process, we will post it to this web
         components: {
           PageHeader,
           Newsfeed,
-          GrantOpportunities
+          Grantfeed
 
         },
         data () {
