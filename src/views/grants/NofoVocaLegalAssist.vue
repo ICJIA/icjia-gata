@@ -1,6 +1,8 @@
 <template lang="html">
-<section>
-
+  <section class="page">
+    <page-header :header="title" />
+    NOFO Voca Legal Assist info here
+  </section>
 </section>
 </template>
 
@@ -10,7 +12,8 @@ const description =
   ollicitudin neque non congue ullamcorper.
   Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.`
 const title = "NOFO VOCA Legal Assistance"
-const created ='2017-03-29'
+const created ='2017-01-29'
+const expired ='2017-02-29'
 const type  = 'grant'
 const status = 'live'
 import utilities from '@/utilities'
