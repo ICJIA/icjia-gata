@@ -10,7 +10,7 @@
             <li v-for="item in newsItems">
               <!--{{item.created | moment}} | -->
               <div class="item-news">
-                <div class="item-title">{{ item.title }}</div>
+                <div class="item-title"><router-link :to="item.path">{{ item.title }}</router-link></div>
                 <div class="item-date">Posted: {{item.created | moment}}</div>
                 <div class="item-description" v-html="item.description"></div>
                 <div class="item-readmore">

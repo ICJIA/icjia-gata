@@ -20,4 +20,8 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# build for production, minify, and automatically prerender routes
+npm run build:prerender
+
 ```
