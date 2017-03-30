@@ -13,10 +13,10 @@ const views = [
         component: require('./views/Contact.vue')
     },
     {
-        path: '/news-and-announcements',
-        component: require('./views/NewsAndAnnouncements.vue'),
+        path: '/news',
+        component: require('./views/News.vue'),
     },
-    
+
     {
         path: '/grant-information',
         component: require('./views/GrantInformation.vue')

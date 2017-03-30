@@ -35,7 +35,7 @@ export default {
       // title will be injected into parent titleTemplate
       title: title,
       meta: [
-        { name: 'description', content: utilities.stripTags(description)}
+        { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
     ]
   },
   components: {

@@ -46,7 +46,8 @@ concerning changes in the grant/contracting process, we will post it to this web
 
         <newsfeed maxItems="2"/>
 
-        <div class="text-center" style="margin-top: 30px; margin-bottom: 30px"><router-link to="/news-and-announcements" class="btn btn-primary read-more">
+        <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
+          <router-link to="/news" class="btn btn-primary read-more">
           News Archive&nbsp;&raquo;</router-link>
         </div>
       </div>
@@ -111,7 +112,7 @@ concerning changes in the grant/contracting process, we will post it to this web
       metaInfo: {
           title: title,
           meta: [
-            { name: 'description', content: utilities.stripTags(description)}
+            { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
         ]
       },
         components: {
