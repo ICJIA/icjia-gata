@@ -16,7 +16,10 @@
                 </router-link>
 
                 <div class="grant-date">Posted: {{grant.created | moment}} |
-                <span class="grant-deadline">Deadline: {{grant.expired | moment}}</span></div>
+                
+                  <span v-if="checkExpire(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
+                  <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span>
+                </div>
                 <div class="grant-description" v-html="grant.description"></div>
 
                 <div class="grant-readmore">
@@ -46,22 +49,20 @@
 </template>
 
 <script>
-import routes from '@/routes.js'
+import routes from '@/routes'
 import moment from 'moment';
+import utilities from '@/utilities'
 export default {
 
   mounted () {
     let grants = []
     let dateNow = moment()
+    let self = this
 
     _.forOwn(routes, function(value, key) {
                 //console.log(value.type);
-                if (value.type === 'grant' && value.status === 'live' && dateNow < value.expired) {
-                    if (dateNow < value.expired) {
-                      console.log('true')
-                    } else {
-                      console.log('false')
-                    }
+                if (value.type === 'grant' && value.status === 'live') {
+
                     let obj = {}
                     // remove 'X_' section identifiers from route name
                     obj.name = value.name
@@ -74,30 +75,44 @@ export default {
                     obj.expired = value.expired
 
                     obj.description = value.description
-                    if (obj.name != 'direct' && obj.name != 'Redirect') {
+                    if (utilities.parseBool(self.showExpired)) {
                       grants.push(obj)
+                    } else {
+                      if (dateNow < value.expired) {
+                        grants.push(obj)
+                      }
                     }
+
                 }
             });
-            grants = _.orderBy(grants, 'expired','asc')
-            if (this.maxItems) {
-              this.grants = grants.slice (0, Number(this.maxItems))
-            } else {
-              this.grants = grants
-            }
+            this.grants = _.orderBy(grants, this.sortBy,'asc')
+
+
 
 
   },
 
   data: function () {
   return {
-    grants: []
+    grants: [],
+    now: new Date()
   }
 },
 props: {
-  maxItems: {
+  showExpired: {
     type: String,
-    required: false
+    default: 'false'
+  },
+  sortBy: {
+    type: String,
+    default: 'expired'
+  }
+},
+methods: {
+  checkExpire(d) {
+    if (d < this.now) {
+      return true
+    }
   }
 },
 filters: {

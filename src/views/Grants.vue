@@ -9,7 +9,7 @@
 
 	<div class="col-md-12">
 
-<grantfeed />
+<grantfeed showExpired="true" sortBy="title"/>
 
 
 	</div>

@@ -16,7 +16,7 @@ const description =
   Phasellus lobortis volutpat ipsum, vel tempus ligula aliquet quis.`
 const title = "Test Grant"
 const created ='2016-05-29'
-const expired ='2017-04-05'
+const expired ='2017-05-05'
 const type  = 'grant'
 const status = 'live'
 import utilities from '@/utilities'

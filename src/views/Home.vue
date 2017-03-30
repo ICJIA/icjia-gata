@@ -61,7 +61,7 @@ concerning changes in the grant/contracting process, we will post it to this web
 
           </div>
         </div>
-        <grantfeed />
+        <grantfeed showExpired="false" sortBy="expired"/>
         <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
           <router-link to="/grants" class="btn btn-primary read-more">
           Grant Archive&nbsp;&raquo;</router-link>
