@@ -16,9 +16,9 @@
 
   <div class="text-center" style="margin-bottom: 50px">
     <span class="btn-group" role="group">
-      <button type="button" class="btn btn-primary btn-filter" v-on:click="filter('all')">ALL</button>
-      <button type="button" class="btn btn-primary btn-filter" v-on:click="filter('current')">CURRENT</button>
-      <button type="button" class="btn btn-primary btn-filter" v-on:click="filter('expired')">EXPIRED</button>
+      <button type="button" class="btn btn-secondary btn-filter" v-on:click="filter('all')">ALL</button>
+      <button type="button" class="btn btn-secondary btn-filter" v-on:click="filter('current')">CURRENT</button>
+      <button type="button" class="btn btn-secondary btn-filter" v-on:click="filter('expired')">EXPIRED</button>
     </span>
                </div>
 

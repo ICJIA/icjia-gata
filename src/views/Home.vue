@@ -22,7 +22,8 @@ Once fully implemented, it will unify processes and reduce administrative burden
 Also, as additional information becomes available
 concerning changes in the grant/contracting process, we will post it to this website.</p>
 
-<div class="text-center" style="margin-top: 30px"><router-link to="/overview" class="btn btn-primary read-more">
+<div class="text-center" style="margin-top: 30px">
+  <router-link to="/overview" class="btn btn-secondary read-more">
   Read More&nbsp;&raquo;</router-link>
 </div>
 
@@ -49,7 +50,7 @@ concerning changes in the grant/contracting process, we will post it to this web
           />
 
         <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
-          <router-link to="/news" class="btn btn-primary read-more">
+          <router-link to="/news" class="btn btn-secondary read-more">
           News Archive&nbsp;&raquo;</router-link>
         </div>
       </div>
@@ -73,7 +74,7 @@ concerning changes in the grant/contracting process, we will post it to this web
 
 
         <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
-          <router-link to="/grants" class="btn btn-primary read-more">
+          <router-link to="/grants" class="btn btn-secondary read-more">
           Grant Archive&nbsp;&raquo;</router-link>
         </div>
       </div>
@@ -113,7 +114,7 @@ concerning changes in the grant/contracting process, we will post it to this web
     import utilities from '@/utilities'
     import Newsfeed from 'components/Newsfeed'
     import Grantfeed from 'components/Grantfeed'
-    import PageHeader from '@/components/PageHeader'
+    import PageHeader from 'components/PageHeader'
     export default {
       name: 'Home',
       pageData:  {
