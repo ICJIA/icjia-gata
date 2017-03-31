@@ -107,16 +107,16 @@ props: {
     type: String,
     default: 'asc'
   },
-  maxDescriptionSize: {
-    type: Number,
-    required: false,
-    default: 0
-  },
-  maxTitleSize: {
-    type: Number,
-    required: false,
-    default: 0
-  }
+  // maxDescriptionSize: {
+  //   type: Number,
+  //   required: false,
+  //   default: 0
+  // },
+  // maxTitleSize: {
+  //   type: Number,
+  //   required: false,
+  //   default: 0
+  // }
 },
 methods: {
   checkExpire(d) {

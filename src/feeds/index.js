@@ -11,9 +11,8 @@ for (let type of types) {
 _.forOwn(routes, function(value, key) {
             //console.log(value.type);
             if (value.type === type) {
-
+                // determine feed content from route object
                 let obj = {}
-                // remove 'X_' section identifiers from route name
                 obj.name = value.name
                 obj.path = value.path
                 obj.title = value.title
@@ -22,6 +21,9 @@ _.forOwn(routes, function(value, key) {
                   obj.created =  moment()
                 }
                 obj.expired = value.expired
+                if (String(obj.expired) === 'Invalid Date') {
+                  obj.expired = value.expired
+                }
 
                 obj.description = value.description
                 if (obj.name != 'direct' && obj.name != 'Redirect') {

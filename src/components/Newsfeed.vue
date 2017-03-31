@@ -83,14 +83,14 @@ props: {
     type: Number,
     required: false
   },
-  maxDescriptionSize: {
-    type: Number,
-    required: false
-  },
-  maxTitleSize: {
-    type: Number,
-    required: false
-  }
+  // maxDescriptionSize: {
+  //   type: Number,
+  //   required: false
+  // },
+  // maxTitleSize: {
+  //   type: Number,
+  //   required: false
+  // }
 },
 filters: {
    limit: function(arr, limit) {

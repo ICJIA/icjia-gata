@@ -15,6 +15,7 @@ Vue.use(VueRouter)
 import Meta from 'vue-meta'
 Vue.use(Meta)
 
+// create site feeds for grants and news
 import store from '@/feeds';
 import VueStash from 'vue-stash';
 Vue.use(VueStash)
