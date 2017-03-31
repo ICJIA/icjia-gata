@@ -16,7 +16,7 @@
                 </router-link>
 
                 <div class="grant-date">Posted: {{grant.created | moment}} |
-                
+
                   <span v-if="checkExpire(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
                   <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span>
                 </div>
@@ -55,40 +55,21 @@ import utilities from '@/utilities'
 export default {
 
   mounted () {
-    let grants = []
+
     let dateNow = moment()
-    let self = this
+    let filtered
+    let showExpired = utilities.parseBool(this.showExpired)
+    console.log(showExpired)
+    if (!showExpired) {
+        filtered = _.filter(this.$store.grants, function(o) {
+          return o.expired > dateNow;
+        })
+      } else {
+        filtered = this.$store.grants
+      }
 
-    _.forOwn(routes, function(value, key) {
-                //console.log(value.type);
-                if (value.type === 'grant' && value.status === 'live') {
-
-                    let obj = {}
-                    // remove 'X_' section identifiers from route name
-                    obj.name = value.name
-                    obj.path = value.path
-                    obj.title = value.title
-                    obj.created = value.created
-                    if (String(obj.created) === 'Invalid Date') {
-                      obj.created =  moment()
-                    }
-                    obj.expired = value.expired
-
-                    obj.description = value.description
-                    if (utilities.parseBool(self.showExpired)) {
-                      grants.push(obj)
-                    } else {
-                      if (dateNow < value.expired) {
-                        grants.push(obj)
-                      }
-                    }
-
-                }
-            });
-            this.grants = _.orderBy(grants, this.sortBy,'asc')
-
-
-
+    let grants = _.orderBy(filtered, this.sortBy, this.sortDirection)
+    this.grants = grants
 
   },
 
@@ -106,6 +87,10 @@ props: {
   sortBy: {
     type: String,
     default: 'expired'
+  },
+  sortDirection: {
+    type: String,
+    default: 'asc'
   }
 },
 methods: {

@@ -7,14 +7,17 @@ import lodash from 'lodash';
 
 import './scss/base.scss';
 import ga from 'vue-ga'
+
 import VueRouter from 'vue-router'
 import routes from './routes.js'
-var VueScrollTo = require('vue-scrollto')
-Vue.use(VueScrollTo)
 Vue.use(VueRouter)
+
 import Meta from 'vue-meta'
 Vue.use(Meta)
 
+import store from '@/feeds';
+import VueStash from 'vue-stash';
+Vue.use(VueStash)
 
 import Vue from 'vue'
 import App from './App'
@@ -29,7 +32,7 @@ const router = new VueRouter({
     routes: routes
 })
 
-ga(router, 'UA-10798495-19')
+//ga(router, 'UA-10798495-19')
 
 
 
@@ -37,6 +40,7 @@ ga(router, 'UA-10798495-19')
 var vue = new Vue({
     el: '#app',
     router,
+    data: { store },
     template: '<App/>',
     components: { App }
 }).$mount('#app')

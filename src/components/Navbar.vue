@@ -115,12 +115,6 @@
 
 </nav>
 
-
-
-
-
-
-
     <!-- TEMPLATE END -->
 
   </div>
@@ -130,66 +124,47 @@
 import routes from '@/routes.js'
 import moment from 'moment';
 export default {
-  mounted () {
+    mounted() {
 
-    // console.log(this.publicPath)
-      $(document).ready(function(){
-	       $('.hamburger').click(function(){
-		       $(this).toggleClass('is-active');
-	        });
+        // console.log(this.publicPath)
+        $(document).ready(function() {
+            $('.hamburger').click(function() {
+                $(this).toggleClass('is-active');
+            });
         });
 
-        let grants = []
+
         let dateNow = moment()
 
-        _.forOwn(routes, function(value, key) {
-                    //console.log(value.type);
-                    if (value.type === 'grant' && value.status === 'live' && dateNow < value.expired) {
+        let filtered = _.filter(this.$store.grants, function(o) {
+            return o.expired > dateNow;
+        })
+        let grants = _.orderBy(filtered, 'title', 'asc')
 
-                        let obj = {}
-                        // remove 'X_' section identifiers from route name
-                        obj.name = value.name
-                        obj.path = value.path
-                        obj.title = value.title
-                        obj.created = value.created
-                        if (String(obj.created) === 'Invalid Date') {
-                          obj.created =  moment()
-                        }
-                        obj.expired = value.expired
-
-                        obj.description = value.description
-                        if (obj.name != 'direct' && obj.name != 'Redirect') {
-                          grants.push(obj)
-                        }
-                    }
-                });
-                //grants = _.orderBy(grants, 'created','desc')
-                console.log(grants)
-                grants = _.orderBy(grants, 'title','asc')
-                this.grants = grants
+        this.grants = grants
 
 
 
 
-
-  },
-  components: {
-
-  },
-  name: 'Navbar',
-  filters: {
-     limit: function(arr, limit) {
-       return arr.slice(0, limit)
     },
-    moment: function (date) {
-      return moment(date).format('MMMM Do YYYY');
+    components: {
+
+    },
+
+    name: 'Navbar',
+    filters: {
+        limit: function(arr, limit) {
+            return arr.slice(0, limit)
+        },
+        moment: function(date) {
+            return moment(date).format('MMMM Do YYYY');
+        }
+    },
+    data() {
+        return {
+            grants: []
+        }
     }
-  },
-  data () {
-    return {
-      grants: []
-    }
-  }
 }
 </script>
 
