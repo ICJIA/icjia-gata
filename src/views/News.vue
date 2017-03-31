@@ -9,7 +9,9 @@
 
 	<div class="col-md-12">
 
-<newsfeed />
+    <newsfeed
+      
+      />
 
 
 	</div>

@@ -54,6 +54,22 @@ export default {
 
            }
 
+          //  let self = this
+          //  if (this.maxTitleSize) {
+          //
+          //  this.newsItems.forEach(function(element) {
+          //     element.title = utilities.truncateString(element.title, self.maxTitleSize)
+          //   });
+          // }
+          //
+          //   if (this.maxDescriptionSize) {
+          //     this.newsItems.forEach(function(element) {
+          //       element.description = utilities.truncateString(element.description, self.maxDescriptionSize)
+          //    });
+          //  }
+
+
+
 
   },
 
@@ -64,7 +80,15 @@ export default {
 },
 props: {
   maxItems: {
-    type: String,
+    type: Number,
+    required: false
+  },
+  maxDescriptionSize: {
+    type: Number,
+    required: false
+  },
+  maxTitleSize: {
+    type: Number,
     required: false
   }
 },

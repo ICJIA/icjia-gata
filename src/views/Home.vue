@@ -44,7 +44,9 @@ concerning changes in the grant/contracting process, we will post it to this web
           </div>
         </div>
 
-        <newsfeed maxItems="3"/>
+        <newsfeed
+          :maxItems="3"
+          />
 
         <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
           <router-link to="/news" class="btn btn-primary read-more">
@@ -62,7 +64,11 @@ concerning changes in the grant/contracting process, we will post it to this web
           </div>
         </div>
 
-        <grantfeed showExpired="false" sortBy="expired" sortDirection="asc"/>
+        <grantfeed
+          showExpired="false"
+          sortBy="expired"
+          sortDirection="asc"
+          />
 
 
 

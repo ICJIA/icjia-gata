@@ -57,9 +57,8 @@ export default {
   mounted () {
 
     let dateNow = moment()
-    let filtered
+    let filtered = []
     let showExpired = utilities.parseBool(this.showExpired)
-    console.log(showExpired)
     if (!showExpired) {
         filtered = _.filter(this.$store.grants, function(o) {
           return o.expired > dateNow;
@@ -70,6 +69,22 @@ export default {
 
     let grants = _.orderBy(filtered, this.sortBy, this.sortDirection)
     this.grants = grants
+
+    let self = this
+
+    //console.log(self.maxDescriptionSize)
+  //   if (this.maxTitleSize > 0) {
+   //
+  //   this.grants.forEach(function(element) {
+  //      element.title = utilities.truncateString(element.title, self.maxTitleSize)
+  //    });
+  //  }
+   //
+  //    if (this.maxDescriptionSize > 0) {
+  //      this.grants.forEach(function(element) {
+  //        element.description = utilities.truncateString(element.description, self.maxDescriptionSize)
+  //     });
+  //   }
 
   },
 
@@ -91,6 +106,16 @@ props: {
   sortDirection: {
     type: String,
     default: 'asc'
+  },
+  maxDescriptionSize: {
+    type: Number,
+    required: false,
+    default: 0
+  },
+  maxTitleSize: {
+    type: Number,
+    required: false,
+    default: 0
   }
 },
 methods: {

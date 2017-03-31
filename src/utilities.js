@@ -128,11 +128,7 @@ exports.stripTags =  function(str) {
   return str
 }
 
-function stripCarriageReturns (str) {
-  return str.replace(/[\n\r]/g, '');
-}
-
-function truncateString(str, num) {
+exports.truncateString = function(str, num) {
 
   if (str === undefined) return
 
@@ -141,6 +137,10 @@ function truncateString(str, num) {
   } else {
     return str.slice(0, num > 3 ? num - 3 : num) + '...';
   }
+}
+
+function stripCarriageReturns (str) {
+  return str.replace(/[\n\r]/g, '');
 }
 
 exports.generateRoutes = function (arr) {
@@ -192,13 +192,13 @@ exports.generateRoutes = function (arr) {
         }
 
         if ('title' in eachObj["component"].pageData) {
-          _obj.title = truncateString(eachObj["component"].pageData.title,100)
+          _obj.title = eachObj["component"].pageData.title,100
         } else {
           _obj.title = _title
         }
 
         if ('description' in eachObj["component"].pageData) {
-          _obj.description = stripCarriageReturns(truncateString(eachObj["component"].pageData.description,350))
+          _obj.description = stripCarriageReturns(eachObj["component"].pageData.description)
         } else {
           _obj.description = _description
         }
