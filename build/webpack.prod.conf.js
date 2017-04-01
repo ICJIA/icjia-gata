@@ -63,7 +63,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       bannerDate: moment().tz("America/Chicago").format("dddd, MMMM Do YYYY, h:mm:ss a"),
       bannerGit: "https://github.com/ICJIA/icjia-gata",
       bannerTitle: "ICJIA Grant Accountability & Transparency Act",
-      bannerContact: "cja.irc@illinois.gov",
+      bannerContact: "christopher.schweda@illinois.gov",
       googleAnalytics: true,
       inject: true,
       minify: {
