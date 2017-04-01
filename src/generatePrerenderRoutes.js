@@ -9,6 +9,8 @@ const tree = dirTree('./src/views', ['.vue'], (item, PATH) => {
   x = String(item.path).camelCaseToDashed();
   x = _.replace(x,"src\\","")
   x = _.replace(x,"views\\","")
+  x = _.replace(x,"src/","")
+  x = _.replace(x,"views/","")
   x = _.replace(x,".vue","")
   x = _.replace(x,"\\","/")
   x = _.replace(x,"\\","/")
