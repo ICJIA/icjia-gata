@@ -26,12 +26,13 @@
   <p class="text-center">
     <strong>Application  deadline: May 30, 2017</strong></p>
     <p class="text-center">
-    <a href="/static/grants/JAGCLERD/http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_NOFO_033017.pdf"
+    <a href="/static/grants/JAG_Drug_NOFO/JAG_Drug_NOFO_033017.pdf"
     class="btn btn-primary btn-grant" target="_blank">
       Read the Notice of Funding Opportunity&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>&nbsp;
       <br><br>.</p>
 
-<p><strong><u>Program Requirements</u></strong><u>:</u></p>
+<h2 class="h3 grant-section-head first">Program Requirements</h2>
+<div class="grant-section-context">
 <p>Applicants  may request funding under one or more categories of funding. </p>
 <p><strong>Category 1: Law Enforcement Deflection and  Diversion Programs </strong></p>
 <p>To be  eligible for funding, diversion/deflection programs must:</p>
@@ -62,36 +63,48 @@
   <li>Have  a plan for forfeiture sharing, including how funds will be used. </li>
   <li>Have  a commitment for staffing by all participating agencies.</li>
 </ul>
-<p><strong><u>Additional  Requirements: Law Enforcement Task Forces </u></strong></p>
+</div>
+<h2 class="h3 grant-section-head">Additional  Requirements: Law Enforcement Task Forces </h2>
+<div class="grant-section-context">
 <p>All members  of a law enforcement task force supported with these funds who is a task force  commander, agency executive, task force officer, or other task force member of  equivalent rank, will complete required online internet-based task force  training once during the life of the grant award. The training is provided free  of charge online through the U.S. Bureau of Justice Assistance Center for Task Force  Integrity and Leadership (<a href="http://www.ctfli.org"><strong>www.ctfli.org</strong></a>). </p>
 <p>This  training addresses task force effectiveness as well as other key issues  including privacy and civil liberties/rights, task force performance  measurement, personnel selection, and task force oversight and accountability. </p>
 <p>In addition,  the Authority will require the submission of task force personnel rosters that  include training course completion certificates. Go to <a href="http://www.ctfli.org"><strong>www.ctfli.org</strong></a> for more information. </p>
-<p><strong><u>Eligibility Information</u></strong><u>: </u> </p>
+</div>
+<h2 class="h3 grant-section-head">Eligibility Information</h2>
+<div class="grant-section-context">
 <p>  Agencies  must be pre-qualified through the Grant Accountability and Transparency Act  (GATA) Grantee Portal, <a href="http://www.grants.illinois.gov"><strong>www.grants.illinois.gov</strong></a>, to become eligible to  apply for an award.  Applicants must have  completed the GATA pre-qualification process and received approval of their Internal  Control Questionnaire (ICQ) by the date of application to be considered for  funding.   Applications from agencies that have not  received ICQ approval will not be reviewed.<br />
   </p>
-<p><strong><u>Eligible Applicants:</u></strong> </p>
+</div>
+<h2 class="h3 grant-section-head">Eligible Applicants:</h2>
+<div class="grant-section-context">
 <p>Eligible applicants are  limited to Illinois municipalities, counties and state agencies. Private and  non-profit entities are not eligible to apply.<br />
   </p>
 <p>Agencies  may apply for funding in more than one program category.<br />
   </p>
-<p><strong><u>Application Materials:</u></strong> <br />
-  </p>
+</div>
+<h2 class="h3 grant-section-head">Application Materials:</h2>
+  <div class="grant-section-context">
 <p><a href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_NOFO_033017.pdf"><strong>Click here</strong></a> for the JAG Comprehensive  Law Enforcement Response to Drugs Grant Application<br />
   </p>
-<p><strong><u>Deadline</u></strong>:<br />
-  </p>
+</div>
+<h2 class="h3 grant-section-head">Deadline</h2>
+<div class="grant-section-context">
+
 <p>Completed application  materials must be emailed to <a href="mailto:CJA.2017DrugNOFO@Illinois.gov"><strong>CJA.2017DrugNOFO@Illinois.gov</strong></a> by <strong>11:59 p.m., May  30, 2017,</strong> to be considered for funding. Proposals will not be accepted by  mail, fax, or in-person. Incomplete applications will not be reviewed. Late  submissions will not be reviewed.<br />
   </p>
-<p><strong><u>Available Funds</u></strong>:<br />
-  </p>
+</div>
+<h2 class="h3 grant-section-head ">Available Funds</h2>
+<div class="grant-section-context">
 <p>Grants available through  this funding opportunity are a portion of a Federal Fiscal Year 2013-16 Justice  Assistance Grant award from the U.S. Department of Justice Office of Justice  Programs Bureau of Justice Assistance to the Illinois Criminal Justice  Information Authority. A minimum of $4.2 million dollars will be made available  through this funding opportunity. Minimum and maximum allowable grant  requests vary by program category. <br />
   </p>
-<p><strong><u>Period of Performance</u></strong>:<br />
-  </p>
+</div>
+<h2 class="h3 grant-section-head ">Period of Performance</h2>
+<div class="grant-section-context">
 <p>Funding is available for  the period of <strong>October 1, 2017, through September 30, 2018</strong>. Based on  program performance and fund availability, the Authority may recommend  allocation of funding to support an additional 24 months. <br />
   </p>
-<p><strong><u>Contact Information</u></strong>:<br />
-  </p>
+</div>
+<h2 class="h3 grant-section-head ">Contact Information</h2>
+  <div class="grant-section-context">
 <p>Gregory Stevens<br />
   Program Administrator<br />
   Illinois Criminal Justice Information Authority<br />
@@ -100,8 +113,9 @@
   <a href="mailto:Gregorgy.Stevens@illinois.gov"><strong>Gregorgy.Stevens@illinois.gov</strong></a><br />
   312-793-0890<br />
   </p>
-<p><strong><u>Required Technical  Assistance Session</u></strong><u>: </u> <br />
-  </p>
+</div>
+<h2 class="h3 grant-section-head">Required Technical  Assistance Session</h2>
+<div class="grant-section-context">
 <p>A pre-application webinar  will be available for viewing beginning at 1:30 p.m. on Tuesday, April 17, 2017. <br />
 <div class="text-center" style="width: 100%" id="register-now">
 <a href="https://www.surveygizmo.com/s3/3470082/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Mandatory-Technical-Assistance-Webinar-Registration" target="_blank" class="btn btn-lg btn-primary" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Register for Mandatory Webinar</a></div>
@@ -111,63 +125,70 @@
 <a href="/assets/VOCA/nofo_legal_assist/march_6_2017_webinar_slides.pdf" target="_blank" class="btn btn-lg btn-primary" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Download Webinar Materials For Mandatory Webinar</a></div> -->
 <p>Information provided  during this webinar recording will be unofficial and not binding on the state.<br />
     </p>
-<p><strong><u>Letter of Intent:</u></strong> <br />
-  </p>
+  </div>
+<h2 class="h3 grant-section-head">Letter of Intent:</h2>
+<div class="grant-section-context">
 <p>Agencies interested in  submitting an application are asked to submit an online Letter of Intent by <strong>11:59  p.m., April 28, 2016</strong>. <br />
-  <div class="text-center" style="width: 100%" id="register-now">
-<a href="https://www.surveygizmo.com/s3/3470019/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Notice-of-Intent" target="_blank" class="btn btn-lg btn-primary" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Submit Notice of Intent</a></div>
-<p><strong><u>Timeline:</u></strong></p>
-<div align="center">
+  <div class="text-center" style="width: 100%">
+<a href="https://www.surveygizmo.com/s3/3470019/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Notice-of-Intent" target="_blank" class="btn btn-primary btn-grant" >Submit Notice of Intent</a></div>
+</div>
+<h2 class="h3 grant-section-head">Timeline:</h2>
+<div >
     <table class="table table-striped">
+      <thead>
   <tr>
-    <td valign="top"><br />
-        <strong>Task</strong> </td>
-    <td valign="top"><p align="center"><strong>Date</strong></p></td>
+    <th valign="top"><br />
+        <strong>Task</strong> </th>
+    <th valign="top"><p ><strong>Date</strong></p></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td valign="top"><p >NOFO posted</p></td>
+    <td valign="top"><p >Friday,    March 31, 2017</p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center">NOFO posted</p></td>
-    <td valign="top"><p align="center">Friday,    March 31, 2017</p></td>
+    <td valign="top"><p >Applicant webinar registration deadline</p></td>
+    <td valign="top"><p >Thursday,    April 13, 2017</p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center">Applicant webinar registration deadline</p></td>
-    <td valign="top"><p align="center">Thursday,    April 13, 2017</p></td>
+    <td valign="top"><p >Applicant webinar</p></td>
+    <td valign="top"><p >Monday,    April 17, 2017</p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center">Applicant webinar</p></td>
-    <td valign="top"><p align="center">Monday,    April 17, 2017</p></td>
+    <td valign="top"><p >Letters of Intent due </p></td>
+    <td valign="top"><p >Friday,    April 28, 2017</p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center">Letters of Intent due </p></td>
-    <td valign="top"><p align="center">Friday,    April 28, 2017</p></td>
+    <td valign="top"><p >NOFO question submission deadline</p></td>
+    <td valign="top"><p >Wednesday,    May 24, 2017</p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center">NOFO question submission deadline</p></td>
-    <td valign="top"><p align="center">Wednesday,    May 24, 2017</p></td>
+    <td valign="top"><p ><strong>Applications due</strong></p></td>
+    <td valign="top"><p ><strong>11:59    p.m., Tuesday, May 30, 2017</strong></p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center"><strong>Applications due</strong></p></td>
-    <td valign="top"><p align="center"><strong>11:59    p.m., Tuesday, May 30, 2017</strong></p></td>
+    <td valign="top"><p >Notices of State Award released</p></td>
+    <td valign="top"><p >Monday, July 24, 2017</p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center">Notices of State Award released</p></td>
-    <td valign="top"><p align="center">Monday, July 24, 2017</p></td>
+    <td valign="top"><p >Budget Committee review/approval of    recommended designations</p></td>
+    <td valign="top"><p >September, 2017</p></td>
   </tr>
   <tr>
-    <td valign="top"><p align="center">Budget Committee review/approval of    recommended designations</p></td>
-    <td valign="top"><p align="center">September, 2017</p></td>
+    <td valign="top"><p >Target program start date</p></td>
+    <td valign="top"><p > October 1, 2017</p></td>
   </tr>
-  <tr>
-    <td valign="top"><p align="center">Target program start date</p></td>
-    <td valign="top"><p align="center"> October 1, 2017</p></td>
-  </tr>
+</tbody>
 </table>
 </div>
-<p><strong><u>Reporting:</u></strong><br />
-  </p>
+<h2 class="h3 grant-section-head">Reporting:</h2>
+<div class="grant-section-context">
 <p>Recipients must submit quarterly financial reports,  quarterly progress reports, final financial and progress reports, and, if  applicable, an annual audit report in accordance with the CFR Part 200 Uniform Requirements.  Future awards and fund drawdowns may be withheld if reports are delinquent.</p>
 <p>In addition, funded  programs will be required to report performance measures through the U.S.  Department of Justice Bureau of Justice Assistance portal at <a href="https://bjapmt.ojp.gov"><strong>https://bjapmt.ojp.gov</strong></a>.</p>
-<p><strong><u>Required Documents</u></strong><strong>:</strong> <br />
-  </p>
+</div>
+<h2 class="h3 grant-section-head">Required Documents</h2>
+<div class="grant-section-context">
 <p>The following documents  must be emailed to <a href="mailto:CJA.2017DrugNOFO@Illinois.gov"><strong>CJA.2017DrugNOFO@Illinois.gov</strong></a> by the 11:59 p.m.,  Tuesday, May 30, 2017, deadline for application review. Click the links below to  download copies.</p>
 <ul type="disc">
   <li><a href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_drug_NOFO_Uniform_Application_for_Grant_Assistance.docx"><strong>Completed and signed Uniform State Grant Application (<em>PDF</em>).</strong></a></li>
@@ -181,8 +202,12 @@
   <li><a href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/Attachment_1_State_Map.pdf"><strong>Attachment 1 State Map (<em>PDF</em>)</strong>.</a></li>
   <li><a href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/Attachment_2_Map_of_Illinois_Appellate_Court_Districts.gif"><strong>Attachment 2 Map of Illinois Appellate Court Districts</strong>.</a></li>
 </ul>
-<div class="text-center" style="width: 100%" id="register-now">
-<a class="btn btn-lg btn-primary" href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_Drug_NOFO_Application_Documents.zip" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Download ALL Application Documents (zip file)</a></div>
+<div class="text-center" style="width: 100%">
+<a class="btn btn-primary btn-grant"
+href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_Drug_NOFO_Application_Documents.zip">Download ALL Application Documents (zip file)</a>
+</div>
+</div>
+
 </div>
 
 <!-- //END CONTENT -->

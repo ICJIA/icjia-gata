@@ -61,6 +61,10 @@ const views = [
         path: '/grants/jag-comprehensive-response',
         component: require('./views/grants/JagComprehensiveResponse.vue'),
     },
+    {
+        path: '/grants/test-grant',
+        component: require('./views/grants/TestGrant.vue'),
+    },
 ]
 
 const utilities =  require('@/utilities')
