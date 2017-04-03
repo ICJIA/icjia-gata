@@ -5,7 +5,7 @@
       <div class="text-center">
 
               <h1 class="h3 section-title"
-              style="text-transform: uppercase">{{header}}</h1>
+              style="text-transform: uppercase; padding-left: 15px; padding-right: 15px">{{header}}</h1>
 
 
       </div>
