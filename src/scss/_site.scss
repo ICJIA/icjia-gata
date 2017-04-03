@@ -158,7 +158,9 @@ button:focus {
 .spacerTop50 {margin-top: 50px}
 .spacerTop40 {margin-top: 40px}
 .spacerTop30 {margin-top: 30px}
-
+.spacerBottom50 {margin-bottom: 50px}
+.spacerBottom40 {margin-bottom: 40px}
+.spacerBottom30 {margin-bottom: 30px}
 
 .page-head {
     font-weight: 900;
@@ -216,5 +218,11 @@ button:focus {
 
 
 
-/* Sticky footer styles
+/* Grant Opportunity styles
 -------------------------------------------------- */
+.btn-grant {font-weight: 900; text-transform: uppercase; font-size: 12px; margin-top: 10px;
+  margin-bottom: 10px}
+.grant-section-spacer-top {margin-top: 100px}
+.grant-section-head {margin-top: 70px; text-transform: uppercase; border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px}
+.grant-section-head.first {margin-top: 0px}
+.grant-section-context {margin-left: 25px;}
