@@ -1,13 +1,14 @@
 <template lang="html">
   <section class="page">
-    <page-header :header="title" />
+    <page-header header="Notice of Funding Opportunity" />
     <!-- GRANT CONTENT HERE -->
     <div class="container">
       <div class="row">
         <div class="col-md-12">
 
 <!-- START CONTENT -->
-
+<h1 class="h2 grant-main-head text-center">FFY15 Victims of Crime Act
+Funding Opportunity for Legal Assistance Programs</h1>
 <div>
 <p>The Illinois Criminal Justice  Information Authority
   is requesting applications for federal Victims of Crime
@@ -17,9 +18,9 @@
      <p class="text-center">
        <strong>Application  deadline: April 7, 2017</strong></p>
        <p class="text-center">
-       <a href="/assets/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO.pdf"
+       <a href="/static/grants/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO.pdf"
        class="btn btn-primary btn-grant" target="_blank">
-         Read the Notice of Funding&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>&nbsp;
+         Read the Notice of Funding Opportunity&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>&nbsp;
          <br><br>.</p>
 <h2 class="h3 grant-section-head first">Purpose</h2>
 <div class="grant-section-context">
@@ -48,14 +49,14 @@
 </div>
 <h2 class="h3 grant-section-head" >Eligibility</u></h2>
 <div class="grant-section-context">
-<p>This solicitation is open to Illinois public agencies  and non-profits whose primary mission is the provision of legal services. Additional  eligibility requirements are outlined <a href="/assets/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO.pdf" target="_blank"><strong>here</strong></a>.</p>
+<p>This solicitation is open to Illinois public agencies  and non-profits whose primary mission is the provision of legal services. Additional  eligibility requirements are outlined <a href="/static/grants/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO.pdf" target="_blank"><strong>here</strong></a>.</p>
 <p><strong><u>Pre-registration:</u></strong></p>
 <p>All applicants must be pre-qualified  through the Grant Accountability and Transparency Act (GATA) Grantee Portal, <a href="http://www.grants.illinois.gov" target="_blank"><strong>www.grants.illinois.gov</strong></a>. During pre-qualification, Dun and Bradstreet verifications  are performed, including a check of Debarred and Suspended status and good  standing with the Illinois Secretary of State.</p>
 <p>The pre-qualification process also  includes a financial and administrative risk assessment using an Internal  Controls Questionnaire (ICQ). <u>The ICQ  must be submitted through the GATA portal and approved by a State cognizant  agency by the date of application submission in order for an application to be  reviewed.</u> All applications will be pre-screened for completeness and ICQ  approval. Applications from agencies that do not have an approved ICQ will not  be reviewed.</p>
 </div>
 <h2 class="h3 grant-section-head">Application Materials:</h2>
   <div class="grant-section-context">
-<p><strong><a href="/assets/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO.pdf" target="_blank">Click here</a></strong>&nbsp;for Victims of Crime Act Legal  Assistance Program Grant Application</p>
+<p><strong><a href="/static/grants/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO.pdf" target="_blank">Click here</a></strong>&nbsp;for Victims of Crime Act Legal  Assistance Program Grant Application</p>
 </div>
 <h2 class="h3 grant-section-head">Deadline:</h2>
 <div class="grant-section-context">
@@ -89,7 +90,7 @@
 <a href="http://www.icjia.state.il.us/sites/required-webinar" target="_blank" class="btn btn-secondary btn-grant">
   View webinar&nbsp;&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
 
-<a href="/assets/VOCA/nofo_legal_assist/march_6_2017_webinar_slides.pdf"
+<a href="/static/grants/VOCA/nofo_legal_assist/march_6_2017_webinar_slides.pdf"
 target="_blank" class="btn btn-secondary btn-grant">Webinar Materials
 &nbsp;&nbsp;&nbsp;<i class="fa fa-download" aria-hidden="true"></i></a></div>
 </div>
@@ -105,10 +106,13 @@ target="_blank" class="btn btn-secondary btn-grant">Webinar Materials
 <h2 class="h3 grant-section-head">Timeline:</h2>
 <div>
       <table class="table table-striped">
+        <thead>
   <tr>
-    <td width="486" valign="top"><p  class="style1">Task</p></td>
-    <td width="432" valign="top"><p  class="style1">Date</p></td>
+    <th width="486" valign="top"><p  class="style1">Task</p></th>
+    <th width="432" valign="top"><p  class="style1">Date</p></th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td width="486"><p  class="style2">Release    of NOFO and open application      </p></td>
     <td width="432"><p  class="style2">February    8, 2017 </p></td>
@@ -145,6 +149,7 @@ target="_blank" class="btn btn-secondary btn-grant">Webinar Materials
     <td width="486"><p  class="style2"><strong>Start Program    Performance Period</strong></p></td>
     <td width="432"><p  class="style2"><strong>July 1, 2017</strong></p></td>
   </tr>
+</tbody>
 </table>
 </div>
 <h2 class="h3 grant-section-head">Reporting: </h2>
@@ -162,19 +167,19 @@ target="_blank" class="btn btn-secondary btn-grant">Webinar Materials
 </thead>
 <tbody>
 <tr>
-  <td width="732" valign="top"><p class="style2">Completed and    signed <a href="/assets/VOCA/nofo_legal_assist/Uniform Application for State Grant Assistance.docx"><strong>Uniform State Grant Application</strong></a> for each agency requesting funding. <u>Please sign and scan.</u></p></td>
+  <td width="732" valign="top"><p class="style2">Completed and    signed <a href="/static/grants/VOCA/nofo_legal_assist/Uniform Application for State Grant Assistance.docx"><strong>Uniform State Grant Application</strong></a> for each agency requesting funding. <u>Please sign and scan.</u></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2">Completed    <a href="/assets/VOCA/nofo_legal_assist/Proposal Narrative Legal Assistance 2.7 FINAL.docx"><strong>Program Narrative</strong></a> in Word that meets program requirements outlined in Section A. Applicant’s narrative must be    submitted in Word and formatted in the posted Program Narrative. Application    should be 30 pages maximum, drafted in Times New Roman 12-point font and    double-spaced with 1 inch margins. Please number pages. </p></td>
+  <td width="732" valign="top"><p class="style2">Completed    <a href="/static/grants/VOCA/nofo_legal_assist/Proposal Narrative Legal Assistance 2.7 FINAL.docx"><strong>Program Narrative</strong></a> in Word that meets program requirements outlined in Section A. Applicant’s narrative must be    submitted in Word and formatted in the posted Program Narrative. Application    should be 30 pages maximum, drafted in Times New Roman 12-point font and    double-spaced with 1 inch margins. Please number pages. </p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2">One completed <strong><a href="/assets/VOCA/nofo_legal_assist/GATA Budget Template.xlsx">Budget/Budget Narrative in Excel</a></strong> for each funded agency.</p></td>
+  <td width="732" valign="top"><p class="style2">One completed <strong><a href="/static/grants/VOCA/nofo_legal_assist/GATA Budget Template.xlsx">Budget/Budget Narrative in Excel</a></strong> for each funded agency.</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p  class="style2">X</p></td>
@@ -183,67 +188,67 @@ target="_blank" class="btn btn-secondary btn-grant">Webinar Materials
   <td width="1035" colspan="4" valign="top"><p align="left" class="style2"><br><strong>The following documents are required to facilitate efficient grant processing but will not be used in determining eligibility:</strong></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Eligibility Requirements Certification Form.pdf"><strong>Completed    Eligibility Requirements Certification Form</strong></a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Eligibility Requirements Certification Form.pdf"><strong>Completed    Eligibility Requirements Certification Form</strong></a></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/VOCA SAR.docx"><strong>Completed VOCA    SAR form</strong></a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/VOCA SAR.docx"><strong>Completed VOCA    SAR form</strong></a></p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Self Certification.docx"><strong>Completed    Self-Certification form</strong></a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Self Certification.docx"><strong>Completed    Self-Certification form</strong></a></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Fiscal Information Sheet.docx"><strong>Completed Fiscal Information Sheet</strong></a> - leave award amount and agreement number blank</p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Fiscal Information Sheet.docx"><strong>Completed Fiscal Information Sheet</strong></a> - leave award amount and agreement number blank</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Audit info Sheet.docx"><strong>Completed and    signed Audit Information Sheet</strong></a> - leave award amount and agreement number blank</a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Audit info Sheet.docx"><strong>Completed and    signed Audit Information Sheet</strong></a> - leave award amount and agreement number blank</a></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Certification Lobbying, Debarment all grants.pdf"><strong>Completed and    signed Debarment certification</strong></a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Certification Lobbying, Debarment all grants.pdf"><strong>Completed and    signed Debarment certification</strong></a></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/EEOP Cert.docx"><strong>Completed and    signed EEOP certifications</strong></a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/EEOP Cert.docx"><strong>Completed and    signed EEOP certifications</strong></a></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Civil Rights Compliance Certification.docx"><strong>Completed Civil    Rights certifications</strong></a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Civil Rights Compliance Certification.docx"><strong>Completed Civil    Rights certifications</strong></a></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Programmatic Risk Assessment Questionnaire.xlsx"><strong>Programmatic    Risk Assessment</strong>.</a> This excel    document will need to be submitted unsigned electronically with the    application. A signed scanned version will be due if application is approved    for funding.   </p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Programmatic Risk Assessment Questionnaire.xlsx"><strong>Programmatic    Risk Assessment</strong>.</a> This excel    document will need to be submitted unsigned electronically with the    application. A signed scanned version will be due if application is approved    for funding.   </p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p  class="style2">X</p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Non-supplanting Certification all grants.docx"><strong>Non-supplanting    Certification</strong></a></p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Non-supplanting Certification all grants.docx"><strong>Non-supplanting    Certification</strong></a></p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
 </tr>
 <tr>
-  <td width="732" valign="top"><p class="style2"><a href="/assets/VOCA/nofo_legal_assist/Mandatory Forms Checklist.pdf"><strong>Mandatory Forms    Checklist</strong></a> </p></td>
+  <td width="732" valign="top"><p class="style2"><a href="/static/grants/VOCA/nofo_legal_assist/Mandatory Forms Checklist.pdf"><strong>Mandatory Forms    Checklist</strong></a> </p></td>
   <td width="89" valign="top"><p  class="style2">X</p></td>
   <td width="89" valign="top"><p><span class="style2"></span></p></td>
   <td width="125" valign="top"><p><span class="style2"></span></p></td>
@@ -276,11 +281,11 @@ target="_blank" class="btn btn-secondary btn-grant">Webinar Materials
 <div class="text-center">
 <div class="btn-group spacerBottom30" role="group" aria-label="documents">
 <a class="btn btn-primary btn-grant"
-href="/assets/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO Application Documents.zip"
+href="/static/grants/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO Application Documents.zip"
 >Application Documents (zip file)&nbsp;&nbsp;&nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
 
 <a class="btn btn-primary btn-grant"
- href="/assets/VOCA/nofo_legal_assist/Legal_Assistance_NOFO_Major_Questions_and_Answers.pdf"
+ href="/static/grants/VOCA/nofo_legal_assist/Legal_Assistance_NOFO_Major_Questions_and_Answers.pdf"
 
   >RESPONSES TO APPLICANT QUESTIONS&nbsp;&nbsp;&nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
 
@@ -309,8 +314,8 @@ href="/assets/VOCA/nofo_legal_assist/VOCA Legal Assistance NOFO Application Docu
 <script>
 const description =
   `The Illinois Criminal Justice Information Authority is requesting applications for federal Victims of Crime Act grants to support legal assistance programs. Approximately $6 million is available for this funding opportunity.`
-const title = "NOFO VOCA Legal Assistance"
-const created ='2017-03-15'
+const title = "NOFO VOCA Legal Assistance Grant"
+const created ='2017-02-08'
 const expired ='2017-04-07'
 const type  = 'grant'
 const status = 'live'

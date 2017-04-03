@@ -58,8 +58,8 @@ const views = [
         component: require('./views/grants/NofoVocaLegalAssist.vue'),
     },
     {
-        path: '/grants/test-grant',
-        component: require('./views/grants/TestGrant.vue'),
+        path: '/grants/jag-comprehensive-response',
+        component: require('./views/grants/JagComprehensiveResponse.vue'),
     },
 ]
 
