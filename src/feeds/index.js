@@ -16,13 +16,14 @@ _.forOwn(routes, function(value, key) {
                 obj.name = value.name
                 obj.path = value.path
                 obj.title = value.title
+                
                 obj.created = value.created
                 if (String(obj.created) === 'Invalid Date') {
                   obj.created =  moment()
                 }
                 obj.expired = value.expired
                 if (String(obj.expired) === 'Invalid Date') {
-                  obj.expired = value.expired
+                  obj.expired = moment(value.expired)
                 }
 
                 obj.description = value.description

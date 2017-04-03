@@ -102,6 +102,7 @@ export default {
     filter(filterType) {
       let self = this
       let filtered = []
+      // TODO: Try/Catch here
       if (filterType === 'expired') {
       filtered =  _.filter(this.$store.grants, function(o) {
         return o.expired < self.now;
