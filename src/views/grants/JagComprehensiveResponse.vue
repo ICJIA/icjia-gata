@@ -117,8 +117,8 @@
 <h2 class="h3 grant-section-head">Required Technical  Assistance Session</h2>
 <div class="grant-section-context">
 <p>A pre-application webinar  will be available for viewing beginning at 1:30 p.m. on Tuesday, April 17, 2017. <br />
-<div class="text-center" style="width: 100%" id="register-now">
-<a href="https://www.surveygizmo.com/s3/3470082/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Mandatory-Technical-Assistance-Webinar-Registration" target="_blank" class="btn btn-lg btn-primary" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Register for Mandatory Webinar</a></div>
+<div class="text-center" style="width: 100%">
+<a href="https://www.surveygizmo.com/s3/3470082/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Mandatory-Technical-Assistance-Webinar-Registration" target="_blank" class="btn btn-primary btn-grant" >Register for Webinar</a></div>
 <!--<div class="text-center" style="width: 100%" id="register-now">
 <a href="/sites/required-webinar" target="_blank" class="btn btn-lg btn-primary" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">View the Mandatory Webinar Recording</a></div>
 <div class="text-center" style="width: 100%" id="register-now">
