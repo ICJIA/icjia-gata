@@ -21,7 +21,13 @@ adoption of the federal grant guidance and regulations.</p>
 in the <a href="https://www.illinois.gov/gov/budget/Pages/GrantAccountability.aspx">Governor’s Office of Management and Budget</a>; GATU is charged with implementation of the
 Act in coordination with State grant-making agencies and nonprofit organizations in Illinois.
 GATA requires grants awarded from state agencies to be competitive bid and have require all
-applicants to follow a registration and pre-award screening process.</p>
+applicants to follow a registration and pre-award screening process.
+<p>
+<strong>This competitive grant award process is initiated with a Notice of
+  Funding opportunity formally referenced as a NOFO.</strong></p>
+
+
+</p>
 
 <h3 class="h4" style="margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 25px">ICJIA’s Grant Award Process</h3>
 

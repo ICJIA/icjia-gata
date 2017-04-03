@@ -19,6 +19,10 @@
     GATA requires grants awarded from state agencies to be competitive bid and have require all
     applicants to follow a registration and pre-award screening process.</p>
 
+    <p>
+    <strong>This competitive grant award process is initiated with a Notice of
+      Funding opportunity formally referenced as a NOFO.</strong></p>
+
     <h3 class="h4 header-rule" >ICJIA’s Grant Award Process</h3>
 
     <p>A NOFO (Notice of Funding Opportunity) document is similar to an Request for Proposal (RFP) and requires the applicant to concisely
@@ -58,8 +62,7 @@
 			<td>
 				JAG
 			</td>
-			<td>
-				Law Enforcement Response to Narcotics
+			<td>Law Enforcement Response to Narcotics
 			</td>
 			<td>
 				Second Quarter 2017
@@ -72,8 +75,7 @@
 			<td>
 				JAG
 			</td>
-			<td>
-				ICJIA Research and Evaluation
+			<td>ICJIA Research and Evaluation
 			</td>
 			<td>
 				Second Quarter 2017
@@ -86,8 +88,7 @@
 			<td>
 				JAG
 			</td>
-			<td>
-				Court Programs
+			<td>Court Programs
 			</td>
 			<td>
 				First Quarter 2017
@@ -100,8 +101,7 @@
 			<td>
 				JAG
 			</td>
-			<td>
-				Correctional Programs
+			<td>Correctional Programs
 			</td>
 			<td>
 				Second Quarter 2017
@@ -114,8 +114,7 @@
 			<td>
 				RSAT
 			</td>
-			<td>
-				Residential Substance Abuse Treatment
+			<td>Residential Substance Abuse Treatment
 			</td>
 			<td>
 				Second Quarter 2017
@@ -128,8 +127,7 @@
 			<td>
 				VOCA
 			</td>
-			<td>
-				Comprehensive Legal Services
+			<td>Comprehensive Legal Services
 			</td>
 			<td>
 				First Quarter 2017
@@ -142,8 +140,7 @@
 			<td>
 				VOCA
 			</td>
-			<td>
-        Child Abuse, Community Violence, Financial
+			<td>Child Abuse, Community Violence, Financial
 Exploitation, and Impaired Driving
 			</td>
 			<td>
@@ -157,8 +154,7 @@ Exploitation, and Impaired Driving
 			<td>
 				VOCA
 			</td>
-			<td>
-        Child Advocacy Centers, Domestic Violence and Sexual
+			<td>Child Advocacy Centers, Domestic Violence and Sexual
 Assault Services
 			</td>
 			<td>
@@ -172,8 +168,7 @@ Assault Services
 			<td>
 			VOCA
 			</td>
-			<td>
-				Transitional Housing
+			<td>Transitional Housing
 			</td>
 			<td>
 				Second Quarter 2017
@@ -186,8 +181,7 @@ Assault Services
 			<td>
 				VOCA
 			</td>
-			<td>
-        Law Enforcement, Prosecution and Court based Victim
+			<td>Law Enforcement, Prosecution and Court based Victim
 Services
 			</td>
 			<td>
