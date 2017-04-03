@@ -62,7 +62,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <router-link class="dropdown-item" to="/overview">General Overview</router-link>
           <router-link class="dropdown-item" to="/news">News & Announcements</router-link>
-          <router-link class="dropdown-item" to="/grant-information">Grant Information</router-link>
+          <!-- <router-link class="dropdown-item" to="/grant-information">Grant Information</router-link> -->
           <router-link class="dropdown-item" to="/contact">Contact</router-link>
         </div>
       </li>
