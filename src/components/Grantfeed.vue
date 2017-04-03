@@ -146,6 +146,6 @@ ul#grantFeed li {margin-bottom: 30px; }
 .grant-news {margin-top: 15px;}
 .grant-date {margin-bottom: 10px; margin-top: 10px; color: #888}
 .grant-readmore {margin-top: 5px; }
-.grant-deadline {font-weight: 700; margin-top: 10px;margin-bottom: 10px;}
+.grant-deadline {font-weight: 900; color: #555; margin-top: 10px;margin-bottom: 10px;}
 .grant-title {font-weight: 900; padding-bottom: 10px; text-transform: uppercase;}
 </style>
