@@ -67,7 +67,9 @@ approved:
         <div class="hero-heading">
           <div class="text-center">
 
-                  <h1 class="h4 section-title">News & Information</h1>
+                  <h1 class="h4 section-title">
+                    <router-link to="/news">News & Announcements</router-link>
+                  </h1>
 
           </div>
         </div>
@@ -86,7 +88,10 @@ approved:
         <div class="hero-heading">
           <div class="text-center">
 
-                  <h1 class="h4 section-title">Current Grant Opportunities</h1>
+                  <h1 class="h4 section-title">
+                    <router-link to="/grants">
+                      Grant Opportunities
+                    </router-link></h1>
 
 
           </div>
@@ -175,5 +180,8 @@ approved:
 #section-0 {background-color: #fff; color: #444; padding-bottom: 10px;}
 
 #section-1 {background-color: #eee; padding-top: 0px; padding-bottom: 50px;}
+
+.section-title a {color: #fff}
+.section-title a:hover {text-decoration: none; color: #aaa}
 
 </style>

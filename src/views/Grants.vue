@@ -22,7 +22,9 @@
     </span>
                </div>
 
-
+               <span class="text-center">
+               <h4>{{warning}}</h4>
+             </span>
                <ul id="grantFeed">
                  <li v-for="grant in grants">
                    <!--{{item.created | moment}} | -->
@@ -102,11 +104,13 @@ export default {
     filter(filterType) {
       let self = this
       let filtered = []
+      this.warning = '';
       // TODO: Try/Catch here
       if (filterType === 'expired') {
       filtered =  _.filter(this.$store.grants, function(o) {
         return o.expired < self.now;
       })
+
     } else if (filterType === 'current') {
       filtered =  _.filter(this.$store.grants, function(o) {
         return o.expired > self.now;
@@ -116,6 +120,12 @@ export default {
     }
 
     this.grants = _.orderBy(filtered, 'title', 'asc')
+
+    if (this.grants.length === 0) {
+      this.warning = 'There are no ' + filterType + ' grants to display.'
+    }
+
+
 
 
 
@@ -139,7 +149,8 @@ export default {
     return {
       title,
       grants: _.orderBy(this.$store.grants, 'title', 'asc'),
-      now: moment()
+      now: moment(),
+      warning: ''
     }
   },
 }
