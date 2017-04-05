@@ -38,7 +38,6 @@ const views = [
         path: utilities.componentToRouterPath('./views/news/CatalogOfStateFinancialAssistance.vue'),
         component: require('./views/news/CatalogOfStateFinancialAssistance.vue'),
     },
-
     {
         path: utilities.componentToRouterPath('./views/Grants.vue'),
         component: require('./views/Grants.vue'),
@@ -51,10 +50,6 @@ const views = [
         path: utilities.componentToRouterPath('./views/grants/JagComprehensiveResponse.vue'),
         component: require('./views/grants/JagComprehensiveResponse.vue'),
     },
-    // {
-    //     path: utilities.componentToRouterPath('./views/grants/TestGrant.vue'),
-    //     component: require('./views/grants/TestGrant.vue'),
-    // },
 ]
 
 
