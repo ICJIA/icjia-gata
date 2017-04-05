@@ -14,7 +14,8 @@
                 <div class="item-date">Posted: {{item.created | moment}}</div>
                 <div class="item-description" v-html="item.description"></div>
                 <div class="item-readmore">
-                  <router-link :to="item.path" class="read-more-news">Read more >>
+                  <router-link :to="item.path"
+                  class="read-more-news btn btn-secondary btn-sm btn-readmore">Read more >>
                   </router-link>
                 </div>
               </div>
@@ -112,6 +113,7 @@ ul#newsfeed li {margin-bottom: 30px; }
 .read-more-news {text-transform: uppercase; font-size: 14px;}
 .item-news {margin-top: 15px;}
 .item-date {margin-bottom: 10px; margin-top: -5px; color: #888}
-.item-readmore {margin-top: 5px; }
+.item-readmore {margin-top: 5px;}
+
 .item-title {font-weight: 900; padding-bottom: 10px; text-transform: uppercase;}
 </style>

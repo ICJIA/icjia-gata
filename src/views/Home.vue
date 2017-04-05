@@ -105,8 +105,8 @@ approved:
 
 
 
-        <div class="text-center" style="margin-top: 30px; margin-bottom: 30px">
-          <router-link to="/grants" class="btn btn-secondary read-more">
+        <div class="" style="float: right; margin-top: 0px; margin-right: 35px; margin-bottom: 30px">
+          <router-link to="/grants" class="read-more" style="font-size: 14px;">
           Grant Archive&nbsp;&raquo;</router-link>
         </div>
       </div>

@@ -23,7 +23,9 @@
                 <div class="grant-description" v-html="grant.description"></div>
 
                 <div class="grant-readmore">
-                  <router-link :to="grant.path" class="read-more-news">Read more >>
+                  <router-link :to="grant.path"
+                  class="read-more-news read-more-news btn btn-secondary btn-sm
+                  btn-readmore">Read more >>
                   </router-link>
                 </div>
               </div>
@@ -145,7 +147,7 @@ ul#grantFeed li {margin-bottom: 30px; }
 .read-more-news {text-transform: uppercase; font-size: 14px;}
 .grant-news {margin-top: 15px;}
 .grant-date {margin-bottom: 10px; margin-top: 10px; color: #888}
-.grant-readmore {margin-top: 5px; }
+.grant-readmore {margin-top: 15px; }
 .grant-deadline {font-weight: 900; color: #555; margin-top: 10px;margin-bottom: 10px;}
 .grant-title {font-weight: 900; padding-bottom: 10px; text-transform: uppercase;}
 </style>

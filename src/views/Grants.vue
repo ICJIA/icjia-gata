@@ -41,7 +41,8 @@
                      <div class="grant-description" v-html="grant.description"></div>
 
                      <div class="grant-readmore">
-                       <router-link :to="grant.path" class="read-more-news">Read more >>
+                       <router-link :to="grant.path" class="read-more-news btn btn-secondary btn-sm
+                       btn-readmore">Read more >>
                        </router-link>
                      </div>
                    </div>
