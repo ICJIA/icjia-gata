@@ -41,6 +41,7 @@ const router = new VueRouter({
 var vue = new Vue({
     el: '#app',
     router,
+    // store the feeds in the vue-stash 'store' object
     data: { store },
     template: '<App/>',
     components: { App }

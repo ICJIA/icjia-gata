@@ -143,7 +143,18 @@ function stripCarriageReturns (str) {
   return str.replace(/[\n\r]/g, '');
 }
 
+exports.componentToRouterPath = function (c) {
+  String.prototype.camelCaseToDashed = function(){
+    return this.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+  }
+  path = _.replace(c,"./views","")
+  path = _.replace(path,".vue","")
+  path = path.camelCaseToDashed();
+  return path
+}
+
 exports.generateRoutes = function (arr) {
+  // generates routes for routes.js and injects metadata about each page
   const _REDIRECT_ROUTE = {
       path: '/*',
       title: 'Redirect',

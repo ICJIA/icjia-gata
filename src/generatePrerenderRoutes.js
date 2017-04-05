@@ -7,6 +7,8 @@ String.prototype.camelCaseToDashed = function(){
 let arr = [JSON.stringify('/')]
 const tree = dirTree('./src/views', ['.vue'], (item, PATH) => {
   x = String(item.path).camelCaseToDashed();
+
+  //TODO: Convert to regex
   x = _.replace(x,"src\\","")
   x = _.replace(x,"views\\","")
   x = _.replace(x,"src/","")
@@ -14,6 +16,8 @@ const tree = dirTree('./src/views', ['.vue'], (item, PATH) => {
   x = _.replace(x,".vue","")
   x = _.replace(x,"\\","/")
   x = _.replace(x,"\\","/")
+
+  // TODO: Check for underscore prefix on filename to ignore page for prerendering
   if (x != 'home') {
     arr.push(JSON.stringify('/'+x));
   }
