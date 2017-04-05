@@ -44,7 +44,7 @@ The Grantee Compliance Enforcement System was implemented January 1, 2017.
 
 <p>The Governor’s Office of Management and Budget has contracted with Crowe Horwath to negotiate Indirect Cost Rate Agreements with Illinois Grantees.  The Grant Accountability and Transparency Unit received permission from the Federal Government to centralize the negotiation of the indirect cost rate to allow a grantee to negotiate one rate with the State of Illinois.  The centrally approved rate will be accepted by all state grant making agencies, instead of requiring a grantee to negotiate separate rates with each state grant making agency when grantees receive grants with multiple agencies.  Grantees who have completed the grantee registration, pre-qualification and fiscal and administrative risk assessment will receive an invitation from Crowe Horwath to submit an indirect cost rate proposal for purposes of negotiating a rate.
 </p>
-<p>For full information and links, please see: <a href="https://www.illinois.gov/sites/GATA/Pages/default.aspx">https://www.illinois.gov/sites/GATA/Pages/default.aspx</a></p>
+<p>For full information and links about these items, please see: <a href="https://www.illinois.gov/sites/GATA/Pages/default.aspx">https://www.illinois.gov/sites/GATA/Pages/default.aspx</a></p>
 
 
         </div>
