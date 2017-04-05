@@ -35,21 +35,10 @@ const views = [
         component: require('./views/Faqs.vue'),
     },
     {
-        path: utilities.componentToRouterPath('./views/news/Sample0.vue'),
-        component: require('./views/news/Sample0.vue'),
+        path: utilities.componentToRouterPath('./views/news/CatalogOfStateFinancialAssistance.vue'),
+        component: require('./views/news/CatalogOfStateFinancialAssistance.vue'),
     },
-    {
-        path: utilities.componentToRouterPath('./views/news/Sample1.vue'),
-        component: require('./views/news/Sample1.vue'),
-    },
-    {
-        path: utilities.componentToRouterPath('./views/news/Sample2.vue'),
-        component: require('./views/news/Sample2.vue'),
-    },
-    {
-        path: utilities.componentToRouterPath('./views/news/Sample3.vue'),
-        component: require('./views/news/Sample3.vue'),
-    },
+
     {
         path: utilities.componentToRouterPath('./views/Grants.vue'),
         component: require('./views/Grants.vue'),
@@ -62,10 +51,10 @@ const views = [
         path: utilities.componentToRouterPath('./views/grants/JagComprehensiveResponse.vue'),
         component: require('./views/grants/JagComprehensiveResponse.vue'),
     },
-    {
-        path: utilities.componentToRouterPath('./views/grants/TestGrant.vue'),
-        component: require('./views/grants/TestGrant.vue'),
-    },
+    // {
+    //     path: utilities.componentToRouterPath('./views/grants/TestGrant.vue'),
+    //     component: require('./views/grants/TestGrant.vue'),
+    // },
 ]
 
 

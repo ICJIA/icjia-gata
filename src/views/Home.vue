@@ -35,7 +35,7 @@ applicants to follow a registration and pre-award screening process.
 address a specified scope of work, provide a program budget detailing personnel/equipment needs and
 qualify their experience to implement the program scope of services. NOFO applications are
 competitively reviewed and scored.</p>
-<p>All NOFO applicants must :</p>
+<!--<p>All NOFO applicants must :</p>
 <ul>
   <li>Register on the <a href="https://www.illinois.gov/gov/budget/Pages/GrantAccountability.aspx">State of Illinois Grant Accountability and
     Transparency Act (GATA) web portal</a></li>
@@ -47,7 +47,7 @@ approved:
 <ul>
   <li>Fully executed agreement</li>
 <li>Scope of Work / Program Budget/ Programmatic Risk Assessment</li>
-</ul>
+</ul>-->
 
 <div class="text-center" style="margin-top: 40px">
   <router-link to="/overview" class="btn btn-secondary read-more">
@@ -75,13 +75,13 @@ approved:
         </div>
 
         <newsfeed
-          :maxItems="3"
+          :maxItems="2"
           />
 
-        <div class="text-center" style="margin-top: 30px; margin-bottom: 50px">
+        <!-- <div class="text-center" style="margin-top: 30px; margin-bottom: 50px">
           <router-link to="/news" class="btn btn-secondary read-more">
           News Archive&nbsp;&raquo;</router-link>
-        </div>
+        </div> -->
       </div>
 
       <div class="col-md-6" style="margin: 0; padding: 0; padding-left: 1px;">

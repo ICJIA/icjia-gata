@@ -218,12 +218,12 @@ button:focus {
 
 
 
-/* Grant Opportunity styles
+/* Grant Opportunity and News styles
 -------------------------------------------------- */
-.btn-grant {font-weight: 900; text-transform: uppercase; font-size: 12px; margin-top: 10px;
+.btn-grant, .btn-news {font-weight: 900; text-transform: uppercase; font-size: 12px; margin-top: 10px;
   margin-bottom: 10px}
-.grant-main-head {margin-bottom: 30px}
-.grant-section-spacer-top {margin-top: 100px}
-.grant-section-head {margin-top: 70px; text-transform: uppercase; border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px}
-.grant-section-head.first {margin-top: 0px}
-.grant-section-context {margin-left: 15px;}
+.grant-main-head, .news-main-head {margin-bottom: 30px}
+.grant-section-spacer-top, .news-section-spacer-top {margin-top: 100px}
+.grant-section-head, .news-section-head {margin-top: 70px; text-transform: uppercase; border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px}
+.grant-section-head.first, .news-section-head.first {margin-top: 0px}
+.grant-section-context, .news-section-context {margin-left: 15px;}
