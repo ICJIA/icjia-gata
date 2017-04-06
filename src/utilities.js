@@ -178,6 +178,14 @@ exports.generateRoutes = function (arr) {
   arr.forEach(function(eachObj) {
       _obj = {}
       _obj.path = eachObj["path"]
+      // if (eachObj["path"]) {
+      //   _obj.path = eachObj["path"]
+      // }else {
+      //   _obj.path = '/'
+      //   console.table(eachObj["component"])
+      // }
+
+      //console.log(eachObj["component"].components)
       _obj.component = eachObj["component"]
       // Create page-specific meta data from views
       //obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '') || 'NoName'
