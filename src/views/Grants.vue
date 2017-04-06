@@ -65,8 +65,8 @@
 </template>
 
 <script>
-const description = `ICJIA GATA Grant Archive`
-const title = "ICJIA GATA Grant Archive"
+const description = `ICJIA GATA Grant Opportunities`
+const title = "ICJIA GATA Grant Opportunities"
 const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'
