@@ -1,6 +1,7 @@
 <template lang="html">
   <section class="page">
     <page-header :header="title" />
+
     <div class="container">
       <div class="row">
   	   <div class="col-md-12">
@@ -65,6 +66,7 @@ import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
 
 
+
 export default {
   name: 'FAQs',
   pageData:  {
@@ -84,6 +86,7 @@ export default {
   components: {
 
     PageHeader,
+
 
 
   },
