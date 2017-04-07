@@ -63,7 +63,7 @@
           <router-link class="dropdown-item" to="/overview">General Overview</router-link>
           <router-link class="dropdown-item" to="/news" exact>News & Announcements</router-link>
           <!-- <router-link class="dropdown-item" to="/grant-information">Grant Information</router-link> -->
-          <router-link class="dropdown-item" to="/contact">Contact</router-link>
+          <!-- <router-link class="dropdown-item" to="/contact">Contact</router-link> -->
         </div>
       </li>
 
@@ -134,7 +134,7 @@ export default {
         });
 
 
-        let dateNow = moment()
+        let dateNow = moment().subtract(1,'days')
 
         let filtered = _.filter(this.$store.grants, function(o) {
             return o.expired > dateNow;
