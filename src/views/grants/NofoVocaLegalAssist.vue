@@ -319,7 +319,7 @@ const description =
   `The Illinois Criminal Justice Information Authority is requesting applications for federal Victims of Crime Act grants to support legal assistance programs. Approximately $6 million is available for this funding opportunity.`
 const title = "NOFO VOCA Legal Assistance Grant"
 const created ='2017-02-08'
-const expired ='2017-04-06'
+const expired ='2017-04-07'
 const type  = 'grant'
 const status = 'live'
 import utilities from '@/utilities'
