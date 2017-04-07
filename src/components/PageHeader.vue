@@ -11,11 +11,18 @@
     <!-- <div v-if="breadcrumb">
       <breadcrumb />
     </div> -->
+
+    <div v-if="expired">
+      <check-expiration :expired="expired" />
+    </div>
+
+      </noscript>
   </div>
 </template>
 
 <script>
 import Breadcrumb from '@/components/Breadcrumb'
+import CheckExpiration from '@/components/CheckExpiration'
 export default {
   data () {
     return {
@@ -24,12 +31,17 @@ export default {
   },
   components: {
     Breadcrumb,
+    CheckExpiration
   },
   props: {
     header: {
       type: String,
       required: true,
       default: 'GATA Heading'
+    },
+    expired: {
+      type: String,
+      required: false
     },
   breadcrumb: {
     type: Boolean,

@@ -100,7 +100,7 @@
           Training
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <router-link class="dropdown-item" to="/webinars">Webinars & Presentations</router-link>
+          <router-link class="dropdown-item" to="/webinars">Webinars</router-link>
           <router-link class="dropdown-item" to="/faqs">FAQs</router-link>
 
         </div>

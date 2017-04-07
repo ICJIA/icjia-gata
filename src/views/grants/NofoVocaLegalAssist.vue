@@ -1,10 +1,12 @@
 <template lang="html">
   <section class="page">
-    <page-header header="Notice of Funding Opportunity" />
+    <page-header header="Notice of Funding Opportunity" :expired="expired" />
     <!-- GRANT CONTENT HERE -->
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+
+
 
 <!-- START CONTENT -->
 <h1 class="h2 grant-main-head text-center">FFY15 Victims of Crime Act
@@ -15,6 +17,7 @@ Funding Opportunity for Legal Assistance Programs</h1>
    Act grants to support legal assistance programs.
     Approximately $6 million is  available for this
      funding opportunity.</p>
+
      <p class="text-center">
        <strong>Application  deadline: April 7, 2017</strong></p>
        <p class="text-center">
@@ -316,10 +319,11 @@ const description =
   `The Illinois Criminal Justice Information Authority is requesting applications for federal Victims of Crime Act grants to support legal assistance programs. Approximately $6 million is available for this funding opportunity.`
 const title = "NOFO VOCA Legal Assistance Grant"
 const created ='2017-02-08'
-const expired ='2017-04-07'
+const expired ='2017-04-06'
 const type  = 'grant'
 const status = 'live'
 import utilities from '@/utilities'
+
 import PageHeader from '@/components/PageHeader'
 export default {
   name: 'NOFOVOCALegalAssistance',
@@ -345,7 +349,8 @@ export default {
   },
   data () {
     return {
-      title
+      title,
+      expired
     }
   },
 
