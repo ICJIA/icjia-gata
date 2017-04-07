@@ -150,7 +150,7 @@ export default {
     return {
       title,
       grants: _.orderBy(this.$store.grants, 'title', 'asc'),
-      now: moment(),
+      now: moment().subtract(1,'days'),
       warning: ''
     }
   },

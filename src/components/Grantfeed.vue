@@ -58,7 +58,7 @@ export default {
 
   mounted () {
 
-    let dateNow = moment()
+    let dateNow = this.now
     let filtered = []
     let showExpired = utilities.parseBool(this.showExpired)
     if (!showExpired) {
@@ -93,7 +93,7 @@ export default {
   data: function () {
   return {
     grants: [],
-    now: new Date()
+    now: moment().subtract(1,'days')
   }
 },
 props: {

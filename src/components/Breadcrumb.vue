@@ -1,18 +1,16 @@
 <template lang="html">
   <div>
 
-    <nav class="breadcrumb" style="margin-top: -30px; margin-bottom: 80px">
-      <span style="float: right;">
-          <router-link class="breadcrumb-item" to="/">Home&nbsp;/&nbsp;</router-link>
+<div style="background: #ccc; height: 50px; padding-top: 12px">
 
-          <span v-for="section in url">
-            <router-link class="breadcrumb-item" :to="section">{{ section }}</router-link>
-          </span>
-          <!-- <router-link class="breadcrumb-item" to="/">Library</router-link>
-          <router-link class="breadcrumb-item" to="/">Test</router-link> -->
-
+<span style="float: right; margin-right: 30px">
+  <router-link to="/">Home</router-link>
+  &nbsp;/&nbsp;
+  <router-link to="/">Home</router-link>
 </span>
-</nav>
+</div>
+
+
 
 </div>
 </template>
@@ -21,15 +19,19 @@
 export default {
   mounted () {
     let _obj = {}
-    console.log(this.$route.fullPath)
+    //console.log(this.$route.fullPath)
     this.url = this.$route.fullPath.replace(/\/\s*$/,'').split('/');
-    //since we do not need example.com
+
     this.url.shift();
     console.log(this.url)
+    this.breadcrumb = `<li class="breadcrumb-item" >
+      <router-link to="/">Home</router-link>
+    </li>`
   },
   data () {
     return {
-      url: []
+      url: [],
+      breadcrumb: ''
     }
   }
 }
