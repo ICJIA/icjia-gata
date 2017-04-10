@@ -24,7 +24,7 @@
 <script>
 
 const description = `Webinars`
-const title = "GATA Webinars"
+const title = "Webinar"
 const created = '2017-03-24'
 const type  = 'page'
 const status = 'live'

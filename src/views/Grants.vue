@@ -26,8 +26,8 @@
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
     <span class="btn-group" role="group">
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'title'}" v-on:click="sortFiltered('title')">TITLE</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'created'}" v-on:click="sortFiltered('created')">DATE POSTED</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'expired'}" v-on:click="sortFiltered('expired')">DATE EXPIRED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'created'}" v-on:click="sortFiltered('created')">POSTED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'expired'}" v-on:click="sortFiltered('expired')">EXPIRED</button>
     </span>
 
 <!-- <span class="control-panel control-panel-spacer">Direction:&nbsp;</span>
@@ -137,7 +137,7 @@ export default {
     sortFiltered(s) {
       this.sort = s;
       this.grants = _.orderBy(this.grants, this.sort, this.direction)
-      
+
 
     },
 
@@ -205,7 +205,7 @@ export default {
 </script>
 
 <style lang="css">
-.btn-filter {font-size: 12px; font-weight: 900}
+.btn-filter {font-size: 10px; font-weight: 900}
 .btn.active {background: #152c61; color: #fff}
 .grant-news {margin-bottom: 65px;}
 .control-panel {background: #fff; font-size: 14px; padding: 2px 0px 2px 0px; text-transform: uppercase; font-weight: 700}
