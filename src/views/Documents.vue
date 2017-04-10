@@ -8,82 +8,109 @@
 
 
 
-<div class="faq-question first">GATA Uniform Grant Agreement Template</div>
-<div class="faq-response">
+<div class="document-header first">GATA Uniform Grant Agreement Template</div>
+<div class="document-text">
 View an example of a basic ICJIA grant agreement.
  An actual grant agreement also will have program- and grantee-specific information.
  </div>
- <p>
-<a href="/static/documents/GATA_UNIFORM_GRANT_AGREEMENT_040517.pdf">Download&raquo;</a> ()</p>
+ <ul><li>
+<a href="/static/documents/GATA_UNIFORM_GRANT_AGREEMENT_040517.pdf">
+  GATA Uniform Grant Agreement&nbsp;&raquo;</a> </li></ul>
 
-<div class="faq-question">ICJIA Uniform Budget Template</div>
-<div class="faq-response">View examples of the ICJIA Uniform Budget Template documents.</div>
+<div class="document-header">ICJIA Uniform Budget Template</div>
+<div class="document-text">View examples of the ICJIA Uniform Budget Template documents.</div>
 
 
 <ul>
-  <li><a href="/static/documents/">Sample_ Section_A_ICJIA_Funds&nbsp;&raquo;</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ Section_A_ICJIA_Funds.pdf)</li>
-  <li><a href="/static/documents/">Sample_ Section_A_Indirect_Cost_Info</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ Section_A_Indirect_Cost_Info.pdf)</li>
+  <li>
+    <a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_A_ICJIA_Funds.pdf">Section A ICJIA Funds&nbsp;&raquo;</a>
+</li>
+  <li><a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_A_Indirect_Cost_Info.pdf">Section A Indirect Cost Info</a>
+</li>
 
-<li><a href="/static/documents/">Sample_ Section_B_Match_Funds&nbsp;&raquo;</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ Section_B_Match_Funds.pdf)</li>
+<li><a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_B_Match_Funds.pdf">Section B Match Funds&nbsp;&raquo;</a>
+</li>
 
-<li><a href="/static/documents/">Sample_ Applicant_Certification&nbsp;&raquo;</a>
- (ICJIA_Uniform_Budget_Template_032817_Sample_ Applicant_Certification.pdf)</li>
+<li><a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Applicant_Certification.pdf">Applicant Certification&nbsp;&raquo;</a>
+ </li>
 
-<li><a href="/static/documents/">Sample_ FFATA_Form&nbsp;&raquo;</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ FFATA_Form.pdf)</li>
+<li><a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_FFATA_Form.pdf">FFATA Form&nbsp;&raquo;</a>
+</li>
 
-<li><a href="/static/documents/">Sample_ Section_C1_Personnel&nbsp;&raquo;</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C1_Personnel.pdf)</li>
+<li><a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C1_Personnel.pdf">Section C1 Personnel&nbsp;&raquo;</a>
+</li>
 
-<li><a href="/static/documents/">Sample_ Section_C2_Fringe_Benefits&nbsp;&raquo;</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C2_Fringe_Benefits.pdf)</li>
-
-<li>
-<a href="/static/documents/">Sample_ Section_C3_Travel&nbsp;&raquo;</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C3_Travel.pdf)</li>
+<li><a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C2_Fringe_Benefits.pdf">Section C2 Fringe Benefits&nbsp;&raquo;</a>
+</li>
 
 <li>
-<a href="/static/documents/">Sample_ Section_C4_Equipment.pdf&nbsp;&raquo;</a>
-(ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C4_Equipment.pdf)</li>s
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C3_Travel.pdf">Section C3 Travel&nbsp;&raquo;</a>
+</li>
 
-Sample_ Section_C5_Supplies.pdf
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C5_Supplies.pdf)
+<li>
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C4_Equipment.pdf">Section C4 Equipment.pdf&nbsp;&raquo;</a>
+</li>
 
-Sample_ Section_C6_Contractual
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C6_Contractual.pdf)
+<li>
 
-Sample_ Section_C7_Indirect_Costs
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C7_Indirect_Costs.pdf)
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C5_Supplies.pdf">Section C5 Supplies.pdf&nbsp;&raquo;</a>
+</li>
 
-Sample_ Section_C_Budget_Summary
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Budget_Template_032817_Sample_ Section_C_Budget_Summary.pdf)
+<li>
 
-Sample_Agency_Approval
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Budget_Template_032817_Sample_Agency_Approval.pdf)
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C6_Contractual.pdf">Section C6 Contractual.pdf&nbsp;&raquo;</a>
 
-Sample_Budget_Instructions_(General)
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(General).pdf)
+</li>
 
-Sample_Budget_Instructions_(ICJIA)
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(ICJIA).pdf)
+<li>
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C7_Indirect_Costs.pdf">Section C7 Indirect Costs.pdf&nbsp;&raquo;</a>
 
+</li>
+
+<li>
+
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C_Budget_Summary.pd">Section C Budget Summary.pdf&nbsp;&raquo;</a>
+
+</li>
+
+<li>
+
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Agency_Approval.pdf">Agency Approval.pdf&nbsp;&raquo;</a>
+
+</li>
+
+<li>
+
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(General).pdf">Budget Instructions (General).pdf&nbsp;&raquo;</a>
+
+</li>
+
+<li>
+<a href="/static/documents/ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(ICJIA).pdf">Budget Instructions (ICJIA).pdf&raquo;</a>
+
+</li>
 </ul>
 
 
-ICJIA Fiscal Reports
-View a Monthly or a Quarterly Fiscal Report in the required reporting format. Reporting deadlines vary by grant.
-<a href="/static/documents/">Download&raquo;</a> (Grantee_Fiscal_Report_1-4_Quarter_with_Close_Out_with_Cents_4_2017_SAMPLE.pdf)
+<div class="document-header">ICJIA Fiscal Reports</div>
 
-Risk Assessment Form
-View an example of a programmatic Risk Assessment. The Risk Assessment Form may include additional questions specific to a grant program.
-<a href="/static/documents/">Download&raquo;</a> (Programmatic_Risk_Assessment_Questionnaire_030817.pdf)
+<div class="document-text">View a Monthly or a Quarterly Fiscal Report in the required reporting format. Reporting deadlines vary by grant.</div>
+<ul><li>
+<a href="/static/documents/Grantee_Fiscal_Report_1-4_Quarter_with_Close_Out_with_Cents_4_2017_SAMPLE.pdf">Grantee Fiscal Report 1-4 Quarter with Close Out with Cent 04-2017&nbsp;&raquo;</a>
+</li></ul>
 
-Uniform Application
-View the ICJIA Uniform Application for Grant Assistance.
-<a href="/static/documents/">Download&raquo;</a> (ICJIA_Uniform_Application_for_Grant_Assistance_110216.pdf)
+<div class="document-header">Risk Assessment Form</div>
+<div class="document-text">View an example of a programmatic Risk Assessment. The Risk Assessment Form may include additional questions specific to a grant program.</div>
+<ul><li>
+<a href="/static/documents/Programmatic_Risk_Assessment_Questionnaire_030817.pdf">Programmatic Risk Assessment Questionnaire 03-08-2017.pdf&nbsp;&raquo;</a>
+</li></ul>
+
+<div class="document-header">Uniform Application</div>
+<div class="document-text">View the ICJIA Uniform Application for Grant Assistance.</div>
+<ul><li>
+<a href="/static/documents/ICJIA_Uniform_Application_for_Grant_Assistance_110216.pdf">Uniform Application for Grant Assistance 11-02-2016&nbsp;&raquo;</a>
+</li></ul>
+
 </div>
 
 </div>

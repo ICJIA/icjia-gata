@@ -226,3 +226,10 @@ button:focus {
 .grant-section-head, .news-section-head {margin-top: 70px; text-transform: uppercase; border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px}
 .grant-section-head.first, .news-section-head.first {margin-top: 0px}
 .grant-section-context, .news-section-context {margin-left: 15px;}
+
+
+/* Document styles
+-------------------------------------------------- */
+.document-header {font-weight: 900; margin-top: 30px; margin-bottom: 10px;}
+.document-header.first {margin-top: 0}
+.document-text {margin-bottom: 15px;}
