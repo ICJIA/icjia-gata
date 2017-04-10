@@ -14,12 +14,36 @@
   sortBy="title"
   sortDirection="asc"/> -->
 
-  <div class="text-center" style="margin-bottom: 50px">
+  <div class="text-center" style="margin-bottom: 80px">
+    <span class="control-panel">Display:&nbsp;</span>
     <span class="btn-group" role="group">
-      <button type="button" class="btn btn-secondary btn-filter" v-on:click="filter('all')">ALL</button>
-      <button type="button" class="btn btn-secondary btn-filter" v-on:click="filter('current')">CURRENT</button>
-      <button type="button" class="btn btn-secondary btn-filter" v-on:click="filter('expired')">EXPIRED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType == 'all'}" v-on:click="filter('all')">ALL</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType == 'current'}" v-on:click="filter('current')">CURRENT</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType == 'expired'}" v-on:click="filter('expired')">EXPIRED</button>
     </span>
+
+
+    <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
+    <span class="btn-group" role="group">
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'title'}" v-on:click="sortFiltered('title')">TITLE</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'created'}" v-on:click="sortFiltered('created')">POSTED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'expired'}" v-on:click="sortFiltered('expired')">EXPIRATION</button>
+    </span>
+
+<!-- <span class="control-panel control-panel-spacer">Direction:&nbsp;</span>
+    <span class="btn-group" role="group">
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-on:click="sortDirection('asc')">ASC</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-on:click="sortDirection('desc')">DESC</button>
+      </span> -->
+
+
+
+
+
+
+
+
+
                </div>
 
                <span class="text-center">
@@ -35,7 +59,7 @@
 
                      <div class="grant-date">Posted: {{grant.created | moment}} |
 
-                       <span v-if="checkExpire(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
+                       <span v-if="checkExpire(grant.expired)" style="color: red; font-weight: 900">{{grant.expired | moment }}&nbsp;(EXPIRED)</span>
                        <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span>
                      </div>
                      <div class="grant-description" v-html="grant.description"></div>
@@ -102,9 +126,25 @@ export default {
       }
     },
 
+    sortDirection(s) {
+      this.direction = s;
+      this.grants = _.orderBy(this.grants, this.sort, this.direction)
+
+    },
+
+
+
+    sortFiltered(s) {
+      this.sort = s;
+      this.grants = _.orderBy(this.grants, this.sort, this.direction)
+      console.log(this.sort, this.direction)
+
+    },
+
     filter(filterType) {
       let self = this
       let filtered = []
+      this.filterType = filterType
       this.warning = '';
       // TODO: Try/Catch here
       if (filterType === 'expired') {
@@ -120,7 +160,8 @@ export default {
       filtered = this.$store.grants
     }
 
-    this.grants = _.orderBy(filtered, 'title', 'asc')
+    this.filtered = filtered
+    this.grants = _.orderBy(this.filtered, this.sort, this.direction)
 
     if (this.grants.length === 0) {
       this.warning = 'There are no ' + filterType + ' grants to display.'
@@ -151,7 +192,13 @@ export default {
       title,
       grants: _.orderBy(this.$store.grants, 'title', 'asc'),
       now: moment().subtract(1,'days'),
-      warning: ''
+      warning: '',
+      sort: 'title',
+      direction: 'asc',
+      filtered: [],
+      isActive: true,
+      filterType: 'all',
+      selectedButton:''
     }
   },
 }
@@ -159,5 +206,8 @@ export default {
 
 <style lang="css">
 .btn-filter {font-size: 12px; font-weight: 900}
+.btn.active {background: #152c61; color: #fff}
 .grant-news {margin-bottom: 65px;}
+.control-panel {background: #fff; font-size: 14px; padding: 2px 0px 2px 0px; text-transform: uppercase; font-weight: 700}
+.control-panel-spacer {margin-left: 30px;}
 </style>
