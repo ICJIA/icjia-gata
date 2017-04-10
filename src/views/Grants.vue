@@ -26,8 +26,8 @@
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
     <span class="btn-group" role="group">
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'title'}" v-on:click="sortFiltered('title')">TITLE</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'created'}" v-on:click="sortFiltered('created')">POSTED</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'expired'}" v-on:click="sortFiltered('expired')">EXPIRATION</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'created'}" v-on:click="sortFiltered('created')">DATE POSTED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'expired'}" v-on:click="sortFiltered('expired')">DATE EXPIRED</button>
     </span>
 
 <!-- <span class="control-panel control-panel-spacer">Direction:&nbsp;</span>
@@ -137,7 +137,7 @@ export default {
     sortFiltered(s) {
       this.sort = s;
       this.grants = _.orderBy(this.grants, this.sort, this.direction)
-      console.log(this.sort, this.direction)
+      
 
     },
 
