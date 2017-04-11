@@ -76,7 +76,7 @@
           <div v-if="grants.length > 0">
 
           <span v-for="grant in grants">
-              <router-link class="dropdown-item" :to="grant.path" exact>{{grant.title}}</router-link>
+              <router-link class="dropdown-item" :to="grant.path" exact>{{grant.title | truncate}}</router-link>
           </span>
         </div>
         <div v-else>
@@ -158,7 +158,19 @@ export default {
         },
         moment: function(date) {
             return moment(date).format('MMMM Do YYYY');
+        },
+
+        truncate: function(str) {
+          let num = 30
+          if (str === undefined) return
+
+          if (str.length <= num) {
+            return str;
+          } else {
+            return str.slice(0, num > 3 ? num - 3 : num) + '...';
+          }
         }
+
     },
     data() {
         return {

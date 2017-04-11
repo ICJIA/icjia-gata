@@ -115,7 +115,7 @@
 </template>
 
 <script>
-const description = `ICJIA GATA Grant Opportunities`
+const description = `Grant Opportunities`
 const title = "ICJIA GATA Grant Opportunities"
 const created = '2017-03-26'
 const type  = 'page'

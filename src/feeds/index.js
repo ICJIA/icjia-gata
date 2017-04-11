@@ -10,13 +10,14 @@ for (let type of types) {
 
 _.forOwn(routes, function(value, key) {
             //console.log(value.type);
-            if (value.type === type) {
+            if (value.type === type && value.status === 'live') {
                 // determine feed content from route object
                 let obj = {}
                 obj.name = value.name
                 obj.path = value.path
                 obj.title = value.title
-                
+                obj.status = value.status
+
                 obj.created = value.created
                 if (String(obj.created) === 'Invalid Date') {
                   obj.created =  moment()
