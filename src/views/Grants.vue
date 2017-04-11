@@ -16,25 +16,51 @@
 
   <div class="text-center" style="margin-bottom: 80px">
     <span class="control-panel">Display:&nbsp;</span>
-    <span class="btn-group" role="group">
+    <!-- <span class="btn-group" role="group">
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'all'}" v-on:click="filter('all')">ALL</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}" v-on:click="filter('current')">CURRENT</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}" v-on:click="filter('expired')">EXPIRED</button>
-    </span>
+    </span> -->
+    <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900">
+
+      <option value="all">ALL</option>
+      <option value="current">CURRENT</option>
+      <option value="expired">EXPIRED</option>
+    </select>
 
 
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
-    <span class="btn-group" role="group">
+
+    <select v-model="sort" v-on:change="changeSortBy($event)" style="font-size: 13px; font-weight: 900">
+
+      <option value="title">TITLE</option>
+      <option value="created">POSTED</option>
+      <option value="expired">EXPIRED</option>
+    </select>
+
+
+    <!-- <span class="btn-group" role="group">
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'title'}" v-on:click="sortFiltered('title')">TITLE</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'created'}" v-on:click="sortFiltered('created')">POSTED</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'expired'}" v-on:click="sortFiltered('expired')">EXPIRATION</button>
-    </span>
+    </span> -->
 
-<span class="control-panel" style="margin-left: 10px"></span>
+<!-- <span class="control-panel" style="margin-left: 10px"></span>
     <span class="btn-group" role="group">
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: direction === 'asc'}" v-on:click="sortDirection('asc')"><i class="fa fa-caret-up" aria-hidden="true"></i></button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: direction === 'desc'}" v-on:click="sortDirection('desc')"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
-      </span>
+      </span> -->
+
+
+      <select v-model="direction" v-on:change="changeSortDirection($event)" style="font-size: 13px; font-weight: 900">
+
+        <option value="asc">ASC</option>
+        <option value="desc">DESC</option>
+
+      </select>
+
+
+
 
 
 
@@ -125,6 +151,19 @@ export default {
         return true
       }
     },
+    changeFilter(event) {
+      //console.log(event.target.value)
+      this.filter(event.target.value)
+    },
+
+    changeSortBy(event) {
+      //console.log(event.target.value)
+      this.sortFiltered(event.target.value)
+    },
+    changeSortDirection(event) {
+      //console.log(event.target.value)
+      this.sortDirection(event.target.value)
+    },
 
     sortDirection(s) {
       this.direction = s;
@@ -198,7 +237,8 @@ export default {
       filtered: [],
       isActive: true,
       filterType: 'all',
-      selectedButton:''
+      selectedButton:'',
+      selected: 'A'
     }
   },
 }

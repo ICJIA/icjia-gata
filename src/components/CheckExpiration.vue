@@ -28,7 +28,6 @@ export default {
   methods: {
     checkExpire(d) {
       if (moment(d) < this.now) {
-        console.log('true')
         return true
       }
     }
