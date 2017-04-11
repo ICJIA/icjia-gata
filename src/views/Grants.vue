@@ -17,24 +17,24 @@
   <div class="text-center" style="margin-bottom: 80px">
     <span class="control-panel">Display:&nbsp;</span>
     <span class="btn-group" role="group">
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType == 'all'}" v-on:click="filter('all')">ALL</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType == 'current'}" v-on:click="filter('current')">CURRENT</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType == 'expired'}" v-on:click="filter('expired')">EXPIRED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'all'}" v-on:click="filter('all')">ALL</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}" v-on:click="filter('current')">CURRENT</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}" v-on:click="filter('expired')">EXPIRED</button>
     </span>
 
 
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
     <span class="btn-group" role="group">
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'title'}" v-on:click="sortFiltered('title')">TITLE</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'created'}" v-on:click="sortFiltered('created')">POSTED</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort == 'expired'}" v-on:click="sortFiltered('expired')">EXPIRATION</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'title'}" v-on:click="sortFiltered('title')">TITLE</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'created'}" v-on:click="sortFiltered('created')">POSTED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'expired'}" v-on:click="sortFiltered('expired')">EXPIRATION</button>
     </span>
 
-<!-- <span class="control-panel control-panel-spacer">Direction:&nbsp;</span>
+<span class="control-panel" style="margin-left: 10px"></span>
     <span class="btn-group" role="group">
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-on:click="sortDirection('asc')">ASC</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-on:click="sortDirection('desc')">DESC</button>
-      </span> -->
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: direction === 'asc'}" v-on:click="sortDirection('asc')"><i class="fa fa-caret-up" aria-hidden="true"></i></button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: direction === 'desc'}" v-on:click="sortDirection('desc')"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      </span>
 
 
 
