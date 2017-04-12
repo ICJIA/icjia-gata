@@ -3,20 +3,25 @@
 
       <page-header :header="title" />
 
-    <div class="text-center" style="margin-top: 30px">
-<div class="video-embed">
-<div class="youtube"
-     id="nFVMlof28nU"
-     style="width: 340px; height: 220px;">
 
 
+
+
+
+<div class="card" style="width: 30%">
+  <span class="card-img-top youtube" id="C6-qCnIsNjs" style="height: 300px" alt="Card image cap"></span>
+  <div class="card-block">
+    <h4 class="card-title">Recording #1: Program Goals, Objectives and Performance Indicators Webinar</h4>
+    <p class="card-text">Illinois Criminal Justice Information Authority  (ICJIA) Federal State Grants Unit (FSGU) Grant Accountability and Transparency Act (GATA) Notice of Funding Opportunity (NOFO) Program Goals, Objective and Performance Indicators webinar recording #1  April 2017 (1 of 9 recording series).</p>
+
+  </div>
+  <div class="card-footer">
+      <small class="text-muted">Added April 2017</small>
+    </div>
 </div>
-<div class="caption text-center">Video webinar title 1</div>
-</div>
 
 
 
-</div>
 
   </section>
 </template>
@@ -64,7 +69,7 @@ export default {
 $(function() {
     $(".youtube").each(function() {
         // Based on the YouTube ID, we can easily find the thumbnail image
-        $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
+        $(this).css('background-image', 'url(https://i.ytimg.com/vi/' + this.id + '/mqdefault.jpg)');
 
         // Overlay the Play icon to make it look like a video player
         $(this).append($('<div/>', {'class': 'play'}));
@@ -89,5 +94,7 @@ $(function() {
 </script>
 
 <style lang="css" scoped>
-
+.card {margin-top: 30px; margin-bottom: 30px}
+.card-img-top {border-bottom: 1px solid #ccc;}
+.card-footer small {font-weight: 700}
 </style>
