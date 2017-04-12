@@ -8,21 +8,134 @@
 
 
 
-<div class="card" style="width: 30%">
+<!-- <div class="card" style="width: 15rem">
   <span class="card-img-top youtube" id="C6-qCnIsNjs" style="height: 300px" alt="Card image cap"></span>
   <div class="card-block">
     <h4 class="card-title">Recording #1: Program Goals, Objectives and Performance Indicators Webinar</h4>
-    <p class="card-text">Illinois Criminal Justice Information Authority  (ICJIA) Federal State Grants Unit (FSGU) Grant Accountability and Transparency Act (GATA) Notice of Funding Opportunity (NOFO) Program Goals, Objective and Performance Indicators webinar recording #1  April 2017 (1 of 9 recording series).</p>
 
   </div>
   <div class="card-footer">
       <small class="text-muted">Added April 2017</small>
     </div>
+</div> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+<div class="card well">
+<h2 class="h4">Program Goals, Objectives and Performance Indicators</h2>
+<p>View a webinar describing Goals, Objectives, and Performance
+  Indicators to assist in the process of grant and program development.</p>
+  <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+   <span class="card-img-top youtube" id="C6-qCnIsNjs" style="height: 150px" alt="Card image cap"></span>
+
+   <div class="card-footer">
+       <small class="text-muted">Added April 2017</small>
+     </div>
+ </div>
+ </div>
+
+
+
+
+<div class="card well">
+ <h2 class="h4">Logic Models</h2>
+<p>View this Logic Model webinar series to assist in the process of program planning and development.</p>
+
+
+<div class="card-deck text-center" style="margin-left: auto; margin-right: auto ;">
+<div class="card" style="width: 15rem">
+  <span class="card-img-top youtube" id="rop6xoEA_NQ" style="height: 150px" alt="Card image cap"></span>
+   <div class="card-block">
+     <h4 class="card-title">The Value of Logic Models (Part 1)</h4>
+
+   </div>
+   <div class="card-footer">
+       <small class="text-muted">Added April 2017</small>
+     </div>
+ </div>
+
+ <div class="card" style="width: 15rem" >
+   <span class="card-img-top youtube" id="1bGkwPgwmcw" style="height: 150px" alt="Card image cap"></span>
+    <div class="card-block">
+      <h4 class="card-title">Major Components of a Logic Model (Part 2)</h4>
+
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">Added April 2017</small>
+      </div>
+  </div>
+  <div class="card" style="width: 15rem">
+    <span class="card-img-top youtube" id="6O5YP5d2iTs" style="height: 150px" alt="Card image cap"></span>
+     <div class="card-block">
+       <h4 class="card-title">How Logic Models Support Implementation (Part 3)</h4>
+
+     </div>
+     <div class="card-footer">
+         <small class="text-muted">Added April 2017</small>
+       </div>
+   </div>
+  </div>
 </div>
 
 
 
+<div class="card well">
+<h2 class="h4">Amendments to Grant Agreements</h2>
+<p>View a webinar on the process of amending an existing Authority grant agreement.
+</p>
+  <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+   <span class="card-img-top youtube" id="iHsWphZtbzU" style="height: 150px" alt="Card image cap"></span>
 
+   <div class="card-footer">
+       <small class="text-muted">Added April 2017</small>
+     </div>
+ </div>
+ </div>
+
+
+ <div class="card well">
+ <h2 class="h4">Budget Categories Needing Prior Approval</h2>
+ <p>View a webinar describing items that require Prior Approvals and/or Additional Justifications (even if they are detailed in the agreement narrative and budget).
+ </p>
+   <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+    <span class="card-img-top youtube" id="YjkFmPid5DI" style="height: 150px" alt="Card image cap"></span>
+
+    <div class="card-footer">
+        <small class="text-muted">Added April 2017</small>
+      </div>
+  </div>
+  </div>
+
+
+
+  <div class="card well">
+  <h2 class="h4">Budget Category: Travel Costs</h2>
+  <p>View a webinar describing Travel Costs and State Travel Guidelines.
+  </p>
+    <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+     <span class="card-img-top youtube" id="nQb8pK5e3Mo" style="height: 150px" alt="Card image cap"></span>
+
+     <div class="card-footer">
+         <small class="text-muted">Added April 2017</small>
+       </div>
+   </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div>
+  </div>
   </section>
 </template>
 
@@ -69,7 +182,7 @@ export default {
 $(function() {
     $(".youtube").each(function() {
         // Based on the YouTube ID, we can easily find the thumbnail image
-        $(this).css('background-image', 'url(https://i.ytimg.com/vi/' + this.id + '/mqdefault.jpg)');
+        $(this).css('background-image', 'url(https://i.ytimg.com/vi/' + this.id + '/1.jpg)');
 
         // Overlay the Play icon to make it look like a video player
         $(this).append($('<div/>', {'class': 'play'}));
@@ -97,4 +210,5 @@ $(function() {
 .card {margin-top: 30px; margin-bottom: 30px}
 .card-img-top {border-bottom: 1px solid #ccc;}
 .card-footer small {font-weight: 700}
+.card.well {padding: 35px; background: #efefef}
 </style>
