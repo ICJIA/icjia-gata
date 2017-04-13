@@ -386,7 +386,7 @@ GATA confirms ICJIA's commitment to the Federal Uniform Guidance 2 CFR 200, whic
  it will unify processes and reduce administrative burdens for state agencies and grantees.`
 
 
-const title = "Grant Accountability and Transparency"
+const title = "Overview"
 const created = '2017-03-24'
 const type  = 'page'
 const status = 'live'

@@ -47,31 +47,37 @@ const router = new VueRouter({
 //   console.log(to.name, to.path)
 //   next()
 // })
-
+// ////////////////////// Custom Google Analytics injection. Modified from vue-ga
 function appendScript() {
   const script = document.createElement('script')
   script.async = true
   script.src = 'https://www.google-analytics.com/analytics.js'
   document.body.appendChild(script)
 }
+
 if (!window.ga) {
    appendScript()
    window.ga = window.ga || function () {
      (ga.q = ga.q || []).push(arguments)
    }
-   //console.log(window.ga)
    ga.l = Number(new Date())
    ga('create', 'UA-10798495-20', 'auto')
  }
 
+ let gaTitle = '(not set)'
+ let gaTitlePrefix = 'ICJIA GATA | '
 
  router.afterEach(from  => {
-   console.log(router)
-    ga('set', 'page', from.fullPath)
-    ga('set', 'title', 'ICJIA GATA | ' + String(from.name).replace(/([A-Z])/g, ' $1'));
-    ga('send', 'pageview')
+   let pageTitle = _.filter(router.options.routes, function(o) { return o.path === from.fullPath });
+   if (pageTitle.length > 0) {
+     gaTitle = pageTitle[0].title
+   }
+  //console.log('ga title: ', title)
+  ga('set', 'page', from.fullPath)
+  ga('set', 'title', gaTitlePrefix + gaTitle);
+  ga('send', 'pageview')
   })
-
+// //////////////////////// END custom Google Analytics injection
 
 
 
