@@ -13,7 +13,73 @@
               <div class="col-md-12 spacerTop30">
 
 
-<p><a href="http://ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7">The Grant Accountability and Transparency Act (GATA), 30 ILCS 708/1 et seq.</a>, is landmark
+
+
+                <p><a href="http://ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7">The
+                  Grant Accountability and Transparency Act (GATA) of 2014</a>, 30 ILCS 708/1 et seq.,
+                  increased accountability and transparency in the use of grant funds
+                   and reduced the administrative burden on state agencies
+                   and grantees through adoption of federal grant guidelines and regulations.</p>
+<p>Pursuant to the Act, the Grant Accountability and
+  Transparency Unit (GATU) was established within the Governor's Office of Management and Budget; GATU is charged with implementation of the Act in coordination with state grant-making agencies and nonprofit organizations in Illinois. GATA requires grants administered by state agencies to be awarded in a competitive bidding process. In addition, all applicants must undergo a registration and pre-award screening process.
+This competitive grant award process is initiated with a Notice of Funding Opportunity (NOFO).</p>
+
+<div class="row">
+  <div class="col-md-6">
+    <h2 class="h3 fp-subhead first">ICJIA Grant Award Process</h2>
+    <p>A Notice of Funding Opportunity requires applicants to
+       concisely address a specified scope of work, provide a
+       program budget detailing personnel and equipment needs,
+        and qualify their experience to implement the program's scope of services.
+         Applications are competitively reviewed and scored.</p>
+    <p>All applicants must:</p>
+    <ul>
+
+    <li>Register on the State of Illinois Grant Accountability and Transparency Act (GATA) web portal.</li>
+    <li>Submit pre-qualification information: DUNS, SAMS, Illinois Secretary of State.</li>
+    <li>Complete the Internal Control Questionnaire (ICQ).</li>
+    </ul>
+    <p>
+    Once a grant award is given to an applicant
+    they must submit to ICJIA a grant packet that includes an ICJIA approved:</p>
+    <ul>
+    <li>Fully executed agreement</li>
+    <li>Scope of Work / Program Budget/ Programmatic Risk Assessment.</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h2 class="h3 fp-subhead">Helpful Hints</h2>
+    <p>
+    A well-developed grant application includes:</p>
+    <ul>
+    <li>Data and evidence that support the program scope and suggested outputs.</li>
+    <li>Program scope that is aligned with regional or local initiatives.</li>
+    <li>Strong and established partnerships with community groups, other not-for-profits,
+      and local governments, detailed in the program scope and in letters of support.</li>
+    <li>Complete and concise responses in every section of the application.</li>
+    </ul>
+    <p>Also consider:</p>
+    <ul>
+    <li>Starting GATA web portal activities as soon as a NOFO is presented.</li>
+    <li>Contacting the agency that generated the NOFO with questions.</li>
+    <li>Attending the NOFO conference call.</li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <p><a href="http://ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3559&ChapterID=7">The Grant Accountability and Transparency Act (GATA), 30 ILCS 708/1 et seq.</a>, is landmark
 legislation initiated in 2014 that increases accountability and transparency in the use of grant
 funds and reduces the administrative burden on both State agencies and grantees through
 adoption of the federal grant guidance and regulations.</p>
@@ -34,7 +100,7 @@ applicants to follow a registration and pre-award screening process.
 <p>A NOFO (Notice of Funding Opportunity) document is similar to an Request for Proposal (RFP) and requires the applicant to concisely
 address a specified scope of work, provide a program budget detailing personnel/equipment needs and
 qualify their experience to implement the program scope of services. NOFO applications are
-competitively reviewed and scored.</p>
+competitively reviewed and scored.</p> -->
 <!--<p>All NOFO applicants must :</p>
 <ul>
   <li>Register on the <a href="https://www.illinois.gov/gov/budget/Pages/GrantAccountability.aspx">State of Illinois Grant Accountability and
@@ -49,10 +115,10 @@ approved:
 <li>Scope of Work / Program Budget/ Programmatic Risk Assessment</li>
 </ul>-->
 
-<div class="text-center" style="margin-top: 40px">
+<!-- <div class="text-center" style="margin-top: 40px">
   <router-link to="/overview" class="btn btn-secondary read-more">
   Read full overview&nbsp;&raquo;</router-link>
-</div>
+</div> -->
 
               </div>
             </div>
@@ -183,5 +249,6 @@ approved:
 
 .section-title a {color: #fff}
 .section-title a:hover {text-decoration: none; color: #aaa}
+.fp-subhead {margin-top: 30px; padding-bottom: 10px; border-bottom: 1px solid #ccc; margin-bottom: 15px}
 
 </style>
