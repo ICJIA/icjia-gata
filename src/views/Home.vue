@@ -203,7 +203,7 @@ approved:
 
 
     const description = `Home`
-    const title = "Grant Accountability and Transparency at ICJIA"
+    const title = "Home"
     const created = '2017-03-26'
     const type  = 'page'
     const status = 'live'
