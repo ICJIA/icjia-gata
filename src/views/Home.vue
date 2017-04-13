@@ -6,7 +6,7 @@
 
 
 
-          <page-header :header="title" :breadcrumb="false" />
+          <page-header header="Grant Accountability and Transparency at ICJIA" :breadcrumb="false" />
 
           <div class="container-fluid" style="margin-left: 50px; margin-right: 50px;">
             <div class="row">
