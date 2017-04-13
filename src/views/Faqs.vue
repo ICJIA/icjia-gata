@@ -58,7 +58,7 @@
 
 <script>
 const description = `FAQs`
-const title = "GATA FAQs"
+const title = "FAQs"
 const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'

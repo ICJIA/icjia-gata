@@ -59,18 +59,18 @@ if (!window.ga) {
    window.ga = window.ga || function () {
      (ga.q = ga.q || []).push(arguments)
    }
-   console.log(window.ga)
+   //console.log(window.ga)
    ga.l = Number(new Date())
    ga('create', 'UA-10798495-20', 'auto')
  }
 
 
  router.afterEach(from  => {
+   console.log(router)
     ga('set', 'page', from.fullPath)
     ga('set', 'title', 'ICJIA GATA | ' + String(from.name).replace(/([A-Z])/g, ' $1'));
     ga('send', 'pageview')
-
-     })
+  })
 
 
 

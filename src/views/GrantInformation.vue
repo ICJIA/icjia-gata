@@ -27,8 +27,8 @@ Grant Information
 </template>
 
 <script>
-const description = `ICJIA GATA Grant Information`
-const title = "ICJIA GATA Grant Information"
+const description = `Grant Information`
+const title = "sGrant Information"
 const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'

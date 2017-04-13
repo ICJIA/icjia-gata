@@ -121,8 +121,8 @@ View an example of a basic ICJIA grant agreement.
 </template>
 
 <script>
-const description = `GATA Documents and Form Examples`
-const title = "GATA Documents and Form Examples"
+const description = `Documents`
+const title = "Documents"
 const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'

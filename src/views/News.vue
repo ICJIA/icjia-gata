@@ -10,7 +10,7 @@
 	<div class="col-md-12">
 
     <newsfeed
-      
+
       />
 
 
@@ -29,8 +29,8 @@
 </template>
 
 <script>
-const description = `ICJIA GATA News & Announcements`
-const title = "ICJIA GATA News & Announcements"
+const description = `News & Announcements`
+const title = "News & Announcements"
 const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'

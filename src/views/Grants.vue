@@ -116,7 +116,7 @@
 
 <script>
 const description = `Grant Opportunities`
-const title = "ICJIA GATA Grant Opportunities"
+const title = "Grant Opportunities"
 const created = '2017-03-26'
 const type  = 'page'
 const status = 'live'
