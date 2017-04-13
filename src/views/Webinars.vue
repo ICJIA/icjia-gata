@@ -123,6 +123,53 @@
    </div>
 
 
+   <div class="card well">
+   <h2 class="h4">Budget Category: Subcontractors</h2>
+   <p>This webinar describes the Subcontract Approval process and
+     required Consultant/Contractor/Vendor documentation.
+
+   </p>
+     <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+      <span class="card-img-top youtube" id="zXIopZ4KeEI" style="height: 150px" alt="Card image cap"></span>
+
+      <div class="card-footer">
+          <small class="text-muted">Added April 2017</small>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="card well">
+    <h2 class="h4">Budget Category: Indirect Costs</h2>
+    <p>View a webinar on Indirect Costs.
+
+    </p>
+      <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+       <span class="card-img-top youtube" id="4stkASoNY5w" style="height: 150px" alt="Card image cap"></span>
+
+       <div class="card-footer">
+           <small class="text-muted">Added April 2017</small>
+         </div>
+     </div>
+     </div>
+
+     <div class="card well">
+     <h2 class="h4">Faith-Based Program Self Reporting Form</h2>
+     <p>View a webinar on how to complete the Authority's Faith-Based Program Self Reporting Form.
+
+     </p>
+       <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+        <span class="card-img-top youtube" id="x6cqf0075Fg" style="height: 150px" alt="Card image cap"></span>
+
+        <div class="card-footer">
+            <small class="text-muted">Added April 2017</small>
+          </div>
+      </div>
+      </div>
+
+
+
+
 
 
 
