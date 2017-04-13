@@ -33,7 +33,7 @@ const router = new VueRouter({
     routes: routes
 })
 
-//ga(router, 'UA-10798495-19')
+ga(router, 'UA-10798495-20')
 
 
 
