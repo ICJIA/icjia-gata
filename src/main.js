@@ -34,7 +34,7 @@ const router = new VueRouter({
 })
 
 // Google tracking script in /static/google/ga.js
-ga(router, 'UA-10798495-20')
+// ga(router, 'UA-10798495-20')
 
 
 
