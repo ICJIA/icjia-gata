@@ -110,7 +110,7 @@
   Illinois Criminal Justice Information Authority<br />
   300 West Adams, Suite 200<br />
   Chicago, IL 60606<br />
-  <a href="mailto:Gregorgy.Stevens@illinois.gov"><strong>Gregorgy.Stevens@illinois.gov</strong></a><br />
+  <a href="mailto:Gregory.Stevens@Illinois.gov"><strong>Gregory.Stevens@Illinois.gov</strong></a><br />
   312-793-0890<br />
   </p>
 </div>

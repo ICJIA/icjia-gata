@@ -6,7 +6,16 @@ import lodash from 'lodash';
 // window._ = window.lodash = lodash;
 
 import './scss/base.scss';
-import ga from 'vue-ga'
+
+// Google tracking script in /static/google/ga.js
+// import ga from 'vue-ga'
+
+
+
+// import VueAnalytics from 'vue-analytics'
+// Vue.use(VueAnalytics, {
+//   id: 'UA-10798495-20'
+// })
 
 import VueRouter from 'vue-router'
 import routes from './routes.js'
@@ -32,9 +41,38 @@ const router = new VueRouter({
     base: __dirname,
     routes: routes
 })
-
-// Google tracking script in /static/google/ga.js
 // ga(router, 'UA-10798495-20')
+
+// router.beforeEach((to, from, next) => {
+//   console.log(to.name, to.path)
+//   next()
+// })
+
+function appendScript() {
+  const script = document.createElement('script')
+  script.async = true
+  script.src = 'https://www.google-analytics.com/analytics.js'
+  document.body.appendChild(script)
+}
+if (!window.ga) {
+   appendScript()
+   window.ga = window.ga || function () {
+     (ga.q = ga.q || []).push(arguments)
+   }
+   console.log(window.ga)
+   ga.l = Number(new Date())
+   ga('create', 'UA-10798495-20', 'auto')
+ }
+
+
+ router.afterEach(from  => {
+    ga('set', 'page', from.fullPath)
+    ga('set', 'title', 'ICJIA GATA | ' + String(from.name).replace(/([A-Z])/g, ' $1'));
+    ga('send', 'pageview')
+
+     })
+
+
 
 
 

@@ -222,6 +222,10 @@ approved:
         type,
         status
       },
+      mounted () {
+        //this.$ga.trackPage('/home', title, window.location.href)
+      },
+      
       metaInfo: {
           title: title,
           meta: [

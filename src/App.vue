@@ -30,11 +30,15 @@ export default {
     },
 
   mounted: function () {
-    
+
+
+
+
+
     },
   components: {
     Navbar,
-    MyFooter,
+    MyFooter
   }
 }
 </script>
