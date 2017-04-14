@@ -21,9 +21,71 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
+      <div class="card contents">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="contents-header">Contents</h3>
+          </div>
+        </div>
+      <div class="row">
 
-<div class="card well">
-<h2 class="h4">Program Goals, Objectives and Performance Indicators</h2>
+
+      <div class="col-md-6">
+        <ul><li>
+        <div><a href="" v-scroll-to="'#program-goals'">Program Goals, Objectives and Performance Indicators</a></div></li>
+
+
+        <li><div ><a href="" v-scroll-to="'#logic-models'">The Value of Logic Models (Part 1)</a></div></li>
+        <li><div ><a href="" v-scroll-to="'#logic-models'">Major Components of a Logic Model (Part 2)</a></div></li>
+        <li><div ><a href="" v-scroll-to="'#logic-models'">How Logic Models Support Implementation (Part 3)</a></div></li>
+      <li>
+        <div><a href="" v-scroll-to="'#amendments'">Amendments to Grant Agreements</a></div>
+      </li></ul>
+      </div>
+
+      <div class="col-md-6">
+        <ul>
+        <li>
+          <div>
+            <a href="" v-scroll-to="'#prior-approval'">Budget Categories Needing Prior Approval</a>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <a href="" v-scroll-to="'#travel-costs'">Budget Category: Travel Costs</a>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <a href="" v-scroll-to="'#subcontractors'">Budget Category: Subcontractors</a>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <a href="" v-scroll-to="'#indirect-costs'">Budget Category: Indirect Costs</a>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <a href="" v-scroll-to="'#self-reporting'">Faith-Based Program Self Reporting Form</a>
+          </div>
+        </li>
+
+
+
+
+      </ul>
+      </div>
+        </div>
+      </div>
+
+
+<div class="card well" id="program-goals">
+<h2 class="h4" >Program Goals, Objectives and Performance Indicators</h2>
 <p>View a webinar describing Goals, Objectives, and Performance
   Indicators to assist in the process of grant and program development.</p>
   <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
@@ -38,7 +100,7 @@
 
 
 
-<div class="card well">
+<div class="card well" id="logic-models">
  <h2 class="h4">Logic Models</h2>
 <p>View this Logic Model webinar series to assist in the process of program planning and development.</p>
 
@@ -80,7 +142,7 @@
 
 
 
-<div class="card well">
+<div class="card well" id="amendments">
 <h2 class="h4">Amendments to Grant Agreements</h2>
 <p>View a webinar on the process of amending an existing Authority grant agreement.
 </p>
@@ -94,7 +156,7 @@
  </div>
 
 
- <div class="card well">
+ <div class="card well" id="prior-approval">
  <h2 class="h4">Budget Categories Needing Prior Approval</h2>
  <p>View a webinar describing items that require Prior Approvals and/or Additional Justifications (even if they are detailed in the agreement narrative and budget).
  </p>
@@ -109,7 +171,7 @@
 
 
 
-  <div class="card well">
+  <div class="card well" id="travel-costs">
   <h2 class="h4">Budget Category: Travel Costs</h2>
   <p>View a webinar describing Travel Costs and State Travel Guidelines.
   </p>
@@ -123,7 +185,7 @@
    </div>
 
 
-   <div class="card well">
+   <div class="card well" id="subcontractors">
    <h2 class="h4">Budget Category: Subcontractors</h2>
    <p>This webinar describes the Subcontract Approval process and
      required Consultant/Contractor/Vendor documentation.
@@ -139,7 +201,7 @@
     </div>
 
 
-    <div class="card well">
+    <div class="card well" id="indirect-costs">
     <h2 class="h4">Budget Category: Indirect Costs</h2>
     <p>View a webinar on Indirect Costs.
 
@@ -153,7 +215,7 @@
      </div>
      </div>
 
-     <div class="card well">
+     <div class="card well" id="self-reporting">
      <h2 class="h4">Faith-Based Program Self Reporting Form</h2>
      <p>View a webinar on how to complete the Authority's Faith-Based Program Self Reporting Form.
 
@@ -254,8 +316,13 @@ $(function() {
 </script>
 
 <style lang="css" scoped>
+a {text-decoration: none}
 .card {margin-top: 30px; margin-bottom: 30px}
 .card-img-top {border-bottom: 1px solid #ccc;}
 .card-footer small {font-weight: 700}
 .card.well {padding: 35px; background: #efefef}
+.text-muted {color: #aaa}
+.contents-header {border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 30px}
+.card.contents {padding: 30px; margin-bottom: 100px}
+ul li {margin-top: 0; padding-top: 0}
 </style>
