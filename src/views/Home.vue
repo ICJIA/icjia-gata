@@ -20,54 +20,58 @@
                   increased accountability and transparency in the use of grant funds
                    and reduced the administrative burden on state agencies
                    and grantees through adoption of federal grant guidelines and regulations.</p>
-<p>Pursuant to the Act, the Grant Accountability and
-  Transparency Unit (GATU) was established within the Governor's Office of Management and Budget; GATU is charged with implementation of the Act in coordination with state grant-making agencies and nonprofit organizations in Illinois. GATA requires grants administered by state agencies to be awarded in a competitive bidding process. In addition, all applicants must undergo a registration and pre-award screening process.
-This competitive grant award process is initiated with a Notice of Funding Opportunity (NOFO).</p>
+          <p>Pursuant to the Act, the Grant Accountability and
+          Transparency Unit (GATU) was established within the Governor's Office of Management and Budget; GATU is charged with implementation of the Act in coordination with state grant-making agencies and nonprofit organizations in Illinois. GATA requires grants administered by state agencies to be awarded in a competitive bidding process. In addition, all applicants must undergo a registration and pre-award screening process.
+          This competitive grant award process is initiated with a Notice of Funding Opportunity (NOFO).</p>
 
-<div class="row">
-  <div class="col-md-6">
-    <h2 class="h3 fp-subhead first">ICJIA Grant Award Process</h2>
-    <p>A Notice of Funding Opportunity requires applicants to
-       concisely address a specified scope of work, provide a
-       program budget detailing personnel and equipment needs,
-        and qualify their experience to implement the program's scope of services.
-         Applications are competitively reviewed and scored.</p>
-    <p>All applicants must:</p>
-    <ul>
+          <div class="row">
+          <div class="col-md-6">
+          <h2 class="h3 fp-subhead first">ICJIA Grant Award Process</h2>
+          <p>A Notice of Funding Opportunity (NOFO) requires applicants to
+          concisely address a specified scope of work, provide a
+          program budget detailing personnel and equipment needs,
+          and qualify their experience to implement the program's scope of services.
+          Applications are competitively reviewed and scored.</p>
+          <p>All applicants must:</p>
+          <ul>
 
-    <li>Register on the State of Illinois Grant Accountability and Transparency Act (GATA) web portal.</li>
-    <li>Submit pre-qualification information: DUNS, SAMS, Illinois Secretary of State.</li>
-    <li>Complete the Internal Control Questionnaire (ICQ).</li>
-    </ul>
-    <p>
-    Once a grant award is given to an applicant
-    they must submit to ICJIA a grant packet that includes an ICJIA approved:</p>
-    <ul>
-    <li>Fully executed agreement</li>
-    <li>Scope of Work / Program Budget/ Programmatic Risk Assessment.</li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h2 class="h3 fp-subhead">Helpful Hints</h2>
-    <p>
-    A well-developed grant application includes:</p>
-    <ul>
-    <li>Data and evidence that support the program scope and suggested outputs.</li>
-    <li>Program scope that is aligned with regional or local initiatives.</li>
-    <li>Strong and established partnerships with community groups, other not-for-profits,
-      and local governments, detailed in the program scope and in letters of support.</li>
-    <li>Complete and concise responses in every section of the application.</li>
-    </ul>
-    <p>Also consider:</p>
-    <ul>
-    <li>Starting GATA web portal activities as soon as a NOFO is presented.</li>
-    <li>Contacting the agency that generated the NOFO with questions.</li>
-    <li>Attending the NOFO conference call.</li>
-    </ul>
-  </div>
+          <li>Register on the State of Illinois Grant Accountability and Transparency Act (GATA) web portal.</li>
+          <li>Pass the pre-qualification verification of the following: <ul><li>valid DUNS number, current SAM.gov account;</li><li> not be on the Federal Excluded Parties List;</li><li> be in Good Standing with the Illinois Secretary of State, as applicable;</li><li> not be on the Illinois Stop Payment list and not on the Dept. of Healthcare and Family Services Provider Sanctions list.</li></ul></li>
+          <li>Complete the Internal Control Questionnaire (ICQ).</li>
+          </ul>
+          <p>
+          Once a grant award is given to an applicant
+          they must submit to ICJIA a grant packet that includes an ICJIA approved:</p>
+          <ul>
+          <li>Fully executed agreement</li>
+          <li>Program narrative</li>
+          <li>Program budget</li>
+          <li>Sets of certification documents</li>
+          <li>Programmatic Risk Assessment (PRA)</li>
+          </ul>
+          </div>
+          <div class="col-md-6">
+          <h2 class="h3 fp-subhead">Helpful Hints</h2>
+          <p>
+          A well-developed grant application includes:</p>
+          <ul>
+          <li>Data and evidence that support the program scope and suggested outputs.</li>
+          <li>Program scope that is aligned with national, regional or local initiatives.</li>
+          <li>Strong and established partnerships with community groups, other not-for-profits,
+          and local governments, detailed in the program scope and in letters of support.</li>
+          <li>Complete and concise responses in every section of the application.</li>
+          </ul>
+          <p>Also consider:</p>
+          <ul>
+          <!-- <li>Starting GATA web portal activities as soon as a NOFO is presented.</li>
+          <li>Contacting the agency that generated the NOFO with questions.</li> -->
+          <li>Complete the ICQ section of the GATA pre-registration within 3 weeks prior to the submittal of your NOFO application.</li>
+          <li>Submit your Letter of Intent and any questions to the agency that generated the NOFO as soon as possible.</li>
+          <li>Attending the NOFO conference call and review all posted webinars.</li>
+          </ul>
+          </div>
 
-</div>
-
+          </div>
 
 
 

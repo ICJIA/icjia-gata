@@ -32,14 +32,14 @@
 
       <div class="col-md-6">
         <ul><li>
-        <div><a href="" v-scroll-to="'#program-goals'">Program Goals, Objectives and Performance Indicators</a></div></li>
+        <div><a href="https://www.youtube.com/watch?v=C6-qCnIsNjs">Program Goals, Objectives and Performance Indicators</a></div></li>
 
 
-        <li><div ><a href="" v-scroll-to="'#logic-models'">The Value of Logic Models (Part 1)</a></div></li>
-        <li><div ><a href="" v-scroll-to="'#logic-models'">Major Components of a Logic Model (Part 2)</a></div></li>
-        <li><div ><a href="" v-scroll-to="'#logic-models'">How Logic Models Support Implementation (Part 3)</a></div></li>
+        <li><div ><a href="https://www.youtube.com/watch?v=rop6xoEA_NQ">The Value of Logic Models (Part 1)</a></div></li>
+        <li><div ><a href="https://www.youtube.com/watch?v=1bGkwPgwmcw" >Major Components of a Logic Model (Part 2)</a></div></li>
+        <li><div ><a href="https://www.youtube.com/watch?v=6O5YP5d2iTs" >How Logic Models Support Implementation (Part 3)</a></div></li>
       <li>
-        <div><a href="" v-scroll-to="'#amendments'">Amendments to Grant Agreements</a></div>
+        <div><a href="https://www.youtube.com/watch?v=iHsWphZtbzU" >Amendments to Grant Agreements</a></div>
       </li></ul>
       </div>
 
@@ -47,31 +47,31 @@
         <ul>
         <li>
           <div>
-            <a href="" v-scroll-to="'#prior-approval'">Budget Categories Needing Prior Approval</a>
+            <a href="https://www.youtube.com/watch?v=YjkFmPid5DI" >Budget Categories Needing Prior Approval</a>
           </div>
         </li>
 
         <li>
           <div>
-            <a href="" v-scroll-to="'#travel-costs'">Budget Category: Travel Costs</a>
+            <a href="https://www.youtube.com/watch?v=nQb8pK5e3Mo" >Budget Category: Travel Costs</a>
           </div>
         </li>
 
         <li>
           <div>
-            <a href="" v-scroll-to="'#subcontractors'">Budget Category: Subcontractors</a>
+            <a href="https://www.youtube.com/watch?v=zXIopZ4KeEI" >Budget Category: Subcontractors</a>
           </div>
         </li>
 
         <li>
           <div>
-            <a href="" v-scroll-to="'#indirect-costs'">Budget Category: Indirect Costs</a>
+            <a href="https://www.youtube.com/watch?v=4stkASoNY5w" >Budget Category: Indirect Costs</a>
           </div>
         </li>
 
         <li>
           <div>
-            <a href="" v-scroll-to="'#self-reporting'">Faith-Based Program Self Reporting Form</a>
+            <a href="https://www.youtube.com/watch?v=x6cqf0075Fg" >Faith-Based Program Self Reporting Form</a>
           </div>
         </li>
 

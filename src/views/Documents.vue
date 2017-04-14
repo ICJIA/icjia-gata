@@ -6,7 +6,11 @@
   <div class="row">
     <div class="col-md-12">
 
-
+      <div class="alert alert-info text-center" role="alert" style="margin-bottom: 65px">
+        <!-- <strong><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="padding-top: -8em"></i>&nbsp;&nbsp;</strong> -->
+        <span class="fa fa-info-circle fa-2x" style=" vertical-align: middle;"></span>
+  &nbsp;&nbsp;<span class="my-text"><strong>The following forms are samples and not for use.</strong></span>
+      </div>
 
 <div class="document-header first">GATA Uniform Grant Agreement Template</div>
 <div class="document-text">
@@ -22,6 +26,16 @@ View an example of a basic ICJIA grant agreement.
 
 
 <ul>
+  <li>
+
+  <a href="/static/documents/Budget_Template/ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(General).pdf">Budget Instructions (General).pdf&nbsp;&raquo;</a>
+
+  </li>
+
+  <li>
+  <a href="/static/documents/Budget_Template/ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(ICJIA).pdf">Budget Instructions (ICJIA).pdf&raquo;</a>
+
+  </li>
   <li>
     <a href="/static/documents/Budget_Template/ICJIA_Uniform_Budget_Template_032817_Sample_Section_A_ICJIA_Funds.pdf">Section A ICJIA Funds&nbsp;&raquo;</a>
 </li>
@@ -79,16 +93,7 @@ View an example of a basic ICJIA grant agreement.
 
 </li>
 
-<li>
 
-<a href="/static/documents/Budget_Template/ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(General).pdf">Budget Instructions (General).pdf&nbsp;&raquo;</a>
-
-</li>
-
-<li>
-<a href="/static/documents/Budget_Template/ICJIA_Uniform_Budget_Template_032817_Sample_Budget_Instructions_(ICJIA).pdf">Budget Instructions (ICJIA).pdf&raquo;</a>
-
-</li>
 </ul>
 
 
