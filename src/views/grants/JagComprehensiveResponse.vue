@@ -206,6 +206,12 @@
 <a class="btn btn-primary btn-grant"
 href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_Drug_NOFO_Application_Documents.zip">Download ALL Application Documents (zip file)</a>
 </div>
+
+<div class="text-center" style="width: 100%">
+<a class="btn btn-sm btn-primary" href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_FAQs.pdf" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Review frequently asked questions about the NOFO&nbsp;<i class="fa fa-file-pdf-o"></i></a></div>
+</div>
+
+
 </div>
 
 </div>
