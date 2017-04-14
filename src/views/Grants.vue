@@ -28,28 +28,15 @@
       <option value="expired">EXPIRED</option>
     </select>
 
-
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
 
     <select v-model="sort" v-on:change="changeSortBy($event)" style="font-size: 13px; font-weight: 900">
 
       <option value="title">TITLE</option>
-      <option value="created">POSTED</option>
-      <option value="expired">EXPIRED</option>
+      <option value="created">POST DATE</option>
+      <option value="expired">EXPIRATION DATE</option>
     </select>
 
-
-    <!-- <span class="btn-group" role="group">
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'title'}" v-on:click="sortFiltered('title')">TITLE</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'created'}" v-on:click="sortFiltered('created')">POSTED</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: sort === 'expired'}" v-on:click="sortFiltered('expired')">EXPIRATION</button>
-    </span> -->
-
-<!-- <span class="control-panel" style="margin-left: 10px"></span>
-    <span class="btn-group" role="group">
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: direction === 'asc'}" v-on:click="sortDirection('asc')"><i class="fa fa-caret-up" aria-hidden="true"></i></button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: direction === 'desc'}" v-on:click="sortDirection('desc')"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
-      </span> -->
 
 
       <select v-model="direction" v-on:change="changeSortDirection($event)" style="font-size: 13px; font-weight: 900">
@@ -142,7 +129,7 @@ export default {
     ]
   },
     mounted () {
-      //console.log(this.$store.grants[1].expired)
+      this.filter(this.filterType)
     },
 
   methods: {
@@ -232,11 +219,11 @@ export default {
       grants: _.orderBy(this.$store.grants, 'title', 'asc'),
       now: moment().subtract(1,'days'),
       warning: '',
-      sort: 'title',
+      sort: 'expired',
       direction: 'asc',
       filtered: [],
       isActive: true,
-      filterType: 'all',
+      filterType: 'current',
       selectedButton:'',
       selected: 'A'
     }
