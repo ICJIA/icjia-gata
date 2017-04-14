@@ -1,1 +1,1 @@
-module.exports = ["/","/contact","/documents","/faqs","/grant-information","/grants/jag-comprehensive-response","/grants/nofo-voca-legal-assist","/grants","/news/catalog-of-state-financial-assistance","/news","/overview","/webinars"]
+module.exports = ["/","/contact","/documents","/faqs","/grant-information","/grants","/news","/overview","/webinars","/grants/jag-comprehensive-response","/grants/nofo-voca-legal-assist","/news/catalog-of-state-financial-assistance"]
