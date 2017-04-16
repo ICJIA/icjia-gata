@@ -1,5 +1,6 @@
 const dirTree = require('directory-tree');
 const _ = require('lodash')
+var path = require('path')
 String.prototype.camelCaseToDashed = function(){
   return this.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
 }
