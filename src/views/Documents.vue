@@ -83,7 +83,7 @@ View an example of a basic ICJIA grant agreement.
 
 <li>
 
-<a href="/static/documents/Budget_Template/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C_Budget_Summary.pd">Section C Budget Summary.pdf&nbsp;&raquo;</a>
+<a href="/static/documents/Budget_Template/ICJIA_Uniform_Budget_Template_032817_Sample_Section_C_Budget_Summary.pdf">Section C Budget Summary.pdf&nbsp;&raquo;</a>
 
 </li>
 
