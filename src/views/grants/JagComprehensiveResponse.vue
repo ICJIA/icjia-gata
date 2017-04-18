@@ -116,16 +116,70 @@
 </div>
 <h2 class="h3 grant-section-head">Required Technical  Assistance Session</h2>
 <div class="grant-section-context">
-<p>A pre-application webinar  will be available for viewing beginning at 1:30 p.m. on Tuesday, April 17, 2017. <br />
-<div class="text-center" style="width: 100%">
-<a href="https://www.surveygizmo.com/s3/3470082/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Mandatory-Technical-Assistance-Webinar-Registration" target="_blank" class="btn btn-primary btn-grant" >Register for Webinar</a></div>
-<!--<div class="text-center" style="width: 100%" id="register-now">
-<a href="/sites/required-webinar" target="_blank" class="btn btn-lg btn-primary" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">View the Mandatory Webinar Recording</a></div>
-<div class="text-center" style="width: 100%" id="register-now">
-<a href="/assets/VOCA/nofo_legal_assist/march_6_2017_webinar_slides.pdf" target="_blank" class="btn btn-lg btn-primary" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Download Webinar Materials For Mandatory Webinar</a></div> -->
-<p>Information provided  during this webinar recording will be unofficial and not binding on the state.<br />
-    </p>
+
+  <p id="ffy13-16-edward-byrne-memorial-justice-assistance-grant-program-comprehensive-law-enforcement-response-to-drugs-administrative-guidelines-all-funding-categories"><strong><!--FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: --> Administrative Guidelines – All Funding&nbsp;Categories</strong></p>
+
+
+  <p>View a webinar describing the FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: Notice of Funding&nbsp;Opportunity:</p>
+
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkHCWo8Qs3k" allowfullscreen=""></iframe>
+  </center>
+
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_All_Categories_Admin_guidelines_PowerPoint.pdf" target="_blank">Download All Funding Categories PowerPoint Presentation&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/Example_budget_for_JAG_drug_NOFO_webinar.xlsx" target="_blank">Download Example&nbsp;Budget</a></p>
+
+
+
+  <p id="ffy13-16-edward-byrne-memorial-justice-assistance-grant-program-comprehensive-law-enforcement-response-to-drugs-category-1-law-enforcement-led-diversion-and-deflections-models"><strong><!--FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: -->  Category 1 / Law Enforcement – Led Diversion and Deflections&nbsp;Models</strong></p>
+
+  <p>View a webinar describing the FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: Category 1 / Law Enforcement – Led Diversion and Deflections&nbsp;Models:</p>
+
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kLlub8J6DXo" allowfullscreen=""></iframe>
+  </center>
+
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_Category_1_program_guidelines_PowerPoint.pdf" target="_blank">Download Categories 1 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+
+  <p id="ffy13-16-edward-byrne-memorial-justice-assistance-grant-program-comprehensive-law-enforcement-response-to-drugs-category-2-multi-jurisdictional-drug-prosecution-units"><strong><!--FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: -->  Category 2 / Multi-Jurisdictional Drug Prosecution&nbsp;Units</strong></p>
+
+  <p>View a webinar describing the FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: Category 2 / Multi-Jurisdictional Drug Prosecution&nbsp;Units </p>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/c5nr7n3Aqgw" allowfullscreen=""></iframe>
+  </center>
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_Category 2_program_guidelines_PowerPoint.pdf" target="_blank">Download Category 2 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+
+  <p id="ffy13-16-edward-byrne-memorial-justice-assistance-grant-program-comprehensive-law-enforcement-response-to-drugs-category-3-multi-jurisdictional-large-scale-drug-trafficking-enforcement"><strong><!--FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: -->  Category 3 / Multi-Jurisdictional Large-Scale Drug Trafficking&nbsp;Enforcement:</strong></p>
+
+  <p>View a webinar describing the FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: Category 3 / Multi-Jurisdictional Large-Scale Drug Trafficking&nbsp;Enforcement:</p>
+  <center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/O8d8gzCEXdY" allowfullscreen=""></iframe>
+  </center>
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_Category_3_program_guidelines_PowerPoint.pdf" target="_blank">Download Category 3 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+  <p>Information provided  during these webinar recording will be unofficial and not binding on the&nbsp;state.<br />
+      </p>
+
+
+
+
+
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h2 class="h3 grant-section-head">Letter of Intent:</h2>
 <div class="grant-section-context">
 <p>Agencies interested in  submitting an application are asked to submit an online Letter of Intent by <strong>11:59  p.m., April 28, 2016</strong>. <br />
@@ -208,7 +262,7 @@ href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_Drug_NOFO_Appli
 </div>
 
 <div class="text-center" style="width: 100%">
-<a class="btn btn-sm btn-primary" href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_FAQs.pdf" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Review frequently asked questions about the NOFO&nbsp;<i class="fa fa-file-pdf-o"></i></a></div>
+<a class="btn btn-sm btn-primary btn-grant" href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_FAQs.pdf" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Review frequently asked questions about the NOFO&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></div>
 </div>
 
 
