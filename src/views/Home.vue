@@ -35,7 +35,7 @@
           <p>All applicants must:</p>
           <ul>
 
-          <li>Register on the State of Illinois Grant Accountability and Transparency Act (GATA) web portal.</li>
+          <li>Register on the <a href="https://www.illinois.gov/sites/GATA/Grantee/Pages/default.aspx">State of Illinois Grant Accountability and Transparency Act (GATA) web portal</a>.</li>
           <li>Pass the pre-qualification verification of the following: <ul><li>valid DUNS number, current SAM.gov account;</li><li> not be on the Federal Excluded Parties List;</li><li> be in Good Standing with the Illinois Secretary of State, as applicable;</li><li> not be on the Illinois Stop Payment list and not on the Dept. of Healthcare and Family Services Provider Sanctions list.</li></ul></li>
           <li>Complete the Internal Control Questionnaire (ICQ).</li>
           </ul>
