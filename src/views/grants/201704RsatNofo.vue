@@ -10,7 +10,7 @@
 
 
 <div id="grant-posting">
-<h2>Illinois Criminal Justice Information Authority Notice of Funding Opportunity FFY14-17 Residential Substance Abuse Treatment Program Residential Substance Abuse Treatment and Aftercare</h2>
+<h1 class="h2 grant-main-head text-center">FFY14-17 Residential Substance Abuse Treatment Program Residential Substance Abuse Treatment and Aftercare</h1>
 
 <p>The Illinois Criminal Justice Information Authority is requesting proposals for grants supporting residential substance abuse treatment and aftercare services. Grants will be made with federal fiscal year 2014-17 (FFY14-17) Residential Substance Abuse Treatment (RSAT) funds. Approximately $315,000 in funding is available in three program categories for use over a period of 12 months.  </p>
 
