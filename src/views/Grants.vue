@@ -16,19 +16,19 @@
 
   <div class="text-center" style="margin-bottom: 80px">
     <span class="control-panel">Display:&nbsp;</span>
-    <!-- <span class="btn-group" role="group">
+    <span class="btn-group" role="group">
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'all'}" v-on:click="filter('all')">ALL</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}" v-on:click="filter('current')">CURRENT</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}" v-on:click="filter('expired')">EXPIRED</button>
-    </span> -->
-    <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
+    </span>
+    <!-- <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
 
       <option value="all">ALL</option>
       <option value="current">CURRENT</option>
       <option value="expired">EXPIRED</option>
-    </select>
+    </select> -->
 
-    {{filterType}}
+    <!-- {{filterType}}
 
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
 
@@ -46,7 +46,7 @@
         <option value="asc">ASC</option>
         <option value="desc">DESC</option>
 
-      </select>
+      </select> -->
 
 
 
