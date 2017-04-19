@@ -21,12 +21,14 @@
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}" v-on:click="filter('current')">CURRENT</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}" v-on:click="filter('expired')">EXPIRED</button>
     </span> -->
-    <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900">
+    <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
 
       <option value="all">ALL</option>
       <option value="current">CURRENT</option>
       <option value="expired">EXPIRED</option>
     </select>
+
+    {{filterType}}
 
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
 
@@ -130,6 +132,11 @@ export default {
   },
     mounted () {
       this.filter(this.filterType)
+      $('#filterType').on('change', function(e) {
+        console.log(e)
+      })
+
+
     },
 
   methods: {
