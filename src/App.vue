@@ -38,7 +38,7 @@ export default {
                               outdatedBrowser({
                                   bgColor: '#f25648',
                                   color: '#ffffff',
-                                  lowerThan: 'transform',
+                                  lowerThan: 'borderImage',
                                   languagePath: '/static/outdated-browser/outdatedbrowser/lang/en.html'
                               })
                             });
