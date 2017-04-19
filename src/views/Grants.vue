@@ -21,14 +21,16 @@
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}"  value="current">CURRENT</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}"  value="expired">EXPIRED</button>
     </span>
-    <!-- <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
+
+    
+    <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
 
       <option value="all">ALL</option>
       <option value="current">CURRENT</option>
       <option value="expired">EXPIRED</option>
-    </select> -->
+    </select>
 
-    <!-- {{filterType}}
+
 
     <span class="control-panel control-panel-spacer">Sort by:&nbsp;</span>
 
@@ -46,7 +48,7 @@
         <option value="asc">ASC</option>
         <option value="desc">DESC</option>
 
-      </select> -->
+      </select>
 
 
 
