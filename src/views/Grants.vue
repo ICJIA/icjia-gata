@@ -16,13 +16,13 @@
 
   <div class="text-center" style="margin-bottom: 80px">
     <span class="control-panel">Display:&nbsp;</span>
-    <span class="btn-group" role="group">
+    <!-- <span class="btn-group" role="group">
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'all'}"  value="all">ALL</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}"  value="current">CURRENT</button>
       <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}"  value="expired">EXPIRED</button>
-    </span>
+    </span> -->
 
-    
+
     <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
 
       <option value="all">ALL</option>
