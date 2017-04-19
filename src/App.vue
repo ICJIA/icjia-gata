@@ -30,8 +30,19 @@ export default {
     },
 
     mounted: function() {
+            $(function() {
 
-      // Google Analytics download tracking script
+                              //plugin function, place inside DOM ready function
+                              outdatedBrowser({
+                                  bgColor: '#f25648',
+                                  color: '#ffffff',
+                                  lowerThan: 'transform',
+                                  languagePath: '/static/outdated-browser/outdatedbrowser/lang/en.html'
+                              })
+                            });
+
+
+      // Google Analytics download auto tracking script
         if (typeof jQuery != 'undefined') {
             jQuery(document).ready(function($) {
                 var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
