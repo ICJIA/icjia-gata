@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "outdated-browser",
+        "scope": null,
+        "escapedName": "outdated-browser",
+        "name": "outdated-browser",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/cws/Webdev/icjia-gata"
+    ]
+  ],
+  "_from": "outdated-browser@latest",
+  "_id": "outdated-browser@1.0.2",
+  "_inCache": true,
+  "_location": "/outdated-browser",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "rolandsusans",
+    "email": "rolands.usans@gmail.com"
+  },
+  "_npmVersion": "2.13.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "outdated-browser",
+    "scope": null,
+    "escapedName": "outdated-browser",
+    "name": "outdated-browser",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/outdated-browser/-/outdated-browser-1.0.2.tgz",
+  "_shasum": "623bbeb927c1f08090b1747692d3436c4b3c0672",
+  "_shrinkwrap": null,
+  "_spec": "outdated-browser",
+  "_where": "/Users/cws/Webdev/icjia-gata",
+  "author": {
+    "name": "Rolands Usāns",
+    "email": "rolands.usans@gmail.com",
+    "url": "github.com/rolandsusans"
+  },
+  "bugs": {
+    "url": "https://github.com/burocratik/outdated-browser/issues"
+  },
+  "dependencies": {},
+  "description": "A time saving tool for developers. It detects outdated browsers and advises users to upgrade to a new version.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "623bbeb927c1f08090b1747692d3436c4b3c0672",
+    "tarball": "https://registry.npmjs.org/outdated-browser/-/outdated-browser-1.0.2.tgz"
+  },
+  "gitHead": "8d11f8f88b29c12fb4dd646dcc747741e7bf69df",
+  "homepage": "https://github.com/burocratik/outdated-browser#readme",
+  "keywords": [
+    "outdated",
+    "browser"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "rolandsusans",
+      "email": "rolands.usans@gmail.com"
+    }
+  ],
+  "name": "outdated-browser",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burocratik/outdated-browser.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
