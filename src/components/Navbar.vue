@@ -32,14 +32,14 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <button class="hamburger hamburger--spin navbar-toggler-right"
+  <!-- <button class="hamburger hamburger--spin navbar-toggler-right"
   type="button"
   data-toggle="collapse"
   data-target="#navbarHeader" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="hamburger-box">
       <span class="hamburger-inner"></span>
     </span>
-  </button>
+  </button> -->
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <router-link to="/" class="navbar-brand">
       <span class="nav-a">ICJIA | GATA INFORMATION</span>
