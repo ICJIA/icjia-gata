@@ -17,9 +17,9 @@
   <div class="text-center" style="margin-bottom: 80px">
     <span class="control-panel">Display:&nbsp;</span>
     <span class="btn-group" role="group">
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'all'}" v-on:click="filter('all')">ALL</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}" v-on:click="filter('current')">CURRENT</button>
-      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}" v-on:click="filter('expired')">EXPIRED</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'all'}"  value="all">ALL</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'current'}"  value="current">CURRENT</button>
+      <button type="button" class="btn btn-secondary btn-filter btn-sm " v-bind:class="{active: filterType === 'expired'}"  value="expired">EXPIRED</button>
     </span>
     <!-- <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
 
@@ -132,9 +132,19 @@ export default {
   },
     mounted () {
       this.filter(this.filterType)
-      $('#filterType').on('change', function(e) {
-        console.log(e)
-      })
+      // $('#filterType').on('change', function(e) {
+      //   console.log(e)
+      // })
+
+      let vm = this
+      $( document ).ready(function() {
+        $('.btn-filter').click(function() {
+              var ft = $(this).val();
+              vm.filter(ft)
+          });
+        });
+
+
 
 
     },
