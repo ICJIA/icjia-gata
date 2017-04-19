@@ -140,6 +140,7 @@ export default {
       $( document ).ready(function() {
         $('.btn-filter').click(function() {
               var ft = $(this).val();
+              console.log('Filter choice', ft)
               vm.filter(ft)
           });
         });
