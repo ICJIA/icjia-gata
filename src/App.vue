@@ -1,6 +1,8 @@
 <template>
   <div id="app">
 
+    <div id="outdated"></div>
+
 <navbar />
 <!-- <keep-alive> -->
 <transition name="fade">
