@@ -32,19 +32,20 @@ export default {
     },
 
     mounted: function() {
-            $(function() {
+        $(function() {
 
-                              //plugin function, place inside DOM ready function
-                              outdatedBrowser({
-                                  bgColor: '#f25648',
-                                  color: '#ffffff',
-                                  lowerThan: 'borderImage',
-                                  languagePath: '/static/outdated-browser/outdatedbrowser/lang/en.html'
-                              })
-                            });
+            //Outdated browser plugin. Anything less than IE11
+            outdatedBrowser({
+                bgColor: '#f25648',
+                color: '#ffffff',
+                lowerThan: 'borderImage',
+                languagePath: '/static/outdated-browser/outdatedbrowser/lang/en.html'
+            })
+        });
 
 
-      // Google Analytics download auto tracking script
+        // Google Analytics download auto tracking script
+        // Automatically tracks clicked links
         if (typeof jQuery != 'undefined') {
             jQuery(document).ready(function($) {
                 var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
