@@ -126,9 +126,9 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkHCWo8Qs3k" allowfullscreen=""></iframe>
   </center>
 
-  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_All_Categories_Admin_guidelines_PowerPoint.pdf" target="_blank">Download All Funding Categories PowerPoint Presentation&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/static/grants/JAG_Drug_NOFO/JAG drug NOFO All Categories Admin guidelines Power Point.pdf" target="_blank">Download All Funding Categories PowerPoint Presentation&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
 
-  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/Example_budget_for_JAG_drug_NOFO_webinar.xlsx" target="_blank">Download Example&nbsp;Budget</a></p>
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/static/grants/JAG_Drug_NOFO/Example budget for JAG drug NOFO webinar.xlsx" target="_blank">Download Example&nbsp;Budget</a></p>
 
 
 
@@ -140,7 +140,7 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/kLlub8J6DXo" allowfullscreen=""></iframe>
   </center>
 
-  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_Category_1_program_guidelines_PowerPoint.pdf" target="_blank">Download Categories 1 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/static/grants/JAG_Drug_NOFO/JAG drug NOFO Category 1 program guidelines Power Point.pdf" target="_blank">Download Categories 1 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
 
   <p id="ffy13-16-edward-byrne-memorial-justice-assistance-grant-program-comprehensive-law-enforcement-response-to-drugs-category-2-multi-jurisdictional-drug-prosecution-units"><strong><!--FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: -->  Category 2 / Multi-Jurisdictional Drug Prosecution&nbsp;Units</strong></p>
 
@@ -148,7 +148,7 @@
   <center>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/c5nr7n3Aqgw" allowfullscreen=""></iframe>
   </center>
-  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_Category 2_program_guidelines_PowerPoint.pdf" target="_blank">Download Category 2 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/static/grants/JAG_Drug_NOFO/JAG drug NOFO Category 2 program guidelines Power Point.pdf" target="_blank">Download Category 2 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
 
   <p id="ffy13-16-edward-byrne-memorial-justice-assistance-grant-program-comprehensive-law-enforcement-response-to-drugs-category-3-multi-jurisdictional-large-scale-drug-trafficking-enforcement"><strong><!--FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: -->  Category 3 / Multi-Jurisdictional Large-Scale Drug Trafficking&nbsp;Enforcement:</strong></p>
 
@@ -156,7 +156,7 @@
   <center>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/O8d8gzCEXdY" allowfullscreen=""></iframe>
   </center>
-  <p class="text-center"><a class="btn btn-primary btn-grant" href="/assets/JAG_Drug_NOFO/JAG_drug_NOFO_Category_3_program_guidelines_PowerPoint.pdf" target="_blank">Download Category 3 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
+  <p class="text-center"><a class="btn btn-primary btn-grant" href="/static/grants/JAG_Drug_NOFO/JAG drug NOFO Category 3 program guidelines Power Point.pdf" target="_blank">Download Category 3 PowerPoint Presentation&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></p>
   <p>Information provided  during these webinar recording will be unofficial and not binding on the&nbsp;state.<br />
       </p>
 
