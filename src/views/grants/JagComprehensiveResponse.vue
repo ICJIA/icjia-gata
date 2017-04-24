@@ -186,6 +186,27 @@
   <div class="text-center" style="width: 100%">
 <a href="https://www.surveygizmo.com/s3/3470019/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Notice-of-Intent" target="_blank" class="btn btn-primary btn-grant" >Submit Notice of Intent</a></div>
 </div>
+
+<h2 class="h3 grant-section-head">Mandatory webinars</h2>
+<div class="grant-section-context">
+  <p>Applicants are required to view the recorded ICJIA funding opportunity webinar regarding administrative guidelines and at least one program category webinar.  Applicants must certify their compliance with this requirement by emailing the certification to CJA.2017DrugNOFO@Illinois.gov no later than:</p>
+  <p class="text-center"><strong>11:59 p.m. on Wednesday, May 24, 2017.</strong></p>
+  <p>These webinars provide information specific to ICJIA and this funding opportunity.</p>
+
+  <div class="text-center" style="width: 100%">
+<a href="/static/grants/JAG_Drug_NOFO/webinar-cert.docx" target="_blank" class="btn btn-primary btn-grant" >Download webinar certification</a></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 <h2 class="h3 grant-section-head">Timeline:</h2>
 <div >
     <table class="table table-striped">
