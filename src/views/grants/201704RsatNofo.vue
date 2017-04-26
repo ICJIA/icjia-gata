@@ -157,11 +157,13 @@ Chicago, IL 60606 <br>
 
 <h3 id="required-technical-assistance-session">Required Technical Assistance Session:</h3>
 
-<p>A required pre-application webinar offering technical assistance will be available for viewing at 1:30 p.m. on Monday, May 1, 2017.  </p>
+<p>View the required pre-application webinar offering technical assistance below:</p>
 
-<p class="text-center"><a href="https://www.surveygizmo.com/s3/3498836/RSAT-Program-Residential-Substance-Abuse-Treatment-and-Aftercare-Program-Mandatory-Technical-Assistance-Webinar-Registration" target="_blank" class="btn btn-primary btn-grant">Register for Mandatory Webinar</a></p>
+<p class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/zezwGlJYxeQ" allowfullscreen=""></iframe></p>
 
-<p>Information provided during this webinar recording will be unofficial and not binding on the state.  </p>
+<p class="text-center"><a href="https://www.surveygizmo.com/s3/3527267/Required-RSAT-Residential-Substance-Abuse-Treatment-and-Aftercare-Program-Pre-application-Webinar-Certification" target="_blank" class="btn btn-primary btn-grant">Submit Certification for Viewing Required Webinar</a></p>
+
+<p>Information provided during this webinar recording will be unofficial and not binding on the state.</p>
 
 
 

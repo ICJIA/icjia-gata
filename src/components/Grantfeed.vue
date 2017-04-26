@@ -19,8 +19,9 @@
                   <span v-if="isItNew(grant.created)"><span class="new">NEW!</span> | </span>
                   Posted: {{grant.created | moment}} |
 
-                  <span v-if="checkExpire(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
-                  <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span>
+                  <!-- <span v-if="isItExpired(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
+                  <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span> -->
+                  <span class="grant-deadline">Deadline: {{grant.expired | moment}}</span>
                 </div>
                 <div class="grant-description" v-html="grant.description"></div>
 
@@ -98,7 +99,7 @@ export default {
     now: moment().subtract(1,'days'),
     weeksForNewBanner: 1
   }
-},   
+},
 props: {
   showExpired: {
     type: String,
@@ -124,15 +125,15 @@ props: {
   // }
 },
 methods: {
-  checkExpire(d) {
-    if (d < this.now) {
-      return true
-    }
+  isItExpired(d) {
+    // if (d < this.now) {
+    //   return true
+    // }
+    return d < this.now
   },
   isItNew(d) {
     let target = moment(d).add(this.weeksForNewBanner, 'weeks')
-    let isItNew = moment(target).isAfter(moment())
-    return isItNew
+    return moment(target).isAfter(moment())
   }
 },
 filters: {
