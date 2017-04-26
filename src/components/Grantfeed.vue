@@ -15,7 +15,9 @@
               <router-link :to="grant.path" class="grant-title">{{ grant.title }}
                 </router-link>
 
-                <div class="grant-date">Posted: {{grant.created | moment}} |
+                <div class="grant-date">
+                  <span v-if="isItNew(grant.created)"><span class="new">NEW!</span> | </span>
+                  Posted: {{grant.created | moment}} |
 
                   <span v-if="checkExpire(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
                   <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span>
@@ -125,6 +127,11 @@ methods: {
     if (d < this.now) {
       return true
     }
+  },
+  isItNew(d) {
+    let target = moment(d).add(1, 'weeks')
+    let isItNew = moment(target).isAfter(moment())
+    return isItNew
   }
 },
 filters: {
@@ -150,4 +157,5 @@ ul#grantFeed li {margin-bottom: 30px; }
 .grant-readmore {margin-top: 15px; }
 .grant-deadline {font-weight: 900; color: #555; margin-top: 10px;margin-bottom: 10px;}
 .grant-title {font-weight: 900; padding-bottom: 10px; text-transform: uppercase;}
+.new {font-size: 10px; font-weight: 900; color: red; padding: 3px 5px 3px 5px; background: red; color: #fff}
 </style>
