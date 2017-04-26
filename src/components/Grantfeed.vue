@@ -95,9 +95,10 @@ export default {
   data: function () {
   return {
     grants: [],
-    now: moment().subtract(1,'days')
+    now: moment().subtract(1,'days'),
+    weeksForNewBanner: 1
   }
-},
+},   
 props: {
   showExpired: {
     type: String,
@@ -129,7 +130,7 @@ methods: {
     }
   },
   isItNew(d) {
-    let target = moment(d).add(1, 'weeks')
+    let target = moment(d).add(this.weeksForNewBanner, 'weeks')
     let isItNew = moment(target).isAfter(moment())
     return isItNew
   }
