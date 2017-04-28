@@ -77,7 +77,7 @@
           <div v-if="grants.length > 0">
 
           <span v-for="grant in grants">
-              <router-link class="dropdown-item" :to="grant.path" exact>{{grant.title | truncate}}</router-link>
+              <router-link class="dropdown-item" :to="grant.path" exact>{{grant.title | truncateMiddle }}</router-link>
           </span>
         </div>
         <div v-else>
@@ -160,6 +160,24 @@ export default {
         moment: function(date) {
             return moment(date).format('MMMM Do YYYY');
         },
+
+
+        truncateMiddle: function (text) {
+            let startChars = 10;
+            let endChars = 15;
+            let maxLength = 28;
+            if (text.length > maxLength) {
+                var start = text.substring(0, startChars);
+                var end = text.substring(text.length - endChars, text.length);
+                while ((start.length + end.length) < maxLength)
+                {
+                    start = start + '.';
+                }
+                return start + end;
+            }
+            return text;
+        },
+
 
         truncate: function(str) {
           let num = 30
