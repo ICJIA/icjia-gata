@@ -169,8 +169,8 @@ approved:
 
         <grantfeed
           showExpired="false"
-          sortBy="expired"
-          sortDirection="asc"
+          sortBy="created"
+          sortDirection="desc"
           />
 
 

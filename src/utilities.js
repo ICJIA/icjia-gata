@@ -120,6 +120,33 @@ exports.parseBool = function(str) {
 }
 
 
+exports.titleCase = function(str) {
+     let words = str.toLowerCase().split(' ');
+
+     for(var i = 0; i < words.length; i++) {
+          let letters = words[i].split('');
+          letters[0] = letters[0].toUpperCase();
+          words[i] = letters.join('');
+     }
+     return words.join(' ');
+}
+
+exports.camelCase = function (str) {
+  // Lower cases the string
+  return str.toLowerCase()
+    // Replaces any - or _ characters with a space
+    .replace( /[-_]+/g, ' ')
+    // Removes any non alphanumeric characters
+    .replace( /[^\w\s]/g, '')
+    // Uppercases the first character in each group immediately following a space
+    // (delimited by spaces)
+    .replace( / (.)/g, function($1) { return $1.toUpperCase(); })
+    // Removes spaces
+    .replace( / /g, '' );
+}
+
+
+
 exports.stripTags =  function(str) {
   // strip tags
   str = str.replace(/<\/?[^>]+>/g, '');
@@ -137,6 +164,19 @@ exports.truncateString = function(str, num) {
   } else {
     return str.slice(0, num > 3 ? num - 3 : num) + '...';
   }
+}
+
+exports.truncateStringMiddle = function (text, startChars, endChars, maxLength) {
+    if (text.length > maxLength) {
+        var start = text.substring(0, startChars);
+        var end = text.substring(text.length - endChars, text.length);
+        while ((start.length + end.length) < maxLength)
+        {
+            start = start + '.';
+        }
+        return start + end;
+    }
+    return text;
 }
 
 function stripCarriageReturns (str) {
