@@ -298,9 +298,9 @@ export default {
 
   mounted () {
       $( document ).ready(function() {
-        "use strict";
-$(function() {
-    $(".youtube").each(function() {
+
+          $(function() {
+            $(".youtube").each(function() {
         // Based on the YouTube ID, we can easily find the thumbnail image
         $(this).css('background-image', 'url(https://i.ytimg.com/vi/' + this.id + '/mqdefault.jpg)');
 
@@ -328,12 +328,12 @@ $(function() {
 
 <style lang="css" scoped>
 a {text-decoration: none}
-.card {margin-top: 30px; margin-bottom: 30px}
+/*.card {margin-top: 30px; margin-bottom: 30px}
 .card-img-top {border-bottom: 1px solid #ccc;}
 .card-footer small {font-weight: 700}
 .card.well {padding: 35px; background: #efefef}
 .text-muted {color: #aaa}
 .contents-header {border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 30px}
-.card.contents {padding: 30px; margin-bottom: 100px}
+.card.contents {padding: 30px; margin-bottom: 100px}*/
 ul li {margin-top: 0; padding-top: 0}
 </style>

@@ -48,6 +48,23 @@
   contact information</a> on the request for
   applications for technical assistance at any point in the process.</p></div>
 
+
+  <div class="card well" id="gata-procedueral-webinar">
+  <h2 class="h4">GATA General Procedural Common FAQs webinar</h2>
+  <p>This webinar answers frequently asked questions about the grant review process. Topics include rules and regulations, common errors on applications, certifications, and budgetary issues.
+  </p>
+    <div class="card" style="width: 16rem; margin-left: auto; margin-right: auto ;">
+     <span class="card-img-top youtube" id="g18hgiS3RYI" style="height: 200px" alt="Card image cap"></span>
+
+     <div class="card-footer">
+         <small class="text-muted">Added May 2017</small>
+       </div>
+   </div>
+   </div>
+
+
+
+
        </div>
      </div>
     </div>
@@ -90,6 +107,33 @@ export default {
 
 
   },
+  mounted () {
+      $( document ).ready(function() {
+
+          $(function() {
+            $(".youtube").each(function() {
+        // Based on the YouTube ID, we can easily find the thumbnail image
+        $(this).css('background-image', 'url(https://i.ytimg.com/vi/' + this.id + '/mqdefault.jpg)');
+
+        // Overlay the Play icon to make it look like a video player
+        $(this).append($('<div/>', {'class': 'play'}));
+
+        $(document).delegate('#'+this.id, 'click', function() {
+            // Create an iFrame with autoplay set to true
+            var iframe_url = "https://www.youtube.com/embed/" + this.id + "?allowfullscreen&autoplay=1&autohide=1";
+            if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
+
+            // The height and width of the iFrame should be the same as parent
+            var iframe = $('<iframe/>', {'frameborder': '0', 'allowfullscreen':'true','src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
+
+            // Replace the YouTube thumbnail with YouTube HTML5 Player
+            $(this).replaceWith(iframe);
+        });
+    });
+ });
+
+      });
+  },
   data () {
     return {
       title
@@ -98,8 +142,9 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .faq-question {font-weight:700; margin-top: 40px;}
 .faq-question.first {margin-top: 10px;}
 .faq-response p {margin-left: 15px}
+.card {margin-top: 40px;}
 </style>

@@ -216,6 +216,14 @@ button:focus {
     filter: alpha(opacity=100);
 }
 
+.card {margin-top: 30px; margin-bottom: 30px}
+.card-img-top {border-bottom: 1px solid #ccc;}
+.card-footer small {font-weight: 700}
+.card.well {padding: 35px; background: #efefef}
+.text-muted {color: #aaa}
+.contents-header {border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 30px}
+.card.contents {padding: 30px; margin-bottom: 100px}
+
 
 
 /* Grant Opportunity and News styles
