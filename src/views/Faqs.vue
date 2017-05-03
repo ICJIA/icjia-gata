@@ -31,7 +31,7 @@
   news, and research by checking the <a href="http://www.icjia.state.il.us">ICJIA website</a>,
   <a href="https://visitor.r20.constantcontact.com/manage/optin?v=001MqUcqqvjwLCJXlLMSWbTe3zHHmEQgFeBuHvBcJWTbwgrxFbDSGx4HSUPpI6DJWMUPgbljtLxffqIcGFTgCnr-auak88ybvRxpoJlTMGPtZs%3D">subscribing to the CJ Dispatch</a>,
    and following us on <a href="https://www.facebook.com/ICJIA/">Facebook</a> and <a href="https://twitter.com/icjia_illinois?lang=en">Twitter</a>.</p></div>
-
+</div>
  <div class="faq-question"><p>How do I apply for a grant?</p>
 </div>
 <div class="faq-response"><p>When you see a grant opportunity
