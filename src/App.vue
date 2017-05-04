@@ -34,6 +34,14 @@ export default {
     mounted: function() {
         $(function() {
 
+          $( document ).ready(function() {
+            var stickyElements = document.getElementsByClassName('sticky');
+            //console.log(stickyElements)
+            for (var i = stickyElements.length - 1; i >= 0; i--) {
+              Stickyfill.add(stickyElements[i]);
+            }
+          });
+
             //Outdated browser plugin. Anything less than IE11
             outdatedBrowser({
                 bgColor: '#f25648',
