@@ -160,7 +160,7 @@ approved:
 
                   <h1 class="h4 section-title">
                     <router-link to="/grants">
-                      Grant Opportunities
+                      Current Grant Opportunities
                     </router-link></h1>
 
 
