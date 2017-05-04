@@ -2,9 +2,49 @@
   <section class="page">
     <page-header header="Notice of Funding Opportunity" />
     <!-- GRANT CONTENT HERE -->
-    <div class="container">
+    <div class="container-fluid side-spacer">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-3 hidden-sm-down">
+          <ul class="sticky nav flex-column sidenav-toc">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
+            </li>
+
+
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#eligibility', offset: -30}">Eligibility</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#notice-of-funding-opportunity', offset: -30}">Notice of Funding Opportunity</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#available-funds', offset: -30}">Available Funds</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#period-of-performance', offset: -30}">Period of Performance</a>
+  </li>
+
+
+
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#timeline', offset: -30}">Timeline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#reporting', offset: -30}">Reporting</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#application-instructions', offset: -30}">Application Instructions</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#contact-information', offset: -30}">Contact Information</a>
+  </li>
+
+</ul>
+        </div>
+        <div class="col-md-9">
           <div id="grant-posting">
 
 
