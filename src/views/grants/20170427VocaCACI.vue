@@ -230,9 +230,9 @@ export default {
 </script>
 
 <style lang="css">
-#grant-posting h1 {margin-bottom: 50px}
+/*#grant-posting h1 {margin-bottom: 50px}
 #grant-posting h2 {margin-bottom: 30px;}
 #grant-posting h3 {border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-top: 30px; margin-bottom: 30px;}
-#grant-posting h3.first {margin-top: 80px !important}
+#grant-posting h3.first {margin-top: 80px !important}*/
 
 </style>
