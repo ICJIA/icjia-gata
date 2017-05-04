@@ -2,9 +2,59 @@
   <section class="page">
     <page-header header="Notice of Funding Opportunity" />
     <!-- GRANT CONTENT HERE -->
-    <div class="container">
+    <div class="container-fluid side-spacer">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-3 hidden-sm-down">
+          <ul class="sticky nav flex-column sidenav-toc">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
+            </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#" v-scroll-to="{el: '#program-requirements', offset: -30}">Program Requirements</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#" v-scroll-to="{el: '#all-categories', offset: -30}">All Categories</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#eligible-applicants', offset: -30}">Eligible Applicants</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#application-materials', offset: -30}">Application Materials</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#available-funds', offset: -30}">Available Funds</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#period-of-performance', offset: -30}">Period of Performance</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#contact-information', offset: -30}">Contact Information</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"v-scroll-to="{el: '#required-technical-assistance-section', offset: -30}">Required Technical Assistance Session</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"v-scroll-to="{el: '#notice-of-intent', offset: -30}">Notice of Intent</a>
+  </li>
+
+
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#timeline', offset: -30}">Timeline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#reporting', offset: -30}">Reporting</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#required-documents', offset: -30}">Required Documents</a>
+  </li>
+
+</ul>
+        </div>
+        <div class="col-md-9">
 
 <!-- START CONTENT -->
 
@@ -20,7 +70,7 @@
 
 <p class="text-center" style="margin-top: 30px; margin-bottom: 30px"><a href="http://www.icjia.state.il.us/assets/RSAT_NOFO/RSAT_NOFO_041217.pdf" target="_blank" class="btn btn-primary btn-grant">Read the Notice of Funding Opportunity  <i class="fa fa-file-pdf-o"></i></a></p>
 
-<h3 style="margin-top: 50px">Program requirements:</h3>
+<h3 style="margin-top: 50px" id="program-requirements">Program requirements:</h3>
 
 
 RSAT funds may be used to implement three types of programs: corrections-based, jail-based, and aftercare. Applications involving partnerships with community-based substance abuse treatment programs are encouraged. Agencies may apply for funding in more than one program category.
@@ -155,7 +205,7 @@ Chicago, IL 60606 <br>
 
 
 
-<h3 id="required-technical-assistance-session">Required Technical Assistance Session:</h3>
+<h3 id="required-technical-assistance-section">Required Technical Assistance Session:</h3>
 
 <p>View the required pre-application webinar offering technical assistance below:</p>
 

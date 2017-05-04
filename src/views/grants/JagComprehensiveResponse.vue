@@ -5,7 +5,7 @@
     <div class="container-fluid side-spacer">
       <div class="row">
         <div class="col-md-3 hidden-sm-down">
-          <ul class="sticky nav flex-column sidenav">
+          <ul class="sticky nav flex-column sidenav-toc">
             <li class="nav-item">
               <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
             </li>
@@ -22,7 +22,7 @@
     <a class="nav-link" href="#" v-scroll-to="{el: '#eligible-applicants', offset: -30}">Eligible Applicants</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#additional-materials', offset: -30}">Additional Materials</a>
+    <a class="nav-link" href="#" v-scroll-to="{el: '#application-materials', offset: -30}">Application Materials</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
@@ -424,13 +424,13 @@ export default {
 </script>
 
 <style lang="css">
-.sidenav {margin-bottom: 50px; max-width: 280px;}
-.sidenav li {background: #efefef; margin-bottom: 2px; font-size: 14px; text-transform: uppercase; }
-.sidenav li a:hover {border-left: 5px solid #555; outline: 0; padding-left: -5px; background: #aaa; color: #fff}
+/*.sidenav-toc {margin-bottom: 50px; max-width: 280px;}
+.sidenav-toc li {background: #efefef; margin-bottom: 2px; font-size: 14px; text-transform: uppercase; }
+.sidenav-toc li a:hover {border-left: 5px solid #555; outline: 0; padding-left: -5px; background: #aaa; color: #fff}
 .side-spacer {padding-left: 30px; padding-right: 30px}
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 20px;
-}
+}*/
 </style>

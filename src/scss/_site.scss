@@ -258,3 +258,14 @@ button:focus {
     content: '';
     display: table;
 }
+
+
+.sidenav-toc {margin-bottom: 50px; max-width: 280px;}
+.sidenav-toc li {background: #efefef; margin-bottom: 2px; font-size: 14px; text-transform: uppercase; }
+.sidenav-toc li a:hover {border-left: 5px solid #555; outline: 0; padding-left: -5px; background: #aaa; color: #fff}
+.side-spacer {padding-left: 30px; padding-right: 30px}
+.sticky.sidenav-toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
