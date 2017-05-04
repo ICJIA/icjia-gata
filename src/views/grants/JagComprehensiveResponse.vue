@@ -4,7 +4,7 @@
     <!-- GRANT CONTENT HERE -->
     <div class="container-fluid side-spacer">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 hidden-sm-down hidden-xs-down">
           <ul class="sticky nav flex-column sidenav">
             <li class="nav-item">
               <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
@@ -19,11 +19,12 @@
     <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"v-scroll-to="{el: '#technical-assistance', offset: -30}">Technical Assistance Session</a>
-  </li>
-  <li class="nav-item">
     <a class="nav-link" href="#" v-scroll-to="{el: '#contact', offset: -30}">Contact Information</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"v-scroll-to="{el: '#technical-assistance', offset: -30}">Technical Assistance Session</a>
+  </li>
+
   <li class="nav-item">
     <a class="nav-link" href="#" v-scroll-to="{el: '#timeline', offset: -30}">Timeline</a>
   </li>
@@ -402,7 +403,7 @@ export default {
 </script>
 
 <style lang="css">
-.sidenav {margin-bottom: 50px; max-width: 250px;}
+.sidenav {margin-bottom: 50px; max-width: 280px;}
 .sidenav li {background: #efefef; margin-bottom: 2px; font-size: 14px; text-transform: uppercase; }
 .sidenav li a:hover {border-left: 5px solid #555; outline: 0; padding-left: -5px; background: #aaa; color: #fff}
 .side-spacer {padding-left: 30px; padding-right: 30px}
