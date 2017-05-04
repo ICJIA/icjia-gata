@@ -163,9 +163,9 @@ export default {
 
 
         truncateMiddle: function (text) {
-            let startChars = 10;
-            let endChars = 15;
-            let maxLength = 28;
+            let startChars = 15;
+            let endChars = 25;
+            let maxLength = 43;
             if (text.length > maxLength) {
                 var start = text.substring(0, startChars);
                 var end = text.substring(text.length - endChars, text.length);

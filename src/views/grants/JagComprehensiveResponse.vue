@@ -4,7 +4,7 @@
     <!-- GRANT CONTENT HERE -->
     <div class="container-fluid side-spacer">
       <div class="row">
-        <div class="col-md-3 hidden-sm-down hidden-xs-down">
+        <div class="col-md-3 hidden-sm-down">
           <ul class="sticky nav flex-column sidenav">
             <li class="nav-item">
               <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
@@ -13,16 +13,37 @@
     <a class="nav-link active" href="#" v-scroll-to="{el: '#program-requirements', offset: -30}">Program Requirements</a>
   </li>
   <li class="nav-item">
+    <a class="nav-link active" href="#" v-scroll-to="{el: '#additional-requirements', offset: -30}">Additional Requirements</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#eligibility-information', offset: -30}">Eligibility Information</a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link" href="#" v-scroll-to="{el: '#eligible-applicants', offset: -30}">Eligible Applicants</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#additional-materials', offset: -30}">Additional Materials</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
   </li>
   <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#available-funds', offset: -30}">Available Funds</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#period-of-performance', offset: -30}">Period of Performance</a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link" href="#" v-scroll-to="{el: '#contact', offset: -30}">Contact Information</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"v-scroll-to="{el: '#technical-assistance', offset: -30}">Technical Assistance Session</a>
+    <a class="nav-link" href="#"v-scroll-to="{el: '#technical-assistance', offset: -30}">Required Technical Assistance Session</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"v-scroll-to="{el: '#letter-of-intent', offset: -30}">Letter of Intent</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"v-scroll-to="{el: '#mandatory-webinars', offset: -30}">Mandatory Webinars</a>
   </li>
 
   <li class="nav-item">
@@ -99,13 +120,13 @@
   <li>Have  a commitment for staffing by all participating agencies.</li>
 </ul>
 </div>
-<h2 class="h3 grant-section-head">Additional  Requirements: Law Enforcement Task Forces </h2>
+<h2 class="h3 grant-section-head" id="additional-requirements">Additional  Requirements: Law Enforcement Task Forces </h2>
 <div class="grant-section-context">
 <p>All members  of a law enforcement task force supported with these funds who is a task force  commander, agency executive, task force officer, or other task force member of  equivalent rank, will complete required online internet-based task force  training once during the life of the grant award. The training is provided free  of charge online through the U.S. Bureau of Justice Assistance Center for Task Force  Integrity and Leadership (<a href="http://www.ctfli.org"><strong>www.ctfli.org</strong></a>). </p>
 <p>This  training addresses task force effectiveness as well as other key issues  including privacy and civil liberties/rights, task force performance  measurement, personnel selection, and task force oversight and accountability. </p>
 <p>In addition,  the Authority will require the submission of task force personnel rosters that  include training course completion certificates. Go to <a href="http://www.ctfli.org"><strong>www.ctfli.org</strong></a> for more information. </p>
 </div>
-<h2 class="h3 grant-section-head">Eligibility Information</h2>
+<h2 class="h3 grant-section-head" id="eligibility-information">Eligibility Information</h2>
 <div class="grant-section-context">
 <p>  Agencies  must be pre-qualified through the Grant Accountability and Transparency Act  (GATA) Grantee Portal, <a href="http://www.grants.illinois.gov"><strong>www.grants.illinois.gov</strong></a>, to become eligible to  apply for an award.  Applicants must have  completed the GATA pre-qualification process and received approval of their Internal  Control Questionnaire (ICQ) by the date of application to be considered for  funding.   Applications from agencies that have not  received ICQ approval will not be reviewed.<br />
   </p>
@@ -117,7 +138,7 @@
 <p>Agencies  may apply for funding in more than one program category.<br />
   </p>
 </div>
-<h2 class="h3 grant-section-head">Application Materials:</h2>
+<h2 class="h3 grant-section-head" id="application-materials">Application Materials:</h2>
   <div class="grant-section-context">
 <p><a href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_NOFO_033017.pdf"><strong>Click here</strong></a> for the JAG Comprehensive  Law Enforcement Response to Drugs Grant Application<br />
   </p>
@@ -128,12 +149,12 @@
 <p>Completed application  materials must be emailed to <a href="mailto:CJA.2017DrugNOFO@Illinois.gov"><strong>CJA.2017DrugNOFO@Illinois.gov</strong></a> by <strong>11:59 p.m., May  30, 2017,</strong> to be considered for funding. Proposals will not be accepted by  mail, fax, or in-person. Incomplete applications will not be reviewed. Late  submissions will not be reviewed.<br />
   </p>
 </div>
-<h2 class="h3 grant-section-head ">Available Funds</h2>
+<h2 class="h3 grant-section-head " id="available-funds">Available Funds</h2>
 <div class="grant-section-context">
 <p>Grants available through  this funding opportunity are a portion of a Federal Fiscal Year 2013-16 Justice  Assistance Grant award from the U.S. Department of Justice Office of Justice  Programs Bureau of Justice Assistance to the Illinois Criminal Justice  Information Authority. A minimum of $4.2 million dollars will be made available  through this funding opportunity. Minimum and maximum allowable grant  requests vary by program category. <br />
   </p>
 </div>
-<h2 class="h3 grant-section-head ">Period of Performance</h2>
+<h2 class="h3 grant-section-head " id="period-of-performance">Period of Performance</h2>
 <div class="grant-section-context">
 <p>Funding is available for  the period of <strong>October 1, 2017, through September 30, 2018</strong>. Based on  program performance and fund availability, the Authority may recommend  allocation of funding to support an additional 24 months. <br />
   </p>
@@ -215,14 +236,14 @@
 
 
 
-<h2 class="h3 grant-section-head">Letter of Intent:</h2>
+<h2 class="h3 grant-section-head" id="letter-of-intent">Letter of Intent:</h2>
 <div class="grant-section-context">
 <p>Agencies interested in  submitting an application are asked to submit an online Letter of Intent by <strong>11:59  p.m., April 28, 2016</strong>. <br />
   <div class="text-center" style="width: 100%">
 <a href="https://www.surveygizmo.com/s3/3470019/JAG-Comprehensive-Law-Enforcement-Response-to-Drugs-Program-Notice-of-Intent" target="_blank" class="btn btn-primary btn-grant" >Submit Notice of Intent</a></div>
 </div>
 
-<h2 class="h3 grant-section-head">Mandatory webinars</h2>
+<h2 class="h3 grant-section-head" id="mandatory-webinars">Mandatory webinars</h2>
 <div class="grant-section-context">
   <p>Applicants are required to view the recorded ICJIA funding opportunity webinar regarding administrative guidelines and at least one program category webinar.  Applicants must certify their compliance with this requirement by emailing the certification to CJA.2017DrugNOFO@Illinois.gov no later than:</p>
   <p class="text-center"><strong>11:59 p.m. on Wednesday, May 24, 2017.</strong></p>
