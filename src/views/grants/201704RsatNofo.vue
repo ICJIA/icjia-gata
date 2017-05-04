@@ -351,6 +351,6 @@ export default {
 <style lang="css">
 
 #grant-posting h2 {margin-bottom: 30px;}
-#grant-posting h3 {border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-top: 30px; margin-bottom: 30px;}
+#grant-posting h3 {border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-top: 50px; margin-bottom: 20px;}
 
 </style>

@@ -2,9 +2,43 @@
   <section class="page">
     <page-header header="Notice of Funding Opportunity" />
     <!-- GRANT CONTENT HERE -->
-    <div class="container">
+    <div class="container-fluid side-spacer">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-3">
+          <ul class="sticky nav flex-column sidenav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
+            </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#" v-scroll-to="{el: '#program-requirements', offset: -30}">Program Requirements</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#eligible-applicants', offset: -30}">Eligible Applicants</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"v-scroll-to="{el: '#technical-assistance', offset: -30}">Technical Assistance Session</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#contact', offset: -30}">Contact Information</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#timeline', offset: -30}">Timeline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#reporting', offset: -30}">Reporting</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#required-documents', offset: -30}">Required Documents</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" v-scroll-to="{el: '#faqs', offset: -30}">FAQs</a>
+  </li>
+</ul>
+        </div>
+        <div class="col-md-9">
 
 <!-- START CONTENT -->
 
@@ -31,7 +65,7 @@
       Read the Notice of Funding Opportunity&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>&nbsp;
       <br><br>.</p>
 
-<h2 class="h3 grant-section-head first">Program Requirements</h2>
+<h2 class="h3 grant-section-head first" id="program-requirements">Program Requirements</h2>
 <div class="grant-section-context">
 <p>Applicants  may request funding under one or more categories of funding. </p>
 <p><strong>Category 1: Law Enforcement Deflection and  Diversion Programs </strong></p>
@@ -75,7 +109,7 @@
 <p>  Agencies  must be pre-qualified through the Grant Accountability and Transparency Act  (GATA) Grantee Portal, <a href="http://www.grants.illinois.gov"><strong>www.grants.illinois.gov</strong></a>, to become eligible to  apply for an award.  Applicants must have  completed the GATA pre-qualification process and received approval of their Internal  Control Questionnaire (ICQ) by the date of application to be considered for  funding.   Applications from agencies that have not  received ICQ approval will not be reviewed.<br />
   </p>
 </div>
-<h2 class="h3 grant-section-head">Eligible Applicants:</h2>
+<h2 class="h3 grant-section-head" id="eligible-applicants">Eligible Applicants:</h2>
 <div class="grant-section-context">
 <p>Eligible applicants are  limited to Illinois municipalities, counties and state agencies. Private and  non-profit entities are not eligible to apply.<br />
   </p>
@@ -87,7 +121,7 @@
 <p><a href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_NOFO_033017.pdf"><strong>Click here</strong></a> for the JAG Comprehensive  Law Enforcement Response to Drugs Grant Application<br />
   </p>
 </div>
-<h2 class="h3 grant-section-head">Deadline</h2>
+<h2 class="h3 grant-section-head" id="deadline">Deadline</h2>
 <div class="grant-section-context">
 
 <p>Completed application  materials must be emailed to <a href="mailto:CJA.2017DrugNOFO@Illinois.gov"><strong>CJA.2017DrugNOFO@Illinois.gov</strong></a> by <strong>11:59 p.m., May  30, 2017,</strong> to be considered for funding. Proposals will not be accepted by  mail, fax, or in-person. Incomplete applications will not be reviewed. Late  submissions will not be reviewed.<br />
@@ -103,7 +137,7 @@
 <p>Funding is available for  the period of <strong>October 1, 2017, through September 30, 2018</strong>. Based on  program performance and fund availability, the Authority may recommend  allocation of funding to support an additional 24 months. <br />
   </p>
 </div>
-<h2 class="h3 grant-section-head ">Contact Information</h2>
+<h2 class="h3 grant-section-head " id="contact">Contact Information</h2>
   <div class="grant-section-context">
 <p>Gregory Stevens<br />
   Program Administrator<br />
@@ -114,7 +148,7 @@
   312-793-0890<br />
   </p>
 </div>
-<h2 class="h3 grant-section-head">Required Technical  Assistance Session</h2>
+<h2 class="h3 grant-section-head" id="technical-assistance">Required Technical  Assistance Session</h2>
 <div class="grant-section-context">
 
   <p id="ffy13-16-edward-byrne-memorial-justice-assistance-grant-program-comprehensive-law-enforcement-response-to-drugs-administrative-guidelines-all-funding-categories"><strong><!--FFY13-16 Edward Byrne Memorial Justice Assistance Grant Program Comprehensive Law Enforcement Response to Drugs: --> Administrative Guidelines – All Funding&nbsp;Categories</strong></p>
@@ -207,7 +241,7 @@
 
 
 
-<h2 class="h3 grant-section-head">Timeline:</h2>
+<h2 class="h3 grant-section-head" id="timeline">Timeline:</h2>
 <div >
     <table class="table table-striped">
       <thead>
@@ -257,12 +291,12 @@
 </tbody>
 </table>
 </div>
-<h2 class="h3 grant-section-head">Reporting:</h2>
+<h2 class="h3 grant-section-head" id="reporting">Reporting:</h2>
 <div class="grant-section-context">
 <p>Recipients must submit quarterly financial reports,  quarterly progress reports, final financial and progress reports, and, if  applicable, an annual audit report in accordance with the CFR Part 200 Uniform Requirements.  Future awards and fund drawdowns may be withheld if reports are delinquent.</p>
 <p>In addition, funded  programs will be required to report performance measures through the U.S.  Department of Justice Bureau of Justice Assistance portal at <a href="https://bjapmt.ojp.gov"><strong>https://bjapmt.ojp.gov</strong></a>.</p>
 </div>
-<h2 class="h3 grant-section-head">Required Documents</h2>
+<h2 class="h3 grant-section-head" id="required-documents">Required Documents</h2>
 <div class="grant-section-context">
 <p>The following documents  must be emailed to <a href="mailto:CJA.2017DrugNOFO@Illinois.gov"><strong>CJA.2017DrugNOFO@Illinois.gov</strong></a> by the 11:59 p.m.,  Tuesday, May 30, 2017, deadline for application review. Click the links below to  download copies.</p>
 <ul type="disc">
@@ -282,7 +316,7 @@
 href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_Drug_NOFO_Application_Documents.zip">Download ALL Application Documents (zip file)</a>
 </div>
 
-<div class="text-center" style="width: 100%">
+<div class="text-center" style="width: 100%" id="faqs">
 <a class="btn btn-sm btn-primary btn-grant" href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/JAG_Drug_FAQs.pdf" style="text-transform: uppercase; margin-top: 30px; margin-bottom: 15px; font-family: 'Lato', sans-serif;">Review frequently asked questions about the NOFO&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></div>
 </div>
 
@@ -347,6 +381,16 @@ export default {
     PageHeader
 
   },
+  mounted: function() {
+    $( document ).ready(function() {
+      var stickyElements = document.getElementsByClassName('sticky');
+
+      for (var i = stickyElements.length - 1; i >= 0; i--) {
+        Stickyfill.add(stickyElements[i]);
+      }
+    });
+
+  },
   data () {
     return {
       title
@@ -358,5 +402,13 @@ export default {
 </script>
 
 <style lang="css">
-
+.sidenav {margin-bottom: 50px; max-width: 250px;}
+.sidenav li {background: #efefef; margin-bottom: 2px; font-size: 14px; text-transform: uppercase; }
+.sidenav li a:hover {border-left: 5px solid #555; outline: 0; padding-left: -5px; background: #aaa; color: #fff}
+.side-spacer {padding-left: 30px; padding-right: 30px}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
 </style>

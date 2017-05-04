@@ -242,3 +242,19 @@ button:focus {
 .document-header {font-weight: 900; margin-top: 30px; margin-bottom: 10px;}
 .document-header.first {margin-top: 0}
 .document-text {margin-bottom: 15px;}
+
+
+
+/* Stickyfill
+----------------------------------*/
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}
