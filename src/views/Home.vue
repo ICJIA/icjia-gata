@@ -133,7 +133,7 @@ approved:
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6" style="margin: 0; padding: 0; padding-right: 1px">
+      <!-- <div class="col-md-6" style="margin: 0; padding: 0; padding-right: 1px">
         <div class="hero-heading">
           <div class="text-center">
 
@@ -148,13 +148,13 @@ approved:
           :maxItems="2"
           />
 
-        <!-- <div class="text-center" style="margin-top: 30px; margin-bottom: 50px">
+        <div class="text-center" style="margin-top: 30px; margin-bottom: 50px">
           <router-link to="/news" class="btn btn-secondary read-more">
           News Archive&nbsp;&raquo;</router-link>
-        </div> -->
-      </div>
+        </div>
+      </div>-->
 
-      <div class="col-md-6" style="margin: 0; padding: 0; padding-left: 1px;">
+      <div class="col-md-12" style="margin: 0; padding: 0; padding-left: 1px;">
         <div class="hero-heading">
           <div class="text-center">
 
