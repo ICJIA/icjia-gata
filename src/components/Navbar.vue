@@ -1,6 +1,6 @@
 <template>
   <div id="myNav">
-
+ 
     <!-- TEMPLATE START -->
     <div class="collapse bg-about-icjia" id="navbarHeader">
        <div class="container">

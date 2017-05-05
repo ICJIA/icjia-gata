@@ -1,5 +1,5 @@
 {
-  "name": "icjia-gata",
+  "name": "gata",
   "version": "1.0.0",
   "description": "ICJIA Gata Information Site",
   "author": "Chris Schweda <christopher.schweda@illinois.gov>",
@@ -8,18 +8,17 @@
     "build": "node build/build.js",
     "build:report": "npm run build --report",
     "build:prerender": "npm run routes && npm run build --prerender",
-    "server": "serve ./dist -s",
-    "build:serve": "npm run build && npm run server",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "routes": "node src/generatePrerenderRoutes.js",
-    "start": "serve ./dist -s"
+    "build:start": "npm run build && npm run start",
+    "start": "serve ./dist -s",
+    "now:deploy": "npm run routes && npm run build --prerender && now ./dist -s"
+
   },
   "dependencies": {
-    "vue": "^2.2.1"
-  },
-  "devDependencies": {
+    "vue": "^2.2.1",
     "animate.css": "^3.5.2",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
@@ -96,8 +95,9 @@
     "webpack-hot-middleware": "^2.16.1",
     "webpack-merge": "^2.6.1"
   },
+  "devDependencies": {},
   "engines": {
-    "node": ">= 4.0.0",
+    "node": ">= 7.1.0",
     "npm": ">= 3.0.0"
   },
   "now": {
@@ -105,8 +105,8 @@
       "node": "7.7.3",
       "npm": ">= 3.0.0"
     },
-    "name": "icjia-gata",
-    "alias": "icjia.gata",
+    "name": "fsgu.icjia.cloud",
+    "alias": "fsgu.icjia.cloud",
     "env": {
       "NODE_ENV": "production"
     }
