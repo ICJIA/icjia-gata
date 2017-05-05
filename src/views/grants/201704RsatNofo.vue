@@ -217,7 +217,7 @@ Chicago, IL 60606 <br>
 
 
 
-<h3 id="notice-of-intent">Notice of Intent:</h3>
+<h3 class="sticky-sidebar-entry"id="notice-of-intent">Notice of Intent:</h3>
 
 <p>Agencies interested in submitting an application are asked to submit an online Notice of Intent by <strong>11:59 p.m., May 12, 2017</strong>.  </p>
 
@@ -225,7 +225,7 @@ Chicago, IL 60606 <br>
 
 
 
-<h3 id="timeline">Timeline:</h3>
+<h3 class="sticky-sidebar-entry"id="timeline">Timeline:</h3>
 
 <table class="table table-striped">
 <thead>
@@ -316,7 +316,7 @@ Projected program start date
 
 
 
-<h3 id="reporting">Reporting:</h3>
+<h3 class="sticky-sidebar-entry"id="reporting">Reporting:</h3>
 
 <p>Recipients must submit quarterly financial reports, quarterly progress reports, final financial and progress reports, and, if applicable, an annual audit report in accordance with the CFR Part 200 Uniform Requirements. Future awards and fund drawdowns may be withheld if reports are delinquent.</p>
 
@@ -324,7 +324,7 @@ Projected program start date
 
 
 
-<h3 id="required-documents">Required Documents:</h3>
+<h3 class="sticky-sidebar-entry"id="required-documents">Required Documents:</h3>
 
 <p>The following documents must be emailed to <a href="mailto:CJA.2017rsatNOFO@Illinois.gov"><strong>CJA.2017rsatNOFO@Illinois.gov</strong></a> by 11:59 p.m., Tuesday, <strong>June 13, 2017</strong>, for application review. Click the links below to download copies.</p>
 

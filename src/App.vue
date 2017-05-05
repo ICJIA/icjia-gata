@@ -23,6 +23,7 @@ import Navbar from './components/Navbar'
 import MyFooter from './components/Footer'
 import metaInfo from 'meta'
 
+
 export default {
 
     name: 'app',

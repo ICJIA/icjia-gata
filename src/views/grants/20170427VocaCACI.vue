@@ -5,7 +5,9 @@
     <div class="container-fluid side-spacer">
       <div class="row">
 
+
         <div class="col-md-3 hidden-sm-down">
+          <sticky-sidebar />
           <ul class="sticky nav flex-column sidenav-toc">
             <li class="nav-item">
               <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
@@ -78,25 +80,25 @@
 
 
 
-<h3 id="eligibility" class="first">Eligibility</h3>
+<h3 id="eligibility" class="first sidebarLink">Eligibility</h3>
 
 <p>This solicitation is open to the Children’s Advocacy Centers of Illinois, 400 S. 9th Street, Springfield, Illinois, 62701.</p>
 
 
 
-<h3 id="notice-of-funding-opportunity">Notice of Funding Opportunity</h3>
+<h3 class="sidebarLink" id="notice-of-funding-opportunity">Notice of Funding Opportunity</h3>
 
 <p>Notice of Funding Opportunity and application materials were provided to the Children’s Advocacy Centers of Illinois.</p>
 
 
 
-<h3 id="deadline">Deadline</h3>
+<h3 class="sidebarLink" id="deadline">Deadline</h3>
 
 <p>Application is due at 11:59 p.m., Monday, May 22, 2017.</p>
 
 
 
-<h3 id="available-funds">Available funds</h3>
+<h3 class="sidebarLink" id="available-funds">Available funds</h3>
 
 <p>A total of $7,100,000 in federal VOCA FFY15 funding is available through this solicitation.  </p>
 
@@ -104,13 +106,13 @@
 
 
 
-<h3 id="period-of-performance">Period of performance</h3>
+<h3 class="sidebarLink" id="period-of-performance">Period of performance</h3>
 
 <p>The award resulting from this opportunity will have a period of performance of July1, 2017 through September 30, 2018.  </p>
 
 
 
-<h3 id="timeline">Timeline</h3>
+<h3 class="sidebarLink" id="timeline">Timeline</h3>
 
 <table class="table table-striped">
 <thead>
@@ -145,19 +147,19 @@
 
 
 
-<h3 id="reporting">Reporting</h3>
+<h3 class="sidebarLink" id="reporting">Reporting</h3>
 
 <p>The funded agency will be required to submit to the Authority quarterly fiscal and data reports.</p>
 
 
 
-<h3 id="application-instructions">Application instructions:</h3>
+<h3 class="sidebarLink" id="application-instructions">Application instructions:</h3>
 
 <p>Application materials must be submitted to Ronnie Reichgelt at <a href="mailto:Ronnie.Reichgelt@Illinois.gov">Ronnie.Reichgelt@Illinois.gov</a> by 11:59 p.m., Monday, May 22, 2017.</p>
 
 
 
-<h3 id="contact-information">Contact information</h3>
+<h3 class="sidebarLink" id="contact-information">Contact information</h3>
 
 <p>Questions may be submitted via email to Ronnie Reichgelt at <a href="mailto:Ronnie.Reichgelt@Illinois.gov">Ronnie.Reichgelt@Illinois.gov</a>.</p>
 
@@ -188,6 +190,7 @@
 <script>
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
+import StickySidebar from '@/components/StickySidebar'
 
 const description =
   `ICJIA is the state agency charged with the administration of the Illinois’ Victims of Crime Act Victim Assistance Formula Grant Program. As part of the recommendations established by the Victim Services Ad Hoc Committee the strengthening and expansion of core services for victims of crime was a priority.  To fulfill this priority, ICJIA has made available $7.1 million in VOCA grant funding for core services and related support costs for minor victims of abuse services.  These funds will be made available to the Children’s Advocacy Centers of Illinois (CACI).`
@@ -216,7 +219,8 @@ export default {
   },
   components: {
 
-    PageHeader
+    PageHeader,
+    StickySidebar
 
   },
   data () {
