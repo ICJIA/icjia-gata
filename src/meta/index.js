@@ -4,7 +4,7 @@ module.exports = {
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { property: "og:title", content: "ICJIA Grant Accountability & Transparency Act" },
     { property: "og:site_name", content: "ICJIA Grant Accountability & Transparency Act" },
-    { property: "og:url", content: "https://gata.icjia.cloud" },
+    { property: "og:url", content: "https://grants.icjia.cloud" },
     { property: "og:description", content: "ICJIA Grant Accountability & Transparency Act. "},
     { property: "fb:app_id", content: "963916987072512" },
     { property: "og:type", content: "article" },

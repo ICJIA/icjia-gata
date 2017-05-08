@@ -32,4 +32,4 @@ npm run build:prerender
 - [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer)
 
 ## Live Site
-- [https://gata.icjia.cloud](https://gata.icjia.cloud)
+- [https://grants.icjia.cloud](https://grants.icjia.cloud)

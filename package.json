@@ -105,8 +105,8 @@
       "node": "7.7.3",
       "npm": ">= 3.0.0"
     },
-    "name": "cjagata.icjia.cloud",
-    "alias": "cjagata.icjia.cloud",
+    "name": "gata.icjia.cloud",
+    "alias": "gata.icjia.cloud",
     "env": {
       "NODE_ENV": "production"
     }
