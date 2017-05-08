@@ -148,21 +148,8 @@ if (config.build.prerender) {
       // Absolute path to compiled SPA
       path.join(__dirname, '../dist'),
       routesToPrerender,
-      { ignoreJSErrors: true, captureAfterElementExists: '#app',}
-      // List of routes to prerender
-      // ["/",
-      // "/contact",
-      // "/documents",
-      // "/faqs",
-      // "/grant-information",
-      // "/home",
-      // "/news/sample0",
-      // "/news/sample1",
-      // "/news/sample2",
-      // "/news/sample3",
-      // "/news-and-announcements",
-      // "/overview",
-      // "/webinars"]
+      { }
+      
     ))
 }
 
