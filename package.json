@@ -1,7 +1,7 @@
 {
   "name": "gata",
   "version": "1.0.0",
-  "description": "ICJIA Gata Information Site",
+  "description": "Illinois Criminal Justice Information Authority Gata Information Site",
   "author": "Chris Schweda <christopher.schweda@illinois.gov>",
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -105,8 +105,8 @@
       "node": "7.7.3",
       "npm": ">= 3.0.0"
     },
-    "name": "fsgu.icjia.cloud",
-    "alias": "fsgu.icjia.cloud",
+    "name": "cjagata.icjia.cloud",
+    "alias": "cjagata.icjia.cloud",
     "env": {
       "NODE_ENV": "production"
     }
