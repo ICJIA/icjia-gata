@@ -5,17 +5,18 @@
   "author": "Chris Schweda <christopher.schweda@illinois.gov>",
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "build:report": "npm run build --report",
-    "build:prerender": "npm run spa & npm run routes && npm run build --prerender",
+    "build:dev": "node build/build.js",
+    "build": "npm run build:dev",
+    "build:report": "npm run build:dev --report",
+    "build:prerender": "npm run spa & npm run routes && npm run build:dev --prerender",
+    "build:start": "npm run build:dev && npm run start",
+    "routes": "node src/generatePrerenderRoutes.js",
+    "start": "serve ./dist -s",
+    "now:deploy": "npm run spa && npm run routes && npm run build:dev --prerender && now ./dist -s",
+    "spa": "cd static/prerender-spa-plugin && npm i",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
-    "routes": "node src/generatePrerenderRoutes.js",
-    "build:start": "npm run build && npm run start",
-    "start": "serve ./dist -s",
-    "now:deploy": "npm run routes && npm run build --prerender && now ./dist -s",
-    "spa": "cd static/prerender-spa-plugin && npm i"
+    "test": "npm run unit && npm run e2e"
 
   },
   "dependencies": {
@@ -106,8 +107,8 @@
       "node": "7.7.3",
       "npm": ">= 3.0.0"
     },
-    "name": "gata.icjia.cloud",
-    "alias": "gata.icjia.cloud",
+    "name": "gata",
+    "alias": "gata",
     "env": {
       "NODE_ENV": "production"
     }
