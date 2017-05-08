@@ -9,7 +9,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 var moment = require('moment-timezone');
-var PrerenderSpaPlugin = require('../static/prerender-spa-plugin');
+var PrerenderSpaPlugin = require('prerender-spa-plugin');
 var routesToPrerender = require('../src/routesToPrerender');
 
 // console.log(routesToPrerender)
@@ -148,7 +148,7 @@ if (config.build.prerender) {
       // Absolute path to compiled SPA
       path.join(__dirname, '../dist'),
       routesToPrerender,
-      {}
+      { ignoreJSErrors: true, captureAfterElementExists: '#app',}
       // List of routes to prerender
       // ["/",
       // "/contact",
