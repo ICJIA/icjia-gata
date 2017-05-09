@@ -13,7 +13,6 @@
     "routes": "node src/generatePrerenderRoutes.js",
     "start": "serve ./dist -s",
     "now:deploy": "npm run spa && npm run routes && npm run build:dev --prerender && now ./dist -s",
-    "now:deploy:alias": "npm run spa && npm run routes && npm run build:dev --prerender && now ./dist -s && now alias",
     "spa": "cd static/prerender-spa-plugin && npm i",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
