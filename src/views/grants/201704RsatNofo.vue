@@ -7,49 +7,49 @@
         <div class="col-md-3 hidden-sm-down">
           <ul class="sticky nav flex-column sidenav-toc">
             <li class="nav-item">
-              <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
+              <a class="nav-link active" href="#app">Introduction</a>
             </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#" v-scroll-to="{el: '#program-requirements', offset: -30}">Program Requirements</a>
+    <a class="nav-link active" href="#program-requirements" data-offset="-20">Program Requirements</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#" v-scroll-to="{el: '#all-categories', offset: -30}">All Categories</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#eligible-applicants', offset: -30}">Eligible Applicants</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#application-materials', offset: -30}">Application Materials</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#available-funds', offset: -30}">Available Funds</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#period-of-performance', offset: -30}">Period of Performance</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#contact-information', offset: -30}">Contact Information</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#"v-scroll-to="{el: '#required-technical-assistance-section', offset: -30}">Required Technical Assistance Session</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#"v-scroll-to="{el: '#notice-of-intent', offset: -30}">Notice of Intent</a>
+    <a class="nav-link active" href="#all-categories" data-offset="-20">All Categories</a>
   </li>
 
+  <li class="nav-item">
+    <a class="nav-link" href="#eligible-applicants" data-offset="-20">Eligible Applicants</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#application-materials" data-offset="-20">Application Materials</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#deadline" data-offset="-20">Deadline</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#available-funds" data-offset="-20">Available Funds</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#period-of-performance" data-offset="-20">Period of Performance</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contact-information" data-offset="-20">Contact Information</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#required-technical-assistance-section" data-offset="-20">Required Technical Assistance Session</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#notice-of-intent"data-offset="-20">Notice of Intent</a>
+  </li>
+
 
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#timeline', offset: -30}">Timeline</a>
+    <a class="nav-link" href="#timeline" data-offset="-20">Timeline</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#reporting', offset: -30}">Reporting</a>
+    <a class="nav-link" href="#reporting" data-offset="-20">Reporting</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#required-documents', offset: -30}">Required Documents</a>
+    <a class="nav-link" href="#required-documents" data-offset="-20">Required Documents</a>
   </li>
 
 </ul>
