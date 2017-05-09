@@ -7,56 +7,56 @@
         <div class="col-md-3 hidden-sm-down">
           <ul class="sticky nav flex-column sidenav-toc">
             <li class="nav-item">
-              <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
+              <a class="nav-link active" href="#app">Introduction</a>
             </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#" v-scroll-to="{el: '#program-requirements', offset: -30}">Program Requirements</a>
+    <a class="nav-link active" href="#program-requirements">Program Requirements</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#" v-scroll-to="{el: '#additional-requirements', offset: -30}">Additional Requirements</a>
+    <a class="nav-link active" href="#additional-requirements">Additional Requirements</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#eligibility-information', offset: -30}">Eligibility Information</a>
+    <a class="nav-link" href="#eligibility-information">Eligibility Information</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#eligible-applicants', offset: -30}">Eligible Applicants</a>
+    <a class="nav-link" href="#eligible-applicants">Eligible Applicants</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#application-materials', offset: -30}">Application Materials</a>
+    <a class="nav-link" href="#application-materials">Application Materials</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
+    <a class="nav-link" href="#deadline">Deadline</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#available-funds', offset: -30}">Available Funds</a>
+    <a class="nav-link" href="#available-funds">Available Funds</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#period-of-performance', offset: -30}">Period of Performance</a>
+    <a class="nav-link" href="#period-of-performance">Period of Performance</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#contact', offset: -30}">Contact Information</a>
+    <a class="nav-link" href="#contact">Contact Information</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"v-scroll-to="{el: '#technical-assistance', offset: -30}">Required Technical Assistance Session</a>
+    <a class="nav-link" href="#technical-assistance">Required Technical Assistance Session</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"v-scroll-to="{el: '#letter-of-intent', offset: -30}">Letter of Intent</a>
+    <a class="nav-link" href="#letter-of-intent">Letter of Intent</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#"v-scroll-to="{el: '#mandatory-webinars', offset: -30}">Mandatory Webinars</a>
+    <a class="nav-link" href="#mandatory-webinars">Mandatory Webinars</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#timeline', offset: -30}">Timeline</a>
+    <a class="nav-link" href="#timeline">Timeline</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#reporting', offset: -30}">Reporting</a>
+    <a class="nav-link" href="#reporting">Reporting</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#required-documents', offset: -30}">Required Documents</a>
+    <a class="nav-link" href="#required-documents">Required Documents</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#faqs', offset: -30}">FAQs</a>
+    <a class="nav-link" href="#faqs">FAQs</a>
   </li>
 </ul>
         </div>
@@ -356,7 +356,7 @@ href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_Drug_NOFO_Appli
     </div>
 
 
-
+<smooth-scroll />
 
 
 
@@ -381,6 +381,7 @@ const type  = 'grant'
 const status = 'live'
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
+import SmoothScroll from '@/components/SmoothScroll'
 export default {
   name: 'JAGComprehensiveLawEnforcementResponseToDrugs',
   pageData:  {
@@ -400,7 +401,8 @@ export default {
   },
   components: {
 
-    PageHeader
+    PageHeader,
+    SmoothScroll
 
   },
   mounted: function() {

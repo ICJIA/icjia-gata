@@ -7,39 +7,39 @@
         <div class="col-md-3 hidden-sm-down">
           <ul class="sticky nav flex-column sidenav-toc">
             <li class="nav-item">
-              <a class="nav-link active" href="#" v-scroll-to="{el: '#app'}">Introduction</a>
+              <a class="nav-link active" href="#app">Introduction</a>
             </li>
 
 
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#eligibility', offset: -30}">Eligibility</a>
+    <a class="nav-link" href="#eligibility">Eligibility</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#notice-of-funding-opportunity', offset: -30}">Notice of Funding Opportunity</a>
+    <a class="nav-link" href="#notice-of-funding-opportunity">Notice of Funding Opportunity</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#deadline', offset: -30}">Deadline</a>
+    <a class="nav-link" href="#deadline">Deadline</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#available-funds', offset: -30}">Available Funds</a>
+    <a class="nav-link" href="#available-funds">Available Funds</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#period-of-performance', offset: -30}">Period of Performance</a>
+    <a class="nav-link" href="#period-of-performance">Period of Performance</a>
   </li>
 
 
 
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#timeline', offset: -30}">Timeline</a>
+    <a class="nav-link" href="#timeline">Timeline</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#reporting', offset: -30}">Reporting</a>
+    <a class="nav-link" href="#reporting">Reporting</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#application-instructions', offset: -30}">Application Instructions</a>
+    <a class="nav-link" href="#application-instructions">Application Instructions</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" v-scroll-to="{el: '#contact-information', offset: -30}">Contact Information</a>
+    <a class="nav-link" href="#contact-information">Contact Information</a>
   </li>
 
 </ul>
@@ -168,7 +168,7 @@
 
 
 
-
+<smooth-scroll />
 
 
   </section>
@@ -178,6 +178,7 @@
 <script>
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
+import SmoothScroll from '@/components/SmoothScroll'
 
 const description =
   `ICJIA is the state agency charged with the administration of the Illinois’ Victims of Crime Act Victim Assistance Formula Grant Program. As part of the recommendations established by the Victim Services Ad Hoc Committee, the strengthening and expansion of core services for victims of crime was identified as a priority.  To fulfill this priority, ICJIA has made available $17.3 million in VOCA grant funding for core services and related support costs for victims of domestic violence.  These funds will be made available to the Illinois Coalition Against Domestic Violence.`
@@ -206,7 +207,8 @@ export default {
   },
   components: {
 
-    PageHeader
+    PageHeader,
+    SmoothScroll
 
   },
   data () {

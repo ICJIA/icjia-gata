@@ -35,13 +35,15 @@ export default {
     mounted: function() {
         $(function() {
 
-          $( document ).ready(function() {
-            var stickyElements = document.getElementsByClassName('sticky');
-            //console.log(stickyElements)
-            for (var i = stickyElements.length - 1; i >= 0; i--) {
-              Stickyfill.add(stickyElements[i]);
-            }
-          });
+
+            // var stickyElements = document.getElementsByClassName('sticky');
+            // //console.log(stickyElements)
+            // for (var i = stickyElements.length - 1; i >= 0; i--) {
+            //   Stickyfill.add(stickyElements[i]);
+            // }
+
+            
+
 
             //Outdated browser plugin. Anything less than IE11
             outdatedBrowser({
@@ -50,7 +52,7 @@ export default {
                 lowerThan: 'borderImage',
                 languagePath: '/static/outdated-browser/outdatedbrowser/lang/en.html'
             })
-        });
+          });
 
 
         // Google Analytics download auto tracking script
