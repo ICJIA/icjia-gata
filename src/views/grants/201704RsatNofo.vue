@@ -372,12 +372,12 @@ export default {
   name: 'RSATTreatmentProgramResidentialSubstanceAbuseTreatmentAndAftercare',
   mounted () {
 
-    $(function() {
-      $( "a.nav-link" ).on( "click", function(e) {
-          e.preventDefault();
-          console.log( $( this ).text() );
-        });
-    });
+    // $(function() {
+    //   $( "a.nav-link" ).on( "click", function(e) {
+    //       e.preventDefault();
+    //       console.log( $( this ).text() );
+    //     });
+    // });
 
   },
   pageData:  {
