@@ -349,7 +349,7 @@ Projected program start date
 
 
 <sticky-sidebar />
-<!-- <smooth-scroll /> -->
+<smooth-scroll />
 
 
   </section>
