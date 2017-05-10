@@ -348,7 +348,7 @@ Projected program start date
     </div>
 
 
-
+<sticky-sidebar />
 <smooth-scroll />
 
 
@@ -367,6 +367,7 @@ const status = 'live'
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
 import SmoothScroll from '@/components/SmoothScroll'
+import StickySidebar from '@/components/StickySidebar'
 export default {
   name: 'RSATTreatmentProgramResidentialSubstanceAbuseTreatmentAndAftercare',
   pageData:  {
@@ -387,7 +388,8 @@ export default {
   components: {
 
     PageHeader,
-    SmoothScroll
+    SmoothScroll,
+    StickySidebar
 
   },
   data () {
