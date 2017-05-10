@@ -24,7 +24,7 @@ export default {
     //     });
     // }
 
-    $('a[href*="#"]')
+  $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
@@ -42,8 +42,10 @@ export default {
       if (target.length) {
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
+        console.log('ScrollTop: ', target.offset().top - 20)
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - 20
+
         }, 1000, function() {
           // Callback after animation
           // Must change focus!
