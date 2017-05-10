@@ -58,6 +58,14 @@ function appendScript() {
   document.body.appendChild(script)
 }
 
+function stripTrailingSlash(str, min) {
+    if(str.substr(-1) === '/' && str.length > min) {
+        return str.substr(0, str.length - 1);
+    } else {
+        return str
+    }
+}
+
 if (!window.ga) {
    appendScript()
    window.ga = window.ga || function () {
@@ -73,10 +81,12 @@ if (!window.ga) {
  router.afterEach(from  => {
 
    let x = router.options.routes
+
    for (var o = 0; o < x.length; o++){
-     if (x[o].path === from.fullPath) {
+     //console.log(stripTrailingSlash(from.fullPath, 2))
+     if (x[o].path === stripTrailingSlash(from.fullPath, 1)) {
        gaTitle = x[o].title
-       //console.log(gaTitle)
+       console.log(gaTitle)
      }
    }
 
