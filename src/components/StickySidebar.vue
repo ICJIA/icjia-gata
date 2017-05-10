@@ -9,7 +9,7 @@ export default {
       //var sidebarLinks = document.getElementsByClassName('sidebarLink');
       //console.log(sidebarLinks)
       var stickyElements = document.getElementsByClassName('sticky');
-      console.log(stickyElements)
+      //console.log(stickyElements)
       for (var i = stickyElements.length - 1; i >= 0; i--) {
         Stickyfill.add(stickyElements[i]);
       }

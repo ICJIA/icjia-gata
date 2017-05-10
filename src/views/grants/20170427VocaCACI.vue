@@ -178,6 +178,7 @@
 
     </div>
 
+<sticky-sidebar />
   <smooth-scroll />
 
 
@@ -192,6 +193,7 @@
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
 import SmoothScroll from '@/components/SmoothScroll'
+import StickySidebar from '@/components/StickySidebar'
 //import StickySidebar from '@/components/StickySidebar'
 
 const description =
@@ -226,7 +228,8 @@ export default {
   components: {
 
     PageHeader,
-    SmoothScroll
+    SmoothScroll,
+    StickySidebar
 
   },
   data () {

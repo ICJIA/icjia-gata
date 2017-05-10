@@ -356,6 +356,7 @@ href="http://www.icjia.state.il.us/assets/JAG_Drug_NOFO/2017_JAG_Drug_NOFO_Appli
     </div>
 
 
+<sticky-sidebar />
 <smooth-scroll />
 
 
@@ -379,9 +380,12 @@ const created ='2017-03-31'
 const expired ='2017-05-30'
 const type  = 'grant'
 const status = 'live'
+
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
 import SmoothScroll from '@/components/SmoothScroll'
+import StickySidebar from '@/components/StickySidebar'
+
 export default {
   name: 'JAGComprehensiveLawEnforcementResponseToDrugs',
   pageData:  {
@@ -402,7 +406,8 @@ export default {
   components: {
 
     PageHeader,
-    SmoothScroll
+    SmoothScroll,
+    StickySidebar
 
   },
   mounted: function() {

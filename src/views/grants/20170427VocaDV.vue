@@ -167,7 +167,7 @@
     </div>
 
 
-
+<sticky-sidebar />
 <smooth-scroll />
 
 
@@ -179,6 +179,7 @@
 import utilities from '@/utilities'
 import PageHeader from '@/components/PageHeader'
 import SmoothScroll from '@/components/SmoothScroll'
+import StickySidebar from '@/components/StickySidebar'
 
 const description =
   `ICJIA is the state agency charged with the administration of the Illinois’ Victims of Crime Act Victim Assistance Formula Grant Program. As part of the recommendations established by the Victim Services Ad Hoc Committee, the strengthening and expansion of core services for victims of crime was identified as a priority.  To fulfill this priority, ICJIA has made available $17.3 million in VOCA grant funding for core services and related support costs for victims of domestic violence.  These funds will be made available to the Illinois Coalition Against Domestic Violence.`
@@ -208,7 +209,8 @@ export default {
   components: {
 
     PageHeader,
-    SmoothScroll
+    SmoothScroll,
+    StickySidebar
 
   },
   data () {
