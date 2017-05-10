@@ -77,6 +77,7 @@ if (!window.ga) {
 
  let gaTitle = '(not set)'
  let gaTitlePrefix = 'ICJIA GATA | '
+ let gaPath = ''
 
  router.afterEach(from  => {
 
@@ -86,7 +87,8 @@ if (!window.ga) {
      //console.log(stripTrailingSlash(from.fullPath, 2))
      if (x[o].path === stripTrailingSlash(from.fullPath, 1)) {
        gaTitle = x[o].title
-       console.log(gaTitle)
+       gaPath = x[o].path
+       //console.log(gaTitle)
      }
    }
 
@@ -102,7 +104,7 @@ if (!window.ga) {
    //
   //  }
   //console.log('ga title: ', title)
-  ga('set', 'page', from.fullPath)
+  ga('set', 'page', gaPath)
   ga('set', 'title', gaTitlePrefix + gaTitle);
   ga('send', 'pageview')
   })
