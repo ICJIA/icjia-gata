@@ -75,9 +75,8 @@ if (!window.ga) {
    let x = router.options.routes
    for (var o = 0; o < x.length; o++){
      if (x[o].path === from.fullPath) {
-       //console.log(x[o].path);
        gaTitle = x[o].title
-       console.log(gaTitle)
+       //console.log(gaTitle)
      }
    }
 
