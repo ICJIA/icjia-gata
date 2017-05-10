@@ -290,7 +290,7 @@ exports.generateRoutes = function (arr) {
 
   });
   _r.push(_REDIRECT_ROUTE)
-  //console.table(_r)
+  //console.log(_r)
   return _r
 
 }

@@ -71,10 +71,27 @@ if (!window.ga) {
  let gaTitlePrefix = 'ICJIA GATA | '
 
  router.afterEach(from  => {
-   let pageTitle = _.filter(router.options.routes, function(o) { return o.path === from.fullPath });
-   if (pageTitle.length > 0) {
-     gaTitle = pageTitle[0].title
+
+   let x = router.options.routes
+   for (var o = 0; o < x.length; o++){
+     if (x[o].path === from.fullPath) {
+       //console.log(x[o].path);
+       gaTitle = x[o].title
+       console.log(gaTitle)
+     }
    }
+
+  //  let pageTitle = lodash.filter(router.options.routes, function(o) {
+  //   //  if (o.path === from.fullPath) {
+  //   //    console.log(o.path,' === ',from.fullPath)
+  //   //  }
+  //    return o.path === from.fullPath
+  //  });
+   //console.log(router.options.routes)
+  //  if (pageTitle.length > 0) {
+  //    gaTitle = pageTitle[0].title
+   //
+  //  }
   //console.log('ga title: ', title)
   ga('set', 'page', from.fullPath)
   ga('set', 'title', gaTitlePrefix + gaTitle);
