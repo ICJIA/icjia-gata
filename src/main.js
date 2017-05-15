@@ -2,20 +2,9 @@ import jquery from 'jquery'
 import tether from 'tether'
 import bootstrap from 'bootstrap'
 import lodash from 'lodash';
-
-// window._ = window.lodash = lodash;
+window._ = window.lodash = lodash;
 
 import './scss/base.scss';
-
-// Google tracking script in /static/google/ga.js
-// import ga from 'vue-ga'
-
-
-
-// import VueAnalytics from 'vue-analytics'
-// Vue.use(VueAnalytics, {
-//   id: 'UA-10798495-20'
-// })
 
 import VueRouter from 'vue-router'
 import routes from './routes.js'
@@ -35,6 +24,9 @@ Vue.use(VueScrollTo)
 import Vue from 'vue'
 import App from './App'
 
+////////////////////////////////////////////////////////////////////////////////////
+// Init router
+////////////////////////////////////////////////////////////////////////////////////
 const router = new VueRouter({
     mode: 'history',
     scrollBehavior(to, from, savedPosition) {
@@ -44,76 +36,21 @@ const router = new VueRouter({
     base: __dirname,
     routes: routes
 })
-// ga(router, 'UA-10798495-20')
 
-// router.beforeEach((to, from, next) => {
-//   console.log(to.name, to.path)
-//   next()
-// })
-// ////////////////////// Custom Google Analytics injection. Modified from vue-ga
-function appendScript() {
-  const script = document.createElement('script')
-  script.async = true
-  script.src = 'https://www.google-analytics.com/analytics.js'
-  document.body.appendChild(script)
+
+////////////////////////////////////////////////////////////////////////////////////
+// Custom Google Analytics injection. Modified from vue-ga
+////////////////////////////////////////////////////////////////////////////////////
+import googleAnalytics from './googleAnalytics.js'
+window['NODE_ENV'] = process.env.NODE_ENV
+if (NODE_ENV === 'production') {
+  googleAnalytics ('UA-10798495-20','ICJIA GATA | ', router)
 }
 
-function stripTrailingSlash(str, min) {
-    if(str.substr(-1) === '/' && str.length > min) {
-        return str.substr(0, str.length - 1);
-    } else {
-        return str
-    }
-}
 
-if (!window.ga) {
-   appendScript()
-   window.ga = window.ga || function () {
-     (ga.q = ga.q || []).push(arguments)
-   }
-   ga.l = Number(new Date())
-   ga('create', 'UA-10798495-20', 'auto')
- }
-
- let gaTitle = '(not set)'
- let gaTitlePrefix = 'ICJIA GATA | '
- let gaPath = ''
-
- router.afterEach(from  => {
-
-   let x = router.options.routes
-
-   for (var o = 0; o < x.length; o++){
-     //console.log(stripTrailingSlash(from.fullPath, 2))
-     if (x[o].path === stripTrailingSlash(from.fullPath, 1)) {
-       gaTitle = x[o].title
-       gaPath = x[o].path
-       //console.log(gaTitle)
-     }
-   }
-
-  //  let pageTitle = lodash.filter(router.options.routes, function(o) {
-  //   //  if (o.path === from.fullPath) {
-  //   //    console.log(o.path,' === ',from.fullPath)
-  //   //  }
-  //    return o.path === from.fullPath
-  //  });
-   //console.log(router.options.routes)
-  //  if (pageTitle.length > 0) {
-  //    gaTitle = pageTitle[0].title
-   //
-  //  }
-  //console.log('ga title: ', title)
-  ga('set', 'page', gaPath)
-  ga('set', 'title', gaTitlePrefix + gaTitle);
-  ga('send', 'pageview')
-  })
-// //////////////////////// END custom Google Analytics injection
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////////////////
+// Instantiate Vue instance
+////////////////////////////////////////////////////////////////////////////////////
 var vue = new Vue({
     el: '#app',
     router,
