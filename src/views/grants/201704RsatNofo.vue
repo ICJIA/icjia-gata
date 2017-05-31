@@ -1,6 +1,6 @@
 <template lang="html">
   <section class="page">
-    <page-header header="Notice of Funding Opportunity" />
+    <page-header header="Notice of Funding Opportunity" :expired="expired"/>
     <!-- GRANT CONTENT HERE -->
     <div class="container-fluid side-spacer">
       <div class="row">
