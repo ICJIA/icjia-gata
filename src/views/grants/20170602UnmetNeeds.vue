@@ -557,7 +557,7 @@ export default {
 
 h3 {margin-top: 60px !important;}
 h4 {margin-top: 40px !important}
-a {padding-bottom: 10px; text-decoration: underline;}
+#grant-posting a {padding-bottom: 10px; text-decoration: underline;}
 a.nav-link {text-decoration: none}
 #grant-posting a {color: #2c2fb3 !important}
 </style>
