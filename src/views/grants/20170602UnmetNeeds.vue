@@ -167,10 +167,15 @@ questions shall be binding on the state.</p>
 
 <p>Applicants must view a mandatory pre-recorded video on the ICJIA website at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a>.  The webinar will be available for viewing beginning at 1:30 p.m. on June 5, 2017.  The applicant must certify viewing this recording. Information provided during this video will be unofficial and not binding on the State.</p>
 
-<ul>
-<li><p><a href="https://www.youtube.com/channel/UCtZMzk8D3P4OixYTwsfPeKA">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO</a></p></li>
-<li><p><a href="https://www.surveygizmo.com/s3/3606957/NOFO-VOCA-Child-Abuse-Financial-Crime-and-Impaired-Driving-Technical-Assistance-Webinar-Certification">SUBMIT WEBINAR CERTIFICATION</a></p></li>
-</ul>
+<h4 style="margin-bottom: 50px;">VIEW MANDATORY TECHNICAL ASSISTANCE WEBINAR</h4>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ixkVGAki4pI" frameborder="0" allowfullscreen></iframe>
+<br>
+<a class="btn btn-primary"  href="https://www.surveygizmo.com/s3/3606957/NOFO-VOCA-Child-Abuse-Financial-Crime-and-Impaired-Driving-Technical-Assistance-Webinar-Certification" style="margin-top: 30px; color: #fff !important; text-decoration: none">SUBMIT WEBINAR CERTIFICATION&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+</center>
+
+
+
 
 <h3 id="timeline">TIMELINE:</h3>
 

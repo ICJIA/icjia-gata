@@ -42,7 +42,7 @@ export default {
             //   Stickyfill.add(stickyElements[i]);
             // }
 
-            
+
 
 
             //Outdated browser plugin. Anything less than IE11
