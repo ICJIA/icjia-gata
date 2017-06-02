@@ -553,7 +553,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 
 h3 {margin-top: 60px !important;}
 h4 {margin-top: 40px !important}
