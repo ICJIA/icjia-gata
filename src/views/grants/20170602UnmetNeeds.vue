@@ -122,11 +122,10 @@
 
 <h3 id="notice-of-funding-opportunity">NOTICE OF FUNDING OPPORTUNITY</h3>
 
-<ul>
-  <li>
-    <a href="/static/grants/2017UnmetNeeds/UNMETNEEDSNOFOwattachments.pdf">Read the Notice of Funding Opportunity (PDF)</a>
-  </li>
-</ul>
+<center>
+    <a href="/static/grants/2017UnmetNeeds/UNMETNEEDSNOFOwattachments.pdf" class="btn btn-primary" style="color: #fff !important; text-decoration: none; margin-top: 10px; ">Read the Notice of Funding Opportunity&nbsp;&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+  </center>
+
 
 <h4 id="deadline">Deadline</h4>
 
@@ -138,9 +137,9 @@
 
 <p>Agencies interested in submitting an application MUST complete an online Notice of Intent form by 11:59 p.m., July 7, 2017.</p>
 
-<ul>
-<li><a href="https://www.surveygizmo.com/s3/3570808/VOCA-Child-Abuse-Financial-Crime-and-Impaired-Driving-Notice-of-Intent">SUBMIT NOTICE OF INTENT </a></li>
-</ul>
+<center>
+<a href="https://www.surveygizmo.com/s3/3570808/VOCA-Child-Abuse-Financial-Crime-and-Impaired-Driving-Notice-of-Intent" class="btn btn-primary" style="color: #fff !important; text-decoration: none; margin-top: 30px; ">SUBMIT NOTICE OF INTENT&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+</center>
 
 <h4 id="available-funds">Available Funds</h4>
 
@@ -158,7 +157,7 @@
 
 <p>Questions may be submitted via email at <a href="mailto:cja.vocagrantsunit@illinois.gov">cja.vocagrantsunit@illinois.gov</a>.</p>
 
-<p>The deadline for submitting questions is 11:59 p.m., July 10, 2017. All substantive questions and responses will be posted on the Authority website at <a href="https://gata.icjia.cloud/">https://gata.icjia.cloud/</a>. Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly or indirectly with any Authority employee other than the respondent of this email address. Only written answers to <br>
+<p>The deadline for submitting questions is 11:59 p.m., July 10, 2017. All substantive questions and responses will be posted on the Authority website at <a href="https://grants.icjia.cloud/">https://grants.icjia.cloud/</a>. Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly or indirectly with any Authority employee other than the respondent of this email address. Only written answers to <br>
 questions shall be binding on the state.</p>
 
 
