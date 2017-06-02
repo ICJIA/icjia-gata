@@ -81,7 +81,7 @@
 
 <p>Impaired driving occurs when a driver operates a motor vehicle while under the influence of alcohol, drugs, or other intoxicating compounds.  This funding opportunity serves victims of motor vehicle accidents caused by impaired drivers and victims of motor vehicle accidents caused by drivers using electronic communication or video devices while driving which result in death or great bodily harm.</p>
 
-<p>See <a href="UNMETNEEDSNOFOwattachments.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
+<p>See <a href="/static/grants/2017UnmetNeeds/UNMETNEEDSNOFOwattachments.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
 
 
 
