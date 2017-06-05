@@ -1,6 +1,6 @@
 <template>
   <div id="myNav">
- 
+
     <!-- TEMPLATE START -->
     <div class="collapse bg-about-icjia" id="navbarHeader">
        <div class="container">
@@ -60,8 +60,8 @@
           About
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <router-link class="dropdown-item" to="/overview">General Overview</router-link>
-          <router-link class="dropdown-item" to="/news" exact>News & Announcements</router-link>
+          <a class="dropdown-item" href="/overview">General Overview</a>
+          <a class="dropdown-item" href="/news" exact>News & Announcements</a>
           <a href="http://www.icjia.state.il.us" class="dropdown-item">ICJIA Home</a>
           <!-- <router-link class="dropdown-item" to="/grant-information">Grant Information</router-link> -->
           <!-- <router-link class="dropdown-item" to="/contact">Contact</router-link> -->
@@ -77,7 +77,7 @@
           <div v-if="grants.length > 0">
 
           <span v-for="grant in grants">
-              <router-link class="dropdown-item" :to="grant.path" exact>{{grant.title | truncateMiddle }}</router-link>
+              <a class="dropdown-item" :href="grant.path" exact>{{grant.title | truncateMiddle }}</a>
           </span>
         </div>
         <div v-else>
@@ -87,13 +87,13 @@
 
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Archived Grant Opportunities</h6>
-          <router-link class="dropdown-item" to="/grants" exact>View archive</router-link>
+          <a class="dropdown-item" href="/grants" exact>View archive</a>
 
         </div>
       </li>
 
       <li class="nav-item">
-        <router-link class="nav-link" to="/documents">Documents</router-link>
+        <a class="nav-link" href="/documents">Documents</a>
       </li>
 
       <li class="nav-item dropdown">
@@ -101,8 +101,8 @@
           Training
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <router-link class="dropdown-item" to="/webinars">Webinars</router-link>
-          <router-link class="dropdown-item" to="/faqs">FAQs</router-link>
+          <a class="dropdown-item" href="/webinars">Webinars</a>
+          <a class="dropdown-item" href="/faqs">FAQs</a>
 
         </div>
       </li>
