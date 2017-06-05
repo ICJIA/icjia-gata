@@ -44,14 +44,14 @@ export default function (id, prefix, router) {
    let title = '(undefined)'
    let path = '(undefined)'
 
-   console.table(routes)
+   //console.table(routes)
    for (var o = 0; o < routes.length; o++){
      if (routes[o].path === stripTrailingSlash(from.fullPath, 1)) {
       title = routes[o].title
       path = routes[o].path
      }
    }
-   
+
    collect(id, prefix, title, path )
 
   })
