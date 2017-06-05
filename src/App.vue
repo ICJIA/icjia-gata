@@ -1,6 +1,26 @@
 <template>
   <div id="app">
 
+    <!-- <div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="/static/icons/facebook.jpg" style="color: #3B5998" width="32" height="32">
+            <p><a href="https://www.facebook.com/codexworld" target="_blank">Like Us on<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="/static/icons/twitter-circle.png" width="32" height="32">
+            <p><a href="https://twitter.com/codexworldblog" target="_blank">Follow Us on<br>Twitter</a></p>
+        </li>
+
+
+        <li>
+            <img src="/static/icons/youtube-circle.png" width="32" height="32">
+            <p><a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br>YouYube</a></p>
+        </li>
+
+    </ul>
+</div> -->
+
     <div id="outdated"></div>
 
 <navbar />
@@ -109,7 +129,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 // @import "./scss/base";
 
@@ -125,5 +145,49 @@ export default {
 .fade-enter, .fade-leave-active {
   opacity: 0
 }
-
+/*
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:350px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+*/
 </style>
