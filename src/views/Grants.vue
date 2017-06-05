@@ -25,7 +25,7 @@
 
     <select v-model="filterType" v-on:change="changeFilter($event)" style="font-size: 13px; font-weight: 900" id="filterType">
 
-      <option value="all">ALL</option>
+      <!-- <option value="all">ALL</option> -->
       <option value="current">CURRENT</option>
       <option value="expired">EXPIRED</option>
     </select>

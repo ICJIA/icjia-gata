@@ -41,9 +41,9 @@
     </span>
   </button> -->
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <router-link to="/" class="navbar-brand">
+    <a href="/" class="navbar-brand">
       <span class="nav-a">ICJIA | GATA INFORMATION</span>
-    </router-link>
+    </a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 25px;">
       <!-- <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>

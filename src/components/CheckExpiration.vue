@@ -2,7 +2,7 @@
   <section>
     <div  v-if="checkExpire(expired)" class="alert alert-danger text-center" role="alert" style="margin-bottom: 60px">
         <span style="color: red; font-weight: 900">
-          THIS GRANT HAS EXPIRED
+          THIS FUNDING OPPORTUNITY HAS EXPIRED
         </span>
 
     </div>
