@@ -148,7 +148,7 @@ if (config.build.prerender) {
       // Absolute path to compiled SPA
       path.join(__dirname, '../dist'),
       routesToPrerender,
-      { captureAfterTime: 5000, ignoreJSErrors: true,}
+      { captureAfterTime: 15000}
 
     ))
 }
