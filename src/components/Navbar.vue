@@ -41,9 +41,9 @@
     </span>
   </button> -->
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a href="/" class="navbar-brand">
+    <router-link tag="a" to="/" class="navbar-brand">
       <span class="nav-a">ICJIA | GATA INFORMATION</span>
-    </a>
+    </router-link>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 25px;">
       <!-- <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -60,11 +60,11 @@
           About
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/overview">General Overview</a>
-          <a class="dropdown-item" href="/news" exact>News & Announcements</a>
+          <router-link tag="a" class="dropdown-item" to="/overview">General Overview</router-link>
+          <router-link tag="a" class="dropdown-item" to="/news" exact>News & Announcements</router-link>
           <a href="http://www.icjia.state.il.us" class="dropdown-item">ICJIA Home</a>
-          <!-- <router-link class="dropdown-item" to="/grant-information">Grant Information</router-link> -->
-          <!-- <router-link class="dropdown-item" to="/contact">Contact</router-link> -->
+          <!-- <router-link tag="a" class="dropdown-item" to="/grant-information">Grant Information</router-link> -->
+          <!-- <router-link tag="a" class="dropdown-item" to="/contact">Contact</router-link> -->
         </div>
       </li>
 
@@ -77,7 +77,7 @@
           <div v-if="grants.length > 0">
 
           <span v-for="grant in grants">
-              <a class="dropdown-item" :href="grant.path" exact>{{grant.title | truncateMiddle }}</a>
+              <router-link tag="a" class="dropdown-item" :to="grant.path" exact>{{grant.title | truncateMiddle }}</router-link>
           </span>
         </div>
         <div v-else>
@@ -87,13 +87,13 @@
 
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Archived Grant Opportunities</h6>
-          <a class="dropdown-item" href="/grants" exact>View archive</a>
+          <router-link tag="a" class="dropdown-item" to="/grants" exact>View archive</router-link>
 
         </div>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="/documents">Documents</a>
+        <router-link tag="a" class="nav-link" to="/documents">Documents</router-link>
       </li>
 
       <li class="nav-item dropdown">
@@ -101,8 +101,8 @@
           Training
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/webinars">Webinars</a>
-          <a class="dropdown-item" href="/faqs">FAQs</a>
+          <router-link tag="a"  class="dropdown-item" to="/webinars">Webinars</router-link>
+          <router-link tag="a" class="dropdown-item" to="/faqs">FAQs</router-link>
 
         </div>
       </li>
