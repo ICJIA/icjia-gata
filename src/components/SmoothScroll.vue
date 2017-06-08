@@ -42,7 +42,7 @@ export default {
       if (target.length) {
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
-        console.log('ScrollTop: ', target.offset().top - 20)
+        //console.log('ScrollTop: ', target.offset().top - 20)
         $('html, body').animate({
           scrollTop: target.offset().top - 20
 
