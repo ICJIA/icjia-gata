@@ -171,6 +171,10 @@ questions shall be binding on the state.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ixkVGAki4pI" frameborder="0" allowfullscreen></iframe>
 <br>
 <a class="btn btn-primary"  href="https://www.surveygizmo.com/s3/3606957/NOFO-VOCA-Child-Abuse-Financial-Crime-and-Impaired-Driving-Technical-Assistance-Webinar-Certification" style="margin-top: 30px; color: #fff !important; text-decoration: none">SUBMIT WEBINAR CERTIFICATION&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+<div style="margin-top: 40px">
+  <a href="/static/grants/2017UnmetNeeds/UnmetNeedsSubstantiveQuestionsandAnswers.doc">Substantive Questions and Answers</a>
+</div>
+
 </center>
 
 
