@@ -35,6 +35,10 @@
     <a class="nav-link" href="#application-materials">Application Materials</a>
   </li>
 
+  <li class="nav-item">
+    <a class="nav-link" href="#questions">Responses to Applicant Questions</a>
+  </li>
+
 
 </ul>
         </div>
@@ -171,9 +175,7 @@ questions shall be binding on the state.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ixkVGAki4pI" frameborder="0" allowfullscreen></iframe>
 <br>
 <a class="btn btn-primary"  href="https://www.surveygizmo.com/s3/3606957/NOFO-VOCA-Child-Abuse-Financial-Crime-and-Impaired-Driving-Technical-Assistance-Webinar-Certification" style="margin-top: 30px; color: #fff !important; text-decoration: none">SUBMIT WEBINAR CERTIFICATION&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-<div style="margin-top: 40px">
-  <a href="/static/grants/2017UnmetNeeds/UnmetNeedsSubstantiveQuestionsandAnswers.doc">Substantive Questions and Answers</a>
-</div>
+
 
 </center>
 
@@ -484,6 +486,12 @@ questions shall be binding on the state.</p>
 <li><a href="/static/grants/2017UnmetNeeds/MandatoryFormsChecklist.docx">Mandatory Forms Checklist</a></li>
 <li><a href="/static/grants/2017UnmetNeeds/FaithBasedOrganizationSelf Report.docx">Faith Based Self Report Form</a></li>
 </ul>
+
+<h3 id="questions">Responses to Applicant Questions</h3>
+<div class="text-center" style="margin-top: 50px">
+<a href="/static/grants/2017UnmetNeeds/UnmetNeedsSubstantiveQuestionsandAnswers615.pdf" class="btn btn-primary" style="color: #fff !important; text-decoration: none !important">Download&nbsp;&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+</div>
+
 
 
 
