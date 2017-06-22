@@ -72,7 +72,7 @@
 <li>The applicant agency will refer clients to a specialized victim service agency in cases where it is appropriate. For example, referral to a specialized victim service agency must take place if child sexual abuse emerges in the course of service delivery and agency staff do not have the clinical skills to address it. </li>
 </ul>
 
-<p>See the <a href="VOCACommunityViolenceFinalNOFO062017.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
+<p>See the <a href="/static/grants/2017CommunityViolence/VOCAComunityViolenceFinalNOFO062017.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
 
 
 
