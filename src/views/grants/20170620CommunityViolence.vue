@@ -459,26 +459,23 @@ questions shall be binding on the state. </p>
 </tr>
 </tbody></table>
 
+static/grants/2017CommunityViolence/ICJIAvocaCommunityViolenceBudgetbudgetnarrrative.xlsx
 <h4 id="download-application-documents">Download application documents</h4>
 
 <p><a href="/static/grants/2017CommunityViolence/ICJIAUniformApplicationVOCACommunityViolence.docx">Uniform Application</a>  <br>
-<a href="/static/grants/2017CommunityViolence/CommunityViolenceProposalNarrative.docx">Community Violence Program Narrative</a> <br>
-<a href="/static/grants/2017CommunityViolence/ICJIAvocaCommunityViolenceBudget&amp;budgetnarrative.xlsx">Uniform Budget Template</a> <br>
+<a href="/static/grants/2017CommunityViolence/CommunityViolenceProgramNarrative.docx">Community Violence Program Narrative</a> <br>
+<a href="/static/grants/2017CommunityViolence/ICJIAvocaCommunityViolenceBudgetbudgetnarrrative.xlsx">Uniform Budget Template</a> <br>
 <a href="/static/grants/2017CommunityViolence/VOCASAR.docx">VOCA SAR Form</a> <br>
 <a href="/static/grants/2017CommunityViolence/LogicModel.docx">LogicModel</a> <br>
 <a href="/static/grants/2017CommunityViolence/SelfCertification.docx">Self-Certification</a> <br>
-<a href="/static/grants/2017CommunityViolence/FiscsalInformationSheet.docx">Fiscal Info Sheet</a> <br>
+<a href="/static/grants/2017CommunityViolence/FiscalInformationSheet.docx">Fiscal Info Sheet</a> <br>
 <a href="/static/grants/2017CommunityViolence/AuditInfoSheet.docx">Audit Info Sheet</a> <br>
-<a href="/static/grants/2017CommunityViolence/CertfiicationLobbyingDebarmentallgrants.pdf">Certification on Lobbying, Debarment etc</a> <br>
+<a href="/static/grants/2017CommunityViolence/CertificationLobbyingDebarmentallgrants.pdf">Certification on Lobbying, Debarment etc</a> <br>
 <a href="/static/grants/2017CommunityViolence/EEOPCert.docx">EEOP Certification</a> <br>
 <a href="/static/grants/2017CommunityViolence/CivilRightsComplianceCertification.docx">Civil Rights Compliance Certification</a> <br>
 <a href="/static/grants/2017CommunityViolence/Non-supplantingCertificationallgrants.docx">Non supplanting Certification</a> <br>
 <a href="/static/grants/2017CommunityViolence/MandatoryFormsChecklist.docx">Mandatory Forms Checklist</a> <br>
 <a href="/static/grants/2017CommunityViolence/FaithBasedOrganizationSelfReport.docx">Faith Based Self Report Form</a></p>
-
-
-
-
 
 
 
