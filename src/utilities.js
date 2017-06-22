@@ -294,3 +294,12 @@ exports.generateRoutes = function (arr) {
   return _r
 
 }
+
+exports.nameCheck = function (str) {
+  if (!isNaN(str.charAt(0))) {
+    return 'x' + str
+  } else {
+    return str
+  }
+
+}

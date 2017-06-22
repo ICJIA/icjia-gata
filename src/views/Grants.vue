@@ -74,7 +74,8 @@
                    <router-link :to="grant.path" class="grant-title">{{ grant.title }}
                      </router-link>
 
-                     <div class="grant-date">Posted: {{grant.created | moment}} |
+                     <div class="grant-date">
+                       <span v-if="isItNew(grant.created)"><span class="new">NEW!</span> | </span>Posted: {{grant.created | moment}} |
 
                        <span v-if="checkExpire(grant.expired)" style="color: red; font-weight: 900">{{grant.expired | moment }}&nbsp;(EXPIRED)</span>
                        <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span>
@@ -162,6 +163,16 @@ export default {
       //console.log(event.target.value)
       this.filter(event.target.value)
     },
+    isItExpired(d) {
+      // if (d < this.now) {
+      //   return true
+      // }
+      return d < this.now
+    },
+    isItNew(d) {
+      let target = moment(d).add(this.weeksForNewBanner, 'weeks')
+      return moment(target).isAfter(moment())
+    },
 
     changeSortBy(event) {
       //console.log(event.target.value)
@@ -239,13 +250,14 @@ export default {
       grants: _.orderBy(this.$store.grants, 'title', 'asc'),
       now: moment().subtract(1,'days'),
       warning: '',
-      sort: 'expired',
-      direction: 'asc',
+      sort: 'created',
+      direction: 'desc',
       filtered: [],
       isActive: true,
       filterType: 'current',
       selectedButton:'',
-      selected: 'A'
+      selected: 'A',
+      weeksForNewBanner: 1
     }
   },
 }

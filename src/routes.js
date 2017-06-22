@@ -71,6 +71,10 @@ const views = [
         path: utilities.componentToRouterPath('./views/grants/20170602UnmetNeeds.vue'),
         component: require('./views/grants/20170602UnmetNeeds.vue'),
     },
+    {
+        path: utilities.componentToRouterPath('./views/grants/20170620CommunityViolence.vue'),
+        component: require('./views/grants/20170620CommunityViolence.vue'),
+    },
 
 
 ]
