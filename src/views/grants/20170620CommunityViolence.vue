@@ -459,10 +459,10 @@ questions shall be binding on the state. </p>
 </tr>
 </tbody></table>
 
-static/grants/2017CommunityViolence/ICJIAvocaCommunityViolenceBudgetbudgetnarrrative.xlsx
+
 <h4 id="download-application-documents">Download application documents</h4>
 
-<p><a href="/static/grants/2017CommunityViolence/ICJIAUniformApplicationVOCACommunityViolence.docx">Uniform Application</a>  <br>
+<p><a href="/static/grants/2017CommunityViolence/icjiaUniformApplicationVOCACommunityViolence.docx">Uniform Application</a>  <br>
 <a href="/static/grants/2017CommunityViolence/CommunityViolenceProgramNarrative.docx">Community Violence Program Narrative</a> <br>
 <a href="/static/grants/2017CommunityViolence/ICJIAvocaCommunityViolenceBudgetbudgetnarrrative.xlsx">Uniform Budget Template</a> <br>
 <a href="/static/grants/2017CommunityViolence/VOCASAR.docx">VOCA SAR Form</a> <br>
