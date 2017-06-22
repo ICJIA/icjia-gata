@@ -18,8 +18,11 @@ import store from '@/feeds';
 import VueStash from 'vue-stash';
 Vue.use(VueStash)
 
-import VueScrollTo from 'vue-scrollto';
-Vue.use(VueScrollTo)
+// import VueScrollTo from 'vue-scrollto';
+// Vue.use(VueScrollTo)
+
+var SocialSharing = require('vue-social-sharing');
+Vue.use(SocialSharing);
 
 import Vue from 'vue'
 import App from './App'
