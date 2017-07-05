@@ -488,7 +488,7 @@ questions shall be binding on the state. </p>
 <a href="/static/grants/2017CommunityViolence/SelfCertification.docx">Self-Certification</a> <br>
 <a href="/static/grants/2017CommunityViolence/FiscalInformationSheet.docx">Fiscal Info Sheet</a> <br>
 <a href="/static/grants/2017CommunityViolence/AuditInfoSheet.docx">Audit Info Sheet</a> <br>
-<a href="/static/grants/2017CommunityViolence/CertfiicationLobbyingDebarmentallgrants.pdf">Certification on Lobbying, Debarment etc</a> <br>
+<a href="/static/grants/2017CommunityViolence/CertificationLobbyingDebarmentallgrants.pdf">Certification on Lobbying, Debarment etc</a> <br>
 <a href="/static/grants/2017CommunityViolence/EEOPCert.docx">EEOP Certification</a> <br>
 <a href="/static/grants/2017CommunityViolence/CivilRightsComplianceCertification.docx">Civil Rights Compliance Certification</a> <br>
 <a href="/static/grants/2017CommunityViolence/ProgrammaticRiskAssessmentQuestionnaire.xlsx">Programmatic Risk Assessment Questionnaire</a> <br>
@@ -496,10 +496,10 @@ questions shall be binding on the state. </p>
 <a href="/static/grants/2017CommunityViolence/MandatoryFormsChecklist.docx">Mandatory Forms Checklist</a> <br>
 <a href="/static/grants/2017CommunityViolence/FaithBasedOrganizationSelfReport.docx">Faith Based Self Report Form</a></p>
 
-<p><a href="/static/grants/2017CommunityViolence/ATTACHMENT1TraumaInformedServices">Attachment 1 Trauma Informed Services</a> <br>
-<a href="/static/grants/2017CommunityViolence/ATTACHMENT2EvidenceInformedTraumaFocusedTherapies">Attachment 2 Evidence Informed Trauma Focused Therapies</a> <br>
-<a href="/static/grants/2017CommunityViolence/ATTACHMENT3BudgetInstructions.docx">Attachment 3 Budget Instructions</a> <br>
-<a href="/static/grants/2017CommunityViolence/ATTACHMENT5StateMap">Attachment 4 State Map</a></p>
+<p><a href="/static/grants/2017CommunityViolence/Attachment1TraumaInformedServices.pdf">Attachment 1 Trauma Informed Services</a> <br>
+<a href="/static/grants/2017CommunityViolence/Attachment2EvidenceInformedTraumaFocusedTherapies.pdf">Attachment 2 Evidence Informed Trauma Focused Therapies</a> <br>
+<a href="/static/grants/2017CommunityViolence/Attachment3BudgetInstructions.docx">Attachment 3 Budget Instructions</a> <br>
+<a href="/static/grants/2017CommunityViolence/Attachment4StateMap.pdf">Attachment 4 State Map</a></p>
 
 
 
