@@ -485,6 +485,8 @@ questions shall be binding on the state.</p>
 <li><a href="/static/grants/2017UnmetNeeds/Non-supplantingCertificationallgrants.docx">Non supplanting Certificate</a></li>
 <li><a href="/static/grants/2017UnmetNeeds/MandatoryFormsChecklist.docx">Mandatory Forms Checklist</a></li>
 <li><a href="/static/grants/2017UnmetNeeds/FaithBasedOrganizationSelf Report.docx">Faith Based Self Report Form</a></li>
+<li><a href="/static/grants/2017UnmetNeeds/LogicModel.docx">LogicModel</a></li>
+<li><a href="/static/grants/2017UnmetNeeds/ProgrammaticRiskAssessmentQuestionnaire.xlsx">Programmatic Risk Assessment Questionnaire</a></li>
 </ul>
 
 <h3 id="questions">Responses to Applicant Questions</h3>
