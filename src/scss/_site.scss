@@ -282,3 +282,11 @@ button:focus {
     position: sticky;
     top: 20px;
 }
+
+
+/* Bootstrap 4 responsive table fix */
+.table-responsive {
+    display: table !important;
+}
+
+/* See: https://stackoverflow.com/questions/41747667/bootstrap-4-responsive-tables-wont-take-up-100-width */
