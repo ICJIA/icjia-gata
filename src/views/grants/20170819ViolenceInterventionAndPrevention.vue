@@ -83,7 +83,7 @@
 <li>Staffing Requirements- Any staff (or volunteers) that work directly with participants must be able to document they have received trauma-informed training. Any staff that provide counseling or therapy must be a licensed counselor, licensed social worker, or equivalent. </li>
 <li>Applicant must budget for one ICJIA-coordinated, full-day meeting in Chicago.</li>
 <li>Applicant must comply with all prescribed assessment tools and reporting requirements. <br>
-the <a href="//static/grants/2017ViolenceInterventionAndPrevention/CBvipNOFO.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</li>
+the <a href="/static/grants/2017ViolenceInterventionAndPrevention/CBvipNOFO.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</li>
 </ul>
 
 
@@ -372,8 +372,8 @@ export default {
 
 <style lang="css" scoped>
 
-h3 {margin-top: 60px !important;}
-h4 {margin-top: 40px !important}
+h2 {margin-top: 60px !important;}
+h3 {margin-top: 40px !important}
 #grant-posting-new a {padding-bottom: 10px; text-decoration: underline;}
 a.nav-link {text-decoration: none}
 #grant-posting-new a {color: #2c2fb3 !important}
