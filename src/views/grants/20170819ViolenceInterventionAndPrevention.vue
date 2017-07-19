@@ -132,7 +132,7 @@ the <a href="/static/grants/2017ViolenceInterventionAndPrevention/CBvipNOFO.pdf"
 
 <p>Agencies interested in submitting an application MUST complete an online Notice of Intent form by 11:59 p.m., August 8, 2017. </p>
 
-<p><a href="https://www.surveygizmo.com/s3/3706158/Community-Based-Violence-Intervention-and-Prevention-NOFO-Notice-of-Intent">NOTICE OF INTENT </a></p>
+<div class="text-center marginBottom50"><a href="https://www.surveygizmo.com/s3/3706158/Community-Based-Violence-Intervention-and-Prevention-NOFO-Notice-of-Intent" class="btn btn-primary" style="color: #fff !important">NOTICE OF INTENT&nbsp;&nbsp;&raquo;</a></div>
 
 
 
@@ -380,6 +380,7 @@ a.nav-link {text-decoration: none}
 table {margin-bottom: 50px;}
 a.fix {margin-top: 30px; margin-bottom: 50px; font-weight: 700; text-decoration: none !important}
 
+a.btn-primary {text-decoration: none !important}
 
 
 
