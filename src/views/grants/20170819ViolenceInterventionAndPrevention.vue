@@ -58,7 +58,7 @@
 <!-- START CONTENT --------------------------------------------------- -->
 
 
-<h1 id="community-based-violence-intervention-and-prevention-program">COMMUNITY-BASED VIOLENCE INTERVENTION AND PREVENTION PROGRAM</h1>
+<!-- <h1 id="community-based-violence-intervention-and-prevention-program">COMMUNITY-BASED VIOLENCE INTERVENTION AND PREVENTION PROGRAM</h1> -->
 
 <p>The State Fiscal Year 2018 (SFY18) Illinois State budget includes <span>$</span>8,000,000 for Community-Based Violence Prevention and Intervention grants and administration. The Authority anticipates that approximately <span>$</span>6,700,000 – $7,200,000 will be available under this Notice of Funding Opportunity. This Notice of Funding Opportunity is contingent upon the appropriation of Community-Based Violence Prevention funds to ICJIA in FY 18. Grant awards resulting from this opportunity are projected to have a performance period of October 1, 2017 through June 30, 2018. Contingent on future state fiscal year appropriations and satisfactory performance, ICJIA staff may recommend to its Board a maximum of an additional two, 12 month grants for each project. Funding amounts in future years may be reduced depending on appropriation. </p>
 
@@ -174,42 +174,42 @@ questions shall be binding on the state. </p>
 
 <h2 id="timeline">TIMELINE:</h2>
 
-<table>
+<table class="table table-responsive table-striped" style="width: 100%">
 <thead>
 <tr>
   <th>Task</th>
-  <th></th>
+
   <th align="left">Date</th>
 </tr>
 </thead>
 <tbody><tr>
   <td>Release of NOFO and open application period</td>
-  <td></td>
+
   <td align="left">July 19, 2017</td>
 </tr>
 <tr>
   <td>Notice of Intent due</td>
-  <td></td>
+
   <td align="left">August 8, 2017</td>
 </tr>
 <tr>
   <td>Last date for question submission</td>
-  <td></td>
+
   <td align="left">August 15, 2017</td>
 </tr>
 <tr>
   <td>Application deadline</td>
-  <td></td>
+
   <td align="left">11:59 p.m., Monday, August 18, 2017</td>
 </tr>
 <tr>
   <td>Budget Committee review</td>
-  <td></td>
+
   <td align="left">September 28, 2017</td>
 </tr>
 <tr>
   <td>Start Program Performance Period</td>
-  <td></td>
+
   <td align="left">October 1, 2017</td>
 </tr>
 </tbody></table>
@@ -233,7 +233,7 @@ questions shall be binding on the state. </p>
 
 <h4 id="required-documents">Required documents</h4>
 
-<table class="table table-striped">
+<table class="table table-striped table-responsive">
 <thead>
 <tr>
   <th>Document</th>
