@@ -159,16 +159,16 @@ questions shall be binding on the state. </p>
 
 <h3 id="mandatory-applicant-technical-assistance-video">Mandatory Applicant Technical Assistance Video</h3>
 
-<p>Applicants must view a mandatory pre-recorded video on the ICJIA website at <a href="https://grants.icjia.cloud/">https://grants.icjia.cloud/</a>.  The webinar will be available for viewing beginning at 1:30 p.m. on July 20, 2017.  The applicant must certify viewing this recording. Information provided during this video will be unofficial and not binding on the State.</p>
-
-<ul>
-<li><a href="https://www.youtube.com/embed/8tc1Eaik7RI">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines</a></li>
-<li><a href="https://www.youtube.com/embed/lDFdUttzLhY">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Adminstrative Introduction</a></li>
-<li><a href="https://www.youtube.com/embed/i9XB4EkYpe0">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Budget</a></li>
-<li><a href="https://www.youtube.com/embed/lDFdUttzLhY">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Indirect Costs</a></li>
-<li><p><a href="https://www.youtube.com/embed/306wGFdSW6w">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Prior Approval Requirements</a></p></li>
-<li><p><a href="https://www.surveygizmo.com/s3/3706762/Community-Based-Violence-Intervention-and-Prevention-NOFO-Technical-Assistance-Webinar-Certification">TECHNICAL ASSISTANCE VIDEO CERTIFICATION</a></p></li>
-</ul>
+<p>Applicants must view a mandatory pre-recorded video on the ICJIA website at <a href="https://grants.icjia.cloud/">https://grants.icjia.cloud/</a>. The webinar will be available for viewing beginning at 1:30 p.m. on July 20, 2017. The applicant must certify
+    viewing this recording. Information provided during this video will be unofficial and not binding on the State.</p>
+    <ul>
+        <li><a href="https://www.youtube.com/embed/8tc1Eaik7RI">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines</a></li>
+        <li><a href="https://www.youtube.com/embed/lDFdUttzLhY">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Adminstrative Introduction</a></li>
+        <li><a href="https://www.youtube.com/embed/FTeznPSc9_c">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Application and general Requirements</a></li>
+        <li><a href="https://www.youtube.com/embed/i9XB4EkYpe0">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Budget</a></li>
+        <li><a href="https://www.youtube.com/embed/lDFdUttzLhY">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Indirect Costs</a></li>
+        <li><a href="https://www.youtube.com/embed/306wGFdSW6w">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Prior Approval Requirements</a></li>
+    </ul>
 
 
 
