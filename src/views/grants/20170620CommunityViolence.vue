@@ -32,6 +32,9 @@
   <li class="nav-item">
     <a class="nav-link" href="#application-materials">Application Materials</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#responses-to-applicant-questions">Responses to applicant questions</a>
+  </li>
 
   <!-- <li class="nav-item">
     <a class="nav-link" href="#questions">Responses to Applicant Questions</a>
@@ -500,6 +503,13 @@ questions shall be binding on the state. </p>
 <a href="/static/grants/2017CommunityViolence/Attachment2EvidenceInformedTraumaFocusedTherapies.pdf">Attachment 2 Evidence Informed Trauma Focused Therapies</a> <br>
 <a href="/static/grants/2017CommunityViolence/Attachment3BudgetInstructions.docx">Attachment 3 Budget Instructions</a> <br>
 <a href="/static/grants/2017CommunityViolence/Attachment4StateMap.pdf">Attachment 4 State Map</a></p>
+
+
+<h3 id="responses-to-applicant-questions">Responses to Applicant Questions</h3>
+
+Questions from applicants and their responses are updated weekly. View them here:
+<a href="/static/grants/2017CommunityViolence/VOCACommunityViolenceResponsesToApplicantQuestions.pdf">Responses to Applicant Questions</a>
+
 
 
 
