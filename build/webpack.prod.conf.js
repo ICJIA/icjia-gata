@@ -11,6 +11,7 @@ var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 var moment = require('moment-timezone');
 var PrerenderSpaPlugin = require('prerender-spa-plugin');
 var routesToPrerender = require('../src/routesToPrerender');
+var template = require('../config/template.js')
 
 // console.log(routesToPrerender)
 
@@ -55,27 +56,7 @@ var webpackConfig = merge(baseWebpackConfig, {
     // generate dist index.html with correct asset hash for caching.
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
-    new HtmlWebpackPlugin({
-      filename: process.env.NODE_ENV === 'testing'
-        ? 'index.html'
-        : config.build.index,
-      template: 'index.html',
-      bannerDate: moment().tz("America/Chicago").format("dddd, MMMM Do YYYY, h:mm:ss a"),
-      bannerGit: "https://github.com/ICJIA/icjia-gata",
-      bannerTitle: "ICJIA Grant Accountability & Transparency Act",
-      bannerContact: "christopher.schweda@illinois.gov",
-      googleAnalytics: true,
-      inject: true,
-      minify: {
-        removeComments: false,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-        // more options:
-        // https://github.com/kangax/html-minifier#options-quick-reference
-      },
-      // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency'
-    }),
+    new HtmlWebpackPlugin(template.build),
     // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
