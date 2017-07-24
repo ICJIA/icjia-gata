@@ -21,6 +21,10 @@ let headscripts = [
   'https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.js',
 ]
 
+let postscripts = [
+  '//s7.addthis.com/js/300/addthis_widget.js#pubid=cschweda'
+]
+
 
 
 let appMountId = 'app'
@@ -44,6 +48,7 @@ module.exports = {
         appMountId,
         links,
         headscripts,
+        postscripts,
         buildInfo,
         minify,
         // necessary to consistently work with multiple chunks via CommonsChunkPlugin
@@ -57,6 +62,7 @@ module.exports = {
         appMountId,
         links,
         headscripts,
+        postscripts,
         buildInfo
     }
 }
