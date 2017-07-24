@@ -16,7 +16,9 @@
     "spa": "cd static/prerender-spa-plugin && npm i",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e"
+    "test": "npm run unit && npm run e2e",
+    "critical": "node critical.js",
+    "build:critical": "npm run build:dev && npm run critical"
   },
   "dependencies": {
     "animate.css": "^3.5.2",
@@ -98,6 +100,7 @@
     "webpack-merge": "^2.6.1"
   },
   "devDependencies": {
+    "critical": "^0.9.0",
     "cschweda-webpack-template": "^1.3.1",
     "vue-meta": "^0.5.6"
   },
