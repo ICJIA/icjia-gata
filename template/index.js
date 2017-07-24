@@ -6,6 +6,12 @@ let buildInfo = [{
     GitHub: 'https://github.com/icjia/icjia-gata',
     Contact: 'christopher.schweda@illinois.gov'
 }]
+let meta = [
+  {
+    name: 'google-site-verification',
+    contents: 'FTf_VAGmkX6nvkYTl9S4vtCK-1Dy3N9kyOteR0poBE8'
+  }
+]
 let links = [
     'https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto:400,500,700,900',
     'https://fonts.googleapis.com/css?family=Montserrat:400,700',
@@ -13,9 +19,18 @@ let links = [
     'https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.css'
 ]
 let headscripts = [
-  'https://cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.4/stickyfill.js',
-  'https://use.fontawesome.com/0fc34dc4bc.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.js',
+  {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.4/stickyfill.min.js',
+      async: 'async'
+  },
+  {
+      src: 'https://use.fontawesome.com/0fc34dc4bc.js',
+      async: 'async'
+  },
+  {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.js',
+      async: 'async'
+  }
 ]
 let postscripts = [
   '//s7.addthis.com/js/300/addthis_widget.js#pubid=cschweda'
@@ -41,6 +56,7 @@ module.exports = {
         postscripts,
         buildInfo,
         minify,
+        meta,
         // necessary to consistently work with multiple chunks via CommonsChunkPlugin
         chunksSortMode
 
@@ -53,6 +69,7 @@ module.exports = {
         links,
         headscripts,
         postscripts,
-        buildInfo
+        buildInfo,
+        meta
     }
 }
