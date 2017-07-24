@@ -11,7 +11,7 @@ var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 var moment = require('moment-timezone');
 var PrerenderSpaPlugin = require('prerender-spa-plugin');
 var routesToPrerender = require('../src/routesToPrerender');
-var template = require('../config/template.js')
+var template = require('../template')
 
 // console.log(routesToPrerender)
 
