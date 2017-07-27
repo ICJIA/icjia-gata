@@ -21,19 +21,22 @@ let links = [
 let headscripts = [
   {
       src: 'https://cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.4/stickyfill.min.js',
-      async: 'async'
+      async: 'true'
   },
   {
       src: 'https://use.fontawesome.com/0fc34dc4bc.js',
-      async: 'async'
+      async: 'true'
   },
   {
       src: 'https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.js',
-      async: 'async'
+      async: 'true'
   }
 ]
 let postscripts = [
-  '//s7.addthis.com/js/300/addthis_widget.js#pubid=cschweda'
+  {
+      src: '//s7.addthis.com/js/300/addthis_widget.js#pubid=cschweda',
+      async: 'true'
+  }
 ]
 let appMountId = 'app'
 let inject = false
