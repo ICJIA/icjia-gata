@@ -57,7 +57,7 @@
 
 <!-- START CONTENT --------------------------------------------------- -->
 
-<h1 id="community-based-violence-intervention-and-prevention-program">COMMUNITY-BASED VIOLENCE INTERVENTION AND PREVENTION PROGRAM</h1>
+<!-- <h1 id="community-based-violence-intervention-and-prevention-program">COMMUNITY-BASED VIOLENCE INTERVENTION AND PREVENTION PROGRAM</h1> -->
 
 <p>The State Fiscal Year 2018 (SFY18) Illinois State budget includes <span>$</span>8,000,000 for Community-Based Violence Prevention and Intervention grants and administration. The Authority anticipates that approximately <span>$</span>6,700,000 to $7,200,000 will be available under this Notice of Funding Opportunity. Grant awards resulting from this opportunity are projected to have a performance period of October 1, 2017 through June 30, 2018. Contingent on future state fiscal year appropriations and satisfactory performance, ICJIA staff may recommend to its Board a maximum of an additional two, 12-month grants for each project. Funding amounts in future years may be reduced depending on appropriation. </p>
 
