@@ -109,7 +109,7 @@ o   Youth Development - Engaging young people to develop their emotional, physic
 
 <h3 id="deadline">Deadline</h3>
 
-<p>Applications are due at 11:59 p.m., Thursday, August 18, 2017. Completed application materials must be emailed to <a href="CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a>.</p>
+<p>Applications are due at 11:59 p.m., Friday, August 18, 2017. Completed application materials must be emailed to <a href="CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a>.</p>
 
 <h3 id="notice-of-intent">NOTICE OF INTENT</h3>
 
