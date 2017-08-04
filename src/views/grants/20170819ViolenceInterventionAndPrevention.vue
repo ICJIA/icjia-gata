@@ -305,14 +305,14 @@ import StickySidebar from '@/components/StickySidebar'
 const description =
   `The State Fiscal Year 2018 (SFY18) Illinois State budget includes $8,000,000 for Community-Based Violence Prevention and Intervention grants and administration. The Authority anticipates that approximately $6,700,000 – $7,200,000 will be available under this Notice of Funding Opportunity. This Notice of Funding Opportunity is contingent upon the appropriation of Community-Based Violence Prevention funds to ICJIA in FY 18. Grant awards resulting from this opportunity are projected to have a performance period of October 1, 2017 through June 30, 2018. Contingent on future state fiscal year appropriations and satisfactory performance, ICJIA staff may recommend to its Board a maximum of an additional two, 12 month grants for each project. Funding amounts in future years may be reduced depending on appropriation.`
 const title = utilities.titleCase("COMMUNITY-BASED VIOLENCE INTERVENTION AND PREVENTION PROGRAM")
-const created ='2017-07-19'
-const expired ='2017-08-18'
-const type  = 'grant'
+const created = '2017-07-19'
+const expired = '2017-08-18'
+const type = 'grant'
 const status = 'live'
 
 export default {
   name: utilities.camelCase(utilities.nameCheck(title)),
-  pageData:  {
+  pageData: {
     created,
     description,
     expired,
@@ -320,15 +320,15 @@ export default {
     type,
     status
   },
-  mounted () {
+  mounted() {
 
 
   },
   metaInfo: {
-      // title will be injected into parent titleTemplate
-      title,
-      meta: [
-        { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
+    // title will be injected into parent titleTemplate
+    title,
+    meta: [
+      { vmid: 'description', name: 'description', content: utilities.stripTags(description) }
     ]
   },
   components: {
@@ -338,7 +338,7 @@ export default {
     StickySidebar
 
   },
-  data () {
+  data() {
     return {
       title,
       expired
@@ -350,18 +350,39 @@ export default {
 </script>
 
 <style lang="css" scoped>
+h2 {
+  margin-top: 60px !important;
+}
 
-h2 {margin-top: 60px !important;}
-h3 {margin-top: 40px !important}
-#grant-posting-new a {padding-bottom: 10px; text-decoration: underline;}
-a.nav-link {text-decoration: none}
-#grant-posting-new a {color: #2c2fb3 !important}
-table {margin-bottom: 50px;}
-a.fix {margin-top: 30px; margin-bottom: 50px; font-weight: 700; text-decoration: none !important}
+h3 {
+  margin-top: 40px !important
+}
 
-a.btn-primary {text-decoration: none !important}
+#grant-posting-new a {
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
 
+a.nav-link {
+  text-decoration: none
+}
 
+#grant-posting-new a {
+  color: #2c2fb3 !important
+}
 
+table {
+  margin-bottom: 50px;
+}
 
+a.fix {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  text-decoration: none !important
+}
+
+a.btn-primary {
+  text-decoration: none !important
+}
 </style>
