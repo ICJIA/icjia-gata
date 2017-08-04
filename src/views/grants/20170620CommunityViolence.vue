@@ -499,6 +499,8 @@ questions shall be binding on the state. </p>
 <a href="/static/grants/2017CommunityViolence/MandatoryFormsChecklist.docx">Mandatory Forms Checklist</a> <br>
 <a href="/static/grants/2017CommunityViolence/FaithBasedOrganizationSelfReport.docx">Faith Based Self Report Form</a></p>
 
+
+
 <p><a href="/static/grants/2017CommunityViolence/Attachment1TraumaInformedServices.pdf">Attachment 1 Trauma Informed Services</a> <br>
 <a href="/static/grants/2017CommunityViolence/Attachment2EvidenceInformedTraumaFocusedTherapies.pdf">Attachment 2 Evidence Informed Trauma Focused Therapies</a> <br>
 <a href="/static/grants/2017CommunityViolence/Attachment3BudgetInstructions.docx">Attachment 3 Budget Instructions</a> <br>
