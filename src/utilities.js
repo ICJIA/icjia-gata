@@ -2,44 +2,44 @@
 // See: https://legacy.datatables.net/ref#sDom
 exports.dtConfig = {
   "pageLength": 100,
-    "columnDefs": [{
+  "columnDefs": [{
 
-        "targets": '_all',
-        "createdCell": function(td, cellData, rowData, row, col) {
-            // Add commas to large numbers
-            $(td).html($(td).html().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"))
-        }
-    }],
-    "sDom": '<"top">rt<"bottom"><"clear">'
+    "targets": '_all',
+    "createdCell": function (td, cellData, rowData, row, col) {
+      // Add commas to large numbers
+      $(td).html($(td).html().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"))
+    }
+  }],
+  "sDom": '<"top">rt<"bottom"><"clear">'
 }
 
 
 
 
 // Construct HTML table from chart object //////////////////////////////////////////////////////
-exports.renderTable = function(hc, tableId) {
-    let series = '<th></th>'
-    let row = '<tr>';
-    let tSeries = '';
-    // read chart data --> convert to table
-    for (let i = 0; i < hc.series.length; i++) {
-        series = series + `<th> ${hc.series[i].name}</th>`
+exports.renderTable = function (hc, tableId) {
+  let series = '<th></th>'
+  let row = '<tr>';
+  let tSeries = '';
+  // read chart data --> convert to table
+  for (let i = 0; i < hc.series.length; i++) {
+    series = series + `<th> ${hc.series[i].name}</th>`
+  }
+
+  for (let i = 0; i < hc.series[0].data.length; i++) {
+    row = row + `<td class="strong">${hc.xAxis.categories[i]}</td>`
+    for (let j = 0; j < hc.series.length; j++) {
+
+      let tmp = hc.series[j].data[i]
+      row = row + `<td> ${tmp} </td>`
     }
-
-    for (let i = 0; i < hc.series[0].data.length; i++) {
-        row = row + `<td class="strong">${hc.xAxis.categories[i]}</td>`
-        for (let j = 0; j < hc.series.length; j++) {
-
-            let tmp = hc.series[j].data[i]
-            row = row + `<td> ${tmp} </td>`
-        }
-        row = row + `</tr>`
-    }
+    row = row + `</tr>`
+  }
 
 
-    // ES6 template literal: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-    let hcTable = ''
-    return hcTable = `
+  // ES6 template literal: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+  let hcTable = ''
+  return hcTable = `
                             <table id="${tableId}" class="ordered striped">
                                 <thead>
                                     <tr>
@@ -57,14 +57,14 @@ exports.renderTable = function(hc, tableId) {
 
 // Generate unique ID ////////////////////////////////////////////////////////////////////////
 
-exports.guid = function() {
-    // generate unique id
-    function s4() {
-        return Math.floor((1 + Math.random()) * 0x10000)
-            .toString(16)
-            .substring(1);
-    }
-    return s4() + s4() + s4() + s4() + s4() + s4();
+exports.guid = function () {
+  // generate unique id
+  function s4() {
+    return Math.floor((1 + Math.random()) * 0x10000)
+      .toString(16)
+      .substring(1);
+  }
+  return s4() + s4() + s4() + s4() + s4() + s4();
 }
 
 
@@ -73,13 +73,13 @@ exports.guid = function() {
 
 // Determine size of object  /////////////////////////////////////////////////////////////////
 
-exports.objSize = function(obj) {
-    var size = 0,
-        key;
-    for (key in obj) {
-        if (obj.hasOwnProperty(key)) size++;
-    }
-    return size;
+exports.objSize = function (obj) {
+  var size = 0,
+    key;
+  for (key in obj) {
+    if (obj.hasOwnProperty(key)) size++;
+  }
+  return size;
 }
 
 
@@ -88,66 +88,66 @@ exports.objSize = function(obj) {
 
 // Parse string as boolean //////////////////////////////////////////
 
-exports.parseBool = function(str) {
-    // console.log(typeof str);
-    // strict: JSON.parse(str)
+exports.parseBool = function (str) {
+  // console.log(typeof str);
+  // strict: JSON.parse(str)
 
-    if (str == null)
-        return false;
-
-    if (typeof str === 'boolean') {
-        return (str === true);
-    }
-
-    if (typeof str === 'string') {
-        if (str == "")
-            return false;
-
-        str = str.replace(/^\s+|\s+$/g, '');
-        if (str.toLowerCase() == 'true' || str.toLowerCase() == 'yes')
-            return true;
-
-        str = str.replace(/,/g, '.');
-        str = str.replace(/^\s*\-\s*/g, '-');
-    }
-
-    // var isNum = string.match(/^[0-9]+$/) != null;
-    // var isNum = /^\d+$/.test(str);
-    if (!isNaN(str))
-        return (parseFloat(str) != 0);
-
+  if (str == null)
     return false;
+
+  if (typeof str === 'boolean') {
+    return (str === true);
+  }
+
+  if (typeof str === 'string') {
+    if (str == "")
+      return false;
+
+    str = str.replace(/^\s+|\s+$/g, '');
+    if (str.toLowerCase() == 'true' || str.toLowerCase() == 'yes')
+      return true;
+
+    str = str.replace(/,/g, '.');
+    str = str.replace(/^\s*\-\s*/g, '-');
+  }
+
+  // var isNum = string.match(/^[0-9]+$/) != null;
+  // var isNum = /^\d+$/.test(str);
+  if (!isNaN(str))
+    return (parseFloat(str) != 0);
+
+  return false;
 }
 
 
-exports.titleCase = function(str) {
-     let words = str.toLowerCase().split(' ');
+exports.titleCase = function (str) {
+  let words = str.toLowerCase().split(' ');
 
-     for(var i = 0; i < words.length; i++) {
-          let letters = words[i].split('');
-          letters[0] = letters[0].toUpperCase();
-          words[i] = letters.join('');
-     }
-     return words.join(' ');
+  for (var i = 0; i < words.length; i++) {
+    let letters = words[i].split('');
+    letters[0] = letters[0].toUpperCase();
+    words[i] = letters.join('');
+  }
+  return words.join(' ');
 }
 
 exports.camelCase = function (str) {
   // Lower cases the string
   return str.toLowerCase()
     // Replaces any - or _ characters with a space
-    .replace( /[-_]+/g, ' ')
+    .replace(/[-_]+/g, ' ')
     // Removes any non alphanumeric characters
-    .replace( /[^\w\s]/g, '')
+    .replace(/[^\w\s]/g, '')
     // Uppercases the first character in each group immediately following a space
     // (delimited by spaces)
-    .replace( / (.)/g, function($1) { return $1.toUpperCase(); })
+    .replace(/ (.)/g, function ($1) { return $1.toUpperCase(); })
     // Removes spaces
-    .replace( / /g, '' );
+    .replace(/ /g, '');
 }
 
 
 
-exports.stripTags =  function(str) {
+exports.stripTags = function (str) {
   // strip tags
   str = str.replace(/<\/?[^>]+>/g, '');
   // strip carriage returns
@@ -155,7 +155,7 @@ exports.stripTags =  function(str) {
   return str
 }
 
-exports.truncateString = function(str, num) {
+exports.truncateString = function (str, num) {
 
   if (str === undefined) return
 
@@ -167,28 +167,27 @@ exports.truncateString = function(str, num) {
 }
 
 exports.truncateStringMiddle = function (text, startChars, endChars, maxLength) {
-    if (text.length > maxLength) {
-        var start = text.substring(0, startChars);
-        var end = text.substring(text.length - endChars, text.length);
-        while ((start.length + end.length) < maxLength)
-        {
-            start = start + '.';
-        }
-        return start + end;
+  if (text.length > maxLength) {
+    var start = text.substring(0, startChars);
+    var end = text.substring(text.length - endChars, text.length);
+    while ((start.length + end.length) < maxLength) {
+      start = start + '.';
     }
-    return text;
+    return start + end;
+  }
+  return text;
 }
 
-function stripCarriageReturns (str) {
+function stripCarriageReturns(str) {
   return str.replace(/[\n\r]/g, '');
 }
 
 exports.componentToRouterPath = function (c) {
-  String.prototype.camelCaseToDashed = function(){
+  String.prototype.camelCaseToDashed = function () {
     return this.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
   }
-  path = _.replace(c,"./views","")
-  path = _.replace(path,".vue","")
+  path = _.replace(c, "./views", "")
+  path = _.replace(path, ".vue", "")
   path = path.camelCaseToDashed();
   return path
 }
@@ -196,13 +195,13 @@ exports.componentToRouterPath = function (c) {
 exports.generateRoutes = function (arr) {
   // generates routes for routes.js and injects metadata about each page
   const _REDIRECT_ROUTE = {
-      path: '/*',
-      title: 'Redirect',
-      type: 'redirect',
-      created: new Date(),
-      status: 'live',
-      name: 'Redirect',
-      redirect: '/'
+    path: '/*',
+    title: 'Redirect',
+    type: 'redirect',
+    created: new Date(),
+    status: 'live',
+    name: 'Redirect',
+    redirect: '/'
   }
 
   let _r = [];
@@ -215,75 +214,75 @@ exports.generateRoutes = function (arr) {
   let _status = 'live'
   let _type = 'page'
 
-  arr.forEach(function(eachObj) {
-      _obj = {}
-      _obj.path = eachObj["path"]
-      // if (eachObj["path"]) {
-      //   _obj.path = eachObj["path"]
-      // }else {
-      //   _obj.path = '/'
-      //   console.table(eachObj["component"])
-      // }
+  arr.forEach(function (eachObj) {
+    _obj = {}
+    _obj.path = eachObj["path"]
+    // if (eachObj["path"]) {
+    //   _obj.path = eachObj["path"]
+    // }else {
+    //   _obj.path = '/'
+    //   console.table(eachObj["component"])
+    // }
 
-      //console.log(eachObj["component"].components)
-      _obj.component = eachObj["component"]
-      // Create page-specific meta data from views
-      //obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '') || 'NoName'
-      if ('pageData' in eachObj["component"]) {
+    //console.log(eachObj["component"].components)
+    _obj.component = eachObj["component"]
+    // Create page-specific meta data from views
+    //obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '') || 'NoName'
+    if ('pageData' in eachObj["component"]) {
 
-        if ('name' in eachObj["component"]) {
-          _obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '')
-        } else {
-          _obj.name = _name
-        }
-
-        if ('created' in eachObj["component"].pageData) {
-          _obj.created = new Date(String(eachObj["component"].pageData.created).replace(/-/g, "/"))
-        } else {
-          _obj.created = _created
-        }
-
-        if ('expired' in eachObj["component"].pageData) {
-          _obj.expired = new Date(String(eachObj["component"].pageData.expired).replace(/-/g, "/"))
-
-        } else {
-          _obj.expired = _expired
-        }
-
-        if ('title' in eachObj["component"].pageData) {
-          _obj.title = eachObj["component"].pageData.title,100
-        } else {
-          _obj.title = _title
-        }
-
-        if ('description' in eachObj["component"].pageData) {
-          _obj.description = stripCarriageReturns(eachObj["component"].pageData.description)
-        } else {
-          _obj.description = _description
-        }
-        if ('status' in eachObj["component"].pageData) {
-          _obj.status = eachObj["component"].pageData.status
-        } else {
-          _obj.status = _status
-        }
-
-        if ('type' in eachObj["component"].pageData) {
-          _obj.type = eachObj["component"].pageData.type
-        } else {
-          _obj.type = _type
-        }
-
-
+      if ('name' in eachObj["component"]) {
+        _obj.name = String(eachObj["component"].pageData.title).replace(/\s+/g, '')
       } else {
         _obj.name = _name
+      }
+
+      if ('created' in eachObj["component"].pageData) {
+        _obj.created = new Date(String(eachObj["component"].pageData.created).replace(/-/g, "/"))
+      } else {
         _obj.created = _created
+      }
+
+      if ('expired' in eachObj["component"].pageData) {
+        _obj.expired = new Date(String(eachObj["component"].pageData.expired).replace(/-/g, "/"))
+
+      } else {
         _obj.expired = _expired
+      }
+
+      if ('title' in eachObj["component"].pageData) {
+        _obj.title = eachObj["component"].pageData.title, 100
+      } else {
         _obj.title = _title
+      }
+
+      if ('description' in eachObj["component"].pageData) {
+        _obj.description = stripCarriageReturns(eachObj["component"].pageData.description)
+      } else {
         _obj.description = _description
+      }
+      if ('status' in eachObj["component"].pageData) {
+        _obj.status = eachObj["component"].pageData.status
+      } else {
         _obj.status = _status
+      }
+
+      if ('type' in eachObj["component"].pageData) {
+        _obj.type = eachObj["component"].pageData.type
+      } else {
         _obj.type = _type
       }
-      _r.push(_obj)
+
+
+    } else {
+      _obj.name = _name
+      _obj.created = _created
+      _obj.expired = _expired
+      _obj.title = _title
+      _obj.description = _description
+      _obj.status = _status
+      _obj.type = _type
+    }
+    _r.push(_obj)
 
 
 
