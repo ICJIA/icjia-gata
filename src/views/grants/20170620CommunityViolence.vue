@@ -501,10 +501,10 @@ questions shall be binding on the state. </p>
 
 
 
-<p><a href="/static/grants/2017CommunityViolence/Attachment1TraumaInformedServices.pdf">Attachment 1 Trauma Informed Services</a> <br>
-<a href="/static/grants/2017CommunityViolence/Attachment2EvidenceInformedTraumaFocusedTherapies.pdf">Attachment 2 Evidence Informed Trauma Focused Therapies</a> <br>
-<a href="/static/grants/2017CommunityViolence/Attachment3BudgetInstructions.docx">Attachment 3 Budget Instructions</a> <br>
-<a href="/static/grants/2017CommunityViolence/Attachment4StateMap.pdf">Attachment 4 State Map</a></p>
+<p><a href="/static/grants/2017CommunityViolence/Attachment1.pdf">Attachment 1 Trauma Informed Services</a> <br>
+<a href="/static/grants/2017CommunityViolence/Attachment2.pdf">Attachment 2 Evidence Informed Trauma Focused Therapies</a> <br>
+<a href="/static/grants/2017CommunityViolence/Attachment3.docx">Attachment 3 Budget Instructions</a> <br>
+<a href="/static/grants/2017CommunityViolence/Attachment4.pdf">Attachment 4 State Map</a></p>
 
 
 <h3 id="responses-to-applicant-questions">Responses to Applicant Questions</h3>
