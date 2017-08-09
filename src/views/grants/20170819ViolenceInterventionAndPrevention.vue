@@ -33,9 +33,9 @@
     <a class="nav-link" href="#application-materials">Application Materials</a>
   </li>
 
-  <!-- <li class="nav-item">
-    <a class="nav-link" href="#questions">Responses to Applicant Questions</a>
-  </li> -->
+   <li class="nav-item">
+    <a class="nav-link" href="#updates-and-responses-to-applicant-questions">Updates and Responses to Applicant Questions</a>
+  </li> 
 
 
 </ul>
@@ -62,29 +62,57 @@
 <p>The State Fiscal Year 2018 (SFY18) Illinois State budget includes <span>$</span>8,000,000 for Community-Based Violence Prevention and Intervention grants and administration. The Authority anticipates that approximately <span>$</span>6,700,000 to $7,200,000 will be available under this Notice of Funding Opportunity. Grant awards resulting from this opportunity are projected to have a performance period of October 1, 2017 through June 30, 2018. Contingent on future state fiscal year appropriations and satisfactory performance, ICJIA staff may recommend to its Board a maximum of an additional two, 12-month grants for each project. Funding amounts in future years may be reduced depending on appropriation. </p>
 
 <h2 id="program-design">Program Design:</h2>
-
-<p>Proposals for community-based violence prevention initiatives must target youth and young adults, including, but not limited to, those who are identified as being at heightened risk or those who engage in high risk behavior or violence.  Proposals must reflect the following mandatory elements:</p>
-
-<ol>
-<li>Convene or expand an existing community coalition to engage service providers, governmental agencies (local and/or statewide agencies), law enforcement, faith-based, and general community members. The purpose of the Coalition is to ensure that service providers and all potential participants are aware of violence prevention resources available in community; develop collaborative partnerships to ensure that clients’ immediate needs are met; and provide pro-social activities for the community. <br>
-<ul><li>Grantee may assign a staff person to facilitate coalition meetings and activities. Meetings and/or activities should occur at least quarterly.</li>
-<li>If more than one applicant is funded in a community, the funded agencies should collaborate to create or expand an existing coalition.</li>
-<li>The Coalition should organize at least one community event during the grant period. <br>
-Educate public about program services through wide distribution and various types of program materials, public presentations and awareness events.</li></ul></li>
-<li>Implementation of at least one of the following direct service categories: <br>
-<ul><li>Programs target at-risk youth and young adults in order to provide crisis intervention and de-escalation of high stress situations. o Examples of promising programs include Richmond Comprehensive Homicide Initiative, CureViolence, Operation Ceasefire, and Safe Streets. </li></ul></li>
-<li>Implementation of at least one of the following direct service categories: <br>
-<ul><li>Street Intervention/Interruption-Active Outreach and Engagement </li>
-<li>Counseling and Therapy- Developmentally and culturally appropriate therapeutic services provided by a mental health professional. Effective programs incorporate cognitive-behavioral therapy (CBT) and/or include contingency management approaches. These programs are often individual or family-based, such as Multi-systemic Therapy, Functional Family Therapy, Multidimensional Family Therapy, Aggression Replacement Training, Assisted Outpatient Treatment, and Coping Power Program, CBT for Trauma in Schools, Good Behavior Game.</li>
-<li>Case Management- Supporting youth and their families in identifying and accessing resources. Individuals at risk for involvement in street-level violence can be difficult to engage in services. Case management approaches that actively engage youth and families (i.e., active reaching out, meeting youth/families in the home, community engagement) are more effective at long-term client retention and developing trust than more passive case management approaches (i.e., requiring youth/families to meet in office locations).  <br>
-o   Youth Development - Engaging young people to develop their emotional, physical, social and intellectual selves. Program provides opportunities for youth to practice conflict resolution and prosocial life skills. Promising programs include the Life Skills Training (LST). </li></ul></li>
-<li>Staffing Requirements- Any staff (or volunteers) that work directly with participants must be able to document they have received trauma-informed training. Any staff that provide counseling or therapy must be a licensed counselor, licensed social worker, or equivalent. </li>
-<li>Applicant must budget for one ICJIA-coordinated, full-day meeting in Chicago.</li>
-<li>Applicant must comply with all prescribed assessment tools and reporting requirements.</li>
-</ol>
-
-<p>See the <a href="CBvipNOFO.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
-
+<p>Proposals for community-based violence prevention initiatives must target youth and young adults, including, but not limited to, those who are identified as being at heightened risk or those who engage in high risk behavior or violence. Proposals must
+    reflect the following mandatory elements:</p>
+<ul>
+    <li>
+        <p>Convene or expand an existing community coalition to engage service providers, governmental agencies (local and/or statewide agencies), law enforcement, faith-based, and general community members. The purpose of the Coalition is to ensure that
+            service providers and all potential participants are aware of violence prevention resources available in community; develop collaborative partnerships to ensure that clients’ immediate needs are met; and provide pro-social activities for the
+            community.</p>
+        <ul>
+            <li>Grantee may assign a staff person to facilitate coalition meetings and activities. Meetings and/or activities should occur at least quarterly.</li>
+            <li>If more than one applicant is funded in a community, the funded agencies should collaborate to create or expand an existing coalition.</li>
+            <li>The Coalition should organize at least one community event during the grant period.</li>
+        </ul>
+    </li>
+    <li>
+        <p>Educate public about program services through wide distribution and various types of program materials, public presentations and awareness events.</p>
+    </li>
+    <li>
+        <p>Implementation of at least one of the following direct service categories:</p>
+        <ul>
+            <li>
+                <p>Street Intervention/Interruption-Active Outreach and Engagement – Programs target at-risk youth and young adults in order to provide crisis intervention and de-escalation of high stress situations. Examples of promising programs include
+                    Richmond Comprehensive Homicide Initiative, CureViolence, Operation Ceasefire, and Safe Streets.</p>
+            </li>
+            <li>
+                <p>Counseling and Therapy- Developmentally and culturally appropriate therapeutic services provided by a mental health professional. Effective programs incorporate cognitive-behavioral therapy (CBT) and/or include contingency management approaches.
+                    These programs are often individual or family-based, such as Multi-systemic Therapy, Functional Family Therapy, Multidimensional Family Therapy, Aggression Replacement Training, Assisted Outpatient Treatment, and Coping Power Program,
+                    CBT for Trauma in Schools, Good Behavior Game.</p>
+            </li>
+            <li>
+                <p>Case Management- Supporting youth and their families in identifying and accessing resources. Individuals at risk for involvement in street-level violence can be difficult to engage in services. Case management approaches that actively
+                    engage youth and families (i.e., active reaching out, meeting youth/families in the home, community engagement) are more effective at long-term client retention and developing trust than more passive case management approaches (i.e.,
+                    requiring youth/families to meet in office locations).</p>
+            </li>
+            <li>
+                <p>Youth Development - Engaging young people to develop their emotional, physical, social and intellectual selves. Program provides opportunities for youth to practice conflict resolution and prosocial life skills. Promising programs include
+                    the Life Skills Training (LST).</p>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p>Staffing Requirements- Any staff (or volunteers) that work directly with participants must be able to document they have received trauma-informed training. Any staff that provide counseling or therapy must be a licensed counselor, licensed social
+            worker, or equivalent.</p>
+    </li>
+    <li>
+        <p>Applicant must budget for one ICJIA-coordinated, full-day meeting in Chicago.</p>
+    </li>
+    <li>
+        <p>Applicant must comply with all prescribed assessment tools and reporting requirements.</p>
+    </li>
+</ul>
+<p>See the <a href="/static/grants/2017ViolenceInterventionAndPrevention/CBvipNOFO.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
 <h2 id="eligibility">ELIGIBILITY</h2>
 
 <h3 id="ineligible-agencies">Ineligible agencies</h3>
@@ -109,7 +137,7 @@ o   Youth Development - Engaging young people to develop their emotional, physic
 
 <h3 id="deadline">Deadline</h3>
 
-<p>Applications are due at 11:59 p.m., Friday, August 18, 2017. Completed application materials must be emailed to <a href="CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a>.</p>
+<p>Applications are due at 11:59 p.m., Friday, August 18, 2017. Completed application materials must be emailed to <a href="mailto: CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a>.</p>
 
 <h3 id="notice-of-intent">NOTICE OF INTENT</h3>
 
@@ -127,7 +155,7 @@ o   Youth Development - Engaging young people to develop their emotional, physic
 
 <h4 id="contact-information">Contact Information</h4>
 
-<p>Questions may be submitted via email at <a href="CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a>.</p>
+<p>Questions may be submitted via email at <a href="mailto: CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a>.</p>
 
 <p>The deadline for submitting questions is 11:59 p.m., August 15, 2017. All substantive questions and responses will be posted on the Authority website at <a href="https://grants.icjia.cloud/">https://grants.icjia.cloud/</a>. Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly or indirectly with any Authority employee other than the respondent of this email address. Only written answers to questions shall be binding on the state. </p>
 
@@ -197,7 +225,7 @@ o   Youth Development - Engaging young people to develop their emotional, physic
 
 <h2 id="application-materials">APPLICATION MATERIALS:</h2>
 
-<p>Completed application materials must be emailed to <a href="CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a> by 11:59 p.m., August 18, 2017, to be considered for funding.  Proposals will not be accepted by mail, fax, or in-person. Incomplete applications will not be reviewed. Late submissions will not be reviewed.</p>
+<p>Completed application materials must be emailed to <a href="mailto: CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a> by 11:59 p.m., August 18, 2017, to be considered for funding.  Proposals will not be accepted by mail, fax, or in-person. Incomplete applications will not be reviewed. Late submissions will not be reviewed.</p>
 
 <p>Agencies are encouraged to submit their applications 72 hours in advance of the deadline to avoid unforeseen technical difficulties. Technical difficulties should be reported immediately to ICJIA at <a href="CJA.StateViolencePrevention@Illinois.gov">CJA.StateViolencePrevention@Illinois.gov</a>.</p>
 
