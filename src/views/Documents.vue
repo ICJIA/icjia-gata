@@ -126,41 +126,45 @@ View an example of a basic ICJIA grant agreement.
 </template>
 
 <script>
-const description = `Documents`
-const title = "Documents"
-const created = '2017-03-26'
-const type  = 'page'
-const status = 'live'
-import utilities from '@/utilities'
-import PageHeader from '@/components/PageHeader'
+    const description = `Documents`
+    const title = "Documents"
+    const created = '2017-03-26'
+    const type = 'page'
+    const status = 'live'
+    import utilities from '@/utilities'
+    import PageHeader from '@/components/PageHeader'
 
-export default {
-  name: 'Documents',
-  pageData:  {
-    created,
-    description,
-    title,
-    type,
-    status
-  },
-  metaInfo: {
-      // title will be injected into parent titleTemplate
-      title,
-      meta: [
-        { vmid: 'description', name: 'description', content: utilities.stripTags(description)}
-    ]
-  },
-  components: {
-    PageHeader
-  },
-  data () {
-    return {
-      title
+    export default {
+        name: 'Documents',
+        pageData: {
+            created,
+            description,
+            title,
+            type,
+            status
+        },
+        metaInfo: {
+            // title will be injected into parent titleTemplate
+            title,
+            meta: [{
+                vmid: 'description',
+                name: 'description',
+                content: utilities.stripTags(description)
+            }]
+        },
+        components: {
+            PageHeader
+        },
+        data() {
+            return {
+                title
+            }
+        },
     }
-  },
-}
 </script>
 
 <style lang="css">
-.document-title {font-weight: 700}
+    .document-title {
+        font-weight: 700
+    }
 </style>

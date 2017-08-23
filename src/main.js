@@ -47,7 +47,7 @@ const router = new VueRouter({
 import googleAnalytics from './googleAnalytics.js'
 window['NODE_ENV'] = process.env.NODE_ENV
 if (NODE_ENV === 'production') {
-  googleAnalytics ('UA-10798495-20','ICJIA GATA | ', router)
+    googleAnalytics('UA-10798495-20', 'ICJIA GATA | ', router)
 }
 
 

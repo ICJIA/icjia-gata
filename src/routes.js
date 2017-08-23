@@ -1,7 +1,6 @@
-const utilities =  require('@/utilities')
+const utilities = require('@/utilities')
 
-const views = [
-    {
+const views = [{
         path: '/',
         component: require('./views/Home.vue')
     },
