@@ -314,7 +314,7 @@
         `The Illinois Criminal Justice Information Authority is requesting proposals to fund direct services for victims of crime through municipal police departments, county sheriff departments, county state’s attorney’s offices, and county CASA programs.  Grants will be made with Federal Fiscal Year 2016 (FFY16) Victims of Crime Act (VOCA) funds. A total of $6.0 million in funding is available through this solicitation for use over a period of 12 months.`
     const title = utilities.titleCase("Federal Fiscal Year 2016 Victims of Crime Act Grant Program")
     const created = '2017-08-24'
-    const posted = "2017-08-24"
+    const posted = "2017-08-30"
     const expired = '2017-10-15'
     const type = 'grant'
     const status = 'live'
