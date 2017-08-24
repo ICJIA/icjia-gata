@@ -78,6 +78,10 @@ const views = [{
         path: utilities.componentToRouterPath('./views/grants/20170819ViolenceInterventionAndPrevention.vue'),
         component: require('./views/grants/20170819ViolenceInterventionAndPrevention.vue'),
     },
+    {
+        path: utilities.componentToRouterPath('./views/grants/20170824VOCAcourts'),
+        component: require('./views/grants/20170824VOCAcourts'),
+    },
 
 
 
