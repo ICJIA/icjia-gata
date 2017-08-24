@@ -17,7 +17,7 @@
 
                 <div class="grant-date">
                   <span v-if="isItNew(grant.created)"><span class="new">NEW!</span> | </span>
-                  Posted: {{grant.created | moment}} |
+                  Posted: {{grant.posted | moment}} |
 
                   <!-- <span v-if="isItExpired(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
                   <span v-else class="grant-deadline">Deadline: {{grant.expired | moment}}</span> -->
@@ -54,110 +54,149 @@
 </template>
 
 <script>
-import routes from '@/routes'
-import moment from 'moment';
-import utilities from '@/utilities'
-export default {
+    import routes from '@/routes'
+    import moment from 'moment';
+    import utilities from '@/utilities'
+    export default {
 
-  mounted () {
+        mounted() {
 
-    let dateNow = this.now
-    let filtered = []
-    let showExpired = utilities.parseBool(this.showExpired)
-    if (!showExpired) {
-        filtered = _.filter(this.$store.grants, function(o) {
-          return o.expired > dateNow;
-        })
-      } else {
-        filtered = this.$store.grants
-      }
+            let dateNow = this.now
+            let filtered = []
+            let showExpired = utilities.parseBool(this.showExpired)
+            if (!showExpired) {
+                filtered = _.filter(this.$store.grants, function(o) {
+                    return o.expired > dateNow;
+                })
+            } else {
+                filtered = this.$store.grants
+            }
 
-    let grants = _.orderBy(filtered, this.sortBy, this.sortDirection)
-    this.grants = grants
+            let grants = _.orderBy(filtered, this.sortBy, this.sortDirection)
+            this.grants = grants
 
-    let self = this
+            let self = this
 
-    //console.log(self.maxDescriptionSize)
-  //   if (this.maxTitleSize > 0) {
-   //
-  //   this.grants.forEach(function(element) {
-  //      element.title = utilities.truncateString(element.title, self.maxTitleSize)
-  //    });
-  //  }
-   //
-  //    if (this.maxDescriptionSize > 0) {
-  //      this.grants.forEach(function(element) {
-  //        element.description = utilities.truncateString(element.description, self.maxDescriptionSize)
-  //     });
-  //   }
+            //console.log(self.maxDescriptionSize)
+            //   if (this.maxTitleSize > 0) {
+            //
+            //   this.grants.forEach(function(element) {
+            //      element.title = utilities.truncateString(element.title, self.maxTitleSize)
+            //    });
+            //  }
+            //
+            //    if (this.maxDescriptionSize > 0) {
+            //      this.grants.forEach(function(element) {
+            //        element.description = utilities.truncateString(element.description, self.maxDescriptionSize)
+            //     });
+            //   }
 
-  },
+        },
 
-  data: function () {
-  return {
-    grants: [],
-    now: moment().subtract(1,'days'),
-    weeksForNewBanner: 1
-  }
-},
-props: {
-  showExpired: {
-    type: String,
-    default: 'false'
-  },
-  sortBy: {
-    type: String,
-    default: 'expired'
-  },
-  sortDirection: {
-    type: String,
-    default: 'asc'
-  },
-  // maxDescriptionSize: {
-  //   type: Number,
-  //   required: false,
-  //   default: 0
-  // },
-  // maxTitleSize: {
-  //   type: Number,
-  //   required: false,
-  //   default: 0
-  // }
-},
-methods: {
-  isItExpired(d) {
-    // if (d < this.now) {
-    //   return true
-    // }
-    return d < this.now
-  },
-  isItNew(d) {
-    let target = moment(d).add(this.weeksForNewBanner, 'weeks')
-    return moment(target).isAfter(moment())
-  }
-},
-filters: {
-   limit: function(arr, limit) {
-     return arr.slice(0, limit)
-  },
-  moment: function (date) {
-    return moment(date).format('MMMM Do YYYY');
-  }
-}
+        data: function() {
+            return {
+                grants: [],
+                now: moment().subtract(1, 'days'),
+                weeksForNewBanner: 1
+            }
+        },
+        props: {
+            showExpired: {
+                type: String,
+                default: 'false'
+            },
+            sortBy: {
+                type: String,
+                default: 'expired'
+            },
+            sortDirection: {
+                type: String,
+                default: 'asc'
+            },
+            // maxDescriptionSize: {
+            //   type: Number,
+            //   required: false,
+            //   default: 0
+            // },
+            // maxTitleSize: {
+            //   type: Number,
+            //   required: false,
+            //   default: 0
+            // }
+        },
+        methods: {
+            isItExpired(d) {
+                // if (d < this.now) {
+                //   return true
+                // }
+                return d < this.now
+            },
+            isItNew(d) {
+                let target = moment(d).add(this.weeksForNewBanner, 'weeks')
+                return moment(target).isAfter(moment())
+            }
+        },
+        filters: {
+            limit: function(arr, limit) {
+                return arr.slice(0, limit)
+            },
+            moment: function(date) {
+                return moment(date).format('MMMM Do YYYY');
+            }
+        }
 
 
 
-}
+    }
 </script>
 
 <style lang="css">
-ul#grantFeed {list-style: none;}
-ul#grantFeed li {margin-bottom: 30px; }
-.read-more-news {text-transform: uppercase; font-size: 14px;}
-.grant-news {margin-top: 15px;}
-.grant-date {margin-bottom: 10px; margin-top: 10px; color: #888}
-.grant-readmore {margin-top: 15px; }
-.grant-deadline {font-weight: 900; color: #555; margin-top: 10px;margin-bottom: 10px;}
-.grant-title {font-weight: 900; padding-bottom: 10px; text-transform: uppercase;}
-.new {font-size: 10px; font-weight: 900; color: red; padding: 3px 5px 3px 5px; background: red; color: #fff}
+    ul#grantFeed {
+        list-style: none;
+    }
+    
+    ul#grantFeed li {
+        margin-bottom: 30px;
+    }
+    
+    .read-more-news {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    
+    .grant-news {
+        margin-top: 15px;
+    }
+    
+    .grant-date {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: #888
+    }
+    
+    .grant-readmore {
+        margin-top: 15px;
+    }
+    
+    .grant-deadline {
+        font-weight: 900;
+        color: #555;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .grant-title {
+        font-weight: 900;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+    .new {
+        font-size: 10px;
+        font-weight: 900;
+        color: red;
+        padding: 3px 5px 3px 5px;
+        background: red;
+        color: #fff
+    }
 </style>
