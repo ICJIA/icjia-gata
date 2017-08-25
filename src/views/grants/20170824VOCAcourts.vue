@@ -69,7 +69,7 @@
 
 <h2 id="available-funds">Available Funds:</h2>
 
-<p>Applicants may request a minimum of $40,000 and a maximum of \$1,500,000 to be spent over a 12-month period. The terms of the grant agreement will commence upon its effective date. Depending on program performance and fund availability, ICJIA may approve funding to support an additional 24 months. <a href="/static/grants/20170824VOCAcourts/VOCAcourtsNOFO.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
+<p>Applicants may request a minimum of $40,000 and a maximum of $1,500,000 to be spent over a 12-month period. The terms of the grant agreement will commence upon its effective date. Depending on program performance and fund availability, ICJIA may approve funding to support an additional 24 months. <a href="/static/grants/20170824VOCAcourts/VOCAcourtsNOFO.pdf">Notice of Funding Opportunity</a>, for program design, staff, and training requirements.</p>
 
 
 
@@ -122,7 +122,7 @@
 
 <p>Agencies interested in submitting an application MUST complete an online Notice of Intent form by 11:59 p.m., October 2, 2017. </p>
 
-<p><a href="https://www.surveygizmo.com/s3/3787821/VOCA-LAW-ENFORCEMENT-PROSCETUTION-AND-COUNTY-CASA-VICTIM-ASSISTANCE-PROGRAM-NOFO-Notice-of-Intentnt">NOTICE OF INTENT </a></p>
+<p><a href="https://www.surveygizmo.com/s3/3787821/VOCA-LAW-ENFORCEMENT-PROSCETUTION-AND-COUNTY-CASA-VICTIM-ASSISTANCE-PROGRAM-NOFO-Notice-of-Intent">NOTICE OF INTENT </a></p>
 
 
 
