@@ -16,7 +16,7 @@
                 </router-link>
 
                 <div class="grant-date">
-                  <span v-if="isItNew(grant.created)"><span class="new">NEW!</span> | </span>
+                  <span v-if="isItNew(grant.posted)"><span class="new">NEW!</span> | </span>
                   Posted: {{grant.posted | moment}} |
 
                   <!-- <span v-if="isItExpired(grant.expired)" style="color: red; font-weight: 900">(EXPIRED)</span>
