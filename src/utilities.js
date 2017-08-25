@@ -283,6 +283,7 @@ exports.generateRoutes = function(arr) {
         } else {
             _obj.name = _name
             _obj.created = _created
+            _obj.posted = _created
             _obj.expired = _expired
             _obj.title = _title
             _obj.description = _description
