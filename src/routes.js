@@ -79,8 +79,12 @@ const views = [{
         component: require('./views/grants/20170819ViolenceInterventionAndPrevention.vue'),
     },
     {
-        path: utilities.componentToRouterPath('./views/grants/20170824VOCAcourts'),
-        component: require('./views/grants/20170824VOCAcourts'),
+        path: utilities.componentToRouterPath('./views/grants/20170824VOCAcourts.vue'),
+        component: require('./views/grants/20170824VOCAcourts.vue'),
+    },
+    {
+        path: utilities.componentToRouterPath('./views/grants/20170913ARISFY18.vue'),
+        component: require('./views/grants/20170913ARISFY18.vue'),
     },
 
 
