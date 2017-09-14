@@ -142,9 +142,30 @@
 
 <h3 id="mandatory-applicant-technical-assistance-video">Mandatory Applicant Technical Assistance Video</h3>
 
-<p>Applicants must view the mandatory pre-recorded videos and certify that they have viewed the videos. The videos will be available at this site beginning September 14, 2017.</p>
-
-<p>Information provided during these videos will be unofficial and not binding on the State.</p>
+<p>Applicants must view the following mandatory pre-recorded videos. Applicants must certify viewing these recordings. Information provided during this video will be unofficial and not binding on the State.</p>
+<ul>
+    <li>
+        <p><a href="https://www.youtube.com/embed/hqI_f4pmd9Y">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines</a></p>
+    </li>
+    <li>
+        <p><a href="https://www.youtube.com/embed/zPaIPFXZvmg">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: General Requirements</a></p>
+    </li>
+    <li>
+        <p><a href="https://www.youtube.com/embed/FTeznPSc9_c">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: VOCA Match</a></p>
+    </li>
+    <li>
+        <p><a href="https://www.youtube.com/embed/sQYCekU2pIw">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Budget</a></p>
+    </li>
+    <li>
+        <p><a href="https://www.youtube.com/embed/mjp5PZx0oaY">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Indirect Costs</a></p>
+    </li>
+    <li>
+        <p><a href="https://www.youtube.com/embed/Q8UaLYqslJs">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Prior Approval Requirements</a></p>
+    </li>
+    <li>
+        <p><a href="https://www.surveygizmo.com/s3/3787827/VOCA-LAW-ENFORCEMENT-PROSCETUTION-AND-COUNTY-CASA-VICTIM-ASSISTANCE-PROGRAM-NOFO-Technical-Assistance-Viewing-Certificationn">TECHNICAL ASSISTANCE VIDEO CERTIFICATION</a></p>
+    </li>
+</ul>
 
 
 
