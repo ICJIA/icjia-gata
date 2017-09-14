@@ -163,7 +163,7 @@
         <p><a href="https://www.youtube.com/embed/Q8UaLYqslJs">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Prior Approval Requirements</a></p>
     </li>
     <li>
-        <p><a href="https://www.surveygizmo.com/s3/3787827/VOCA-LAW-ENFORCEMENT-PROSCETUTION-AND-COUNTY-CASA-VICTIM-ASSISTANCE-PROGRAM-NOFO-Technical-Assistance-Viewing-Certificationn">TECHNICAL ASSISTANCE VIDEO CERTIFICATION</a></p>
+        <p><a href="https://www.surveygizmo.com/s3/3787827/VOCA-LAW-ENFORCEMENT-PROSCETUTION-AND-COUNTY-CASA-VICTIM-ASSISTANCE-PROGRAM-NOFO-Technical-Assistance-Viewing-Certification">TECHNICAL ASSISTANCE VIDEO CERTIFICATION</a></p>
     </li>
 </ul>
 
