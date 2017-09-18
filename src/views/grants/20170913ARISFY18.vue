@@ -64,7 +64,7 @@
 <h3 id="application-deadline-october-30-2017">Application deadline: October 30, 2017</h3>
 <h2 id="program-requirements">Program requirements:</h2>
 <p>Two categories of funding are available through this solicitation, for either the development or implementation of an ARI local plan. Awards resulting from this opportunity will have a projected period of performance of January 1, 2018, to June 30, 2018.</p>
-<table class="table table-striped">
+<table class="table table-striped table-responsive">
     <thead>
         <tr>
             <th>Program Category</th>
@@ -148,7 +148,7 @@
 <p>The deadline for submitting questions is 11:59 p.m., July 27, 2017. All substantive questions and responses will be posted on this Authority web page. Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly
     or indirectly with any Authority employee other than the respondent of this email address. Only written answers to questions shall be binding on the state.</p>
 <h2 id="timeline">Timeline</h2>
-<table class="table table-striped">
+<table class="table table-striped table-responsive">
     <thead>
         <tr>
             <th>Task</th>
@@ -195,7 +195,7 @@
     be withheld if reports are delinquent.</p>
 <h2 id="required-documents">Required Documents:</h2>
 <p>The following documents must be emailed to <a href="mailto:CJA.ARI.SFY18PIGrant@Illinois.gov">CJA.ARI.SFY18PIGrant@Illinois.gov</a> by the 11:59 p.m., October 30, 2017, deadline for application review. Click the links below to download copies.</p>
-<table class="table table-striped">
+<table class="table table-striped table-responsive">
     <thead>
         <tr>
             <th>Document</th>
