@@ -98,7 +98,7 @@
 </ul>
 <p>Funds may not be used for capital expenditures, renovations or remodeling, or any food and beverage purchases. In addition, ARI funds shall not be used to supplant existing federal, state, county, or locally funded programs.</p>
 <p><em>Local Plan</em></p>
-<p>At the end of the planning grant period, funded jurisdictions must complete and submit a local ARI implementation plan using the standard plan template (available at <a href="http://www.icjia.state.il.us/redeploy/standard-plan.cfm">http://www.icjia.state.il.us/redeploy/standard-plan.cfm</a>).
+<p>At the end of the planning grant period, funded jurisdictions must complete and submit a local ARI implementation plan using the standard plan template (available <a href="http://www.icjia.state.il.us/redeploy/standard-plan.cfm">at the ARI website</a>).
     Note that funded jurisdictions are under no obligation to implement the plan.</p>
 <h2 id="category-2-implementation-grants">Category 2: Implementation Grants</h2>
 <p>Only jurisdictions with a completed and ARIOB-approved local plan (using the standard plan template) may apply for implementation funds.</p>
