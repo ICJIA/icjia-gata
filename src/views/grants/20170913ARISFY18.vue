@@ -248,8 +248,8 @@
 </ul>
 </ul>
 <h3 id="updates-and-responses-to-applicant-questions">Questions</h3>
-<p>Questions regarding this NOFO may be submitted to <a href="mailto: CJA.ARI.SFY18PIGrant@Illinois.gov">CJA.ARI.SFY18PIGrant@Illinois.gov</a> until 11:59 p.m. October 26, 2017.</p>
-<p>Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a></p>
+<p>Questions regarding this NOFO may be submitted to <a href="CJA.ARI.SFY18PIGrant@Illinois.gov">CJA.ARI.SFY18PIGrant@Illinois.gov</a> until 11:59 p.m. October 26, 2017.</p>
+<p>Updates to NOFO materials, and questions from applicants and their responses are revised weekly. View them here:</p>
 
 <ul>
         <li><a href="/static/grants/20170913ARISFY18/ariResponseToApplicantQuestions.pdf">Updates and Responses to Applicant Questions</a></li>
