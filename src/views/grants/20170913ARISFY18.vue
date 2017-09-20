@@ -101,7 +101,7 @@
 <p>At the end of the planning grant period, funded jurisdictions must complete and submit a local ARI implementation plan using the standard plan template (available <a href="http://www.icjia.state.il.us/redeploy/standard-plan.cfm">at the ARI website</a>).
     Note that funded jurisdictions are under no obligation to implement the plan.</p>
 <h2 id="category-2-implementation-grants">Category 2: Implementation Grants</h2>
-<p>Only jurisdictions with a completed and ARIOB-approved local plan (using the standard plan template) may apply for implementation funds.</p>
+<p>Only jurisdictions with a completed local plan (using the standard plan template) may apply for implementation funds. Preference will be given to those jurisdictions whose local plans have received prior ARIOB approval. To reflect broad commitment, letters of support from all key and principal stakeholders in the justice system are strongly encouraged.</p>
 <p><em>Multi-disciplinary Steering Committee</em></p>
 <p>Each applicant should identify a multi-disciplinary steering committee representing the criminal justice spectrum (e.g., judiciary, prosecution, defense, probation) and the community (e.g., treatment providers, social services, business), to guide implementation.
     Please list titles, not proper names, of all partners.</p>
@@ -139,12 +139,24 @@
 <p>300 West Adams, Suite 200</p>
 <p>Chicago, IL 60606</p>
 <p><a href="mailto:Adriana.Perez@Illinois.gov">Adriana.Perez@Illinois.gov</a></p>
-<p>##Required Technical Recordings: Applicants are required to view the technical assistance recordings listed below. The recordings will be available for viewing at 1:30 p.m. on Friday, September 22, 2017.</p>
-<p>Programmatic Guidance General Requirements] GATA Budget Prior Approvals Indirect costs</p>
-<p>Information provided during these recording is unofficial and not binding on the state.</p>
+<h2>Required Technical Recordings: </h2>
+
+        <p>Applicants must view the following mandatory pre-recorded videos.</p>
+        <ul>
+            <li><a href="https://www.youtube.com/embed/hqI_f4pmd9Y">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines: Category 1</a></li>
+            <li><a href="https://www.youtube.com/embed/hqI_f4pmd9Y">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines: Category 2</a></li>
+            <li><a href="https://www.youtube.com/embed/zPaIPFXZvmg">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: General Requirements</a></li>
+            <li><a href="https://www.youtube.com/embed/FTeznPSc9_c">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: VOCA Match</a></li>
+            <li><a href="https://www.youtube.com/embed/sQYCekU2pIw">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Budget</a></li>
+            <li><a href="https://www.youtube.com/embed/mjp5PZx0oaY">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Indirect Costs</a></li>
+            <li><a href="https://www.youtube.com/embed/Q8UaLYqslJs">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Prior Approval Requirements</a></li>
+        </ul>
+        <p>Information provided during these recording is unofficial and not binding on the state.</p>
+
+
 <h2 id="notice-of-intent">Notice of Intent:</h2>
-<p>Agencies interested in submitting an application are asked to submit a Notice of Intent by 11:59 p.m., October 16, 2017.
-    <a href="https://www.surveygizmo.com/s3/3814146/Adult-Redeploy-Illinois-SFY18-Planning-and-Implementation-Grants-Notice-of-Intent">NOTICE OF INTENT</a></p>
+<p>Agencies interested in submitting an application are asked to submit a Notice of Intent by 11:59 p.m., October 16, 2017.</p>
+   <p> <a href="https://www.surveygizmo.com/s3/3814146/Adult-Redeploy-Illinois-SFY18-Planning-and-Implementation-Grants-Notice-of-Intent">NOTICE OF INTENT</a></p>
 <p>The deadline for submitting questions is 11:59 p.m., July 27, 2017. All substantive questions and responses will be posted on this Authority web page. Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly
     or indirectly with any Authority employee other than the respondent of this email address. Only written answers to questions shall be binding on the state.</p>
 <h2 id="timeline">Timeline</h2>
@@ -238,6 +250,10 @@
 <h3 id="updates-and-responses-to-applicant-questions">Questions</h3>
 <p>Questions regarding this NOFO may be submitted to <a href="mailto: CJA.ARI.SFY18PIGrant@Illinois.gov">CJA.ARI.SFY18PIGrant@Illinois.gov</a> until 11:59 p.m. October 26, 2017.</p>
 <p>Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a></p>
+
+<ul>
+        <li><a href="/static/grants/20170913ARISFY18/ariResponseToApplicantQuestions.pdf">Updates and Responses to Applicant Questions</a></li>
+    </ul>
 
 
 <!-- //END CONTENT --------------------------------------------------- -->
