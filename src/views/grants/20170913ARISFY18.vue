@@ -143,8 +143,8 @@
 
         <p>Applicants must view the following mandatory pre-recorded videos.</p>
         <ul>
-            <li><a href="https://www.youtube.com/embed/hqI_f4pmd9Y">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines: Category 1</a></li>
-            <li><a href="https://www.youtube.com/embed/hqI_f4pmd9Y">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines: Category 2</a></li>
+            <li><a href="https://www.youtube.com/embed/K4WNlE9CU14">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines: Category 1</a></li>
+            <li><a href="https://www.youtube.com/embed/8q15u7grJlw">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Programmatic Guidelines: Category 2</a></li>
             <li><a href="https://www.youtube.com/embed/zPaIPFXZvmg">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: General Requirements</a></li>
             <li><a href="https://www.youtube.com/embed/FTeznPSc9_c">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: VOCA Match</a></li>
             <li><a href="https://www.youtube.com/embed/sQYCekU2pIw">VIEW MANDATORY TECHNICAL ASSISTANCE VIDEO: Budget</a></li>
