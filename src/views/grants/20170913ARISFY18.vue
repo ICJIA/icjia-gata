@@ -68,8 +68,8 @@
     <thead>
         <tr>
             <th>Program Category</th>
-            <th style="text-align:center">Maximum</th>
             <th style="text-align:center">Minimum</th>
+            <th style="text-align:center">Maximum</th>
         </tr>
     </thead>
     <tbody>
