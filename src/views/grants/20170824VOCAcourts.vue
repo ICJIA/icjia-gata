@@ -300,7 +300,7 @@
 
 <h2 id="updates-and-responses-to-applicant-questions">UPDATES AND RESPONSES TO APPLICANT QUESTIONS</h2>
 
-<p>Updates to NOFO materials, and questions from applicants and their responses are revised weekly.</p><p>View them here: <a href="/static/grants/20170824VOCAcourts/VOCAcourtsResponseToApplicantQuestions.pdf">Updates and Responses to Applicant Questions</a></p>
+<p>Updates to NOFO materials, and questions from applicants and their responses are revised weekly.</p><p>View them here: <a href="/static/grants/20170824VOCAcourts/VOCAcourtsResponseToApplicantQuestions.docx">Updates and Responses to Applicant Questions</a></p>
 
 
 <!-- //END CONTENT --------------------------------------------------- -->
