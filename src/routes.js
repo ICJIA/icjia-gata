@@ -86,6 +86,10 @@ const views = [{
         path: utilities.componentToRouterPath('./views/grants/20170913ARISFY18.vue'),
         component: require('./views/grants/20170913ARISFY18.vue'),
     },
+    {
+        path: utilities.componentToRouterPath('./views/grants/20171031TRC.vue'),
+        component: require('./views/grants/20171031TRC.vue'),
+    },
 
 
 
