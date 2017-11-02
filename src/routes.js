@@ -90,6 +90,10 @@ const views = [{
         path: utilities.componentToRouterPath('./views/grants/20171031TRC.vue'),
         component: require('./views/grants/20171031TRC.vue'),
     },
+    {
+        path: utilities.componentToRouterPath('./views/grants/20171102SORNA.vue'),
+        component: require('./views/grants/20171102SORNA.vue'),
+    },
 
 
 
