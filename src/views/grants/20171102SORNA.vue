@@ -61,10 +61,11 @@
 
 <h2 id="notice-of-funding-opportunity">Notice of Funding Opportunity</h2>
 <h3 id="sorna-electronic-transmission-and-livescan-grants">SORNA Electronic Transmission and Livescan Grants</h3>
-<p class="text-center"><a href="/static/grants/20171102SORNA/sornaNOFO.pdf">DOWNLOAD NOTICE OF FUNDING OPPORTUNITY</a></p>
+<p class="text-center"><a href="/static/grants/20171102SORNA/sornaNOFO.pdf">DOWNLOAD <span style="color: red">REVISED</span> NOTICE OF FUNDING OPPORTUNITY</a></p>
 <p>The Illinois Criminal Justice Information Authority is requesting proposals for SORNA Electronic Transmission and Livescan grants. Grants will be made with SORNA Federal Fiscal Year 2016 and 2017 funds. A total of $463,307 in funding is available through
     this solicitation for use over a period of six months.</p>
 <p><strong>Application deadline: December 21, 2017</strong></p>
+<p><strong>PLEASE NOTE:</strong> The revised NOFO clarifies that all governmental entities that are required to submit sex offender registration information to the Illinois State Police (ISP) are eligible to apply for this funding. ISP is also eligible to apply.</p>
 <h2 id="program-requirements">Program Requirements</h2>
 <p>This funding opportunity seeks to support the acquisition of computer scanning, storage, and transmission equipment to facilitate electronic exchange of sex offender documents and Livescan palm prints between local law enforcement agencies and the Illinois
     State Police (ISP). If selected for grant funding, applicant agencies will be expected to competitively procure approved equipment and install the equipment no later than June 30, 2018. Funded agencies must be capable of electronic transmission of
@@ -167,12 +168,14 @@
 </ul>
 <h2 id="updates-and-responses-to-applicant-questions">Updates and Responses to Applicant Questions</h2>
 <p>Questions may be submitted via email at <a href="CJA.SORNA@Illinois.gov">CJA.SORNA@Illinois.gov</a>.</p>
-<p>The deadline for submitting questions is 11:59 p.m., December 18, 2017. All substantive questions and responses will be posted at <a href="http://www.icjia.state.il.us/">http://www.icjia.state.il.us/</a>. Due to the competitive nature of this solicitation,
+<p>The deadline for submitting questions is 11:59 p.m., December 18, 2017. All substantive questions and responses will be posted at 
+    <a href="http://www.icjia.state.il.us/">http://www.icjia.state.il.us/</a>. Due to the competitive nature of this solicitation,
     applicants may not discuss this opportunity directly or indirectly with any Authority employee other than the respondent of this email address. Only written answers to questions shall be binding on the state.</p>
 
 
 
-<p >Updates to NOFO materials, and questions from applicants and their responses are revised weekly.<br> <a href="http://www.icjia.state.il.us/assets/pdf/sorna2017/sornaResponseToApplicantQuestions.pdf">View them here.</a></p>
+<p >Updates to NOFO materials, and questions from applicants and their responses are revised weekly.<br> 
+    <a href="/static/grants/20171102SORNA/sornaResponseToApplicantQuestions.pdf">View them here.</a></p>
 
 
 <!-- //END CONTENT --------------------------------------------------- -->
