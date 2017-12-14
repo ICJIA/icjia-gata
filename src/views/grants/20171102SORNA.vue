@@ -62,7 +62,7 @@
 <h2 id="notice-of-funding-opportunity">Notice of Funding Opportunity</h2>
 <h3 id="sorna-electronic-transmission-and-livescan-grants">SORNA Electronic Transmission and Livescan Grants</h3>
 <p class="text-center"><a href="/static/grants/20171102SORNA/sornaNOFO.pdf">DOWNLOAD <span style="color: red">REVISED</span> NOTICE OF FUNDING OPPORTUNITY</a></p>
-<p>The Illinois Criminal Justice Information Authority is requesting proposals for SORNA Electronic Transmission and Livescan grants. Grants will be made with SORNA Federal Fiscal Year 2016 and 2017 funds. A total of $463,307 in funding is available through
+<p>The Illinois Criminal Justice Information Authority is requesting proposals for SORNA Electronic Transmission and Livescan grants. Grants will be made with SORNA Federal Fiscal Year 2016 or 2017 funds. A total of $463,307 in funding is available through
     this solicitation for use over a period of six months.</p>
 <p><strong>Application deadline: December 21, 2017</strong></p>
 <p><strong>PLEASE NOTE:</strong> The revised NOFO clarifies that all governmental entities that are required to submit sex offender registration information to the Illinois State Police (ISP) are eligible to apply for this funding. ISP is also eligible to apply.</p>
