@@ -15,6 +15,13 @@ let links = [
     'https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.css'
 ]
 
+let meta= [
+    {
+      name: 'google-site-verification',
+      content: 'FTf_VAGmkX6nvkYTl9S4vtCK-1Dy3N9kyOteR0poBE8'
+    }
+  ],
+
 let headscripts = [
   'https://cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.4/stickyfill.js',
   'https://use.fontawesome.com/0fc34dc4bc.js',
