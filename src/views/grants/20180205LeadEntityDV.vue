@@ -153,7 +153,7 @@ import StickySidebar from "@/components/StickySidebar";
 const description = `ICJIA is the state agency charged with the administration of the Illinois’ Victims of Crime Act (VOCA) Victim Assistance Formula Grant Program. This program is supported by fines and penalties levied against criminals convicted of federal crimes and allocated
     to states by formula by the Office for Victims of Crime of the U.S. Department of Justice. In federal fiscal year 2016, Illinois received a VOCA award of $87 million.`;
 const title = utilities.titleCase(
-  "FEDERAL FISCAL YEAR 2015 VICTIMOF CRIME ACT LEAD ENTITY SERVICES FOR VICTIMS OF DOMESTIC VIOLENCE PROGRAM"
+  "FEDERAL FISCAL YEAR 2016 VICTIMOF CRIME ACT LEAD ENTITY SERVICES FOR VICTIMS OF DOMESTIC VIOLENCE PROGRAM"
 );
 const created = "2018-02-05";
 const posted = "2018-02-05";
