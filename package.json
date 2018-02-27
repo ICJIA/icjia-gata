@@ -1,8 +1,7 @@
 {
   "name": "gata",
   "version": "1.0.0",
-  "description":
-    "Illinois Criminal Justice Information Authority Gata Information Site",
+  "description": "Illinois Criminal Justice Information Authority Gata Information Site",
   "author": "Chris Schweda <christopher.schweda@illinois.gov>",
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -13,11 +12,9 @@
     "build:start": "npm run build:dev && npm run start",
     "routes": "node src/generatePrerenderRoutes.js",
     "start": "serve ./dist -s",
-    "now:deploy":
-      "npm run routes && npm run build:dev --prerender && now ./dist -s",
+    "now:deploy": "npm run routes && npm run build:dev --prerender && now ./dist -s",
     "spa": "cd static/prerender-spa-plugin && npm i",
-    "unit":
-      "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "critical": "node critical.js",
@@ -51,6 +48,7 @@
     "file-loader": "^0.10.0",
     "friendly-errors-webpack-plugin": "^1.1.3",
     "function-bind": "^1.1.0",
+    "global": "^4.3.2",
     "hamburgers": "^0.7.0",
     "highcharts": "^5.0.7",
     "html-webpack-plugin": "^2.28.0",
@@ -87,6 +85,7 @@
     "url-loader": "^0.5.7",
     "vue": "^2.2.1",
     "vue-analytics": "^3.2.1",
+    "vue-cli": "^2.9.3",
     "vue-ga": "^1.0.0",
     "vue-loader": "^11.0.0",
     "vue-router": "^2.3.0",
@@ -125,5 +124,9 @@
     }
   },
   "private": true,
-  "browserlist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserlist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
