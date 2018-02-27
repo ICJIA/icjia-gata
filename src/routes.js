@@ -130,6 +130,12 @@ const views = [
       "./views/grants/20180205LeadEntitySA.vue"
     ),
     component: require("./views/grants/20180205LeadEntitySA.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20180227JAGoperations.vue"
+    ),
+    component: require("./views/grants/20180227JAGoperations.vue")
   }
 ];
 
