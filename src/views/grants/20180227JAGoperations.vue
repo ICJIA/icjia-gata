@@ -182,7 +182,7 @@
               for viewing beginning at
               <strong>1:30 p.m. on February 21, 2018</strong>.</p>
             <p>
-              <a href="https://youtu.be/ZGouYw4XBwU">Recording 1: JAG Courts NOFO Programmatic Technical Assistance Recording (16:41)</a>
+              <a href="https://youtu.be/r9pYxP_E0VI">Recording 1: JAG Courts NOFO Programmatic Technical Assistance Recording (16:41)</a>
             </p>
             <p>
               <a href="https://www.youtube.com/embed/zPaIPFXZvmg">Recording 2: General Requirements (11:19)</a>
@@ -315,9 +315,9 @@
   //import StickySidebar from '@/components/StickySidebar'
 
   const description = `The Illinois Criminal Justice Information Authority is requesting proposals for continuing support for nine current prosecution, public defense and court programs currently supported with ICJIA-administered JAG funds. Grants will be made with Federal Fiscal Year 2014-16 (FFY14-16) Edward Byrne Memorial Justice Assistance Grant (JAG) funds. A total of $600,000 in funding is available through this solicitation for use over a period of 12 months. Awards resulting from this NOFO will range from a minimum of $40,000 to a maximum of $225,000.`;
-  const title = utilities.titleCase(
+  const title =
     "FFY14-16 Edward Byrne Memorial Justice Assistance Grant Program Notice of Funding Opportunity: JAG Operations"
-  );
+    ;
   const created = "2018-02-27";
   const posted = "2018-02-28";
   const expired = "2018-04-16";
