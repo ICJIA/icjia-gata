@@ -136,6 +136,12 @@ const views = [
       "./views/grants/20180227JAGoperations.vue"
     ),
     component: require("./views/grants/20180227JAGoperations.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20180608VOCAHotline.vue"
+    ),
+    component: require("./views/grants/20180608VOCAHotline.vue")
   }
 ];
 
