@@ -76,7 +76,7 @@
             <!-- <h1 id="adult-redeploy-illinois-notice-of-funding-opportunity-sfy19-implementation-grant">Adult Redeploy Illinois Notice of Funding Opportunity: SFY19 Implementation Grant</h1> -->
             <p>The Illinois Criminal Justice Information Authority is requesting proposals for SFY19 Adult Redeploy Illinois
               implementation grants. A total of $700,000 in SFY19 Adult Redeploy Illinois funding is available through this
-              solicitation for use over a 12-month period.
+              solicitation for use over a 9-month period.
             </p>
             <p>
               <strong>Application deadline: August 6, 2018</strong>
@@ -245,7 +245,6 @@
 
   </section>
 </template>
-
 <script>
   import utilities from "@/utilities";
   import PageHeader from "@/components/PageHeader";
@@ -255,7 +254,7 @@
 
   const description = `The Illinois Criminal Justice Information Authority is requesting proposals for SFY19 Adult Redeploy Illinois
               implementation grants. A total of $700,000 in SFY19 Adult Redeploy Illinois funding is available through this
-              solicitation for use over a 12-month period.`;
+              solicitation for use over a 9-month period.`;
   const title = "SFY19 Adult Redeploy Illinois Implementation Grants";
   const created = "2018-07-05";
   const posted = "2018-07-05";
