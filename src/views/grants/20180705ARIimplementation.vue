@@ -256,7 +256,7 @@
   const description = `The Illinois Criminal Justice Information Authority is requesting proposals for SFY19 Adult Redeploy Illinois
               implementation grants. A total of $700,000 in SFY19 Adult Redeploy Illinois funding is available through this
               solicitation for use over a 12-month period.`;
-  const title = "SFY19 Adult Redeploy Illinois implementation grant";
+  const title = "SFY19 Adult Redeploy Illinois Implementation Grant";
   const created = "2018-07-05";
   const posted = "2018-07-05";
   const expired = "2018-08-06";
