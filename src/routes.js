@@ -142,6 +142,12 @@ const views = [
       "./views/grants/20180608VOCAHotline.vue"
     ),
     component: require("./views/grants/20180608VOCAHotline.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20180705ARIimplementation.vue"
+    ),
+    component: require("./views/grants/20180705ARIimplementation.vue")
   }
 ];
 
