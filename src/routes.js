@@ -148,6 +148,12 @@ const views = [
       "./views/grants/20180705ARIimplementation.vue"
     ),
     component: require("./views/grants/20180705ARIimplementation.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20180821VAWAMulti.vue"
+    ),
+    component: require("./views/grants/20180821VAWAMulti.vue")
   }
 ];
 
