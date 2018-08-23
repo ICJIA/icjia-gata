@@ -119,7 +119,7 @@
               to prosecution, law enforcement, courts/probation, and victim services agencies.</p>
             <h2 id="deadline">DEADLINE</h2>
             <p>Completed application materials must be emailed to <a href="mailto:CJA.2018vawaNOFO@Illinois.gov">CJA.2018vawaNOFO@Illinois.gov</a>
-              by <strong>11:59 p.m., August 30, 2018</strong>, to be considered for funding. Proposals will not be accepted
+              by <strong>11:59 p.m., September 21, 2018</strong>, to be considered for funding. Proposals will not be accepted
               by mail, fax, or in-person. Incomplete applications will not be reviewed. Late submissions will not be reviewed.</p>
             <h2 id="available-funds">AVAILABLE FUNDS</h2>
             <p>Applicants may request a maximum of $650,000 to be spent over a 12-month period. A 25-percent cash or in-kind
@@ -182,7 +182,8 @@
               <li><a href="/static/grants/20180821VAVAMulti/2018.VAWAMDT.BUDGET.xlsx">Completed Budget/Budget Narrative (Excel).</a></li>
             </ul>
             <p><a href="/static/grants/20180821VAVAMulti/2018.VAWAMDT.alldocs.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION
-                DOCUMENTS</a></p>
+                DOCUMENTS
+              </a></p>
             <h2 id="questions">QUESTIONS</h2>
             <p>Questions regarding this NOFO may be submitted to <a href="mailto:CJA.2018vawaNOFO@Illinois.gov">CJA.2018vawaNOFO@Illinois.gov</a>
               by September 10, 2018.</p>
@@ -226,7 +227,7 @@
   const title = "FFY16 Violence Against Women Act Multidisciplinary Team Response Program";
   const created = "2018-08-21";
   const posted = "2018-08-21";
-  const expired = "2018-09-28";
+  const expired = "2018-09-21";
   const type = "grant";
   const status = "live";
 
