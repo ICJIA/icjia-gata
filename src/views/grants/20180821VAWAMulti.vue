@@ -225,7 +225,7 @@
   //import StickySidebar from '@/components/StickySidebar'
 
   const description = `The Illinois Criminal Justice Information Authority is soliciting proposals from county criminal justice and victim service agencies interested in maintaining or expanding multidisciplinary programs incorporating prosecution, county and/or local law enforcement, probation, and victim service agency partnerships. Grants will be made with Violence Against Women Act (VAWA) funds. A total of $3,250,000 in funding is available through this solicitation.`;
-  const title = "FFY16 Violence Against Women Act Multidisciplinary Team Response Program";
+  const title = "Violence Against Women Act Multidisciplinary Team Response Program";
   const created = "2018-08-21";
   const posted = "2018-08-21";
   const expired = "2018-09-21";
