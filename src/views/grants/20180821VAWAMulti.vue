@@ -105,7 +105,7 @@
                 by this grant. Start and end dates of the major milestone in the program or project must be included</li>
             </ul>
             <h2 id="view-the-notice-of-funding-opportunity">VIEW THE NOTICE OF FUNDING OPPORTUNITY</h2>
-            <p><a href="/static/grants/20180821VAVAMulti/2018.VAWAMDT.NOFO.pdf">Download the Violence Against Women Act (VAWA):
+            <p><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.NOFO.pdf">Download the Violence Against Women Act (VAWA):
                 Multidisciplinary Team Response Program Application
               </a></p>
             <h2 id="eligibility-information">ELIGIBILITY INFORMATION</h2>
@@ -176,12 +176,13 @@
               links below to download copies.
             </p>
             <ul>
-              <li><a href="/static/grants/20180821VAVAMulti/2018.VAWAMDT.APPLICATION.docx">Completed and signed Uniform State
+              <li><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.ApplicationChecklist.pdf">Application Checklist</a></li>
+              <li><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.APPLICATION.docx">Completed and signed Uniform State
                   Grant Application (Word).</a></li>
-              <li><a href="/static/grants/20180821VAVAMulti/2018.VAWAMDT.NARRATIVE.docx">Completed Program Narrative (Word).</a></li>
-              <li><a href="/static/grants/20180821VAVAMulti/2018.VAWAMDT.BUDGET.xlsx">Completed Budget/Budget Narrative (Excel).</a></li>
+              <li><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.NARRATIVE.docx">Completed Program Narrative (Word).</a></li>
+              <li><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.BUDGET.xlsx">Completed Budget/Budget Narrative (Excel).</a></li>
             </ul>
-            <p><a href="/static/grants/20180821VAVAMulti/2018.VAWAMDT.alldocs.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION
+            <p><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.alldocs.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION
                 DOCUMENTS
               </a></p>
             <h2 id="questions">QUESTIONS</h2>
