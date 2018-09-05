@@ -181,6 +181,8 @@
                   Grant Application (Word).</a></li>
               <li><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.NARRATIVE.docx">Completed Program Narrative (Word).</a></li>
               <li><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.BUDGET.xlsx">Completed Budget/Budget Narrative (Excel).</a></li>
+              <li><a href="/static/grants/20180821VAWAMulti/Attachment 2b - Objective + PM Guide.docx">Attachment 2b: Objectives
+                  and Performance Measures Guide for use in Program Narrative</a></li>
             </ul>
             <p><a href="/static/grants/20180821VAWAMulti/2018.VAWAMDT.alldocs.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION
                 DOCUMENTS
