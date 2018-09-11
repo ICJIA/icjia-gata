@@ -154,6 +154,10 @@ const views = [
       "./views/grants/20180821VAWAMulti.vue"
     ),
     component: require("./views/grants/20180821VAWAMulti.vue")
+  },
+  {
+    path: utilities.componentToRouterPath("./views/grants/20180911CLEP.vue"),
+    component: require("./views/grants/20180911CLEP.vue")
   }
 ];
 
