@@ -215,6 +215,9 @@
             <p>Applicant agencies are asked to submit a Letter of Intent to Apply by <strong>5:00 p.m. on Friday,
                 September 28,
                 2018</strong>. Failure to submit a Letter of Intent will not disqualify an applicant.</p>
+
+            <p>Letters of Intent are submitted by completing the online template at:
+              <a href="https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B">https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B</a></p>
             <h2 id="timeline">TIMELINE</h2>
             <table class="table table-striped">
               <thead>
