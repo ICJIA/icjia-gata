@@ -72,6 +72,7 @@
 
             --------------------------------------------------------------------- -->
 
+
             <h2 id="introduction">INTRODUCTION</h2>
             <p>The Illinois Criminal Justice Information Authority is requesting proposals for grants supporting a
               comprehensive
@@ -83,8 +84,8 @@
               solicitation for use over a six-month period. Grant requests are limited to a minimum of $20,000, and
               maximum of
               $80,000.</p>
-            <p><a href="/static/grants/20180911clep/CLEP NOFO.docx">Read this page for full CLEP NOFO.</a>
-            </p>
+            <p><em>Read this page and <a href="/static/grants/20180911clep/CLEPNOFO.pdf">CLICK HERE</a> for full CLEP
+                NOFO.</em></p>
             <p><strong>Application Deadline: October 25, 2018 at 11:59pm.</strong></p>
             <h2 id="program-requirements">PROGRAM REQUIREMENTS</h2>
             <p>Applicants may request funding under one or more categories.</p>
@@ -124,10 +125,10 @@
               requirement of
               treatment.</p>
             <h2 id="view-the-notice-of-funding-opportunity">VIEW THE NOTICE OF FUNDING OPPORTUNITY</h2>
-            <p><a href="/static/grants/20180911clep/CLEP NOFO.docx">Download the Community-Law Enforcement Partnership
+            <p><a href="/static/grants/20180911clep/CLEPNOFO.pdf">Download the Community-Law Enforcement Partnership
                 for Deflection and Substance Use Disorder Treatment
                 Act
-                NOFO (PDF).</a></p>
+                NOFO(PDF).</a></p>
             <h2 id="eligibility-information">ELIGIBILITY INFORMATION</h2>
             <p>An Implementing Agency must apply for funds on behalf of a law enforcement agency or other entity as
               described
@@ -186,7 +187,7 @@
               Justice
               Information Authority. Award range:
               $20,000-$80,000.</p>
-            <h2 id="performance-period">Performance Period</h2>
+            <h2 id="performance-period">PERFORMANCE PERIOD</h2>
             <p>Funding is available for the period of <strong>January 1, 2019</strong>, through <strong>June 30, 2019</strong>.
               Based on program performance and fund availability, ICJIA may recommend allocation of funding to support
               programming
@@ -211,13 +212,11 @@
               <li><a href="https://www.youtube.com/embed/mjp5PZx0oaY">Indirect Costs</a></li>
             </ul>
             <p>Information provided during this webinar recording will be unofficial and not binding on the state.</p>
-            <h2 id="letter-of-intent">Letter of Intent</h2>
+            <h2 id="letter-of-intent">LETTER OF INTENT</h2>
             <p>Applicant agencies are asked to submit a Letter of Intent to Apply by <strong>5:00 p.m. on Friday,
                 September 28,
                 2018</strong>. Failure to submit a Letter of Intent will not disqualify an applicant.</p>
-
-            <p>Letters of Intent are submitted by completing the online template at:
-              <a href="https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B">https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B</a></p>
+            <p>Letters of Intent are submitted by completing this <a href="https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B">form</a>.</p>
             <h2 id="timeline">TIMELINE</h2>
             <table class="table table-striped">
               <thead>
@@ -271,28 +270,30 @@
               by the <strong>11:59 p.m., Friday, September 21, 2018</strong>, deadline for application review. Click
               the links
               below to download copies.</p>
-            <p>Letters of Intent are submitted by completing the online template at: <a href="https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B">https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B</a></p>
-            <p></p>
+            <p>Letters of Intent are submitted by completing the online template <a href="https://icjia.az1.qualtrics.com/jfe/form/SV_3DvYtX9YdscwB2B">HERE</a>.</p>
+            <p>Download <a href="/static/grants/20180911clep/CLEPNOFO.pdf">Full Community-Law Enforcement Partnership
+                for Deflection Programs
+                Notice of Funding
+                Opportunity</a></p>
             <ul>
-              <li><a href="/static/grants/20180911clep/CLEP NOFO.docx">Full CLEP NOFO.</a></li>
-              <li><a href="/static/grants/20180911clep/Uniform Application for Grant Assistance.docx">Completed and
-                  signed Uniform State Grant Application (Word)</a></li>
-              <li><a href="/static/grants/20180911clep/CLEP Program Narrative.docx">Completed Program Narrative (Word)</a></li>
-              <li><a href="/static/grants/20180911clep/Uniform Budget Template.xlsx">Completed Budget/Budget Narrative
-                  (Excel)</a></li>
+              <li><a href="/static/grants/20180911clep/UniformApplicationforGrantAssistance.docx">Completed and signed
+                  Uniform State Grant
+                  Application (Word).</a></li>
+              <li><a href="/static/grants/20180911clep/CLEPProgramNarrative.docx">Completed Program Narrative (Word).</a></li>
+              <li><a href="/static/grants/20180911clep/UniformBudgetTemplate.xlsx">Completed Budget/Budget Narrative
+                  (Excel).</a></li>
             </ul>
-            <p><em>See also appendices:</em></p>
+            <p><em>See also appendices</em></p>
             <ul>
-              <li><a href="/static/grants/20180911clep/Appendix I - SB 3023 Required Data Reporting.docx">Appendix I:
-                  Public Act 100-1025, previously SB 3023, Required Data Reporting (Word)</a></li>
-              <li><a href="/static/grants/20180911clep/Appendix II- Planning Activities.docx">Appendix II: Planning
-                  Activities (Word)</a></li>
-              <li><a href="/static/grants/20180911clep/Appendix III State Map.pdf">Appendix III: State Map (PDF)</a></li>
-              <li><a href="/static/grants/20180911clep/Appendix IV.pdf">Appendix
-                  IV: Public Act 100-1025, previously SB 3023 (PDF)</a></li>
+              <li><a href="/static/grants/20180911clep/AppendixI.pdf">Appendix I: Public Act 100-1025, previously SB
+                  3023, Required Data Reporting
+                  (PDF).</a></li>
+              <li><a href="/static/grants/20180911clep/AppendixII.pdf">Appendix II: Planning Activities (PDF).</a></li>
+              <li><a href="/static/grants/20180911clep/AppendixIII.pdf">Appendix III: State Map (PDF).</a></li>
+              <li><a href="/static/grants/20180911clep/AppendixIV.pdf">Appendix IV: Public Act 100-1025, previously SB
+                  3023 (PDF).</a></li>
             </ul>
-            <p><a href="/static/grants/20180911clep/CLEP NOFO Zip Folder.zip">Download zip file of all required
-                application documents and materials.</a></p>
+            <p>Download zip file of all required application documents and materials <a href="/static/grants/20180911clep/CLEPNOFOFOLDER.zip">HERE</a></p>
             <h2 id="questions">QUESTIONS</h2>
             <p>Questions regarding this NOFO may be submitted to <a href="mailto:CJA.CLEDPNOFO@Illinois.gov">CJA.CLEDPNOFO@Illinois.gov</a>
               until <strong>11:59 p.m., October 18, 2018</strong>. . Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a>.</p>
@@ -302,7 +303,6 @@
             <p>Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly
               or
               indirectly with any ICJIA employee other than the respondent of this email address.</p>
-
 
 
 
