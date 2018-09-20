@@ -299,7 +299,7 @@
               until <strong>11:59 p.m., October 18, 2018</strong>. . Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a>.</p>
             <p>All substantive questions and responses will be posted. Updates to NOFO materials, and questions from
               applicants and
-              their responses are revised weekly. <a href="http://www.icjia.state.il.us/">View them here.</a></p>
+              their responses are revised weekly. <a href="http://www.icjia.state.il.us/assets/pdf/CLEP_NOFO_082018/CLEP_NOFO_Response_to_Application_Questions.pdf">View them here.</a></p>
             <p>Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly
               or
               indirectly with any ICJIA employee other than the respondent of this email address.</p>
