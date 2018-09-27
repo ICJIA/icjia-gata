@@ -158,6 +158,12 @@ const views = [
   {
     path: utilities.componentToRouterPath("./views/grants/20180911CLEP.vue"),
     component: require("./views/grants/20180911CLEP.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20180927ARIPlanning.vue"
+    ),
+    component: require("./views/grants/20180927ARIPlanning.vue")
   }
 ];
 
