@@ -155,12 +155,12 @@
 <h2 id="required-documents">Required Documents</h2>
 <p>The following documents must be emailed to <a href="mailto:CJA.ARISFY19NOFO2@illinois.gov">CJA.ARISFY19NOFO2@illinois.gov</a> by the <strong>11:59 p.m., October 26, 2018,</strong> deadline for application review. Click the links below to download copies.</p>
 <ul>
-    <li><a href="/static/grants/20180927ARIPlanning/SFY19ImplementationGrantNOFO.PDF">Download NOFO Instructions (PDF)</a></li>
+    <li><a href="/static/grants/20180927ARIPlanning/SFY19PlanningGrantINSTRUCTIONS.docx">Download NOFO Instructions (PDF)</a></li>
     <li><a href="/static/grants/20180927ARIPlanning/SFY19PlanningGrantAPPLICATION.docx">Completed and signed Uniform State Grant Application (Word)</a></li>
-    <li><a href="/static/grants/20180927ARIPlanning/SFY19ImplementationGrantNARRATIVE.docx">Completed Program Narrative (Word)</a></li>
+    <li><a href="/static/grants/20180927ARIPlanning/SFY19PlanningGrantNARRATIVE.docx">Completed Program Narrative (Word)</a></li>
     <li><a href="/static/grants/20180927ARIPlanning/SFY19PlanningGrantBUDGET.xls.xlsx">Completed Budget/Budget Narrative (Excel)</a></li>
 </ul>
-<p><a href="SFY19ImplementationGrant.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION DOCUMENTS</a></p>
+<!-- <p><a href="SFY19ImplementationGrant.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION DOCUMENTS</a></p> -->
 <h2 id="questions">Questions</h2>
 <p>Questions regarding this funding opportunity may be submitted to <a href="mailto:CJA.ARISFY19NOFO2@illinois.gov">CJA.ARISFY19NOFO2@illinois.gov</a> until 11:59 p.m., October 18, 2018. Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a>.</p>
 <h2 id="contact-information">Contact Information</h2>
