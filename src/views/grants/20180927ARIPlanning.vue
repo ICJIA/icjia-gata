@@ -105,7 +105,7 @@
 <p>Only county units of government are eligible to apply for funds under this notice. A county may submit on behalf of a group of counties or a judicial circuit. Private agencies or not-for-profit organizations are not eligible to apply. Applicants for funding
     must be a county unit of government in good standing with the State of Illinois.</p>
 <h2 id="deadline">Deadline</h2>
-<p>Completed application materials must be emailed to <a href="mailto:CJA.ARISFY19NOFO2@illinois.gov">CJA.ARISFY19NOFO2@illinois.gov</a> by <strong>11:59 p.m., October 26, 2018,</strong> for funding consideration. Proposals will not be accepted by mail,
+<p>Completed application materials must be emailed to <a href="mailto:CJA.ARI.SFY19NOFO2@illinois.gov ">CJA.ARI.SFY19NOFO2@illinois.gov </a> by <strong>11:59 p.m., October 26, 2018,</strong> for funding consideration. Proposals will not be accepted by mail,
     fax, or in-person. Incomplete applications will not be reviewed. Late submissions will not be reviewed.</p>
 <h2 id="available-funds">Available Funds</h2>
 <p>A total of $200,000 dollars will be made available through this funding opportunity.</p>
@@ -153,7 +153,7 @@
 <p>Recipients must submit quarterly financial reports, quarterly progress reports, final financial and progress reports, and, if applicable, an annual audit report in accordance with the CFR Part 200 Uniform Requirements. Future awards and fund drawdowns
     may be withheld if reports are delinquent.</p>
 <h2 id="required-documents">Required Documents</h2>
-<p>The following documents must be emailed to <a href="mailto:CJA.ARISFY19NOFO2@illinois.gov">CJA.ARISFY19NOFO2@illinois.gov</a> by the <strong>11:59 p.m., October 26, 2018,</strong> deadline for application review. Click the links below to download copies.</p>
+<p>The following documents must be emailed to <a href="CJA.ARI.SFY19NOFO2@illinois.gov ">CJA.ARI.SFY19NOFO2@illinois.gov </a> by the <strong>11:59 p.m., October 26, 2018,</strong> deadline for application review. Click the links below to download copies.</p>
 <ul>
     <li><a href="/static/grants/20180927ARIPlanning/SFY19PlanningGrantINSTRUCTIONS.docx">Download NOFO Instructions (PDF)</a></li>
     <li><a href="/static/grants/20180927ARIPlanning/SFY19PlanningGrantAPPLICATION.docx">Completed and signed Uniform State Grant Application (Word)</a></li>
@@ -162,13 +162,13 @@
 </ul>
 <!-- <p><a href="SFY19ImplementationGrant.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION DOCUMENTS</a></p> -->
 <h2 id="questions">Questions</h2>
-<p>Questions regarding this funding opportunity may be submitted to <a href="mailto:CJA.ARISFY19NOFO2@illinois.gov">CJA.ARISFY19NOFO2@illinois.gov</a> until 11:59 p.m., October 18, 2018. Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a>.</p>
+<p>Questions regarding this funding opportunity may be submitted to <a href="CJA.ARI.SFY19NOFO2@illinois.gov ">CJA.ARI.SFY19NOFO2@illinois.gov </a> until 11:59 p.m., October 18, 2018. Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a>.</p>
 <h2 id="contact-information">Contact Information</h2>
 <p>Adriana Perez</p>
 <p>Illinois Criminal Justice Information Authority</p>
 <p>300 West Adams, Suite 200</p>
 <p>Chicago, IL 60606</p>
-<p><a href="mailto:CJA.ARISFY19NOFO2@illinois.gov">CJA.ARISFY19NOFO2@illinois.gov</a></p>
+<p><a href="mailto:CJA.ARI.SFY19NOFO2@illinois.gov  ">CJA.ARI.SFY19NOFO2@illinois.gov </a></p>
 
 
 
