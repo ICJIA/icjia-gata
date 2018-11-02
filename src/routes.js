@@ -164,6 +164,10 @@ const views = [
       "./views/grants/20180927ARIPlanning.vue"
     ),
     component: require("./views/grants/20180927ARIPlanning.vue")
+  },
+  {
+    path: utilities.componentToRouterPath("./views/grants/20181102rsatmat.vue"),
+    component: require("./views/grants/20181102rsatmat.vue")
   }
 ];
 
