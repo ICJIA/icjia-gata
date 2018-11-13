@@ -230,7 +230,7 @@
 <p>The following documents must be emailed to <a href="mailto:CJA.2018rsatNOFO@Illinois.gov">CJA.2018rsatNOFO@Illinois.gov</a> by the <strong>11:59 p.m., Monday, December 31, 2018</strong>, deadline for application review. Click the links below to download
     copies.</p>
 <ul>
-    
+     <li><a href="/static/grants/20181102rsatmat/RSATNOFO2018.docx">NOFO document</a></li>
     <li><a href="/static/grants/20181102rsatmat/UniformGrantApplication.docx">Completed and signed Uniform State Grant Application</a></li>
     <li><a href="/static/grants/20181102rsatmat/RSATProgramNarrative.docx">Completed Program Narrative</a></li>
     <li><a href="/static/grants/20181102rsatmat/RSATBudget2018.xlsx">Completed Budget/Budget Narrative</a></li>
