@@ -187,6 +187,9 @@
 <p>We strongly recommend that applicants view a pre-recorded technical assistance session on the ICJIA website at <a href="https://gata.icjia.cloud/">https://gata.icjia.cloud/</a>. Information provided during this webinar will be unofficial and not binding
     on the State.</p>
 <!-- <p>View technical assistance recording [HERE](TA recording link)</p> -->
+
+<p>We strongly recommend that applicants view a pre-recorded technical assistance session on the ICJIA website at https://gata.icjia.cloud/.  
+  The technical assistance session will be available for viewing on November 15, 2018.  Information provided during this webinar will be unofficial and not binding on the State.</p>
 <h2 id="timeline">TIMELINE</h2>
 <table class="table table-striped">
     <thead>
