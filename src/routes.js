@@ -168,6 +168,12 @@ const views = [
   {
     path: utilities.componentToRouterPath("./views/grants/20181102rsatmat.vue"),
     component: require("./views/grants/20181102rsatmat.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20190111DPAservicesNOFO.vue"
+    ),
+    component: require("./views/grants/20190111DPAservicesNOFO.vue")
   }
 ];
 
