@@ -201,9 +201,9 @@ import SmoothScroll from "@/components/SmoothScroll";
 import StickySidebar from "@/components/StickySidebar";
 //import StickySidebar from '@/components/StickySidebar'
 
-const description = `The Illinois Criminal Justice Information Authority (ICJIA) administers the federal Residential Substance Abuse Treatment for State Prisoners Program (RSAT) in Illinois. RSAT assists state and local governments in the development and implementation of substance use disorder treatment programs in state and local correctional and detention facilities. Funds also are available to create and maintain community-based aftercare services for individuals after release from incarceration. A total of approximately $700,000 from FFY18 funds shall be made available for state and local government agencies, $75,000 of which must be reserved for local government agencies for corrections-based or jail-based substance use disorder treatment or aftercare programs that meet the criteria detailed in the notice of funding opportunity. Awards range from $75,000 to $150,000.`;
-const title =
-  "FFY18 Residential Substance Abuse Treatment (RSAT) Program: Medication-Assisted Treatment";
+const description = `The Illinois Criminal Justice Information Authority is requesting proposals for grants for services to families of homicide victims. Grants will be made with State Fiscal Year 2019 (SFY19) Death Penalty Abolition (DPA) funds. A total of $300,000 in funding
+    is available through this solicitation for use over a period of three months. Contingent on future appropriation and satisfactory performance $1,700,000 in SFY20 DPA funds may also be available through this opportunity.`;
+const title = "DEATH PENALTY ABOLITION FUND";
 const created = "2019-01-11";
 const posted = "2019-01-11";
 const expired = "2019-02-12";
