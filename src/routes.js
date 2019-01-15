@@ -174,6 +174,12 @@ const views = [
       "./views/grants/20190111DPAservicesNOFO.vue"
     ),
     component: require("./views/grants/20190111DPAservicesNOFO.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20190115ResponsiveSchools.vue"
+    ),
+    component: require("./views/grants/20190115ResponsiveSchools.vue")
   }
 ];
 
