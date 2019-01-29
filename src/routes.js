@@ -194,6 +194,10 @@ const views = [
   {
     path: utilities.componentToRouterPath("./views/grants/20190129ICADV.vue"),
     component: require("./views/grants/20190129ICADV.vue")
+  },
+  {
+    path: utilities.componentToRouterPath("./views/grants/20190129ICASA.vue"),
+    component: require("./views/grants/20190129ICASA.vue")
   }
 ];
 
