@@ -190,6 +190,10 @@ const views = [
   {
     path: utilities.componentToRouterPath("./views/grants/20190129CACI.vue"),
     component: require("./views/grants/20190129CACI.vue")
+  },
+  {
+    path: utilities.componentToRouterPath("./views/grants/20190129ICADV.vue"),
+    component: require("./views/grants/20190129ICADV.vue")
   }
 ];
 
