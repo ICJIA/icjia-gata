@@ -186,6 +186,10 @@ const views = [
       "./views/grants/20190129lawEnforcement.vue"
     ),
     component: require("./views/grants/20190129lawEnforcement.vue")
+  },
+  {
+    path: utilities.componentToRouterPath("./views/grants/20190129CACI.vue"),
+    component: require("./views/grants/20190129CACI.vue")
   }
 ];
 
