@@ -180,6 +180,12 @@ const views = [
       "./views/grants/20190115ResponsiveSchools.vue"
     ),
     component: require("./views/grants/20190115ResponsiveSchools.vue")
+  },
+  {
+    path: utilities.componentToRouterPath(
+      "./views/grants/20190129lawEnforcement.vue"
+    ),
+    component: require("./views/grants/20190129lawEnforcement.vue")
   }
 ];
 
