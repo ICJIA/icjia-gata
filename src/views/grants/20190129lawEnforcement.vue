@@ -171,7 +171,7 @@
 </ul>
 <h2 id="questions">Questions</h2>
 <p>Questions regarding this NOFO may be submitted to <a href="mailto:CJA.DPAtrainingNOFO@Illinois.gov">CJA.DPAtrainingNOFO@Illinois.gov</a> until <strong>11:59 p.m., March 11, 2019</strong>.</p>
-<p>All substantive questions and responses will be posted. Updates to NOFO materials, and questions from applicants and their responses are revised weekly. <a href="DPAtrainingRESPONSEtoAPPLICANTQuestions">View them here.</a></p>
+<p>All substantive questions and responses will be posted. Updates to NOFO materials, and questions from applicants and their responses are revised weekly. <a href="/static/grants/20190129lawEnforcement/DPAtrainingRESPONSEtoAPPLICANTQuestions.pdf">View them here.</a></p>
 <p>Due to the competitive nature of this solicitation, applicants may not discuss this opportunity directly or indirectly with any Authority employee other than the respondent of this email address. Only written answers to questions shall be binding on the state.</p>
 
 
