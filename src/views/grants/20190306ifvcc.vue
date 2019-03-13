@@ -134,7 +134,7 @@
 <p>Funding is available for the period of July 1, 2019, to June 30, 2020. Based on program performance and fund availability, ICJIA may recommend allocation of funding to support an additional 24 months.</p>
 <h2 id="technical-assistance-session">Technical Assistance Session</h2>
 <p>Technical assistance recordings providing additional information regarding this funding opportunity will be available for viewing beginning at 5:00 p.m. on March 13, 2019.</p>
-<p>Recording 1: IFVCC NOFO Guidelines (Coming soon!!)</p>
+<p><a href="https://www.youtube.com/embed/ELS7bETLUW0">Recording 1: IFVCC NOFO Guidelines (11:07)</a></p>
 <p><a href="https://www.youtube.com/embed/zPaIPFXZvmg">Recording 2: General Requirements (11:19)</a></p>
 <p><a href="https://www.youtube.com/embed/sQYCekU2pIw">Recording 3: GATA Budget (19:03)</a></p>
 <p><a href="https://www.youtube.com/embed/mjp5PZx0oaY">Recording 4: Indirect Costs (6:18)</a></p>
@@ -193,7 +193,8 @@
 </ul>
 <p><a href="/static/grants/20190306ifvcc/NOFODocuments_IFVCC.zip">DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION DOCUMENTS</a></p>
 <h2 id="questions">Questions</h2>
-<p>All substantive questions and responses will be posted. Updates to NOFO materials, and questions from applicants and their responses are revised weekly. <a href="/static/grants/20190306ifvcc/IFVCCRESPONSEtoAPPLICANTQuestions.pdf">View them here</a>.</p>
+<p>All substantive questions and responses will be posted. Updates to NOFO materials, and questions from applicants and their responses are revised weekly. 
+  <a href="/static/grants/20190306ifvcc/IFVCCRESPONSEtoAPPLICANTQuestions.pdf">View them here</a>.</p>
 <h2 id="contact-information">Contact Information</h2>
 <p>Lacey Pollock<br>
     Illinois Criminal Justice Information Authority<br>
