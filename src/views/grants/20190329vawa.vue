@@ -132,7 +132,6 @@
 </table>
 <h2 id="reporting">Reporting</h2>
 <p>Recipients must submit monthly/quarterly financial reports, monthly/quarterly progress reports, final financial and progress reports, and, if applicable, an annual audit report in accordance with the CFR Part 200 Uniform Requirements. Future awards and fund drawdowns may be withheld if reports are delinquent.</p>
-<p>In addition, funded programs will be required to report performance measures through the U.S. Office of Victims of Crime portal at <a href="https://OVCPMT.usdoj.gov">https://OVCPMT.usdoj.gov</a> .</p>
 <h2 id="required-documents">Required Documents</h2>
 <p>The following documents must be emailed to <a href="mailto:2019VAWANOFO@Illinois.gov">2019VAWANOFO@Illinois.gov</a> by the <strong>11:59 p.m., Tuesday, April 30, 2019,</strong> deadline for application review.</p>
 <ul>
