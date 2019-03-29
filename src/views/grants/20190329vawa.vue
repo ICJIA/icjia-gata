@@ -182,7 +182,7 @@ const description = `The Illinois Criminal Justice Information Authority is requ
 const title =
   "Violence Against Women Act (VAWA) Notice of Funding Opportunity Services for Underserved Areas & Victim Groups";
 const created = "2019-03-29";
-const posted = "2019-03-29";
+const posted = "2019-04-01";
 const expired = "2019-04-30";
 const type = "grant";
 const status = "live";
