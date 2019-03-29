@@ -135,6 +135,11 @@
 <p>In addition, funded programs will be required to report performance measures through the U.S. Office of Victims of Crime portal at <a href="https://OVCPMT.usdoj.gov">https://OVCPMT.usdoj.gov</a> .</p>
 <h2 id="required-documents">Required Documents</h2>
 <p>The following documents must be emailed to <a href="mailto:2019VAWANOFO@Illinois.gov">2019VAWANOFO@Illinois.gov</a> by the <strong>11:59 p.m., Tuesday, April 30, 2019,</strong> deadline for application review.</p>
+<ul>
+    <li><a href="/static/grants/20190329vawa/VAWAApplication.docx">Completed and signed Uniform State Grant Application (Word)</a></li>
+    <li><a href="/static/grants/20190329vawa/VAWAProgramNarrative.docx">Completed Program Narrative (Word)</a></li>
+    <li><a href="/static/grants/20190329vawa/VAWABudget.xlsx">Completed Budget/Budget Narrative (Excel)</a></li>
+</ul>
 <h2 id="questions">Questions</h2>
 <p>Questions regarding this NOFO may be submitted to <a href="mailto:2019VAWANOFO@Illinois.gov">2019VAWANOFO@Illinois.gov</a> until 11:59 p.m. on April 15, 2019. Questions and responses will be posted at <a href="https://grants.icjia.cloud">https://grants.icjia.cloud</a>.</p>
 <h2 id="contact-information">Contact Information</h2>
@@ -177,7 +182,7 @@ const description = `The Illinois Criminal Justice Information Authority is requ
 const title =
   "Violence Against Women Act (VAWA) Notice of Funding Opportunity Services for Underserved Areas & Victim Groups";
 const created = "2019-03-29";
-const posted = "2019-04-01";
+const posted = "2019-03-29";
 const expired = "2019-04-30";
 const type = "grant";
 const status = "live";
