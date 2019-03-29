@@ -202,7 +202,12 @@ const views = [
   {
     path: utilities.componentToRouterPath("./views/grants/20190306ifvcc.vue"),
     component: require("./views/grants/20190306ifvcc.vue")
+  },
+  {
+    path: utilities.componentToRouterPath("./views/grants/20190329vawa.vue"),
+    component: require("./views/grants/20190329vawa.vue")
   }
+  
 ];
 
 export default utilities.generateRoutes(views);
