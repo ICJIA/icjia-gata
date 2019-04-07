@@ -1,1 +1,4 @@
 /*    /index.html   200
+
+# Redirect domain aliases to primary domain
+https://gata.icjia.cloud/* https://grants.icjia.cloud/:splat 301!
