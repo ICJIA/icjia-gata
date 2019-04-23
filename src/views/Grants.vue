@@ -108,7 +108,7 @@
 
 <script>
 const description = `Grant Opportunities`;
-const title = "Grant Opportunities";
+const title = "Archived Grant Opportunities";
 const created = "2017-03-26";
 const posted = "2017-03-26";
 const type = "page";
