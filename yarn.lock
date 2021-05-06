@@ -3632,9 +3632,9 @@ heavy@4.x.x:
     hoek "4.x.x"
     joi "10.x.x"
 
-highcharts@^5.0.7:
-  version "5.0.14"
-  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-5.0.14.tgz#0ef14cca9f1345408568b533dae1478950d96810"
+highcharts@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-9.0.0.tgz#2e5d382481f71c50ac7f086e7bdead394fab71d4"
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
